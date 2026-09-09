@@ -1,0 +1,82 @@
+{
+  "augmented_pose_summary_path": "data/expansion/catalyst_rerun/cmcpor/stage2/features/pose-summary-with-folding.jsonl",
+  "augmented_pose_summary_rows": 25,
+  "folding_feature_concept": [
+    "3D heavy-atom cloud shape: radius of gyration, max distance, compactness, PCA anisotropy/asphericity/acylindricity.",
+    "Graph-aware foldback: long topological-distance heavy-atom pairs that become close in 3D.",
+    "Low-energy and high-energy retained pose buckets summarized separately, with high-minus-low deltas and centroid separation."
+  ],
+  "folding_feature_path": "data/expansion/catalyst_rerun/cmcpor/stage2/features/pose-folding-features.jsonl",
+  "folding_feature_rows": 25,
+  "folding_view_dir": "data/expansion/catalyst_rerun/cmcpor/stage2/folding-views",
+  "models": {
+    "folding": {
+      "feature_count": 384,
+      "mae": 11.569412468421804,
+      "median_abs_error": 9.403569901432078,
+      "r2": -0.016203332274484117,
+      "record_count": 25,
+      "rmse": 14.794883299525964,
+      "selected_alpha": 10.0,
+      "selected_l1_ratio": 0.2,
+      "within_10_count": 13,
+      "within_15_count": 17,
+      "within_20_count": 21
+    },
+    "summary": {
+      "feature_count": 76,
+      "mae": 8.152401135216735,
+      "median_abs_error": 6.685760091393831,
+      "r2": 0.42862458285448235,
+      "record_count": 25,
+      "rmse": 11.093842916342249,
+      "selected_alpha": 1.0,
+      "selected_l1_ratio": 1.0,
+      "within_10_count": 17,
+      "within_15_count": 22,
+      "within_20_count": 23
+    },
+    "summary_folding": {
+      "feature_count": 460,
+      "mae": 11.016715873889863,
+      "median_abs_error": 4.64398194572253,
+      "r2": -0.7894061071328078,
+      "record_count": 25,
+      "rmse": 19.63250397750209,
+      "selected_alpha": 0.01,
+      "selected_l1_ratio": 0.8,
+      "within_10_count": 19,
+      "within_15_count": 20,
+      "within_20_count": 22
+    },
+    "summary_interaction": {
+      "feature_count": 676,
+      "mae": 8.891596376647865,
+      "median_abs_error": 7.293825588083308,
+      "r2": 0.3552795868574242,
+      "record_count": 25,
+      "rmse": 11.78438566231816,
+      "selected_alpha": 0.1,
+      "selected_l1_ratio": 0.5,
+      "within_10_count": 16,
+      "within_15_count": 18,
+      "within_20_count": 23
+    },
+    "summary_interaction_folding": {
+      "feature_count": 1060,
+      "mae": 9.797590700587568,
+      "median_abs_error": 7.639022588592525,
+      "r2": 0.17012342888074283,
+      "record_count": 25,
+      "rmse": 13.3698947496446,
+      "selected_alpha": 1.0,
+      "selected_l1_ratio": 0.2,
+      "within_10_count": 17,
+      "within_15_count": 19,
+      "within_20_count": 21
+    }
+  },
+  "prediction_table": "data/expansion/catalyst_rerun/cmcpor/stage2/modeling/folding-predictions.csv",
+  "schema_version": "stage2-pose-folding-feature-experiment-v1",
+  "status": "summary_point_complete"
+}

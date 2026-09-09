@@ -1,0 +1,17 @@
+candidate_id,branch,round,canonical_smiles,predicted_ee,ad_status,outcome_ee,outcome_revealed
+rnn-1101-00057,copilot,A,COC(=O)c1ccc(CCc2ccccc2N=[N+]=[N-])cc1,83.3021,in_domain,,false
+rnn-4404-07513,copilot,A,[N-]=[N+]=Nc1ccccc1CCc1ccc(O)cc1,82.7366,in_domain,,false
+rnn-5505-08915,copilot,A,[N-]=[N+]=Nc1ccccc1CCc1cccc(O)c1,81.3699,in_domain,,false
+rnn-4404-05903,copilot,A,Cc1ccc(CNC(=O)OCCc2ccccc2N=[N+]=[N-])cc1,78.1930,in_domain,,false
+rnn-2202-08414,copilot,B,CN(C)C(=O)Oc1cc(CCc2ccccc2N=[N+]=[N-])cc(C(=O)O)c1,77.9428,in_domain,,false
+rnn-1101-03461,copilot,B,[N-]=[N+]=Nc1ccccc1CCc1ccccc1,77.8171,in_domain,,false
+rnn-2202-01263,copilot,B,[N-]=[N+]=Nc1ccccc1CCc1ccncc1,77.6354,in_domain,,false
+rnn-1101-07965,copilot,B,[N-]=[N+]=Nc1ccccc1CCc1cccnc1,76.1076,in_domain,,false
+enum-035788,comparator,A,[N-]=[N+]=Nc1cc(CCO)ccc1CCc1cc(-c2ccoc2)cc(-c2ccsc2)c1,96.4522,in_domain,,false
+enum-034990,comparator,A,[N-]=[N+]=Nc1cc(CCO)ccc1CCc1cc(-c2ccsc2)cc(C(F)(F)F)c1,95.3734,in_domain,,false
+enum-034989,comparator,A,[N-]=[N+]=Nc1cc(CCO)ccc1CCc1cc(-c2ccoc2)cc(C(F)(F)F)c1,94.8609,in_domain,,false
+enum-034664,comparator,A,Cc1cc(CCc2ccc(CCO)cc2N=[N+]=[N-])cc(C(F)(F)F)c1,94.7864,in_domain,,false
+enum-035256,comparator,B,Cc1ccccc1-c1cc(CCc2ccc(CCO)cc2N=[N+]=[N-])cc(-c2ccsc2)c1,94.7551,in_domain,,false
+enum-035218,comparator,B,[N-]=[N+]=Nc1cc(CCO)ccc1CCc1cc(-c2ccc(Cl)cc2)cc(-c2ccsc2)c1,94.3682,in_domain,,false
+enum-035255,comparator,B,Cc1ccccc1-c1cc(CCc2ccc(CCO)cc2N=[N+]=[N-])cc(-c2ccoc2)c1,94.2425,in_domain,,false
+enum-034914,comparator,B,[N-]=[N+]=Nc1cc(CCO)ccc1CCc1cc(Cl)cc(-c2ccsc2)c1,93.8822,in_domain,,false

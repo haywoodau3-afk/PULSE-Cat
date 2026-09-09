@@ -1,0 +1,28 @@
+{
+  "aggregate_worker_seconds": 19164.46088837611,
+  "completed_domain_counts": {
+    "cmcpor": 16,
+    "p7": 40
+  },
+  "completed_status_counts": {
+    "underfilled": 56
+  },
+  "completed_substrate_count": 56,
+  "decision": "paused_after_jobs_active_at_user_stop_boundary_completed",
+  "maximum_worker_seconds": 986.3822030409938,
+  "mean_worker_seconds": 342.2225158638591,
+  "median_worker_seconds": 334.8188783124788,
+  "minimum_worker_seconds": 122.78504700004123,
+  "partial_excluded_directories": [
+    "cmcpor/2o",
+    "cmcpor/2p",
+    "cmcpor/2q",
+    "cmcpor/2r"
+  ],
+  "requested_inventory": {
+    "cmcpor": 50,
+    "p7": 40
+  },
+  "retained_conformer_total": 56,
+  "schema_version": "crest-ten-conformer-paused-manifest-v1"
+}

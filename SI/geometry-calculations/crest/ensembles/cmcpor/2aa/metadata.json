@@ -1,0 +1,65 @@
+{
+  "azide_smiles": "C=CCCc1ccccc1N=N#N",
+  "catalyst_id": "cmcpor-fecl",
+  "command": [
+    "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/crest",
+    "input.xyz",
+    "--gfn2",
+    "--alpb",
+    "ether",
+    "--chrg",
+    "0",
+    "--uhf",
+    "0",
+    "--quick",
+    "--legacy",
+    "--nocross",
+    "--ewin",
+    "30",
+    "-T",
+    "1",
+    "--xnam",
+    "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb"
+  ],
+  "conformers_xyz_path": "docs/research/2026-09-07/crest-10-conformers/cmcpor/2aa/conformers.xyz",
+  "conformers_xyz_sha256": "36a029166585da8c3e3d4cb0c24eb537f3d02fab747b51d527bbc81b9b7ec80a",
+  "domain": "cmcpor",
+  "generated_unique_conformer_count": 1,
+  "method": "CREST iMTD quick/GFN2 legacy external-xTB sampling; no genetic crossing; 30 kcal/mol search window; GFN2-xTB/ALPB ether reranking",
+  "molecular_charge": 0,
+  "nitrene_smiles": "C=CCCc1ccccc1[N]",
+  "population_model": {
+    "conformers": [
+      {
+        "boltzmann_probability": 1.0,
+        "conformer_index": 1,
+        "energy_hartree": -35.723864890981,
+        "relative_energy_kcal_mol": 0.0
+      }
+    ],
+    "effective_conformer_count": 1.0,
+    "temperature_k": 263.15,
+    "temperature_source": "experimental_condition"
+  },
+  "reaction_id": "angew-2023-aryl-2aa-cmcpor",
+  "requested_conformer_count": 10,
+  "retained_comment_energies": [
+    -35.723864890981
+  ],
+  "retained_conformer_count": 1,
+  "returncode": 0,
+  "schema_version": "crest-ten-conformer-result-v1",
+  "seed_generation": "deterministic RDKit ETKDGv3 plus MMFF94",
+  "seed_pose_id": "stage-1-smoke-cmcpor-2aa-substrate-uff-0001",
+  "seed_random_seed": 179914369,
+  "stage1_report_path": "data/expansion/catalyst_rerun/cmcpor/stage1/reports/stage-1-smoke-cmcpor-2aa.json",
+  "status": "underfilled",
+  "stderr_log_path": "docs/research/2026-09-07/crest-10-conformers/cmcpor/2aa/crest.stderr.log",
+  "stdout_log_path": "docs/research/2026-09-07/crest-10-conformers/cmcpor/2aa/crest.stdout.log",
+  "substrate_id": "2aa",
+  "temperature_c": -10,
+  "threads": 1,
+  "timed_out": false,
+  "unpaired_electrons": 0,
+  "wall_seconds": 164.59596758300904
+}

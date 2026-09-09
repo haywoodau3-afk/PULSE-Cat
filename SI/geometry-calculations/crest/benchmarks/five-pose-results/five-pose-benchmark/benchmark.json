@@ -1,0 +1,259 @@
+{
+  "failed_count": 2,
+  "method": "frozen-core GFN-FF optimization then GFN2-xTB/ALPB(ether) single point",
+  "pose_results": [
+    {
+      "cleanup": {
+        "command": [
+          "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb",
+          "input.xyz",
+          "--gfnff",
+          "--alpb",
+          "ether",
+          "--opt",
+          "--input",
+          "xcontrol"
+        ],
+        "max_rss_bytes": null,
+        "returncode": 1,
+        "wall_seconds": 9.238457207917236
+      },
+      "pose_id": "stage1-smoke-1a-substrate-uff-0001",
+      "status": "gfnff_failed"
+    },
+    {
+      "artifacts": {
+        "charges": "docs/research/2026-09-07/results/five-pose-benchmark/stage1-smoke-1a-substrate-uff-0012/charges",
+        "cleaned_xyz": "docs/research/2026-09-07/results/five-pose-benchmark/stage1-smoke-1a-substrate-uff-0012/gfnff-optimized.xyz",
+        "wbo": "docs/research/2026-09-07/results/five-pose-benchmark/stage1-smoke-1a-substrate-uff-0012/wbo"
+      },
+      "charge_count": 242,
+      "charge_max": 0.56537745,
+      "charge_min": -0.49541272,
+      "cleanup": {
+        "command": [
+          "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb",
+          "input.xyz",
+          "--gfnff",
+          "--alpb",
+          "ether",
+          "--opt",
+          "--input",
+          "xcontrol"
+        ],
+        "max_rss_bytes": null,
+        "returncode": 0,
+        "wall_seconds": 9.78797454200685
+      },
+      "gfn2_total_energy_hartree": -386.792481813217,
+      "homo_lumo_gap_ev": 0.013498101954,
+      "pose_id": "stage1-smoke-1a-substrate-uff-0012",
+      "sampling_prior": 0.06,
+      "score_rank": 12,
+      "selection_bucket": "low_energy",
+      "selection_cluster_size": 12,
+      "single_point": {
+        "command": [
+          "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb",
+          "gfnff-optimized.xyz",
+          "--gfn",
+          "2",
+          "--alpb",
+          "ether"
+        ],
+        "max_rss_bytes": null,
+        "returncode": 0,
+        "wall_seconds": 3.3034172920743003
+      },
+      "status": "success",
+      "uff_pose_score": 25.869192,
+      "uncertain_boltzmann_weight_mean": 1.0,
+      "uncertain_boltzmann_weight_std": 0.0
+    },
+    {
+      "artifacts": {
+        "charges": "docs/research/2026-09-07/results/five-pose-benchmark/stage1-smoke-1a-substrate-uff-0100/charges",
+        "cleaned_xyz": "docs/research/2026-09-07/results/five-pose-benchmark/stage1-smoke-1a-substrate-uff-0100/gfnff-optimized.xyz",
+        "wbo": "docs/research/2026-09-07/results/five-pose-benchmark/stage1-smoke-1a-substrate-uff-0100/wbo"
+      },
+      "charge_count": 242,
+      "charge_max": 1.25831924,
+      "charge_min": -0.96722239,
+      "cleanup": {
+        "command": [
+          "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb",
+          "input.xyz",
+          "--gfnff",
+          "--alpb",
+          "ether",
+          "--opt",
+          "--input",
+          "xcontrol"
+        ],
+        "max_rss_bytes": null,
+        "returncode": 0,
+        "wall_seconds": 5.386745500029065
+      },
+      "gfn2_total_energy_hartree": -366.586204529558,
+      "homo_lumo_gap_ev": 0.023979699451,
+      "pose_id": "stage1-smoke-1a-substrate-uff-0100",
+      "sampling_prior": 0.3,
+      "score_rank": 100,
+      "selection_bucket": "low_energy",
+      "selection_cluster_size": 60,
+      "single_point": {
+        "command": [
+          "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb",
+          "gfnff-optimized.xyz",
+          "--gfn",
+          "2",
+          "--alpb",
+          "ether"
+        ],
+        "max_rss_bytes": null,
+        "returncode": 0,
+        "wall_seconds": 3.280496957944706
+      },
+      "status": "success",
+      "uff_pose_score": 25.869192,
+      "uncertain_boltzmann_weight_mean": 0.0,
+      "uncertain_boltzmann_weight_std": 0.0
+    },
+    {
+      "artifacts": {
+        "charges": "docs/research/2026-09-07/results/five-pose-benchmark/stage1-smoke-1a-substrate-uff-0102/charges",
+        "cleaned_xyz": "docs/research/2026-09-07/results/five-pose-benchmark/stage1-smoke-1a-substrate-uff-0102/gfnff-optimized.xyz",
+        "wbo": "docs/research/2026-09-07/results/five-pose-benchmark/stage1-smoke-1a-substrate-uff-0102/wbo"
+      },
+      "charge_count": 242,
+      "charge_max": 0.67833277,
+      "charge_min": -0.45877002,
+      "cleanup": {
+        "command": [
+          "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb",
+          "input.xyz",
+          "--gfnff",
+          "--alpb",
+          "ether",
+          "--opt",
+          "--input",
+          "xcontrol"
+        ],
+        "max_rss_bytes": null,
+        "returncode": 0,
+        "wall_seconds": 8.364263458992355
+      },
+      "gfn2_total_energy_hartree": -327.94738680529,
+      "homo_lumo_gap_ev": 0.033920985007,
+      "pose_id": "stage1-smoke-1a-substrate-uff-0102",
+      "sampling_prior": 0.39,
+      "score_rank": 102,
+      "selection_bucket": "high_energy",
+      "selection_cluster_size": 78,
+      "single_point": {
+        "command": [
+          "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb",
+          "gfnff-optimized.xyz",
+          "--gfn",
+          "2",
+          "--alpb",
+          "ether"
+        ],
+        "max_rss_bytes": null,
+        "returncode": 0,
+        "wall_seconds": 3.2787881669355556
+      },
+      "status": "success",
+      "uff_pose_score": 26.400121,
+      "uncertain_boltzmann_weight_mean": 0.0,
+      "uncertain_boltzmann_weight_std": 0.0
+    },
+    {
+      "artifacts": {
+        "charges": null,
+        "cleaned_xyz": "docs/research/2026-09-07/results/five-pose-benchmark/stage1-smoke-1a-substrate-uff-0170/gfnff-optimized.xyz",
+        "wbo": null
+      },
+      "charge_count": 0,
+      "charge_max": null,
+      "charge_min": null,
+      "cleanup": {
+        "command": [
+          "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb",
+          "input.xyz",
+          "--gfnff",
+          "--alpb",
+          "ether",
+          "--opt",
+          "--input",
+          "xcontrol"
+        ],
+        "max_rss_bytes": null,
+        "returncode": 0,
+        "wall_seconds": 16.607531000045128
+      },
+      "gfn2_total_energy_hartree": null,
+      "homo_lumo_gap_ev": null,
+      "pose_id": "stage1-smoke-1a-substrate-uff-0170",
+      "sampling_prior": 0.11,
+      "score_rank": 170,
+      "selection_bucket": "high_energy",
+      "selection_cluster_size": 22,
+      "single_point": {
+        "command": [
+          "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb",
+          "gfnff-optimized.xyz",
+          "--gfn",
+          "2",
+          "--alpb",
+          "ether"
+        ],
+        "max_rss_bytes": null,
+        "returncode": 1,
+        "wall_seconds": 17.812545958091505
+      },
+      "status": "gfn2_failed",
+      "uff_pose_score": 26.400121
+    }
+  ],
+  "requested_pose_count": 5,
+  "resource_estimates": {
+    "estimated_100_pose_serial_hours_mean": 0.3092748696109522,
+    "estimated_100_pose_serial_hours_p90": 0.35560343867918065,
+    "estimated_38_substrate_hours_at_4_workers_mean": 2.9381112613040457,
+    "estimated_38_substrate_serial_hours_mean": 11.752445045216183,
+    "estimated_38_substrate_serial_hours_p90": 13.512930669808863,
+    "mean_seconds_per_pose": 11.133895305994278,
+    "observed_success_count": 3,
+    "p90_seconds_per_pose": 12.801723792450503,
+    "parallel_estimates_are_idealized": true
+  },
+  "schema_version": "pose-probability-five-pose-benchmark-v1",
+  "substrate_id": "1a",
+  "success_count": 3,
+  "threads_per_process": 1,
+  "uncertain_population": {
+    "draw_count": 2000,
+    "effective_pose_count_entropy": 1.0,
+    "effective_pose_count_kish": 1.0,
+    "energy_noise_sigma_kcal_mol": 1.0,
+    "entropy_nats": -0.0,
+    "max_weight": 1.0,
+    "mean_weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "temperature_k": 333.15,
+    "weight_std": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "warnings": [
+    "The five-pose population is a plumbing demonstration, not a converged ensemble or predictive result.",
+    "Neutral closed-shell xTB settings reproduce the repository pilot but require spin/charge calibration before scientific interpretation.",
+    "Wall-time extrapolation is hardware- and concurrency-dependent."
+  ]
+}

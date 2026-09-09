@@ -1,0 +1,65 @@
+{
+  "azide_smiles": "N#N=Nc1cc(C(F)(F)F)ccc1CCc2ccccc2",
+  "catalyst_id": "fe-p7-cl",
+  "command": [
+    "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/crest",
+    "input.xyz",
+    "--gfn2",
+    "--alpb",
+    "ether",
+    "--chrg",
+    "0",
+    "--uhf",
+    "0",
+    "--quick",
+    "--legacy",
+    "--nocross",
+    "--ewin",
+    "30",
+    "-T",
+    "1",
+    "--xnam",
+    "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb"
+  ],
+  "conformers_xyz_path": "docs/research/2026-09-07/crest-10-conformers/p7/1l/conformers.xyz",
+  "conformers_xyz_sha256": "18230049364279ab4c74e776b243e7678e0e6d8a98da77ef6b09923edf2da98d",
+  "domain": "p7",
+  "generated_unique_conformer_count": 1,
+  "method": "CREST iMTD quick/GFN2 legacy external-xTB sampling; no genetic crossing; 30 kcal/mol search window; GFN2-xTB/ALPB ether reranking",
+  "molecular_charge": 0,
+  "nitrene_smiles": "[N]c1cc(C(F)(F)F)ccc1CCc2ccccc2",
+  "population_model": {
+    "conformers": [
+      {
+        "boltzmann_probability": 1.0,
+        "conformer_index": 1,
+        "energy_hartree": -61.192365615261,
+        "relative_energy_kcal_mol": 0.0
+      }
+    ],
+    "effective_conformer_count": 1.0,
+    "temperature_k": 333.15,
+    "temperature_source": "experimental_condition"
+  },
+  "reaction_id": "jacs-2025-1l",
+  "requested_conformer_count": 10,
+  "retained_comment_energies": [
+    -61.192365615261
+  ],
+  "retained_conformer_count": 1,
+  "returncode": 0,
+  "schema_version": "crest-ten-conformer-result-v1",
+  "seed_generation": "deterministic RDKit ETKDGv3 plus MMFF94",
+  "seed_pose_id": "stage1-smoke-1l-substrate-uff-0001",
+  "seed_random_seed": 9500983,
+  "stage1_report_path": "data/jacs_2025/stage1/panel/stage-1-smoke-1l.json",
+  "status": "underfilled",
+  "stderr_log_path": "docs/research/2026-09-07/crest-10-conformers/p7/1l/crest.stderr.log",
+  "stdout_log_path": "docs/research/2026-09-07/crest-10-conformers/p7/1l/crest.stdout.log",
+  "substrate_id": "1l",
+  "temperature_c": 60,
+  "threads": 1,
+  "timed_out": false,
+  "unpaired_electrons": 0,
+  "wall_seconds": 329.21254483400844
+}

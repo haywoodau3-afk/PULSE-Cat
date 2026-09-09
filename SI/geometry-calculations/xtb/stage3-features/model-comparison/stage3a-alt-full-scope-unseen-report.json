@@ -1,0 +1,45 @@
+{
+  "caveats": [
+    "Unseen rows have no experimental ee labels in the workbook, so performance means training-set LOO diagnostics plus prediction comparison, not external validation.",
+    "Unseen reaction centers are inferred as non-aromatic candidate C-H sites at graph distance four from the proximal azide nitrogen.",
+    "This is a graph/structure-only comparison because the unseen substrates do not yet have generated pose-summary or pose-interaction features."
+  ],
+  "environment": {
+    "numpy_version": "2.5.1",
+    "python_version": "3.14.6",
+    "rdkit_version": "2026.03.4",
+    "sklearn_version": "1.9.0"
+  },
+  "model_class": "standard_scaled_elastic_net_selected_by_training_leave_one_out_mae",
+  "models": {
+    "stage2_base": {
+      "feature_count": 567,
+      "loo_mae": 13.989332572350586,
+      "loo_r2": -0.058456808257252746,
+      "loo_rmse": 23.92702967772471,
+      "record_count": 40,
+      "selected_alpha": 1.0,
+      "selected_l1_ratio": 0.8,
+      "within_15_ee_count": 30
+    },
+    "stage3a_alt": {
+      "feature_count": 588,
+      "loo_mae": 13.436848101047389,
+      "loo_r2": 0.022934694752870244,
+      "loo_rmse": 22.98867888685163,
+      "record_count": 40,
+      "selected_alpha": 1.0,
+      "selected_l1_ratio": 0.5,
+      "within_15_ee_count": 32
+    }
+  },
+  "prediction_path": "data/jacs_2025/stage3/model-comparison/stage3a-alt-full-scope-unseen-predictions.csv",
+  "raw_unseen_predictions_outside_0_100_count": 12,
+  "schema_version": "stage3a-alt-full-scope-unseen-prediction-report-v1",
+  "status": "full_fit_unseen_prediction_not_validated_without_unseen_ee_labels",
+  "training_matrix_path": "data/jacs_2025/stage3/model-comparison/stage3a-alt-full-scope-training-matrix.csv",
+  "training_policy": "all numeric ee records including zero_curated; excludes structurally not-applicable achiral ee",
+  "training_record_count": 40,
+  "unseen_prediction_count": 6,
+  "workbook_path": "substrate_manual_1_Latestage.numbers"
+}

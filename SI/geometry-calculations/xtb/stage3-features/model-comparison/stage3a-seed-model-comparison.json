@@ -1,0 +1,97 @@
+{
+  "caveats": [
+    "Stage 3a coverage is currently limited to the 12 seed substrates with constrained xTB references.",
+    "Stage 2-v2 is the fair v2 comparator: Tier 1 plus pose-summary and pose-interaction features recomputed from the Stage 1-v2 selected top-50 pose set.",
+    "Stage 3a-alt is Stage 2 seed baseline plus graph-only, chemically signed, reported-vs-competitor heteroatom site-competition features.",
+    "Stage 3a is Stage 2-v2 plus xTB reference geometry, Stage 1-v2 selection-score aggregates, and reported-site local shell features.",
+    "The Stage 3a reported-site shell block uses the manually curated product-forming site and is not a label-free full-panel feature yet.",
+    "Stage 3b BDE features are not included in this comparison."
+  ],
+  "comparison_rows": [
+    {
+      "elastic_net_mae": 14.554154197329334,
+      "elastic_net_r2": 0.39693488541706956,
+      "elastic_net_rmse": 21.266038478259134,
+      "feature_count": 769,
+      "feature_policy": "stage2_seed_tier1_pose_summary_all_200_stage1_pose_interactions",
+      "mae_delta_vs_stage2": 0.0,
+      "nonconstant_feature_count": 535,
+      "record_count": 12,
+      "run_id": "stage2_seed_baseline",
+      "selected_alpha": 1.0,
+      "selected_l1_ratio": 0.8
+    },
+    {
+      "elastic_net_mae": 21.046470598050092,
+      "elastic_net_r2": 0.0879148501139615,
+      "elastic_net_rmse": 26.15304038527936,
+      "feature_count": 765,
+      "feature_policy": "stage2_v2_seed_tier1_stage1_v2_pose_summary_top_50_stage1_v2_pose_interactions",
+      "mae_delta_vs_stage2": 6.4923164007207586,
+      "nonconstant_feature_count": 568,
+      "record_count": 12,
+      "run_id": "stage2_v2_selected_pose",
+      "selected_alpha": 1.0,
+      "selected_l1_ratio": 0.2
+    },
+    {
+      "elastic_net_mae": 14.747938581027702,
+      "elastic_net_r2": 0.40891709224531037,
+      "elastic_net_rmse": 21.05371271687307,
+      "feature_count": 790,
+      "feature_policy": "stage2_seed_baseline_plus_graph_only_heteroatom_reported_vs_competitor_site_rules",
+      "mae_delta_vs_stage2": 0.19378438369836815,
+      "nonconstant_feature_count": 556,
+      "record_count": 12,
+      "run_id": "stage3a_alt_hetero_site_competition",
+      "selected_alpha": 1.0,
+      "selected_l1_ratio": 0.8
+    },
+    {
+      "elastic_net_mae": 22.018711653613128,
+      "elastic_net_r2": -0.07366103997109241,
+      "elastic_net_rmse": 28.37514497311942,
+      "feature_count": 1257,
+      "feature_policy": "stage2_v2_selected_pose_plus_stage3a_xtb_reference_and_reported_site_shell_features",
+      "mae_delta_vs_stage2": 7.464557456283794,
+      "nonconstant_feature_count": 931,
+      "record_count": 12,
+      "run_id": "stage3a_reference_shell",
+      "selected_alpha": 10.0,
+      "selected_l1_ratio": 0.2
+    }
+  ],
+  "comparison_table_path": "data/jacs_2025/stage3/model-comparison/stage3a-seed-model-comparison.csv",
+  "filter_report": {
+    "output_path": "data/jacs_2025/stage3/v2-pose/stage1-v2-pose-interaction.jsonl",
+    "pose_interaction_row_count": 600,
+    "schema_version": "stage1-v2-pose-interaction-filter-report-v1",
+    "selected_substrate_count": 12
+  },
+  "prediction_comparison_report": {
+    "output_path": "data/jacs_2025/stage3/model-comparison/stage3a-alt-prediction-comparison.csv",
+    "record_count": 12,
+    "run_ids": [
+      "stage2_seed_baseline",
+      "stage2_v2_selected_pose",
+      "stage3a_alt_hetero_site_competition",
+      "stage3a_reference_shell"
+    ],
+    "schema_version": "stage3a-alt-prediction-comparison-report-v1"
+  },
+  "schema_version": "stage3a-seed-model-comparison-v1",
+  "stage2_v2_pose_summary_report": {
+    "output_path": "data/jacs_2025/stage3/v2-pose/stage2-v2-pose-summary.jsonl",
+    "pose_summary_row_count": 12,
+    "schema_version": "stage2-v2-pose-summary-report-v1",
+    "selected_substrate_count": 12
+  },
+  "stage3a_alt_hetero_site_rules_report": {
+    "feature_policy": "graph_only_chemically_signed_reported_vs_competitor_heteroatom_site_rules",
+    "output_path": "data/jacs_2025/stage3/features/stage3a-alt-hetero-site-rules.jsonl",
+    "schema_version": "stage3a-alt-hetero-site-rules-report-v1",
+    "selected_substrate_count": 12,
+    "site_rule_count": 114
+  },
+  "status": "seed_pilot_model_comparison_not_predictive_claim"
+}

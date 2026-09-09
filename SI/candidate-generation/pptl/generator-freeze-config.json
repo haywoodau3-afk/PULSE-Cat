@@ -1,0 +1,86 @@
+{
+  "schema_version": "constrained-generator-freeze-v1",
+  "status": "computationally_locked_prediction_only",
+  "runtime": {
+    "python": "3.10-3.12",
+    "environment_file": "requirements-generator.txt",
+    "note": "Do not modify the validated Python 3.14 analysis environment."
+  },
+  "primary_generator": {
+    "name": "SMILES-RNN",
+    "repository": "https://github.com/MorganCThomas/SMILES-RNN",
+    "commit": "c8ee705961b4411707c69f73d309c1cf61208b95",
+    "prior": "ChEMBL28pur.ckpt",
+    "checkpoint_sha256": "bf0882cc1f35743c6226001129a1031e79ad25f357f903d02f953ed0e5d0d289",
+    "checkpoint_path": "data/expansion/pptl/checkpoints/ChEMBL28pur.ckpt",
+    "license": "MIT"
+  },
+  "scaffold_conditioner": {
+    "name": "PromptSMILES",
+    "repository": "https://github.com/compsciencelab/PromptSMILES",
+    "version": "1.7.2",
+    "license": "Apache-2.0"
+  },
+  "sampling": {
+    "seed_count": 5,
+    "requested_samples_per_seed": 10000,
+    "requested_raw_sample_budget": 50000,
+    "samples_per_seed": 10112,
+    "raw_sample_budget": 50560,
+    "raw_budget_policy": "The persisted production artifact contains the complete deterministic batch output (10112 rows per seed). The 112-row per-seed batch overrun is retained and included in the locked comparator budget; no rows are post hoc discarded.",
+    "max_contract_valid_per_provenance": 5000,
+    "stratified_screening_pool_per_provenance": 500,
+    "seeds": [1101, 2202, 3303, 4404, 5505]
+  },
+  "conditioning": {
+    "generation_object": "aryl_azide_starting_material",
+    "product_role": "deterministic_closure_projection_only",
+    "scaffold": "o-azidophenyl-CH2-CH(R1)(R2)",
+    "attachment_points": ["R1", "R2", "nitrene_ring_substitution"],
+    "grammar_fixture_path": "data/expansion/pptl/aryl-azide-grammar-fixtures.json",
+    "candidate_universe_freeze": "before_any_prospective_outcome_is_revealed"
+  },
+  "deterministic_gates": [
+    "rdkit_parse_and_sanitize",
+    "exact_aryl_azide_identity",
+    "conservative_topology_or_explicit_expanded_tag",
+    "unique_four_bond_target_with_hydrogen",
+    "sanitizable_five_member_c_n_closure",
+    "functional_group_and_azide_safety_rules",
+    "duplicate_and_canonical_identity_control",
+    "enantioselectivity_target_defined"
+  ],
+  "provenance": {
+    "retain_raw_strings": true,
+    "retain_seed_prompt_timestamp": true,
+    "retain_rejection_reasons": true,
+    "no_llm_decisions": true,
+    "human_chemist_and_ehs_review_required": true
+  },
+  "runtime_lock": {
+    "python": "3.11.16",
+    "torch": "2.13.0",
+    "rdkit": "2026.3.5",
+    "loader_compatibility_patch": "external/SMILES-RNN/smilesrnn/rnn.py: trusted checkpoint loaded with weights_only=false"
+  },
+  "comparison": {
+    "required_baseline": "deterministic_enumeration_under_equal_50560_candidate_budget",
+    "libinvent": "only_after_checkpoint_license_clarification",
+    "raw_jsonl_sha256": "e30e75d28e7b729be364e5fcadc742d6481d4054e5247e81653ce8a9ed365eb3",
+    "funnel_csv_sha256": "9a1ea6e219fe15e4db1e32e184ca6f8b74ac01aa222b7f7db132156ec99df2c0",
+    "summary_json_sha256": "75c1fff99f0cc81c86eaa4a4900db4120c95dc03962e4ddbde43340475d8bfae",
+    "comparison_json_sha256": "5c6e240c4db011f3b6bff1369b16aeb0feb79ffc00f93f721762923192b94a94"
+  },
+  "acquisition_policy": {
+    "ranking_controller": "frozen_ee_predictor_and_progressive_learning_objective",
+    "generator_likelihood_is_decisive": false,
+    "required_axes": ["predicted_ee", "uncertainty_or_information_gain", "applicability_distance", "morphology_diversity"],
+    "pareto_selection": true
+  },
+  "production_artifacts": {
+    "raw_jsonl_sha256": "fa81eff83c03c248aacb827e250c4a942f3a02e179d59177debbdad39f9c62f9",
+    "funnel_csv_sha256": "32486f66af0c45ea4c08527acfce9d1cf21b6b1fff47c95945df55e73980459b",
+    "outcome_reveal_status": "not_revealed",
+    "chemist_route_availability_safety_review": "out_of_scope_for_current_computational_study"
+  }
+}

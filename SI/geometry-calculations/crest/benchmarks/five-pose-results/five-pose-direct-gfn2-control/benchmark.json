@@ -1,0 +1,250 @@
+{
+  "failed_count": 0,
+  "method": "direct GFN2-xTB/ALPB(ether) single point on existing UFF-cleaned frozen-core assembly",
+  "pose_results": [
+    {
+      "artifacts": {
+        "charges": "docs/research/2026-09-07/results/five-pose-direct-gfn2-control/stage1-smoke-1a-substrate-uff-0001/charges",
+        "cleaned_xyz": "docs/research/2026-09-07/results/five-pose-direct-gfn2-control/stage1-smoke-1a-substrate-uff-0001/gfnff-optimized.xyz",
+        "wbo": "docs/research/2026-09-07/results/five-pose-direct-gfn2-control/stage1-smoke-1a-substrate-uff-0001/wbo"
+      },
+      "charge_count": 242,
+      "charge_max": 0.77064627,
+      "charge_min": -0.61868576,
+      "cleanup": {
+        "reason": "direct GFN2 control benchmark on existing UFF-cleaned geometry",
+        "status": "skipped",
+        "wall_seconds": 0.0
+      },
+      "gfn2_total_energy_hartree": -394.146719760412,
+      "homo_lumo_gap_ev": 0.064174446618,
+      "pose_id": "stage1-smoke-1a-substrate-uff-0001",
+      "sampling_prior": 0.14,
+      "score_rank": 1,
+      "selection_bucket": "low_energy",
+      "selection_cluster_size": 28,
+      "single_point": {
+        "child_process_high_water_rss_bytes": 154140672,
+        "command": [
+          "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb",
+          "gfnff-optimized.xyz",
+          "--gfn",
+          "2",
+          "--alpb",
+          "ether"
+        ],
+        "memory_measurement_scope": "runner child-process high-water mark (macOS ru_maxrss)",
+        "returncode": 0,
+        "wall_seconds": 1.9094824999338016
+      },
+      "status": "success",
+      "uff_pose_score": 25.869192,
+      "uncertain_boltzmann_weight_mean": 5.490955792832212e-244,
+      "uncertain_boltzmann_weight_std": 0.0
+    },
+    {
+      "artifacts": {
+        "charges": "docs/research/2026-09-07/results/five-pose-direct-gfn2-control/stage1-smoke-1a-substrate-uff-0012/charges",
+        "cleaned_xyz": "docs/research/2026-09-07/results/five-pose-direct-gfn2-control/stage1-smoke-1a-substrate-uff-0012/gfnff-optimized.xyz",
+        "wbo": "docs/research/2026-09-07/results/five-pose-direct-gfn2-control/stage1-smoke-1a-substrate-uff-0012/wbo"
+      },
+      "charge_count": 242,
+      "charge_max": 0.74774555,
+      "charge_min": -0.61692584,
+      "cleanup": {
+        "reason": "direct GFN2 control benchmark on existing UFF-cleaned geometry",
+        "status": "skipped",
+        "wall_seconds": 0.0
+      },
+      "gfn2_total_energy_hartree": -394.426979207443,
+      "homo_lumo_gap_ev": 0.059309437966,
+      "pose_id": "stage1-smoke-1a-substrate-uff-0012",
+      "sampling_prior": 0.06,
+      "score_rank": 12,
+      "selection_bucket": "low_energy",
+      "selection_cluster_size": 12,
+      "single_point": {
+        "child_process_high_water_rss_bytes": 154140672,
+        "command": [
+          "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb",
+          "gfnff-optimized.xyz",
+          "--gfn",
+          "2",
+          "--alpb",
+          "ether"
+        ],
+        "memory_measurement_scope": "runner child-process high-water mark (macOS ru_maxrss)",
+        "returncode": 0,
+        "wall_seconds": 2.256763834040612
+      },
+      "status": "success",
+      "uff_pose_score": 25.869192,
+      "uncertain_boltzmann_weight_mean": 6.589284624818732e-129,
+      "uncertain_boltzmann_weight_std": 7.005566307865995e-128
+    },
+    {
+      "artifacts": {
+        "charges": "docs/research/2026-09-07/results/five-pose-direct-gfn2-control/stage1-smoke-1a-substrate-uff-0100/charges",
+        "cleaned_xyz": "docs/research/2026-09-07/results/five-pose-direct-gfn2-control/stage1-smoke-1a-substrate-uff-0100/gfnff-optimized.xyz",
+        "wbo": "docs/research/2026-09-07/results/five-pose-direct-gfn2-control/stage1-smoke-1a-substrate-uff-0100/wbo"
+      },
+      "charge_count": 242,
+      "charge_max": 0.72730947,
+      "charge_min": -0.63157659,
+      "cleanup": {
+        "reason": "direct GFN2 control benchmark on existing UFF-cleaned geometry",
+        "status": "skipped",
+        "wall_seconds": 0.0
+      },
+      "gfn2_total_energy_hartree": -393.99759199253,
+      "homo_lumo_gap_ev": 0.047619125664,
+      "pose_id": "stage1-smoke-1a-substrate-uff-0100",
+      "sampling_prior": 0.3,
+      "score_rank": 100,
+      "selection_bucket": "low_energy",
+      "selection_cluster_size": 60,
+      "single_point": {
+        "child_process_high_water_rss_bytes": 158973952,
+        "command": [
+          "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb",
+          "gfnff-optimized.xyz",
+          "--gfn",
+          "2",
+          "--alpb",
+          "ether"
+        ],
+        "memory_measurement_scope": "runner child-process high-water mark (macOS ru_maxrss)",
+        "returncode": 0,
+        "wall_seconds": 2.397992291022092
+      },
+      "status": "success",
+      "uff_pose_score": 25.869192,
+      "uncertain_boltzmann_weight_mean": 4.590588028521109e-305,
+      "uncertain_boltzmann_weight_std": 0.0
+    },
+    {
+      "artifacts": {
+        "charges": "docs/research/2026-09-07/results/five-pose-direct-gfn2-control/stage1-smoke-1a-substrate-uff-0102/charges",
+        "cleaned_xyz": "docs/research/2026-09-07/results/five-pose-direct-gfn2-control/stage1-smoke-1a-substrate-uff-0102/gfnff-optimized.xyz",
+        "wbo": "docs/research/2026-09-07/results/five-pose-direct-gfn2-control/stage1-smoke-1a-substrate-uff-0102/wbo"
+      },
+      "charge_count": 242,
+      "charge_max": 0.78007082,
+      "charge_min": -0.5993083,
+      "cleanup": {
+        "reason": "direct GFN2 control benchmark on existing UFF-cleaned geometry",
+        "status": "skipped",
+        "wall_seconds": 0.0
+      },
+      "gfn2_total_energy_hartree": -394.739025497011,
+      "homo_lumo_gap_ev": 0.033291964185,
+      "pose_id": "stage1-smoke-1a-substrate-uff-0102",
+      "sampling_prior": 0.39,
+      "score_rank": 102,
+      "selection_bucket": "high_energy",
+      "selection_cluster_size": 78,
+      "single_point": {
+        "child_process_high_water_rss_bytes": 158973952,
+        "command": [
+          "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb",
+          "gfnff-optimized.xyz",
+          "--gfn",
+          "2",
+          "--alpb",
+          "ether"
+        ],
+        "memory_measurement_scope": "runner child-process high-water mark (macOS ru_maxrss)",
+        "returncode": 0,
+        "wall_seconds": 2.196665959083475
+      },
+      "status": "success",
+      "uff_pose_score": 26.400121,
+      "uncertain_boltzmann_weight_mean": 1.0,
+      "uncertain_boltzmann_weight_std": 0.0
+    },
+    {
+      "artifacts": {
+        "charges": "docs/research/2026-09-07/results/five-pose-direct-gfn2-control/stage1-smoke-1a-substrate-uff-0170/charges",
+        "cleaned_xyz": "docs/research/2026-09-07/results/five-pose-direct-gfn2-control/stage1-smoke-1a-substrate-uff-0170/gfnff-optimized.xyz",
+        "wbo": "docs/research/2026-09-07/results/five-pose-direct-gfn2-control/stage1-smoke-1a-substrate-uff-0170/wbo"
+      },
+      "charge_count": 242,
+      "charge_max": 0.72201031,
+      "charge_min": -0.66515553,
+      "cleanup": {
+        "reason": "direct GFN2 control benchmark on existing UFF-cleaned geometry",
+        "status": "skipped",
+        "wall_seconds": 0.0
+      },
+      "gfn2_total_energy_hartree": -392.898240964183,
+      "homo_lumo_gap_ev": 0.146034309481,
+      "pose_id": "stage1-smoke-1a-substrate-uff-0170",
+      "sampling_prior": 0.11,
+      "score_rank": 170,
+      "selection_bucket": "high_energy",
+      "selection_cluster_size": 22,
+      "single_point": {
+        "child_process_high_water_rss_bytes": 158973952,
+        "command": [
+          "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb",
+          "gfnff-optimized.xyz",
+          "--gfn",
+          "2",
+          "--alpb",
+          "ether"
+        ],
+        "memory_measurement_scope": "runner child-process high-water mark (macOS ru_maxrss)",
+        "returncode": 0,
+        "wall_seconds": 2.1205093330936506
+      },
+      "status": "success",
+      "uff_pose_score": 26.400121,
+      "uncertain_boltzmann_weight_mean": 0.0,
+      "uncertain_boltzmann_weight_std": 0.0
+    }
+  ],
+  "requested_pose_count": 5,
+  "resource_estimates": {
+    "estimated_100_pose_serial_hours_mean": 0.06045229953985352,
+    "estimated_100_pose_serial_hours_p90": 0.06504169189526389,
+    "estimated_38_substrate_hours_at_4_workers_mean": 0.5742968456286085,
+    "estimated_38_substrate_serial_hours_mean": 2.297187382514434,
+    "estimated_38_substrate_serial_hours_p90": 2.4715842920200277,
+    "mean_seconds_per_pose": 2.1762827834347265,
+    "observed_success_count": 5,
+    "p90_seconds_per_pose": 2.3415009082295,
+    "parallel_estimates_are_idealized": true
+  },
+  "schema_version": "pose-probability-five-pose-benchmark-v1",
+  "substrate_id": "1a",
+  "success_count": 5,
+  "threads_per_process": 1,
+  "uncertain_population": {
+    "draw_count": 2000,
+    "effective_pose_count_entropy": 1.0,
+    "effective_pose_count_kish": 1.0,
+    "energy_noise_sigma_kcal_mol": 1.0,
+    "entropy_nats": 1.944814390675429e-126,
+    "max_weight": 1.0,
+    "mean_weights": [
+      5.490955792832212e-244,
+      6.589284624818732e-129,
+      4.590588028521109e-305,
+      1.0,
+      0.0
+    ],
+    "temperature_k": 333.15,
+    "weight_std": [
+      0.0,
+      7.005566307865995e-128,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "warnings": [
+    "The five-pose population is a plumbing demonstration, not a converged ensemble or predictive result.",
+    "Neutral closed-shell xTB settings reproduce the repository pilot but require spin/charge calibration before scientific interpretation.",
+    "Wall-time extrapolation is hardware- and concurrency-dependent."
+  ]
+}

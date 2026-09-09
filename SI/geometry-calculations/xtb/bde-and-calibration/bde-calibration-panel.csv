@@ -1,0 +1,13 @@
+panel_rank,calibration_role,substrate_id,family_id,pathway_id,atom_map_id,site_id,site_type,is_target_site,rule_estimated_bde,rule_bde_class,reference_xtb_bde,xtb_within_substrate_rank,rule_bde_confidence
+1,competitor_site,1y,sulfur-heterocycle-fused,aryl,18,1y-c18-benzylic,benzylic,False,85.0,very_low,104.53737592312034,1,high
+2,target_site,1am,cycloalkyl-aryl,aryl,11,1am-c11-cycloalkyl,cycloalkyl,True,98.0,moderate,124.57227291973862,5,high
+3,competitor_site,1af,carbonyl-alkyl-aryl,aryl,2,1af-c2-aliphatic,aliphatic,False,90.3325,low,119.99186027209377,3,high
+4,competitor_site,1ao,branched-diaryl-alkyl,aryl,1,1ao-c1-benzylic_adjacent,benzylic_adjacent,False,101.0,high,130.75173362013777,3,high
+5,target_site,1ag,carbonyl-alkyl-aryl,aryl,6,1ag-c6-carbonyl_alpha,carbonyl_alpha,True,94.0,moderate,120.2568125681862,4,high
+6,competitor_site,1al,cycloalkyl-alkyl-aryl,aryl,12,1al-c12-cycloalkyl,cycloalkyl,False,97.0,moderate,117.91363405790968,2,high
+7,competitor_site,1s,oxygen-heterocycle-fused,aryl,18,1s-c18-cycloalkyl,cycloalkyl,False,89.665,low,109.79039028068159,1,high
+8,target_site,1x,sulfur-heteroaryl-fused,aryl,11,1x-c11-benzylic,benzylic,True,85.0,very_low,108.69579007034835,1,high
+9,target_site,1v,sulfur-heteroaryl,aryl,11,1v-c11-benzylic,benzylic,True,85.0,very_low,110.3201222632064,2,high
+10,target_site,1u,carbonyl-heterocycle-fused,aryl,11,1u-c11-benzylic,benzylic,True,85.0,very_low,109.21023861974919,2,high
+11,target_site,1q,oxygen-heteroaryl-fused,aryl,11,1q-c11-benzylic,benzylic,True,85.0,very_low,111.18797321087256,2,high
+12,target_site,1o,oxygen-heteroaryl,aryl,11,1o-c11-benzylic,benzylic,True,85.0,very_low,112.40414102738599,2,high

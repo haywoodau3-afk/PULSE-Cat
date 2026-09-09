@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://genaisubstrate.local/schema/jacs-2025/reaction-record.schema.json",
+  "title": "JACS 2025 Fe(P7)Cl reaction record",
+  "type": "object",
+  "required": [
+    "reaction_id",
+    "substrate_id",
+    "catalyst_id",
+    "condition_set_id",
+    "outcome",
+    "source"
+  ],
+  "properties": {
+    "reaction_id": {
+      "type": "string",
+      "pattern": "^jacs-2025-[a-z0-9-]+$"
+    },
+    "substrate_id": {
+      "type": "string",
+      "description": "Paper compound identifier, such as 1a."
+    },
+    "substrate_smiles": {
+      "type": "string",
+      "description": "Atom-mapped substrate SMILES after manual structure curation."
+    },
+    "product_smiles": {
+      "type": "string",
+      "description": "Atom-mapped product SMILES after manual structure curation."
+    },
+    "catalyst_id": {
+      "const": "fe-p7-cl"
+    },
+    "condition_set_id": {
+      "type": "string"
+    },
+    "outcome": {
+      "type": "object",
+      "required": ["feasibility_status"],
+      "properties": {
+        "feasibility_status": {
+          "enum": ["productive", "nonproductive", "unknown"]
+        },
+        "isolated_yield_percent": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "yield_qualifier": {
+          "enum": ["exact", "less_than", "not_reported"]
+        },
+        "ee_percent": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "major_product_configuration": {
+          "type": ["string", "null"]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {"feasibility_status": {"const": "nonproductive"}}
+          },
+          "then": {
+            "properties": {"ee_percent": {"type": "null"}}
+          }
+        }
+      ]
+    },
+    "source": {
+      "type": "object",
+      "required": ["document_id", "location"],
+      "properties": {
+        "document_id": {"type": "string"},
+        "location": {"type": "string"},
+        "confidence": {"enum": ["primary_table", "supporting_information", "new_experiment"]}
+      }
+    },
+    "curation_status": {
+      "enum": ["source_indexed", "structure_curated", "atom_mapped", "feature_ready"]
+    }
+  },
+  "additionalProperties": false
+}

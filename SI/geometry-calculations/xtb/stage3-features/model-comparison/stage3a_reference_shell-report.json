@@ -1,0 +1,200 @@
+{
+  "elastic_net": {
+    "bayesian_bootstrap_metric_intervals": {
+      "draw_count": 20000,
+      "mae": {
+        "ci95_high": 33.16628422227852,
+        "ci95_low": 13.668126882317662,
+        "mean": 21.973874941029617,
+        "median": 21.503062882334486
+      },
+      "mean_error": {
+        "ci95_high": 17.727731458114786,
+        "ci95_low": -12.869964920202127,
+        "mean": 0.6036282295160355,
+        "median": -0.11342869473969487
+      },
+      "method": "bayesian_bootstrap_over_oof_residual_records",
+      "r2": {
+        "ci95_high": 0.24359628686811105,
+        "ci95_low": -0.9835359988773965,
+        "mean": -0.20202310629328304,
+        "median": -0.14367426696398244
+      },
+      "random_seed": 20260730,
+      "rmse": {
+        "ci95_high": 40.638859983767524,
+        "ci95_low": 18.093874894645687,
+        "mean": 27.72031186058738,
+        "median": 27.159099052562105
+      }
+    },
+    "calibration_summary": {
+      "actual_on_predicted_intercept": 41.28368723970838,
+      "actual_on_predicted_slope": 0.39412341451218197,
+      "observed_vs_predicted_pearson_r": 0.23146876464805938
+    },
+    "implementation": "local_coordinate_descent",
+    "loo_metrics": {
+      "mae": 22.018711653613128,
+      "max_abs_error": 67.88953958999979,
+      "r2": -0.07366103997109241,
+      "rmse": 28.37514497311942
+    },
+    "nonzero_coefficient_count": 333,
+    "residual_summary": {
+      "abs_error_median": 14.084495956372031,
+      "abs_error_q75": 31.042223905649834,
+      "abs_error_q90": 37.24460463444954,
+      "mean_error": 0.6834117734361893,
+      "median_error": -8.677728646040137,
+      "residual_q05": -33.10273264859639,
+      "residual_q25": -13.338453531642525,
+      "residual_q75": 10.9202852830536,
+      "residual_q95": 49.056032352621706,
+      "residual_std": 29.628275203874356,
+      "within_10_ee_fraction": 0.3333333333333333,
+      "within_20_ee_fraction": 0.5833333333333334
+    },
+    "selected_hyperparameters": {
+      "alpha": 10.0,
+      "l1_ratio": 0.2,
+      "selection_loo_mae": 22.018711653613128
+    },
+    "top_coefficients": [
+      {
+        "coefficient": 58.99376576547321,
+        "feature": "pose_interaction.reported_c_to_transferred_h_distance_angstrom.q95"
+      },
+      {
+        "coefficient": 57.855052812563024,
+        "feature": "pose_interaction.reported_c_to_transferred_h_distance_angstrom.max"
+      },
+      {
+        "coefficient": 31.160080641545807,
+        "feature": "pose_interaction.transferred_hydrogen_stage1_atom_index.std"
+      },
+      {
+        "coefficient": 19.412004478818872,
+        "feature": "stage3a_shell.reported_shell.reactive_approach_midpoint.6_8_angstrom_distance_max"
+      },
+      {
+        "coefficient": 16.424030903126535,
+        "feature": "stage3a_shell.reported_shell.candidate_c_h_haa_center.0_3_angstrom_distance_min"
+      },
+      {
+        "coefficient": 10.104872704899442,
+        "feature": "stage3a_shell.reported_shell.nitrene_center.6_8_angstrom_distance_min"
+      },
+      {
+        "coefficient": 8.210285791673607,
+        "feature": "stage3a_reference.reference.candidate_c_to_transferable_h_distance_angstrom"
+      },
+      {
+        "coefficient": -5.349383709707185,
+        "feature": "stage3a_shell.reported_shell.candidate_c_h_haa_center.6_8_angstrom_distance_min"
+      },
+      {
+        "coefficient": -4.550077394803661,
+        "feature": "stage3a_shell.reported_shell.nitrene_center.3_4_angstrom_distance_max"
+      },
+      {
+        "coefficient": -4.443914618446675,
+        "feature": "stage3a_shell.reported_shell.candidate_c_h_haa_center.6_8_angstrom_distance_mean"
+      },
+      {
+        "coefficient": -3.8390537237697675,
+        "feature": "stage3a_shell.reported_shell.reactive_approach_midpoint.3_4_angstrom_distance_max"
+      },
+      {
+        "coefficient": -3.7384981518760956,
+        "feature": "stage3a_shell.reported_shell.reactive_approach_midpoint.4_5_angstrom_distance_max"
+      },
+      {
+        "coefficient": -3.0930676499487157,
+        "feature": "stage3a_shell.reported_shell.candidate_c_h_haa_center.3_4_angstrom_distance_mean"
+      },
+      {
+        "coefficient": -2.8419130021392927,
+        "feature": "stage3a_shell.reported_shell.reactive_approach_midpoint.5_6_angstrom_distance_mean"
+      },
+      {
+        "coefficient": -2.689782058431472,
+        "feature": "stage3a_shell.reported_shell.reactive_approach_midpoint.3_4_angstrom_distance_q25"
+      },
+      {
+        "coefficient": 2.5241557620073083,
+        "feature": "stage3a_shell.reported_shell.nitrene_center.0_3_angstrom_distance_mean"
+      },
+      {
+        "coefficient": -2.2529732970920366,
+        "feature": "stage3a_shell.reported_shell.reactive_approach_midpoint.5_6_angstrom_distance_min"
+      },
+      {
+        "coefficient": -2.0934185228067905,
+        "feature": "stage3a_shell.reported_shell.reactive_approach_midpoint.4_5_angstrom_distance_mean"
+      },
+      {
+        "coefficient": 2.0131931746776224,
+        "feature": "stage3a_shell.reported_shell.candidate_c_h_haa_center.5_6_angstrom_distance_q25"
+      },
+      {
+        "coefficient": 1.6747704994138208,
+        "feature": "stage3a_shell.reported_shell.candidate_c_h_haa_center.5_6_angstrom_distance_mean"
+      },
+      {
+        "coefficient": -1.6615432113756679,
+        "feature": "stage3a_shell.reported_shell.candidate_c_h_haa_center.3_4_angstrom_distance_q75"
+      },
+      {
+        "coefficient": -1.656630444964841,
+        "feature": "stage3a_shell.reported_shell.reactive_approach_midpoint.4_5_angstrom_distance_q75"
+      },
+      {
+        "coefficient": 1.5390840651615103,
+        "feature": "stage3a_shell.reported_shell.nitrene_center.5_6_angstrom_distance_max"
+      },
+      {
+        "coefficient": 1.4856725385539906,
+        "feature": "stage3a_shell.reported_shell.nitrene_center.0_3_angstrom_distance_q25"
+      },
+      {
+        "coefficient": 1.408148899800225,
+        "feature": "pose_interaction.core_substrate_distance_min.std"
+      }
+    ]
+  },
+  "feature_count": 1257,
+  "feature_policy": "stage2_v2_selected_pose_plus_stage3a_xtb_reference_and_reported_site_shell_features",
+  "matrix_path": "data/jacs_2025/stage3/model-comparison/stage3a_reference_shell-matrix.csv",
+  "mean_baseline": {
+    "loo_metrics": {
+      "mae": 24.63636363636363,
+      "max_abs_error": 74.81818181818181,
+      "r2": -0.19008264462809876,
+      "rmse": 29.87397773070311
+    },
+    "residual_summary": {
+      "abs_error_median": 23.36363636363636,
+      "abs_error_q75": 25.590909090909093,
+      "abs_error_q90": 28.509090909090908,
+      "mean_error": 0.0,
+      "median_error": -9.727272727272727,
+      "residual_q05": -27.018181818181816,
+      "residual_q25": -24.727272727272727,
+      "residual_q75": 17.818181818181817,
+      "residual_q95": 47.818181818181785,
+      "residual_std": 31.20235210460109,
+      "within_10_ee_fraction": 0.16666666666666666,
+      "within_20_ee_fraction": 0.25
+    }
+  },
+  "nonconstant_feature_count": 931,
+  "predictions_path": "data/jacs_2025/stage3/model-comparison/stage3a_reference_shell-predictions.csv",
+  "record_count": 12,
+  "report_path": "data/jacs_2025/stage3/model-comparison/stage3a_reference_shell-report.json",
+  "schema_version": "stage3a-seed-ee-elastic-net-report-v1",
+  "status": "seed_pilot_model_comparison_not_predictive_claim",
+  "target": "ee_percent",
+  "validation": "leave_one_out_cv_with_seed_level_hyperparameter_selection"
+}

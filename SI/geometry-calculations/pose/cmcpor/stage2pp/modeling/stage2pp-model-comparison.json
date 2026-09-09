@@ -1,0 +1,54 @@
+{
+  "cohort": {
+    "excluded": [
+      "1ad",
+      "1an"
+    ],
+    "record_count": 39
+  },
+  "feature_sets": {
+    "stage2_alt": {
+      "family_split_count": 0,
+      "feature_count": 1060
+    },
+    "stage2_alt_plus_stage2pp": {
+      "family_split_count": 0,
+      "feature_count": 1715
+    },
+    "stage2p": {
+      "family_split_count": 0,
+      "feature_count": 248
+    },
+    "stage2p_plus_stage2pp": {
+      "family_split_count": 0,
+      "feature_count": 903
+    },
+    "stage2pp": {
+      "family_split_count": 0,
+      "feature_count": 655
+    }
+  },
+  "metrics": {},
+  "paired_gate": {
+    "baseline": "stage2p",
+    "candidate": "stage2p_plus_stage2pp",
+    "model": "elastic_net",
+    "record_count": 0
+  },
+  "paired_uncertainty": {
+    "stage2_alt_to_stage2pp": {
+      "baseline": "stage2_alt",
+      "candidate": "stage2_alt_plus_stage2pp",
+      "model": "elastic_net",
+      "record_count": 0
+    },
+    "stage2p_to_stage2pp": {
+      "baseline": "stage2p",
+      "candidate": "stage2p_plus_stage2pp",
+      "model": "elastic_net",
+      "record_count": 0
+    }
+  },
+  "schema_version": "stage2pp-model-comparison-v1",
+  "target": "ee_percent_magnitude"
+}

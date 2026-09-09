@@ -1,0 +1,20 @@
+{
+  "attempted": 1,
+  "population_model": {
+    "conformers": [
+      {
+        "boltzmann_probability": 1.0,
+        "conformer_index": 1,
+        "energy_hartree": -54.938076761726,
+        "relative_energy_kcal_mol": 0.0
+      }
+    ],
+    "effective_conformer_count": 1.0,
+    "temperature_k": 353.15,
+    "temperature_source": "experimental_condition"
+  },
+  "retained_energies_hartree": [
+    -54.938076761726
+  ],
+  "successful": 1
+}

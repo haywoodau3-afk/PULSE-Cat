@@ -1,0 +1,91 @@
+{
+  "directions": {
+    "cmcpor_to_p7_aryl": {
+      "bootstrap_replicates": 2000,
+      "feature_arm": "B5",
+      "intervals": {
+        "auc_delta_guarded_minus_target": {
+          "lower_2.5": -8.331366928493575,
+          "mean": -7.504835936592151,
+          "upper_97.5": -6.632907723787113
+        },
+        "guarded_auc_mae": {
+          "lower_2.5": 443.7234107218032,
+          "mean": 446.01292893886006,
+          "upper_97.5": 448.43701797153665
+        },
+        "guarded_mae": {
+          "lower_2.5": 12.352730841061602,
+          "mean": 12.415803320792742,
+          "upper_97.5": 12.48396108991573
+        },
+        "mae_delta_guarded_minus_target": {
+          "lower_2.5": -0.25359514876509026,
+          "mean": -0.2298944126239528,
+          "upper_97.5": -0.20514370891759046
+        },
+        "target_auc_mae": {
+          "lower_2.5": 451.10554696053066,
+          "mean": 453.51776487545226,
+          "upper_97.5": 456.11185205344543
+        },
+        "target_mae": {
+          "lower_2.5": 12.57702615856651,
+          "mean": 12.645697733416695,
+          "upper_97.5": 12.719067010754676
+        }
+      },
+      "policy": "paired bootstrap over complete random-route replicates",
+      "route_count": 500,
+      "seed": 20260901,
+      "source_domain": "cmcpor-fecl",
+      "target": "ee_percent",
+      "target_domain": "fe-p7-cl"
+    },
+    "p7_to_cmcpor_aryl": {
+      "bootstrap_replicates": 2000,
+      "feature_arm": "B5",
+      "intervals": {
+        "auc_delta_guarded_minus_target": {
+          "lower_2.5": -12.626693286579895,
+          "mean": -11.344081516759605,
+          "upper_97.5": -10.08912604403007
+        },
+        "guarded_auc_mae": {
+          "lower_2.5": 384.0909534958276,
+          "mean": 386.42241532786653,
+          "upper_97.5": 388.7972927993687
+        },
+        "guarded_mae": {
+          "lower_2.5": 12.841025968324317,
+          "mean": 12.911870571321836,
+          "upper_97.5": 12.985535111938109
+        },
+        "mae_delta_guarded_minus_target": {
+          "lower_2.5": -0.44299580519295323,
+          "mean": -0.3992536332575958,
+          "upper_97.5": -0.35611750344426696
+        },
+        "target_auc_mae": {
+          "lower_2.5": 395.7391839942872,
+          "mean": 397.7664968446261,
+          "upper_97.5": 399.88877057533887
+        },
+        "target_mae": {
+          "lower_2.5": 13.245766323297458,
+          "mean": 13.311124204579432,
+          "upper_97.5": 13.381557642603546
+        }
+      },
+      "policy": "paired bootstrap over complete random-route replicates",
+      "route_count": 500,
+      "seed": 20260901,
+      "source_domain": "fe-p7-cl",
+      "target": "ee_percent",
+      "target_domain": "cmcpor-fecl"
+    }
+  },
+  "feature_arm": "B5",
+  "schema_version": "pptl-route-bootstrap-v1",
+  "target": "ee_percent"
+}

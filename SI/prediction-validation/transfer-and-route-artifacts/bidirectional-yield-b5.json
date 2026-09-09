@@ -1,0 +1,2254 @@
+{
+  "directions": {
+    "cmcpor_to_p7_aryl": {
+      "excluded_canonical_overlap_count": 13,
+      "excluded_canonical_substrate_ids": [
+        "1ah",
+        "1aj",
+        "1b",
+        "1c",
+        "1d",
+        "1f",
+        "1g",
+        "1i",
+        "1j",
+        "1k",
+        "1n",
+        "1p",
+        "1w"
+      ],
+      "guarded_ensemble": {
+        "count": 38,
+        "mae": 13.537115017326334
+      },
+      "rows": [
+        {
+          "ensemble_absolute_error": 22.844466914681732,
+          "ensemble_prediction_before_update": 94.84446691468173,
+          "feature_arm": "B5",
+          "observed": 72.0,
+          "predictions": {
+            "cmcpor_expert": 78.90422998741163,
+            "p7_expert": 98.05,
+            "pooled_domain_indicator": 88.34597224472398,
+            "source_coefficient_regularized": 100.0,
+            "source_prediction_residual": 99.95517132351246,
+            "source_zero_shot": 78.90422998741163,
+            "target_only": 98.05
+          },
+          "prefix_size": 2,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1c",
+          "weights_after_update": {
+            "cmcpor": 0.11111111111111112,
+            "combined": 0.11111111111111112,
+            "p7": 0.11111111111111112,
+            "target_only": 0.6666666666666667
+          },
+          "weights_before_update": {
+            "cmcpor": 0.1111111111111111,
+            "combined": 0.1111111111111111,
+            "p7": 0.1111111111111111,
+            "target_only": 0.6666666666666666
+          }
+        },
+        {
+          "ensemble_absolute_error": 9.563434448305685,
+          "ensemble_prediction_before_update": 89.43656555169431,
+          "feature_arm": "B5",
+          "observed": 99.0,
+          "predictions": {
+            "cmcpor_expert": 80.64240536321726,
+            "p7_expert": 90.79579061326491,
+            "pooled_domain_indicator": 88.71615030917712,
+            "source_coefficient_regularized": 99.08981933043421,
+            "source_prediction_residual": 93.94908069272155,
+            "source_zero_shot": 80.64240536321726,
+            "target_only": 90.79579061326491
+          },
+          "prefix_size": 3,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1d",
+          "weights_after_update": {
+            "cmcpor": 0.11111111111111112,
+            "combined": 0.11111111111111112,
+            "p7": 0.11111111111111112,
+            "target_only": 0.6666666666666667
+          },
+          "weights_before_update": {
+            "cmcpor": 0.11111111111111112,
+            "combined": 0.11111111111111112,
+            "p7": 0.11111111111111112,
+            "target_only": 0.6666666666666667
+          }
+        },
+        {
+          "ensemble_absolute_error": 5.191500890951062,
+          "ensemble_prediction_before_update": 89.80849910904894,
+          "feature_arm": "B5",
+          "observed": 95.0,
+          "predictions": {
+            "cmcpor_expert": 77.12348139624382,
+            "p7_expert": 92.63096513182532,
+            "pooled_domain_indicator": 82.73625466241933,
+            "source_coefficient_regularized": 98.95075156717002,
+            "source_prediction_residual": 91.15134981201487,
+            "source_zero_shot": 77.12348139624382,
+            "target_only": 92.63096513182532
+          },
+          "prefix_size": 4,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1e",
+          "weights_after_update": {
+            "cmcpor": 0.1111111111111111,
+            "combined": 0.1111111111111111,
+            "p7": 0.1111111111111111,
+            "target_only": 0.6666666666666666
+          },
+          "weights_before_update": {
+            "cmcpor": 0.11111111111111112,
+            "combined": 0.11111111111111112,
+            "p7": 0.11111111111111112,
+            "target_only": 0.6666666666666667
+          }
+        },
+        {
+          "ensemble_absolute_error": 2.9305140773254976,
+          "ensemble_prediction_before_update": 84.9305140773255,
+          "feature_arm": "B5",
+          "observed": 82.0,
+          "predictions": {
+            "cmcpor_expert": 74.37344718410961,
+            "p7_expert": 87.08957717063439,
+            "pooled_domain_indicator": 80.37413931737925,
+            "source_coefficient_regularized": 87.09166382020983,
+            "source_prediction_residual": 82.68997828919971,
+            "source_zero_shot": 74.37344718410961,
+            "target_only": 87.08957717063439
+          },
+          "prefix_size": 5,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1f",
+          "weights_after_update": {
+            "cmcpor": 0.11111111111111112,
+            "combined": 0.11111111111111112,
+            "p7": 0.11111111111111112,
+            "target_only": 0.6666666666666667
+          },
+          "weights_before_update": {
+            "cmcpor": 0.1111111111111111,
+            "combined": 0.1111111111111111,
+            "p7": 0.1111111111111111,
+            "target_only": 0.6666666666666666
+          }
+        },
+        {
+          "ensemble_absolute_error": 1.0754219703068344,
+          "ensemble_prediction_before_update": 90.92457802969317,
+          "feature_arm": "B5",
+          "observed": 92.0,
+          "predictions": {
+            "cmcpor_expert": 77.50046335625868,
+            "p7_expert": 93.12520672792239,
+            "pooled_domain_indicator": 88.94429181552303,
+            "source_coefficient_regularized": 94.58947301060569,
+            "source_prediction_residual": 93.6059334343874,
+            "source_zero_shot": 77.50046335625868,
+            "target_only": 93.12520672792239
+          },
+          "prefix_size": 6,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1g",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.19919949334286216,
+            "p7": 0.20020012666428447,
+            "target_only": 0.6006003799928534
+          },
+          "weights_before_update": {
+            "cmcpor": 0.11111111111111112,
+            "combined": 0.11111111111111112,
+            "p7": 0.11111111111111112,
+            "target_only": 0.6666666666666667
+          }
+        },
+        {
+          "ensemble_absolute_error": 2.4771746656861353,
+          "ensemble_prediction_before_update": 92.52282533431386,
+          "feature_arm": "B5",
+          "observed": 95.0,
+          "predictions": {
+            "cmcpor_expert": 77.97085174122977,
+            "p7_expert": 94.03240554437286,
+            "pooled_domain_indicator": 86.45417236352482,
+            "source_coefficient_regularized": 96.05201177514473,
+            "source_prediction_residual": 93.8957908619624,
+            "source_zero_shot": 77.97085174122977,
+            "target_only": 94.03240554437286
+          },
+          "prefix_size": 7,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1h",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.0,
+            "p7": 0.25,
+            "target_only": 0.75
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.19919949334286216,
+            "p7": 0.20020012666428447,
+            "target_only": 0.6006003799928534
+          }
+        },
+        {
+          "ensemble_absolute_error": 0.7765984804671433,
+          "ensemble_prediction_before_update": 93.77659848046714,
+          "feature_arm": "B5",
+          "observed": 93.0,
+          "predictions": {
+            "cmcpor_expert": 75.03536466744283,
+            "p7_expert": 93.77659848046714,
+            "pooled_domain_indicator": 84.70705488253475,
+            "source_coefficient_regularized": 95.17902925290039,
+            "source_prediction_residual": 91.12661862473135,
+            "source_zero_shot": 75.03536466744283,
+            "target_only": 93.77659848046714
+          },
+          "prefix_size": 8,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1i",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.0,
+            "p7": 0.24999999999999994,
+            "target_only": 0.75
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.0,
+            "p7": 0.25,
+            "target_only": 0.75
+          }
+        },
+        {
+          "ensemble_absolute_error": 4.140788166392483,
+          "ensemble_prediction_before_update": 85.85921183360752,
+          "feature_arm": "B5",
+          "observed": 90.0,
+          "predictions": {
+            "cmcpor_expert": 80.5301045105315,
+            "p7_expert": 85.85921183360752,
+            "pooled_domain_indicator": 79.97554187936274,
+            "source_coefficient_regularized": 92.2427792952377,
+            "source_prediction_residual": 87.98881226425753,
+            "source_zero_shot": 80.5301045105315,
+            "target_only": 85.85921183360752
+          },
+          "prefix_size": 9,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1j",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.0,
+            "p7": 0.24999999999999994,
+            "target_only": 0.75
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.0,
+            "p7": 0.24999999999999994,
+            "target_only": 0.75
+          }
+        },
+        {
+          "ensemble_absolute_error": 37.74788292023666,
+          "ensemble_prediction_before_update": 97.74788292023666,
+          "feature_arm": "B5",
+          "observed": 60.0,
+          "predictions": {
+            "cmcpor_expert": 74.28003582917019,
+            "p7_expert": 97.74788292023666,
+            "pooled_domain_indicator": 86.65082952012519,
+            "source_coefficient_regularized": 93.9216577555439,
+            "source_prediction_residual": 90.8433354600202,
+            "source_zero_shot": 74.28003582917019,
+            "target_only": 97.74788292023666
+          },
+          "prefix_size": 10,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1k",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.0,
+            "p7": 0.25,
+            "target_only": 0.7500000000000001
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.0,
+            "p7": 0.24999999999999994,
+            "target_only": 0.75
+          }
+        },
+        {
+          "ensemble_absolute_error": 14.447766111435755,
+          "ensemble_prediction_before_update": 86.44776611143575,
+          "feature_arm": "B5",
+          "observed": 72.0,
+          "predictions": {
+            "cmcpor_expert": 63.30269583081714,
+            "p7_expert": 86.44776611143575,
+            "pooled_domain_indicator": 69.63040408681492,
+            "source_coefficient_regularized": 76.91249937897037,
+            "source_prediction_residual": 73.70952655123462,
+            "source_zero_shot": 63.30269583081714,
+            "target_only": 86.44776611143575
+          },
+          "prefix_size": 11,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1l",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.201175258310715,
+            "p7": 0.19970618542232127,
+            "target_only": 0.5991185562669639
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.0,
+            "p7": 0.25,
+            "target_only": 0.7500000000000001
+          }
+        },
+        {
+          "ensemble_absolute_error": 18.55061422211844,
+          "ensemble_prediction_before_update": 79.44938577788156,
+          "feature_arm": "B5",
+          "observed": 98.0,
+          "predictions": {
+            "cmcpor_expert": 72.9476151532914,
+            "p7_expert": 79.49646804599745,
+            "pooled_domain_indicator": 79.26243196963665,
+            "source_coefficient_regularized": 80.3819841130965,
+            "source_prediction_residual": 77.6867168936736,
+            "source_zero_shot": 72.9476151532914,
+            "target_only": 79.49646804599745
+          },
+          "prefix_size": 12,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1m",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.2009444291031508,
+            "p7": 0.1997638927242123,
+            "target_only": 0.599291678172637
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.201175258310715,
+            "p7": 0.19970618542232127,
+            "target_only": 0.5991185562669639
+          }
+        },
+        {
+          "ensemble_absolute_error": 1.4320468058936626,
+          "ensemble_prediction_before_update": 94.56795319410634,
+          "feature_arm": "B5",
+          "observed": 96.0,
+          "predictions": {
+            "cmcpor_expert": 82.67531502896465,
+            "p7_expert": 93.972026819712,
+            "pooled_domain_indicator": 96.93765456592058,
+            "source_coefficient_regularized": 95.35294454782473,
+            "source_prediction_residual": 98.74858599607204,
+            "source_zero_shot": 82.67531502896465,
+            "target_only": 93.972026819712
+          },
+          "prefix_size": 13,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1n",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20171691625685287,
+            "p7": 0.19957077093578676,
+            "target_only": 0.5987123128073604
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.2009444291031508,
+            "p7": 0.1997638927242123,
+            "target_only": 0.599291678172637
+          }
+        },
+        {
+          "ensemble_absolute_error": 0.6821407543808675,
+          "ensemble_prediction_before_update": 93.31785924561913,
+          "feature_arm": "B5",
+          "observed": 94.0,
+          "predictions": {
+            "cmcpor_expert": 81.26926274383713,
+            "p7_expert": 93.69015859156434,
+            "pooled_domain_indicator": 91.84450601639236,
+            "source_coefficient_regularized": 99.54912211748764,
+            "source_prediction_residual": 96.02274187816623,
+            "source_zero_shot": 81.26926274383713,
+            "target_only": 93.69015859156434
+          },
+          "prefix_size": 14,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1o",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20033521787472786,
+            "p7": 0.19991619553131804,
+            "target_only": 0.5997485865939541
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20171691625685287,
+            "p7": 0.19957077093578676,
+            "target_only": 0.5987123128073604
+          }
+        },
+        {
+          "ensemble_absolute_error": 10.216011550801738,
+          "ensemble_prediction_before_update": 94.21601155080174,
+          "feature_arm": "B5",
+          "observed": 84.0,
+          "predictions": {
+            "cmcpor_expert": 81.58530327790145,
+            "p7_expert": 94.71434817523748,
+            "pooled_domain_indicator": 92.22683434855047,
+            "source_coefficient_regularized": 94.7862359303169,
+            "source_prediction_residual": 97.27235339552533,
+            "source_zero_shot": 81.58530327790145,
+            "target_only": 94.71434817523748
+          },
+          "prefix_size": 15,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1p",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20204254145015196,
+            "p7": 0.19948936463746203,
+            "target_only": 0.5984680939123861
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20033521787472786,
+            "p7": 0.19991619553131804,
+            "target_only": 0.5997485865939541
+          }
+        },
+        {
+          "ensemble_absolute_error": 1.7695295216166471,
+          "ensemble_prediction_before_update": 93.23047047838335,
+          "feature_arm": "B5",
+          "observed": 95.0,
+          "predictions": {
+            "cmcpor_expert": 94.5082477598672,
+            "p7_expert": 91.51642803875895,
+            "pooled_domain_indicator": 100.0,
+            "source_coefficient_regularized": 100.0,
+            "source_prediction_residual": 100.0,
+            "source_zero_shot": 94.5082477598672,
+            "target_only": 91.51642803875895
+          },
+          "prefix_size": 16,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1q",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20096188510880636,
+            "p7": 0.1997595287227984,
+            "target_only": 0.5992785861683952
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20204254145015196,
+            "p7": 0.19948936463746203,
+            "target_only": 0.5984680939123861
+          }
+        },
+        {
+          "ensemble_absolute_error": 10.711986107808812,
+          "ensemble_prediction_before_update": 87.28801389219119,
+          "feature_arm": "B5",
+          "observed": 98.0,
+          "predictions": {
+            "cmcpor_expert": 78.9897363683254,
+            "p7_expert": 87.69730792607812,
+            "pooled_domain_indicator": 85.66063299309104,
+            "source_coefficient_regularized": 87.84091837554979,
+            "source_prediction_residual": 87.83924220440879,
+            "source_zero_shot": 78.9897363683254,
+            "target_only": 87.69730792607812
+          },
+          "prefix_size": 17,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1r",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.19961575331862957,
+            "p7": 0.2000960616703426,
+            "target_only": 0.6002881850110279
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20096188510880636,
+            "p7": 0.1997595287227984,
+            "target_only": 0.5992785861683952
+          }
+        },
+        {
+          "ensemble_absolute_error": 44.53171295220767,
+          "ensemble_prediction_before_update": 91.53171295220767,
+          "feature_arm": "B5",
+          "observed": 47.0,
+          "predictions": {
+            "cmcpor_expert": 73.74997071344333,
+            "p7_expert": 92.82256126342483,
+            "pooled_domain_indicator": 86.35589573349192,
+            "source_coefficient_regularized": 92.59816182529684,
+            "source_prediction_residual": 87.49104944829244,
+            "source_zero_shot": 73.74997071344333,
+            "target_only": 92.82256126342483
+          },
+          "prefix_size": 18,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1s",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.2037125671760572,
+            "p7": 0.1990718582059857,
+            "target_only": 0.597215574617957
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.19961575331862957,
+            "p7": 0.2000960616703426,
+            "target_only": 0.6002881850110279
+          }
+        },
+        {
+          "ensemble_absolute_error": 14.980280054876033,
+          "ensemble_prediction_before_update": 84.01971994512397,
+          "feature_arm": "B5",
+          "observed": 99.0,
+          "predictions": {
+            "cmcpor_expert": 77.29229928000565,
+            "p7_expert": 83.80150282108362,
+            "pooled_domain_indicator": 84.87270391125381,
+            "source_coefficient_regularized": 82.36509185859614,
+            "source_prediction_residual": 82.80306900646329,
+            "source_zero_shot": 77.29229928000565,
+            "target_only": 83.80150282108362
+          },
+          "prefix_size": 19,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1t",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20427722897979303,
+            "p7": 0.1989306927550517,
+            "target_only": 0.5967920782651552
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.2037125671760572,
+            "p7": 0.1990718582059857,
+            "target_only": 0.597215574617957
+          }
+        },
+        {
+          "ensemble_absolute_error": 25.12801594027235,
+          "ensemble_prediction_before_update": 89.12801594027235,
+          "feature_arm": "B5",
+          "observed": 64.0,
+          "predictions": {
+            "cmcpor_expert": 77.0758006830762,
+            "p7_expert": 89.8910872770922,
+            "pooled_domain_indicator": 86.15561788272649,
+            "source_coefficient_regularized": 82.21208254837299,
+            "source_prediction_residual": 87.32931622893409,
+            "source_zero_shot": 77.0758006830762,
+            "target_only": 89.8910872770922
+          },
+          "prefix_size": 20,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1u",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20643725604655447,
+            "p7": 0.19839068598836135,
+            "target_only": 0.5951720579650841
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20427722897979303,
+            "p7": 0.1989306927550517,
+            "target_only": 0.5967920782651552
+          }
+        },
+        {
+          "ensemble_absolute_error": 2.079993484293311,
+          "ensemble_prediction_before_update": 92.92000651570669,
+          "feature_arm": "B5",
+          "observed": 95.0,
+          "predictions": {
+            "cmcpor_expert": 80.11697813894122,
+            "p7_expert": 94.18214296448674,
+            "pooled_domain_indicator": 88.06824437393675,
+            "source_coefficient_regularized": 93.29928809810465,
+            "source_prediction_residual": 93.63729554188436,
+            "source_zero_shot": 80.11697813894122,
+            "target_only": 94.18214296448674
+          },
+          "prefix_size": 21,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1v",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20266678276017028,
+            "p7": 0.1993333043099574,
+            "target_only": 0.5979999129298723
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20643725604655447,
+            "p7": 0.19839068598836135,
+            "target_only": 0.5951720579650841
+          }
+        },
+        {
+          "ensemble_absolute_error": 9.848802784590006,
+          "ensemble_prediction_before_update": 89.15119721541,
+          "feature_arm": "B5",
+          "observed": 99.0,
+          "predictions": {
+            "cmcpor_expert": 78.42879670350258,
+            "p7_expert": 89.5845487030772,
+            "pooled_domain_indicator": 87.44630245588615,
+            "source_coefficient_regularized": 85.25894192862665,
+            "source_prediction_residual": 88.37737899721827,
+            "source_zero_shot": 78.42879670350258,
+            "target_only": 89.5845487030772
+          },
+          "prefix_size": 22,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1w",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.2013815944328279,
+            "p7": 0.199654601391793,
+            "target_only": 0.5989638041753791
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20266678276017028,
+            "p7": 0.1993333043099574,
+            "target_only": 0.5979999129298723
+          }
+        },
+        {
+          "ensemble_absolute_error": 6.427535054222105,
+          "ensemble_prediction_before_update": 92.5724649457779,
+          "feature_arm": "B5",
+          "observed": 99.0,
+          "predictions": {
+            "cmcpor_expert": 77.46799411976725,
+            "p7_expert": 93.23826625111793,
+            "pooled_domain_indicator": 89.93209863825734,
+            "source_coefficient_regularized": 92.71655823694655,
+            "source_prediction_residual": 92.12901708024134,
+            "source_zero_shot": 77.46799411976725,
+            "target_only": 93.23826625111793
+          },
+          "prefix_size": 23,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1x",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.19951155278820715,
+            "p7": 0.2001221118029482,
+            "target_only": 0.6003663354088447
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.2013815944328279,
+            "p7": 0.199654601391793,
+            "target_only": 0.5989638041753791
+          }
+        },
+        {
+          "ensemble_absolute_error": 6.028096457704237,
+          "ensemble_prediction_before_update": 90.97190354229576,
+          "feature_arm": "B5",
+          "observed": 97.0,
+          "predictions": {
+            "cmcpor_expert": 81.53854978164463,
+            "p7_expert": 90.96424454116443,
+            "pooled_domain_indicator": 91.00263330123518,
+            "source_coefficient_regularized": 92.29734669346446,
+            "source_prediction_residual": 93.52948913685975,
+            "source_zero_shot": 81.53854978164463,
+            "target_only": 90.96424454116443
+          },
+          "prefix_size": 24,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1y",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.19954266782283647,
+            "p7": 0.20011433304429085,
+            "target_only": 0.6003429991328727
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.19951155278820715,
+            "p7": 0.2001221118029482,
+            "target_only": 0.6003663354088447
+          }
+        },
+        {
+          "ensemble_absolute_error": 12.423249317155083,
+          "ensemble_prediction_before_update": 83.57675068284492,
+          "feature_arm": "B5",
+          "observed": 96.0,
+          "predictions": {
+            "cmcpor_expert": 75.1166999385242,
+            "p7_expert": 84.61525634107157,
+            "pooled_domain_indicator": 79.41082728558409,
+            "source_coefficient_regularized": 82.16319034200568,
+            "source_prediction_residual": 80.99553361922656,
+            "source_zero_shot": 75.1166999385242,
+            "target_only": 84.61525634107157
+          },
+          "prefix_size": 25,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1aa",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.19679787174350533,
+            "p7": 0.20080053206412368,
+            "target_only": 0.602401596192371
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.19954266782283647,
+            "p7": 0.20011433304429085,
+            "target_only": 0.6003429991328727
+          }
+        },
+        {
+          "ensemble_absolute_error": 3.4416493911126054,
+          "ensemble_prediction_before_update": 91.5583506088874,
+          "feature_arm": "B5",
+          "observed": 95.0,
+          "predictions": {
+            "cmcpor_expert": 73.23888160414829,
+            "p7_expert": 92.44588796022926,
+            "pooled_domain_indicator": 87.93599492389279,
+            "source_coefficient_regularized": 86.38435122914619,
+            "source_prediction_residual": 90.71673093846691,
+            "source_zero_shot": 73.23888160414829,
+            "target_only": 92.44588796022926
+          },
+          "prefix_size": 26,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1ab",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.1945416062670411,
+            "p7": 0.20136459843323973,
+            "target_only": 0.6040937952997193
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.19679787174350533,
+            "p7": 0.20080053206412368,
+            "target_only": 0.602401596192371
+          }
+        },
+        {
+          "ensemble_absolute_error": 5.74952365907788,
+          "ensemble_prediction_before_update": 90.74952365907788,
+          "feature_arm": "B5",
+          "observed": 85.0,
+          "predictions": {
+            "cmcpor_expert": 67.15576274310675,
+            "p7_expert": 93.3928281944782,
+            "pooled_domain_indicator": 79.80548003733414,
+            "source_coefficient_regularized": 85.53686686116905,
+            "source_prediction_residual": 84.57368613084533,
+            "source_zero_shot": 67.15576274310675,
+            "target_only": 93.3928281944782
+          },
+          "prefix_size": 27,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1ac",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.19625422636119969,
+            "p7": 0.2009364434097001,
+            "target_only": 0.6028093302291003
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.1945416062670411,
+            "p7": 0.20136459843323973,
+            "target_only": 0.6040937952997193
+          }
+        },
+        {
+          "ensemble_absolute_error": 3.2039895935285756,
+          "ensemble_prediction_before_update": 90.20398959352858,
+          "feature_arm": "B5",
+          "observed": 87.0,
+          "predictions": {
+            "cmcpor_expert": 56.579677002926545,
+            "p7_expert": 94.87464255652041,
+            "pooled_domain_indicator": 71.07564953817048,
+            "source_coefficient_regularized": 80.66133476520555,
+            "source_prediction_residual": 76.0907549374071,
+            "source_zero_shot": 56.579677002926545,
+            "target_only": 94.87464255652041
+          },
+          "prefix_size": 28,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1ad",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.1923553437223047,
+            "p7": 0.2019111640694238,
+            "target_only": 0.6057334922082714
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.19625422636119969,
+            "p7": 0.2009364434097001,
+            "target_only": 0.6028093302291003
+          }
+        },
+        {
+          "ensemble_absolute_error": 59.303408284914255,
+          "ensemble_prediction_before_update": 80.30340828491425,
+          "feature_arm": "B5",
+          "observed": 21.0,
+          "predictions": {
+            "cmcpor_expert": 53.79622308430389,
+            "p7_expert": 85.80559084506181,
+            "pooled_domain_indicator": 57.20132930663101,
+            "source_coefficient_regularized": 64.02999439208779,
+            "source_prediction_residual": 64.40718689218545,
+            "source_zero_shot": 53.79622308430389,
+            "target_only": 85.80559084506181
+          },
+          "prefix_size": 29,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1ae",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20660879853489592,
+            "p7": 0.19834780036627603,
+            "target_only": 0.5950434010988281
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.1923553437223047,
+            "p7": 0.2019111640694238,
+            "target_only": 0.6057334922082714
+          }
+        },
+        {
+          "ensemble_absolute_error": 32.00868462193904,
+          "ensemble_prediction_before_update": 39.99131537806096,
+          "feature_arm": "B5",
+          "observed": 72.0,
+          "predictions": {
+            "cmcpor_expert": 54.42662043630183,
+            "p7_expert": 40.44403101436416,
+            "pooled_domain_indicator": 38.25285793987024,
+            "source_coefficient_regularized": 37.45745000783742,
+            "source_prediction_residual": 54.42662043630183,
+            "source_zero_shot": 54.42662043630183,
+            "target_only": 40.44403101436416
+          },
+          "prefix_size": 30,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1af",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20540703859553638,
+            "p7": 0.19864824035111592,
+            "target_only": 0.5959447210533478
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20660879853489592,
+            "p7": 0.19834780036627603,
+            "target_only": 0.5950434010988281
+          }
+        },
+        {
+          "ensemble_absolute_error": 1.4416711209221944,
+          "ensemble_prediction_before_update": 68.4416711209222,
+          "feature_arm": "B5",
+          "observed": 67.0,
+          "predictions": {
+            "cmcpor_expert": 51.46215044528911,
+            "p7_expert": 69.13977159350577,
+            "pooled_domain_indicator": 65.74115157854996,
+            "source_coefficient_regularized": 54.17501615644391,
+            "source_prediction_residual": 57.39327446184514,
+            "source_zero_shot": 51.46215044528911,
+            "target_only": 69.13977159350577
+          },
+          "prefix_size": 31,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1ag",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20574844027250855,
+            "p7": 0.19856288993187285,
+            "target_only": 0.5956886697956185
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20540703859553638,
+            "p7": 0.19864824035111592,
+            "target_only": 0.5959447210533478
+          }
+        },
+        {
+          "ensemble_absolute_error": 12.34229046360403,
+          "ensemble_prediction_before_update": 87.34229046360403,
+          "feature_arm": "B5",
+          "observed": 75.0,
+          "predictions": {
+            "cmcpor_expert": 65.58862760385111,
+            "p7_expert": 89.47557166346843,
+            "pooled_domain_indicator": 79.10717617508016,
+            "source_coefficient_regularized": 93.26960863270534,
+            "source_prediction_residual": 84.94578171846017,
+            "source_zero_shot": 65.58862760385111,
+            "target_only": 89.47557166346843
+          },
+          "prefix_size": 32,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1ah",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.2106875203209292,
+            "p7": 0.19732811991976773,
+            "target_only": 0.5919843597593032
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.20574844027250855,
+            "p7": 0.19856288993187285,
+            "target_only": 0.5956886697956185
+          }
+        },
+        {
+          "ensemble_absolute_error": 36.969190661418935,
+          "ensemble_prediction_before_update": 89.96919066141893,
+          "feature_arm": "B5",
+          "observed": 53.0,
+          "predictions": {
+            "cmcpor_expert": 70.86708770660243,
+            "p7_expert": 92.44341204448205,
+            "pooled_domain_indicator": 80.69985277104117,
+            "source_coefficient_regularized": 90.80746141299035,
+            "source_prediction_residual": 88.8926998097467,
+            "source_zero_shot": 70.86708770660243,
+            "target_only": 92.44341204448205
+          },
+          "prefix_size": 33,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1ai",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.2162344495688902,
+            "p7": 0.19594138760777746,
+            "target_only": 0.5878241628233324
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.2106875203209292,
+            "p7": 0.19732811991976773,
+            "target_only": 0.5919843597593032
+          }
+        },
+        {
+          "ensemble_absolute_error": 10.519231783024367,
+          "ensemble_prediction_before_update": 81.51923178302437,
+          "feature_arm": "B5",
+          "observed": 71.0,
+          "predictions": {
+            "cmcpor_expert": 66.24135664949635,
+            "p7_expert": 82.5655984235464,
+            "pooled_domain_indicator": 77.72656078357646,
+            "source_coefficient_regularized": 69.4593174303548,
+            "source_prediction_residual": 77.83552473580828,
+            "source_zero_shot": 66.24135664949635,
+            "target_only": 82.5655984235464
+          },
+          "prefix_size": 34,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1aj",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.21833627619171453,
+            "p7": 0.19541593095207135,
+            "target_only": 0.5862477928562142
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.2162344495688902,
+            "p7": 0.19594138760777746,
+            "target_only": 0.5878241628233324
+          }
+        },
+        {
+          "ensemble_absolute_error": 11.69659983114672,
+          "ensemble_prediction_before_update": 62.30340016885328,
+          "feature_arm": "B5",
+          "observed": 74.0,
+          "predictions": {
+            "cmcpor_expert": 65.02670942782757,
+            "p7_expert": 62.33229000722281,
+            "pooled_domain_indicator": 62.199971920309174,
+            "source_coefficient_regularized": 63.13218135890633,
+            "source_prediction_residual": 65.02670942782757,
+            "source_zero_shot": 65.02670942782757,
+            "target_only": 62.33229000722281
+          },
+          "prefix_size": 35,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1ak",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.21800054639254304,
+            "p7": 0.19549986340186426,
+            "target_only": 0.5864995902055928
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.21833627619171453,
+            "p7": 0.19541593095207135,
+            "target_only": 0.5862477928562142
+          }
+        },
+        {
+          "ensemble_absolute_error": 22.479986427617007,
+          "ensemble_prediction_before_update": 73.479986427617,
+          "feature_arm": "B5",
+          "observed": 51.0,
+          "predictions": {
+            "cmcpor_expert": 63.887813289379416,
+            "p7_expert": 73.72808191078418,
+            "pooled_domain_indicator": 72.59003208809958,
+            "source_coefficient_regularized": 69.24507667323456,
+            "source_prediction_residual": 72.21533874582688,
+            "source_zero_shot": 63.887813289379416,
+            "target_only": 73.72808191078418
+          },
+          "prefix_size": 36,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1al",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.2182793377261126,
+            "p7": 0.19543016556847184,
+            "target_only": 0.5862904967054157
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.21800054639254304,
+            "p7": 0.19549986340186426,
+            "target_only": 0.5864995902055928
+          }
+        },
+        {
+          "ensemble_absolute_error": 21.49757636950568,
+          "ensemble_prediction_before_update": 76.50242363049432,
+          "feature_arm": "B5",
+          "observed": 98.0,
+          "predictions": {
+            "cmcpor_expert": 60.760271282272754,
+            "p7_expert": 77.73239763322763,
+            "pooled_domain_indicator": 72.09753537119968,
+            "source_coefficient_regularized": 71.41506595696521,
+            "source_prediction_residual": 74.08026724987566,
+            "source_zero_shot": 60.760271282272754,
+            "target_only": 77.73239763322763
+          },
+          "prefix_size": 37,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1am",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.21540438602809267,
+            "p7": 0.19614890349297684,
+            "target_only": 0.5884467104789306
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.2182793377261126,
+            "p7": 0.19543016556847184,
+            "target_only": 0.5862904967054157
+          }
+        },
+        {
+          "ensemble_absolute_error": 6.443458592771179,
+          "ensemble_prediction_before_update": 81.55654140722882,
+          "feature_arm": "B5",
+          "observed": 88.0,
+          "predictions": {
+            "cmcpor_expert": 58.986743339196515,
+            "p7_expert": 83.86154141352841,
+            "pooled_domain_indicator": 73.16073792107314,
+            "source_coefficient_regularized": 82.11008844930736,
+            "source_prediction_residual": 74.76073134970524,
+            "source_zero_shot": 58.986743339196515,
+            "target_only": 83.86154141352841
+          },
+          "prefix_size": 38,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1an",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.21035343817532468,
+            "p7": 0.1974116404561688,
+            "target_only": 0.5922349213685064
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.21540438602809267,
+            "p7": 0.19614890349297684,
+            "target_only": 0.5884467104789306
+          }
+        },
+        {
+          "ensemble_absolute_error": 21.307546204088226,
+          "ensemble_prediction_before_update": 76.69245379591177,
+          "feature_arm": "B5",
+          "observed": 98.0,
+          "predictions": {
+            "cmcpor_expert": 40.259422140112434,
+            "p7_expert": 83.25659937601567,
+            "pooled_domain_indicator": 52.051283042498795,
+            "source_coefficient_regularized": 58.01142798739594,
+            "source_prediction_residual": 55.37972869093441,
+            "source_zero_shot": 40.259422140112434,
+            "target_only": 83.25659937601567
+          },
+          "prefix_size": 39,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "1ao",
+          "weights_after_update": {
+            "cmcpor": 0.0,
+            "combined": 0.19673632064746102,
+            "p7": 0.20081591983813477,
+            "target_only": 0.6024477595144043
+          },
+          "weights_before_update": {
+            "cmcpor": 0.0,
+            "combined": 0.21035343817532468,
+            "p7": 0.1974116404561688,
+            "target_only": 0.5922349213685064
+          }
+        }
+      ],
+      "source_count": 20,
+      "source_domain": "cmcpor-fecl",
+      "target_count": 40,
+      "target_domain": "fe-p7-cl",
+      "target_only": {
+        "auc_mae": 502.54435347453494,
+        "count": 38,
+        "mae": 13.76160667859282
+      }
+    },
+    "p7_to_cmcpor_aryl": {
+      "excluded_canonical_overlap_count": 13,
+      "excluded_canonical_substrate_ids": [
+        "2c",
+        "2d",
+        "2g",
+        "2i",
+        "2k",
+        "2m",
+        "2o",
+        "2q",
+        "2r",
+        "2u",
+        "2w",
+        "4b",
+        "4c"
+      ],
+      "guarded_ensemble": {
+        "count": 31,
+        "mae": 15.675358486474465
+      },
+      "rows": [
+        {
+          "ensemble_absolute_error": 14.540516723472003,
+          "ensemble_prediction_before_update": 50.459483276528,
+          "feature_arm": "B5",
+          "observed": 65.0,
+          "predictions": {
+            "cmcpor_expert": 40.667516967656624,
+            "p7_expert": 86.46452536838416,
+            "pooled_domain_indicator": 82.99820534677147,
+            "source_coefficient_regularized": 71.45219421417352,
+            "source_prediction_residual": 86.46452536838416,
+            "source_zero_shot": 86.46452536838416,
+            "target_only": 40.667516967656624
+          },
+          "prefix_size": 2,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2ac",
+          "weights_after_update": {
+            "cmcpor": 0.11111111111111112,
+            "combined": 0.11111111111111112,
+            "p7": 0.11111111111111112,
+            "target_only": 0.6666666666666667
+          },
+          "weights_before_update": {
+            "cmcpor": 0.1111111111111111,
+            "combined": 0.1111111111111111,
+            "p7": 0.1111111111111111,
+            "target_only": 0.6666666666666666
+          }
+        },
+        {
+          "ensemble_absolute_error": 31.23874990666296,
+          "ensemble_prediction_before_update": 67.76125009333704,
+          "feature_arm": "B5",
+          "observed": 99.0,
+          "predictions": {
+            "cmcpor_expert": 60.389982629196496,
+            "p7_expert": 95.53475635679187,
+            "pooled_domain_indicator": 91.58661607886592,
+            "source_coefficient_regularized": 77.56360367282649,
+            "source_prediction_residual": 95.53475635679187,
+            "source_zero_shot": 95.53475635679187,
+            "target_only": 60.389982629196496
+          },
+          "prefix_size": 3,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2b",
+          "weights_after_update": {
+            "cmcpor": 0.1111111111111111,
+            "combined": 0.1111111111111111,
+            "p7": 0.1111111111111111,
+            "target_only": 0.6666666666666666
+          },
+          "weights_before_update": {
+            "cmcpor": 0.11111111111111112,
+            "combined": 0.11111111111111112,
+            "p7": 0.11111111111111112,
+            "target_only": 0.6666666666666667
+          }
+        },
+        {
+          "ensemble_absolute_error": 9.622535785275744,
+          "ensemble_prediction_before_update": 89.62253578527574,
+          "feature_arm": "B5",
+          "observed": 80.0,
+          "predictions": {
+            "cmcpor_expert": 87.40800112658401,
+            "p7_expert": 97.82362923436162,
+            "pooled_domain_indicator": 96.92318494703211,
+            "source_coefficient_regularized": 91.9508960364544,
+            "source_prediction_residual": 97.82362923436162,
+            "source_zero_shot": 97.82362923436162,
+            "target_only": 87.40800112658401
+          },
+          "prefix_size": 4,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2c",
+          "weights_after_update": {
+            "cmcpor": 0.1111111111111111,
+            "combined": 0.1111111111111111,
+            "p7": 0.1111111111111111,
+            "target_only": 0.6666666666666666
+          },
+          "weights_before_update": {
+            "cmcpor": 0.1111111111111111,
+            "combined": 0.1111111111111111,
+            "p7": 0.1111111111111111,
+            "target_only": 0.6666666666666666
+          }
+        },
+        {
+          "ensemble_absolute_error": 0.7821505941975317,
+          "ensemble_prediction_before_update": 81.21784940580247,
+          "feature_arm": "B5",
+          "observed": 82.0,
+          "predictions": {
+            "cmcpor_expert": 83.1152474197502,
+            "p7_expert": 75.98790986101267,
+            "pooled_domain_indicator": 73.16600285295813,
+            "source_coefficient_regularized": 69.65088550534654,
+            "source_prediction_residual": 75.98790986101267,
+            "source_zero_shot": 75.98790986101267,
+            "target_only": 83.1152474197502
+          },
+          "prefix_size": 5,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2d",
+          "weights_after_update": {
+            "cmcpor": 0.11111111111111113,
+            "combined": 0.11111111111111113,
+            "p7": 0.11111111111111113,
+            "target_only": 0.6666666666666667
+          },
+          "weights_before_update": {
+            "cmcpor": 0.1111111111111111,
+            "combined": 0.1111111111111111,
+            "p7": 0.1111111111111111,
+            "target_only": 0.6666666666666666
+          }
+        },
+        {
+          "ensemble_absolute_error": 8.22334352739881,
+          "ensemble_prediction_before_update": 83.22334352739881,
+          "feature_arm": "B5",
+          "observed": 75.0,
+          "predictions": {
+            "cmcpor_expert": 81.98753282987424,
+            "p7_expert": 88.43047525038958,
+            "pooled_domain_indicator": 86.66688668707997,
+            "source_coefficient_regularized": 84.41067030040522,
+            "source_prediction_residual": 88.43047525038958,
+            "source_zero_shot": 88.43047525038958,
+            "target_only": 81.98753282987424
+          },
+          "prefix_size": 6,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2e",
+          "weights_after_update": {
+            "cmcpor": 0.1605430942228669,
+            "combined": 0.17852480864700054,
+            "p7": 0.17930281446153182,
+            "target_only": 0.4816292826686007
+          },
+          "weights_before_update": {
+            "cmcpor": 0.11111111111111113,
+            "combined": 0.11111111111111113,
+            "p7": 0.11111111111111113,
+            "target_only": 0.6666666666666667
+          }
+        },
+        {
+          "ensemble_absolute_error": 6.765723062265934,
+          "ensemble_prediction_before_update": 92.23427693773407,
+          "feature_arm": "B5",
+          "observed": 99.0,
+          "predictions": {
+            "cmcpor_expert": 91.18331911193127,
+            "p7_expert": 93.3421218699211,
+            "pooled_domain_indicator": 94.90200908258183,
+            "source_coefficient_regularized": 86.06311237504045,
+            "source_prediction_residual": 93.3421218699211,
+            "source_zero_shot": 93.3421218699211,
+            "target_only": 91.18331911193127
+          },
+          "prefix_size": 7,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2f",
+          "weights_after_update": {
+            "cmcpor": 0.15994129537179727,
+            "combined": 0.18063896054006448,
+            "p7": 0.1795958579727463,
+            "target_only": 0.47982388611539184
+          },
+          "weights_before_update": {
+            "cmcpor": 0.1605430942228669,
+            "combined": 0.17852480864700054,
+            "p7": 0.17930281446153182,
+            "target_only": 0.4816292826686007
+          }
+        },
+        {
+          "ensemble_absolute_error": 26.136214678821332,
+          "ensemble_prediction_before_update": 88.13621467882133,
+          "feature_arm": "B5",
+          "observed": 62.0,
+          "predictions": {
+            "cmcpor_expert": 86.8608984014149,
+            "p7_expert": 90.31013388358807,
+            "pooled_domain_indicator": 90.49160945995231,
+            "source_coefficient_regularized": 90.25654327685278,
+            "source_prediction_residual": 90.31013388358807,
+            "source_zero_shot": 90.31013388358807,
+            "target_only": 86.8608984014149
+          },
+          "prefix_size": 8,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2g",
+          "weights_after_update": {
+            "cmcpor": 0.16157756502096143,
+            "combined": 0.17722940661198136,
+            "p7": 0.1764603333041728,
+            "target_only": 0.48473269506288436
+          },
+          "weights_before_update": {
+            "cmcpor": 0.15994129537179727,
+            "combined": 0.18063896054006448,
+            "p7": 0.1795958579727463,
+            "target_only": 0.47982388611539184
+          }
+        },
+        {
+          "ensemble_absolute_error": 6.787061492476539,
+          "ensemble_prediction_before_update": 69.21293850752346,
+          "feature_arm": "B5",
+          "observed": 76.0,
+          "predictions": {
+            "cmcpor_expert": 68.11643498859533,
+            "p7_expert": 70.56658486801905,
+            "pooled_domain_indicator": 71.86383372594997,
+            "source_coefficient_regularized": 58.79372395406608,
+            "source_prediction_residual": 70.56658486801905,
+            "source_zero_shot": 70.56658486801905,
+            "target_only": 68.11643498859533
+          },
+          "prefix_size": 9,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2h",
+          "weights_after_update": {
+            "cmcpor": 0.16088775281221887,
+            "combined": 0.17923148350865406,
+            "p7": 0.17721750524247024,
+            "target_only": 0.4826632584366567
+          },
+          "weights_before_update": {
+            "cmcpor": 0.16157756502096143,
+            "combined": 0.17722940661198136,
+            "p7": 0.1764603333041728,
+            "target_only": 0.48473269506288436
+          }
+        },
+        {
+          "ensemble_absolute_error": 2.2534445213909606,
+          "ensemble_prediction_before_update": 74.25344452139096,
+          "feature_arm": "B5",
+          "observed": 72.0,
+          "predictions": {
+            "cmcpor_expert": 67.87623745215612,
+            "p7_expert": 91.63924736345693,
+            "pooled_domain_indicator": 79.96108824566888,
+            "source_coefficient_regularized": 69.56542144187488,
+            "source_prediction_residual": 91.63924736345693,
+            "source_zero_shot": 91.63924736345693,
+            "target_only": 67.87623745215612
+          },
+          "prefix_size": 10,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2i",
+          "weights_after_update": {
+            "cmcpor": 0.1640483734732392,
+            "combined": 0.1781073170651078,
+            "p7": 0.16569918904193529,
+            "target_only": 0.49214512041971764
+          },
+          "weights_before_update": {
+            "cmcpor": 0.16088775281221887,
+            "combined": 0.17923148350865406,
+            "p7": 0.17721750524247024,
+            "target_only": 0.4826632584366567
+          }
+        },
+        {
+          "ensemble_absolute_error": 16.56195141693732,
+          "ensemble_prediction_before_update": 78.43804858306268,
+          "feature_arm": "B5",
+          "observed": 95.0,
+          "predictions": {
+            "cmcpor_expert": 75.32854849110865,
+            "p7_expert": 87.29643914046554,
+            "pooled_domain_indicator": 81.6529956579887,
+            "source_coefficient_regularized": 78.4482676889382,
+            "source_prediction_residual": 87.29643914046554,
+            "source_zero_shot": 87.29643914046554,
+            "target_only": 75.32854849110865
+          },
+          "prefix_size": 11,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2j",
+          "weights_after_update": {
+            "cmcpor": 0.16158851189171874,
+            "combined": 0.18040481382706433,
+            "p7": 0.1732411386060606,
+            "target_only": 0.4847655356751563
+          },
+          "weights_before_update": {
+            "cmcpor": 0.1640483734732392,
+            "combined": 0.1781073170651078,
+            "p7": 0.16569918904193529,
+            "target_only": 0.49214512041971764
+          }
+        },
+        {
+          "ensemble_absolute_error": 2.0099975494650977,
+          "ensemble_prediction_before_update": 79.9900024505349,
+          "feature_arm": "B5",
+          "observed": 82.0,
+          "predictions": {
+            "cmcpor_expert": 76.81043532547481,
+            "p7_expert": 89.60998280274916,
+            "pooled_domain_indicator": 82.14376832276987,
+            "source_coefficient_regularized": 77.690202925655,
+            "source_prediction_residual": 89.60998280274916,
+            "source_zero_shot": 89.60998280274916,
+            "target_only": 76.81043532547481
+          },
+          "prefix_size": 12,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2k",
+          "weights_after_update": {
+            "cmcpor": 0.16141845005767974,
+            "combined": 0.18377548066238147,
+            "p7": 0.17055071910689965,
+            "target_only": 0.4842553501730393
+          },
+          "weights_before_update": {
+            "cmcpor": 0.16158851189171874,
+            "combined": 0.18040481382706433,
+            "p7": 0.1732411386060606,
+            "target_only": 0.4847655356751563
+          }
+        },
+        {
+          "ensemble_absolute_error": 22.64340652161262,
+          "ensemble_prediction_before_update": 83.64340652161262,
+          "feature_arm": "B5",
+          "observed": 61.0,
+          "predictions": {
+            "cmcpor_expert": 81.59186353294216,
+            "p7_expert": 88.49042466889354,
+            "pooled_domain_indicator": 86.35304507346824,
+            "source_coefficient_regularized": 86.52629626477548,
+            "source_prediction_residual": 88.49042466889354,
+            "source_zero_shot": 88.49042466889354,
+            "target_only": 81.59186353294216
+          },
+          "prefix_size": 13,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2l",
+          "weights_after_update": {
+            "cmcpor": 0.16315004072100553,
+            "combined": 0.1807849416980119,
+            "p7": 0.16661489541796592,
+            "target_only": 0.4894501221630167
+          },
+          "weights_before_update": {
+            "cmcpor": 0.16141845005767974,
+            "combined": 0.18377548066238147,
+            "p7": 0.17055071910689965,
+            "target_only": 0.4842553501730393
+          }
+        },
+        {
+          "ensemble_absolute_error": 13.611768584128129,
+          "ensemble_prediction_before_update": 83.38823141587187,
+          "feature_arm": "B5",
+          "observed": 97.0,
+          "predictions": {
+            "cmcpor_expert": 80.43595801584436,
+            "p7_expert": 94.695544155008,
+            "pooled_domain_indicator": 83.62435380441691,
+            "source_coefficient_regularized": 93.40461364016667,
+            "source_prediction_residual": 94.695544155008,
+            "source_zero_shot": 94.695544155008,
+            "target_only": 80.43595801584436
+          },
+          "prefix_size": 14,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2m",
+          "weights_after_update": {
+            "cmcpor": 0.16110717720699366,
+            "combined": 0.180397572821297,
+            "p7": 0.17517371835072829,
+            "target_only": 0.48332153162098107
+          },
+          "weights_before_update": {
+            "cmcpor": 0.16315004072100553,
+            "combined": 0.1807849416980119,
+            "p7": 0.16661489541796592,
+            "target_only": 0.4894501221630167
+          }
+        },
+        {
+          "ensemble_absolute_error": 19.828988320198334,
+          "ensemble_prediction_before_update": 75.17101167980167,
+          "feature_arm": "B5",
+          "observed": 95.0,
+          "predictions": {
+            "cmcpor_expert": 71.81412266840158,
+            "p7_expert": 86.54873702204918,
+            "pooled_domain_indicator": 76.11446781426513,
+            "source_coefficient_regularized": 80.90845280879883,
+            "source_prediction_residual": 86.54873702204918,
+            "source_zero_shot": 86.54873702204918,
+            "target_only": 71.81412266840158
+          },
+          "prefix_size": 15,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2n",
+          "weights_after_update": {
+            "cmcpor": 0.1589470897858905,
+            "combined": 0.1806060869266307,
+            "p7": 0.18360555392980712,
+            "target_only": 0.47684126935767157
+          },
+          "weights_before_update": {
+            "cmcpor": 0.16110717720699366,
+            "combined": 0.180397572821297,
+            "p7": 0.17517371835072829,
+            "target_only": 0.48332153162098107
+          }
+        },
+        {
+          "ensemble_absolute_error": 58.442613386434815,
+          "ensemble_prediction_before_update": 88.44261338643481,
+          "feature_arm": "B5",
+          "observed": 30.0,
+          "predictions": {
+            "cmcpor_expert": 89.37398311375443,
+            "p7_expert": 87.40475528044058,
+            "pooled_domain_indicator": 86.21900329072385,
+            "source_coefficient_regularized": 87.22427827205915,
+            "source_prediction_residual": 87.74944416373395,
+            "source_zero_shot": 87.40475528044058,
+            "target_only": 89.37398311375443
+          },
+          "prefix_size": 16,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2o",
+          "weights_after_update": {
+            "cmcpor": 0.15858040578809884,
+            "combined": 0.18183245566366846,
+            "p7": 0.18384592118393622,
+            "target_only": 0.47574121736429653
+          },
+          "weights_before_update": {
+            "cmcpor": 0.1589470897858905,
+            "combined": 0.1806060869266307,
+            "p7": 0.18360555392980712,
+            "target_only": 0.47684126935767157
+          }
+        },
+        {
+          "ensemble_absolute_error": 4.498398533660222,
+          "ensemble_prediction_before_update": 78.49839853366022,
+          "feature_arm": "B5",
+          "observed": 74.0,
+          "predictions": {
+            "cmcpor_expert": 74.31908442273284,
+            "p7_expert": 88.22854940097446,
+            "pooled_domain_indicator": 83.24002047293523,
+            "source_coefficient_regularized": 81.0427050583929,
+            "source_prediction_residual": 88.22854940097446,
+            "source_zero_shot": 88.22854940097446,
+            "target_only": 74.31908442273284
+          },
+          "prefix_size": 17,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2p",
+          "weights_after_update": {
+            "cmcpor": 0.16148016140829807,
+            "combined": 0.17787729505351946,
+            "p7": 0.1762020593132883,
+            "target_only": 0.4844404842248942
+          },
+          "weights_before_update": {
+            "cmcpor": 0.15858040578809884,
+            "combined": 0.18183245566366846,
+            "p7": 0.18384592118393622,
+            "target_only": 0.47574121736429653
+          }
+        },
+        {
+          "ensemble_absolute_error": 19.88847695676236,
+          "ensemble_prediction_before_update": 75.88847695676236,
+          "feature_arm": "B5",
+          "observed": 56.0,
+          "predictions": {
+            "cmcpor_expert": 70.87056001004491,
+            "p7_expert": 92.19338002747247,
+            "pooled_domain_indicator": 77.95854810262729,
+            "source_coefficient_regularized": 76.04598126715756,
+            "source_prediction_residual": 92.19338002747247,
+            "source_zero_shot": 92.19338002747247,
+            "target_only": 70.87056001004491
+          },
+          "prefix_size": 18,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2q",
+          "weights_after_update": {
+            "cmcpor": 0.16475787314773188,
+            "combined": 0.17602844056943823,
+            "p7": 0.16494006683963433,
+            "target_only": 0.4942736194431957
+          },
+          "weights_before_update": {
+            "cmcpor": 0.16148016140829807,
+            "combined": 0.17787729505351946,
+            "p7": 0.1762020593132883,
+            "target_only": 0.4844404842248942
+          }
+        },
+        {
+          "ensemble_absolute_error": 22.672855962510027,
+          "ensemble_prediction_before_update": 85.67285596251003,
+          "feature_arm": "B5",
+          "observed": 63.0,
+          "predictions": {
+            "cmcpor_expert": 84.24290593873775,
+            "p7_expert": 88.455937481087,
+            "pooled_domain_indicator": 88.41866479453321,
+            "source_coefficient_regularized": 87.18586904678008,
+            "source_prediction_residual": 88.455937481087,
+            "source_zero_shot": 88.455937481087,
+            "target_only": 84.24290593873775
+          },
+          "prefix_size": 19,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2r",
+          "weights_after_update": {
+            "cmcpor": 0.1657072387804541,
+            "combined": 0.1739338261785159,
+            "p7": 0.16323721869966787,
+            "target_only": 0.49712171634136226
+          },
+          "weights_before_update": {
+            "cmcpor": 0.16475787314773188,
+            "combined": 0.17602844056943823,
+            "p7": 0.16494006683963433,
+            "target_only": 0.4942736194431957
+          }
+        },
+        {
+          "ensemble_absolute_error": 11.02027266243752,
+          "ensemble_prediction_before_update": 81.02027266243752,
+          "feature_arm": "B5",
+          "observed": 70.0,
+          "predictions": {
+            "cmcpor_expert": 78.9536094521586,
+            "p7_expert": 87.813995719128,
+            "pooled_domain_indicator": 82.52001406179122,
+            "source_coefficient_regularized": 65.81396624777928,
+            "source_prediction_residual": 87.813995719128,
+            "source_zero_shot": 87.813995719128,
+            "target_only": 78.9536094521586
+          },
+          "prefix_size": 20,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2s",
+          "weights_after_update": {
+            "cmcpor": 0.1670001623580469,
+            "combined": 0.17276658567756709,
+            "p7": 0.15923276489024507,
+            "target_only": 0.5010004870741408
+          },
+          "weights_before_update": {
+            "cmcpor": 0.1657072387804541,
+            "combined": 0.1739338261785159,
+            "p7": 0.16323721869966787,
+            "target_only": 0.49712171634136226
+          }
+        },
+        {
+          "ensemble_absolute_error": 1.9156260792852606,
+          "ensemble_prediction_before_update": 79.08437392071474,
+          "feature_arm": "B5",
+          "observed": 81.0,
+          "predictions": {
+            "cmcpor_expert": 75.33413798899028,
+            "p7_expert": 88.9631793359235,
+            "pooled_domain_indicator": 84.47969115861561,
+            "source_coefficient_regularized": 78.50117866271499,
+            "source_prediction_residual": 88.9631793359235,
+            "source_zero_shot": 88.9631793359235,
+            "target_only": 75.33413798899028
+          },
+          "prefix_size": 21,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2t",
+          "weights_after_update": {
+            "cmcpor": 0.16698460909678697,
+            "combined": 0.17398582217903968,
+            "p7": 0.15807574143381267,
+            "target_only": 0.5009538272903609
+          },
+          "weights_before_update": {
+            "cmcpor": 0.1670001623580469,
+            "combined": 0.17276658567756709,
+            "p7": 0.15923276489024507,
+            "target_only": 0.5010004870741408
+          }
+        },
+        {
+          "ensemble_absolute_error": 15.291056355161217,
+          "ensemble_prediction_before_update": 81.70894364483878,
+          "feature_arm": "B5",
+          "observed": 97.0,
+          "predictions": {
+            "cmcpor_expert": 76.68745257402757,
+            "p7_expert": 93.07994809395811,
+            "pooled_domain_indicator": 90.65545960535276,
+            "source_coefficient_regularized": 73.3481022607517,
+            "source_prediction_residual": 93.07994809395811,
+            "source_zero_shot": 93.07994809395811,
+            "target_only": 76.68745257402757
+          },
+          "prefix_size": 22,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2u",
+          "weights_after_update": {
+            "cmcpor": 0.1639747538393454,
+            "combined": 0.1793657649006665,
+            "p7": 0.1647352197419519,
+            "target_only": 0.4919242615180362
+          },
+          "weights_before_update": {
+            "cmcpor": 0.16698460909678697,
+            "combined": 0.17398582217903968,
+            "p7": 0.15807574143381267,
+            "target_only": 0.5009538272903609
+          }
+        },
+        {
+          "ensemble_absolute_error": 3.2171962500765545,
+          "ensemble_prediction_before_update": 87.21719625007655,
+          "feature_arm": "B5",
+          "observed": 84.0,
+          "predictions": {
+            "cmcpor_expert": 85.57912232479218,
+            "p7_expert": 87.75957234483516,
+            "pooled_domain_indicator": 92.70911735369026,
+            "source_coefficient_regularized": 88.08442947870618,
+            "source_prediction_residual": 87.75957234483516,
+            "source_zero_shot": 87.75957234483516,
+            "target_only": 85.57912232479218
+          },
+          "prefix_size": 23,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2v",
+          "weights_after_update": {
+            "cmcpor": 0.16496279999640326,
+            "combined": 0.17568758570593093,
+            "p7": 0.16446121430845587,
+            "target_only": 0.49488839998920986
+          },
+          "weights_before_update": {
+            "cmcpor": 0.1639747538393454,
+            "combined": 0.1793657649006665,
+            "p7": 0.1647352197419519,
+            "target_only": 0.4919242615180362
+          }
+        },
+        {
+          "ensemble_absolute_error": 48.0451330853319,
+          "ensemble_prediction_before_update": 83.0451330853319,
+          "feature_arm": "B5",
+          "observed": 35.0,
+          "predictions": {
+            "cmcpor_expert": 84.75205993636256,
+            "p7_expert": 73.02934910551184,
+            "pooled_domain_indicator": 86.00999974075981,
+            "source_coefficient_regularized": 87.52626260700345,
+            "source_prediction_residual": 83.50744061588348,
+            "source_zero_shot": 73.02934910551184,
+            "target_only": 84.75205993636256
+          },
+          "prefix_size": 24,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2w",
+          "weights_after_update": {
+            "cmcpor": 0.16402544663529836,
+            "combined": 0.17371345370922434,
+            "p7": 0.17018475974958208,
+            "target_only": 0.49207633990589517
+          },
+          "weights_before_update": {
+            "cmcpor": 0.16496279999640326,
+            "combined": 0.17568758570593093,
+            "p7": 0.16446121430845587,
+            "target_only": 0.49488839998920986
+          }
+        },
+        {
+          "ensemble_absolute_error": 5.920413373545472,
+          "ensemble_prediction_before_update": 76.92041337354547,
+          "feature_arm": "B5",
+          "observed": 71.0,
+          "predictions": {
+            "cmcpor_expert": 74.8783336862489,
+            "p7_expert": 83.22555973256146,
+            "pooled_domain_indicator": 78.45611660840386,
+            "source_coefficient_regularized": 74.56852924158775,
+            "source_prediction_residual": 83.22555973256146,
+            "source_zero_shot": 83.22555973256146,
+            "target_only": 74.8783336862489
+          },
+          "prefix_size": 25,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2x",
+          "weights_after_update": {
+            "cmcpor": 0.16518925086187194,
+            "combined": 0.17267360136962903,
+            "p7": 0.16656939518288308,
+            "target_only": 0.4955677525856159
+          },
+          "weights_before_update": {
+            "cmcpor": 0.16402544663529836,
+            "combined": 0.17371345370922434,
+            "p7": 0.17018475974958208,
+            "target_only": 0.49207633990589517
+          }
+        },
+        {
+          "ensemble_absolute_error": 7.814661223700114,
+          "ensemble_prediction_before_update": 65.18533877629989,
+          "feature_arm": "B5",
+          "observed": 73.0,
+          "predictions": {
+            "cmcpor_expert": 62.71070738563465,
+            "p7_expert": 79.08283835055184,
+            "pooled_domain_indicator": 61.24861613362245,
+            "source_coefficient_regularized": 65.24549636784072,
+            "source_prediction_residual": 79.08283835055184,
+            "source_zero_shot": 79.08283835055184,
+            "target_only": 62.71070738563465
+          },
+          "prefix_size": 26,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2y",
+          "weights_after_update": {
+            "cmcpor": 0.1649737489025784,
+            "combined": 0.1714793176225313,
+            "p7": 0.16862568676715498,
+            "target_only": 0.4949212467077353
+          },
+          "weights_before_update": {
+            "cmcpor": 0.16518925086187194,
+            "combined": 0.17267360136962903,
+            "p7": 0.16656939518288308,
+            "target_only": 0.4955677525856159
+          }
+        },
+        {
+          "ensemble_absolute_error": 12.74466871704908,
+          "ensemble_prediction_before_update": 82.74466871704908,
+          "feature_arm": "B5",
+          "observed": 70.0,
+          "predictions": {
+            "cmcpor_expert": 81.33999436530722,
+            "p7_expert": 92.20519043414804,
+            "pooled_domain_indicator": 78.8471176548506,
+            "source_coefficient_regularized": 89.17263030699293,
+            "source_prediction_residual": 92.20519043414804,
+            "source_zero_shot": 92.20519043414804,
+            "target_only": 81.33999436530722
+          },
+          "prefix_size": 27,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "2z",
+          "weights_after_update": {
+            "cmcpor": 0.1657338595620396,
+            "combined": 0.17352557475694314,
+            "p7": 0.1635389869948984,
+            "target_only": 0.49720157868611886
+          },
+          "weights_before_update": {
+            "cmcpor": 0.1649737489025784,
+            "combined": 0.1714793176225313,
+            "p7": 0.16862568676715498,
+            "target_only": 0.4949212467077353
+          }
+        },
+        {
+          "ensemble_absolute_error": 15.33123335216905,
+          "ensemble_prediction_before_update": 77.33123335216905,
+          "feature_arm": "B5",
+          "observed": 62.0,
+          "predictions": {
+            "cmcpor_expert": 72.6182208717401,
+            "p7_expert": 88.77562863292871,
+            "pooled_domain_indicator": 84.55102320131607,
+            "source_coefficient_regularized": 81.90209692637538,
+            "source_prediction_residual": 88.77562863292871,
+            "source_zero_shot": 88.77562863292871,
+            "target_only": 72.6182208717401
+          },
+          "prefix_size": 28,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "4a",
+          "weights_after_update": {
+            "cmcpor": 0.16818994074522967,
+            "combined": 0.16946699158445774,
+            "p7": 0.1577732454346235,
+            "target_only": 0.504569822235689
+          },
+          "weights_before_update": {
+            "cmcpor": 0.1657338595620396,
+            "combined": 0.17352557475694314,
+            "p7": 0.1635389869948984,
+            "target_only": 0.49720157868611886
+          }
+        },
+        {
+          "ensemble_absolute_error": 20.636149930839863,
+          "ensemble_prediction_before_update": 68.63614993083986,
+          "feature_arm": "B5",
+          "observed": 48.0,
+          "predictions": {
+            "cmcpor_expert": 67.42725969585469,
+            "p7_expert": 79.25692794270344,
+            "pooled_domain_indicator": 63.54736007299881,
+            "source_coefficient_regularized": 61.2589358280572,
+            "source_prediction_residual": 79.25692794270344,
+            "source_zero_shot": 79.25692794270344,
+            "target_only": 67.42725969585469
+          },
+          "prefix_size": 29,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "4b",
+          "weights_after_update": {
+            "cmcpor": 0.19921829084152928,
+            "combined": 0.20312683663388276,
+            "p7": 0.0,
+            "target_only": 0.5976548725245879
+          },
+          "weights_before_update": {
+            "cmcpor": 0.16818994074522967,
+            "combined": 0.16946699158445774,
+            "p7": 0.1577732454346235,
+            "target_only": 0.504569822235689
+          }
+        },
+        {
+          "ensemble_absolute_error": 3.0615648832642677,
+          "ensemble_prediction_before_update": 72.06156488326427,
+          "feature_arm": "B5",
+          "observed": 69.0,
+          "predictions": {
+            "cmcpor_expert": 71.10198971647644,
+            "p7_expert": 74.17950573263691,
+            "pooled_domain_indicator": 75.82600936198187,
+            "source_coefficient_regularized": 71.82165656615723,
+            "source_prediction_residual": 74.17950573263691,
+            "source_zero_shot": 74.17950573263691,
+            "target_only": 71.10198971647644
+          },
+          "prefix_size": 30,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "4c",
+          "weights_after_update": {
+            "cmcpor": 0.19981006766861426,
+            "combined": 0.20075972932554298,
+            "p7": 0.0,
+            "target_only": 0.5994302030058428
+          },
+          "weights_before_update": {
+            "cmcpor": 0.19921829084152928,
+            "combined": 0.20312683663388276,
+            "p7": 0.0,
+            "target_only": 0.5976548725245879
+          }
+        },
+        {
+          "ensemble_absolute_error": 53.95430293822079,
+          "ensemble_prediction_before_update": 73.95430293822079,
+          "feature_arm": "B5",
+          "observed": 20.0,
+          "predictions": {
+            "cmcpor_expert": 73.56477530506329,
+            "p7_expert": 88.20172208589847,
+            "pooled_domain_indicator": 75.5050430792136,
+            "source_coefficient_regularized": 79.11225701239817,
+            "source_prediction_residual": 88.20172208589847,
+            "source_zero_shot": 88.20172208589847,
+            "target_only": 73.56477530506329
+          },
+          "prefix_size": 31,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "4d",
+          "weights_after_update": {
+            "cmcpor": 0.2000455105797734,
+            "combined": 0.19981795768090635,
+            "p7": 0.0,
+            "target_only": 0.6001365317393202
+          },
+          "weights_before_update": {
+            "cmcpor": 0.19981006766861426,
+            "combined": 0.20075972932554298,
+            "p7": 0.0,
+            "target_only": 0.5994302030058428
+          }
+        },
+        {
+          "ensemble_absolute_error": 0.4756367059565747,
+          "ensemble_prediction_before_update": 37.475636705956575,
+          "feature_arm": "B5",
+          "observed": 37.0,
+          "predictions": {
+            "cmcpor_expert": 37.378549684645236,
+            "p7_expert": 54.13190919570528,
+            "pooled_domain_indicator": 37.86442704240692,
+            "source_coefficient_regularized": 37.54261671123927,
+            "source_prediction_residual": 54.13190919570528,
+            "source_zero_shot": 54.13190919570528,
+            "target_only": 37.378549684645236
+          },
+          "prefix_size": 32,
+          "target": "isolated_yield_percent",
+          "test_substrate_id": "4e",
+          "weights_after_update": {
+            "cmcpor": 0.20010193876824428,
+            "combined": 0.19959224492702293,
+            "p7": 0.0,
+            "target_only": 0.6003058163047329
+          },
+          "weights_before_update": {
+            "cmcpor": 0.2000455105797734,
+            "combined": 0.19981795768090635,
+            "p7": 0.0,
+            "target_only": 0.6001365317393202
+          }
+        }
+      ],
+      "source_count": 27,
+      "source_domain": "fe-p7-cl",
+      "target_count": 33,
+      "target_domain": "cmcpor-fecl",
+      "target_only": {
+        "auc_mae": 489.6536218769727,
+        "count": 31,
+        "mae": 16.19384316888603
+      }
+    }
+  },
+  "feature_arm": "B5",
+  "planned_paired_pose_count": 13,
+  "primary_aryl_shared_canonical_compounds": {
+    "CCCCc1ccccc1N=[N+]=[N-]": {
+      "left_id": "1ah",
+      "right_id": "4b"
+    },
+    "COc1ccc(CCc2ccccc2N=[N+]=[N-])cc1": {
+      "left_id": "1d",
+      "right_id": "2d"
+    },
+    "COc1ccc(N=[N+]=[N-])c(CCc2ccccc2)c1": {
+      "left_id": "1k",
+      "right_id": "2w"
+    },
+    "Cc1ccc(N=[N+]=[N-])c(CCc2ccccc2)c1": {
+      "left_id": "1j",
+      "right_id": "2u"
+    },
+    "Cc1cccc(CCc2ccccc2)c1N=[N+]=[N-]": {
+      "left_id": "1i",
+      "right_id": "2r"
+    },
+    "Cc1cccc(CCc2ccccc2N=[N+]=[N-])c1": {
+      "left_id": "1c",
+      "right_id": "2g"
+    },
+    "Cc1ccccc1CCc1ccccc1N=[N+]=[N-]": {
+      "left_id": "1b",
+      "right_id": "2k"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCC1CC1": {
+      "left_id": "1aj",
+      "right_id": "4c"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1cc2ccccc2o1": {
+      "left_id": "1p",
+      "right_id": "2o"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1cc2ccccc2s1": {
+      "left_id": "1w",
+      "right_id": "2q"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1ccc(F)cc1": {
+      "left_id": "1g",
+      "right_id": "2c"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1ccc2ccccc2c1": {
+      "left_id": "1n",
+      "right_id": "2m"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1cccc(F)c1": {
+      "left_id": "1f",
+      "right_id": "2i"
+    }
+  },
+  "primary_aryl_shared_canonical_count": 13,
+  "schema_version": "pptl-bidirectional-report-v1",
+  "shared_canonical_compounds": {
+    "CCCCc1ccccc1N=[N+]=[N-]": {
+      "left_id": "1ah",
+      "right_id": "4b"
+    },
+    "COc1ccc(CCc2ccccc2N=[N+]=[N-])cc1": {
+      "left_id": "1d",
+      "right_id": "2d"
+    },
+    "COc1ccc(N=[N+]=[N-])c(CCc2ccccc2)c1": {
+      "left_id": "1k",
+      "right_id": "2w"
+    },
+    "Cc1ccc(N=[N+]=[N-])c(CCc2ccccc2)c1": {
+      "left_id": "1j",
+      "right_id": "2u"
+    },
+    "Cc1cccc(CCc2ccccc2)c1N=[N+]=[N-]": {
+      "left_id": "1i",
+      "right_id": "2r"
+    },
+    "Cc1cccc(CCc2ccccc2N=[N+]=[N-])c1": {
+      "left_id": "1c",
+      "right_id": "2g"
+    },
+    "Cc1ccccc1CCc1ccccc1N=[N+]=[N-]": {
+      "left_id": "1b",
+      "right_id": "2k"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCC1CC1": {
+      "left_id": "1aj",
+      "right_id": "4c"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1cc2ccccc2o1": {
+      "left_id": "1p",
+      "right_id": "2o"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1cc2ccccc2s1": {
+      "left_id": "1w",
+      "right_id": "2q"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1ccc(F)cc1": {
+      "left_id": "1g",
+      "right_id": "2c"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1ccc2ccccc2c1": {
+      "left_id": "1n",
+      "right_id": "2m"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1cccc(F)c1": {
+      "left_id": "1f",
+      "right_id": "2i"
+    }
+  },
+  "shared_canonical_count": 13,
+  "target": "isolated_yield_percent"
+}

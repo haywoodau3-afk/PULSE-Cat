@@ -1,0 +1,12 @@
+feature_arm,family,feature_definition,feature_count,role,pose_dependency,status
+B0,reference,Training-fold mean (no features),0,No-feature reference,none,diagnostic
+B1,RDKit descriptors,Six chemist-readable RDKit descriptors,6,Minimal 2D baseline,none,frozen
+B2,RDKit descriptors,Fifteen RDKit descriptors,15,Descriptor baseline,none,frozen
+B3,RDKit + Morgan,B2 + 128-bit radius-2 Morgan fingerprint,143,Reduced fingerprint,none,frozen
+B4,RDKit + Morgan,B2 + 256-bit radius-2 Morgan fingerprint,271,Dimension-matched 2D control,none,frozen
+B5,RDKit + Morgan,"B2 + 1,024-bit radius-2 Morgan fingerprint",1039,Full 2D reference,none,primary 2D reference
+P0,pose-only,Stage 2p pose block,248,Pose-only diagnostic,Stage 2p required,diagnostic
+P1,RDKit + pose,B1 + Stage 2p pose block,254,Minimal 2D plus pose,Stage 2p required,diagnostic
+P2,RDKit + Morgan + pose,B5 + raw Stage 2p pose block,1287,Legacy raw-pose diagnostic,Stage 2p required,diagnostic
+P3,RDKit + Morgan + compact pose,B5 + compact C1 geometry block,1083,Compact pose upgrade,Stage 2p required,conditional transfer tier
+P4,RDKit + Morgan + catalyst-aware pose,B5 + C1 geometry + 16-feature C2 catalyst interaction block,1099,Transfer-specific pose tier,Stage 2p and catalyst features required,conditional transfer tier

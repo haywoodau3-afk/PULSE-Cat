@@ -1,0 +1,9 @@
+candidate_id,branch,round,universe_hash,recommendation_hash,route_status,availability_status,safety_status,material_status,test_status,outcome_revealed,refit_status,notes
+CMC-A01,copilot,A,,,,,,,,,
+CMC-A02,copilot,A,,,,,,,,,
+CMC-A03,copilot,A,,,,,,,,,
+CMC-A04,copilot,A,,,,,,,,,
+CMC-B01,baseline,A,,,,,,,,,
+CMC-B02,baseline,A,,,,,,,,,
+CMC-B03,baseline,A,,,,,,,,,
+CMC-B04,baseline,A,,,,,,,,,

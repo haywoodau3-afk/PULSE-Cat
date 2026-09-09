@@ -1,0 +1,4 @@
+candidate_id,canonical_smiles,inchi_key,supplier,evidence_level,catalogue_number,region,pack,price,currency,lead_time_days,accessed_at,source_locator,source_hash,identity_match,route_enabled,chemist_reviewer,safety_reviewer,notes
+fixture-available,SMILES,KEY,A,E2,A-1,development,1 g,,,,2026-09-01,synthetic://a,synthetic,true,true,chemist,ehs,
+fixture-available,SMILES,KEY,B,E2,B-1,development,250 mg,,,,2026-09-01,synthetic://b,synthetic,true,true,chemist,ehs,
+fixture-blocked,SMILES,KEY,C,E4,C-1,development,,,,,,2026-09-01,synthetic://c,synthetic,false,false,chemist,,

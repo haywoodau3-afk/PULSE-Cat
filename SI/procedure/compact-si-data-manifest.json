@@ -1,0 +1,194 @@
+{
+  "artifacts": [
+    {
+      "bytes": 120329,
+      "description": "41 JSONL records",
+      "label": "P7 curated reaction records",
+      "path": "data/jacs_2025/stage2/curated-reaction-records.jsonl",
+      "sha256": "b05b91b28057172bd7b527d3135a81674a6beaa891b730b90b7182dac3027699"
+    },
+    {
+      "bytes": 290241,
+      "description": "50 JSONL records",
+      "label": "CMC-Por curated reaction records",
+      "path": "data/expansion/catalyst_rerun/cmcpor/stage2-records.jsonl",
+      "sha256": "0411a6b8264697f8b0e4a9b96111ac81ef055e397825a78dd74537aa1b97718a"
+    },
+    {
+      "bytes": 207250,
+      "description": "per-prefix summary",
+      "label": "P7 independent learning curves",
+      "path": "data/jacs_2025/scope_progression/learning-curve-summary.csv",
+      "sha256": "62f5c4a57ddcc51aa5a672ac36db04a851e9766b063253eea9e08747c9f995e4"
+    },
+    {
+      "bytes": 136073,
+      "description": "per-prefix summary",
+      "label": "CMC-Por independent learning curves",
+      "path": "data/expansion/catalyst_rerun/cmcpor_aryl_scope_progression/learning-curve-summary.csv",
+      "sha256": "6aa3c6eb93bf7548689bf2749e65537b5859a36dcdfdbd731f227aadc7537a6e"
+    },
+    {
+      "bytes": 268202,
+      "description": "B5/P3/P4 reciprocal rows",
+      "label": "PPTL transfer matrices",
+      "path": "data/expansion/pptl/matrix-ee-b5-p3-p4.json",
+      "sha256": "b6fbb0e6ab2f93a2e753e83346ea2fb44faccbce7ec48ec2e9962fdf4afe00b6"
+    },
+    {
+      "bytes": 448131,
+      "description": "B1-B5 guarded transfer",
+      "label": "PPTL 2D ladder matrix",
+      "path": "data/expansion/pptl/bidirectional-ee-2d-matrix.json",
+      "sha256": "8b6bf57dd1bcadf0b7ba840482aa078874ff4821412283ad36029b212f00f776"
+    },
+    {
+      "bytes": 273187,
+      "description": "P0-P2 guarded transfer",
+      "label": "PPTL pose ladder matrix",
+      "path": "data/expansion/pptl/bidirectional-ee-pose-matrix.json",
+      "sha256": "93ef64be3070f3165ea5ca10c1f107f30d40089fcd890c1dfa0913601f96161e"
+    },
+    {
+      "bytes": 7187,
+      "description": "historical versus AI route summary",
+      "label": "PPTL route comparison",
+      "path": "data/expansion/pptl/historical-vs-ai-progressive-comparison.json",
+      "sha256": "9cc685684ab205bf5867f1acf884b70028072813be57b09948adb114e2c03671"
+    },
+    {
+      "bytes": 3051,
+      "description": "scope and claim boundary",
+      "label": "PPTL freeze note",
+      "path": "docs/checkpoint-1-9-manuscript-freeze.md",
+      "sha256": "6c4fa4dc7e58cdc5ba39075d6d62491a4cba28e8ee10a2207c6d890e974177b9"
+    },
+    {
+      "bytes": 11152,
+      "description": "consolidated computational report",
+      "label": "PPTL final report",
+      "path": "data/expansion/pptl/pptl-final-report.md",
+      "sha256": "caf5ae15df563cf7f5aff472c28c281008ef9744c538f8744cbf82908672d390"
+    },
+    {
+      "bytes": 3920,
+      "description": "provenance and equal-budget comparison",
+      "label": "PPTL generator freeze",
+      "path": "data/expansion/pptl/generator-freeze-config.json",
+      "sha256": "0b3986df656e321580a61389a5fd77556cd5b2d64f6ff140d4efd4fc613a5a3e"
+    },
+    {
+      "bytes": 4739,
+      "description": "P7/CMC lock digest",
+      "label": "PPTL publication lock",
+      "path": "data/expansion/pptl/publication-ledger-lock.json",
+      "sha256": "9bc8b2260a38c76e0885ee50948a8b61caeeb557483f0dd4bbe4ede682f070c2"
+    },
+    {
+      "bytes": 3884,
+      "description": "manuscript experiment inventory",
+      "label": "SI experiment inventory",
+      "path": "docs/supporting-information/tables/si_experiment_inventory.csv",
+      "sha256": "4cd4a697cc0bd97b1f6ac434bed14531e0ac5c681fc44b0e895a946516fb7d21"
+    },
+    {
+      "bytes": 1294,
+      "description": "frozen representation definitions",
+      "label": "SI feature-arm definitions",
+      "path": "docs/supporting-information/tables/si_feature_arm_definitions.csv",
+      "sha256": "58b7f6dd5ae5db0dee01030db6a421a4ac2c18a3950184ed2ae4d6361d43b4f8"
+    },
+    {
+      "bytes": 5823,
+      "description": "reciprocal EE representation metrics",
+      "label": "SI representation progression",
+      "path": "docs/supporting-information/tables/si_representation_progression_ee.csv",
+      "sha256": "421e02129d27ff9472c88b8c5279ea06fa9e2457bc9eac558b263ccb0a60b57e"
+    },
+    {
+      "bytes": 17076,
+      "description": "independent estimator progression metrics",
+      "label": "SI independent progression metrics",
+      "path": "docs/supporting-information/tables/si_independent_progressive_model_metrics.csv",
+      "sha256": "24a4b5c1f509a47bed42caf23a165a2cfbb84823a89de06d23642c7c7e2d0261"
+    },
+    {
+      "bytes": 7610,
+      "description": "independent P7 held-out EE comparison",
+      "label": "SI held-out model comparison",
+      "path": "docs/supporting-information/tables/si_holdout_model_comparison_ee.csv",
+      "sha256": "1861a195f2c81706a66613a2c3e732f0dc1a1e9c244ed92fc9050e5d1ece986e"
+    },
+    {
+      "bytes": 17687,
+      "description": "combined Markdown tables",
+      "label": "SI model progression tables",
+      "path": "docs/supporting-information/tables/si_model_progression_tables.md",
+      "sha256": "0ab34105159d082295a94ffc710b2109cbb22cc9e43cc4b662723de83b8ed023"
+    },
+    {
+      "bytes": 23388,
+      "description": "reproducible table extraction script",
+      "label": "SI model progression table builder",
+      "path": "scripts/pptl/build_model_progression_tables.py",
+      "sha256": "9d7ebdaadbeebd4412ed1fcd0706ce4120837b7d1281527f3969ecbd535692e4"
+    },
+    {
+      "bytes": 29773,
+      "description": "generated SI artifact",
+      "label": "si_fig1_independent_learning_curves",
+      "path": "docs/supporting-information/figures/si_fig1_independent_learning_curves.svg",
+      "sha256": "b8e09988b63047e1a2b0de6a5c63d399cfc405b8fc6d16f32ebee58d7a28cf5d"
+    },
+    {
+      "bytes": 18303,
+      "description": "generated SI artifact",
+      "label": "si_fig2_model_variant_curves",
+      "path": "docs/supporting-information/figures/si_fig2_model_variant_curves.svg",
+      "sha256": "243553bffe8626b1335e97e57d0f5b303f23beca39a6c5aca2da68f19c1d17ff"
+    },
+    {
+      "bytes": 7847,
+      "description": "generated SI artifact",
+      "label": "si_fig3_representation_version_bars",
+      "path": "docs/supporting-information/figures/si_fig3_representation_version_bars.svg",
+      "sha256": "b357942576dd836749f31d86fb37b058a46b358f02342a45d5972a86f8267fe4"
+    },
+    {
+      "bytes": 20025,
+      "description": "generated SI artifact",
+      "label": "si_fig4_progressive_transfer_curves",
+      "path": "docs/supporting-information/figures/si_fig4_progressive_transfer_curves.svg",
+      "sha256": "89a8adfbeacb25c5389fa31cc9a5075f14b882db12fb4bcc0c7ab1f50dde92c2"
+    },
+    {
+      "bytes": 737603,
+      "description": "generated SI artifact",
+      "label": "si_fig5_pose_overlay_montage",
+      "path": "docs/supporting-information/figures/si_fig5_pose_overlay_montage.svg",
+      "sha256": "b2d96cf1f613e6fdc06e2cb57e868c79d7b7860d00564a799c7d8fcb1f29616a"
+    },
+    {
+      "bytes": 24043,
+      "description": "generated SI artifact",
+      "label": "si_substrate_smiles",
+      "path": "docs/supporting-information/tables/si_substrate_smiles.csv",
+      "sha256": "2627e0a7d12e41051597cdd89099ac94c68b2951937c0c70eb79ec47c4ab84bb"
+    },
+    {
+      "bytes": 3658,
+      "description": "generated SI artifact",
+      "label": "si_pose_overlay_index",
+      "path": "docs/supporting-information/tables/si_pose_overlay_index.csv",
+      "sha256": "fee75f8ff2f0fc89a1b4b0cf82da691dd6e7fbbf4ed4067a65023e62bc31a3d7"
+    }
+  ],
+  "directory_counts": {
+    "CMC-Por Stage 2pp SVG overlays": 50,
+    "P7 Stage 2pp SVG overlays": 41
+  },
+  "generated_at": "2026-09-03",
+  "schema_version": "supporting-information-manifest-v1",
+  "xyz_included": false,
+  "xyz_policy": "Large XYZ coordinate caches are intentionally excluded from this SI draft; compact pose-derived SVG/feature artifacts remain referenced."
+}

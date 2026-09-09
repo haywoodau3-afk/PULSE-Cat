@@ -1,0 +1,41 @@
+{
+  "prompt": "[N-]=[N+]=Nc1ccccc1*",
+  "requested_per_seed": 100,
+  "results": [
+    {
+      "seed": 1101,
+      "count": 128,
+      "unique": 60,
+      "parseable": 128,
+      "aryl_azide": 128
+    },
+    {
+      "seed": 2202,
+      "count": 128,
+      "unique": 65,
+      "parseable": 128,
+      "aryl_azide": 128
+    },
+    {
+      "seed": 3303,
+      "count": 128,
+      "unique": 58,
+      "parseable": 128,
+      "aryl_azide": 128
+    },
+    {
+      "seed": 4404,
+      "count": 128,
+      "unique": 60,
+      "parseable": 128,
+      "aryl_azide": 128
+    },
+    {
+      "seed": 5505,
+      "count": 128,
+      "unique": 66,
+      "parseable": 127,
+      "aryl_azide": 127
+    }
+  ]
+}

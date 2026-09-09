@@ -1,0 +1,41 @@
+{
+  "baseline_arm": "B5",
+  "directions": {
+    "cmcpor_to_p7_aryl": {
+      "intervals": {
+        "auc_delta_pose_minus_b5": {
+          "lower_2.5": -15.093949790029937,
+          "mean": -13.19130002904902,
+          "upper_97.5": -11.302977469340757
+        },
+        "mae_delta_pose_minus_b5": {
+          "lower_2.5": -0.3999608082210321,
+          "mean": -0.341726239533276,
+          "upper_97.5": -0.28243771067891354
+        }
+      },
+      "route_count": 500
+    },
+    "p7_to_cmcpor_aryl": {
+      "intervals": {
+        "auc_delta_pose_minus_b5": {
+          "lower_2.5": -15.190699829500026,
+          "mean": -13.373342656993216,
+          "upper_97.5": -11.682339696817282
+        },
+        "mae_delta_pose_minus_b5": {
+          "lower_2.5": -0.41463513348070863,
+          "mean": -0.34706023402402847,
+          "upper_97.5": -0.27959694686185804
+        }
+      },
+      "route_count": 500
+    }
+  },
+  "policy": "matched route seeds; negative delta favors pose",
+  "pose_arm": "P3",
+  "replicates": 2000,
+  "schema_version": "pptl-route-incremental-bootstrap-v1",
+  "seed": 20260901,
+  "target": "ee_percent"
+}

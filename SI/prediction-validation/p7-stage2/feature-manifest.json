@@ -1,0 +1,165 @@
+{
+  "feature_blocks": [
+    {
+      "block_id": "tier1_physchem",
+      "dependencies": [
+        "feature_ready reaction records",
+        "RDKit"
+      ],
+      "expected_feature_count_range": [
+        20,
+        50
+      ],
+      "feature_families": [
+        "molecular_size",
+        "element_counts",
+        "heteroatom_counts",
+        "ring_aromaticity",
+        "rotatable_bonds",
+        "formal_charge",
+        "logp_tpsa",
+        "candidate_site_type_counts"
+      ],
+      "granularity": "record",
+      "output_path": "data/jacs_2025/stage2/features/tier1.jsonl",
+      "status": "implemented"
+    },
+    {
+      "block_id": "tier1_fingerprint",
+      "dependencies": [
+        "feature_ready reaction records",
+        "RDKit"
+      ],
+      "expected_feature_count_range": [
+        1024,
+        2048
+      ],
+      "feature_families": [
+        "Morgan/ECFP bit vector"
+      ],
+      "granularity": "record",
+      "output_path": "data/jacs_2025/stage2/features/tier1.jsonl",
+      "parameters": {
+        "n_bits": 2048,
+        "radius": 2,
+        "use_chirality": true
+      },
+      "status": "implemented"
+    },
+    {
+      "block_id": "candidate_site_features",
+      "dependencies": [
+        "feature_ready reaction records",
+        "reported/candidate C-H site curation",
+        "RDKit"
+      ],
+      "expected_feature_count_range": [
+        20,
+        100
+      ],
+      "feature_families": [
+        "atom_identity",
+        "hybridization",
+        "aromaticity",
+        "ring_membership",
+        "hydrogen_count",
+        "neighbor_atom_environment",
+        "topological_distance_from_nitrene_n",
+        "benzylic_allylic_heteroaryl_tags",
+        "local_substituent_environment"
+      ],
+      "granularity": "candidate_site",
+      "output_path": "data/jacs_2025/stage2/features/tier1.jsonl",
+      "status": "implemented"
+    },
+    {
+      "block_id": "pose_summary",
+      "dependencies": [
+        "Stage 1 smoke/panel reports"
+      ],
+      "expected_feature_count_range": [
+        50,
+        100
+      ],
+      "feature_families": [
+        "retained_pose_count",
+        "UFF_score_distribution",
+        "clash_screen_counts",
+        "core_RMSD_summary",
+        "Fe_N_distance_summary",
+        "pose_selection_bucket_counts"
+      ],
+      "granularity": "pose_aggregate",
+      "output_path": "data/jacs_2025/stage2/features/pose-summary.jsonl",
+      "status": "implemented"
+    },
+    {
+      "aggregation_statistics": [
+        "count",
+        "min",
+        "q05",
+        "median",
+        "mean",
+        "q95",
+        "max",
+        "std"
+      ],
+      "block_id": "pose_interaction",
+      "dependencies": [
+        "feature_ready reaction records",
+        "Stage 1 retained frozen-core assemblies",
+        "reported/candidate C-H site atom maps"
+      ],
+      "expected_feature_count_range": [
+        50,
+        200
+      ],
+      "feature_families": [
+        "fe_n_distance_angstrom",
+        "nitrene_n_to_reported_c_distance_angstrom",
+        "nitrene_n_to_transferred_h_distance_angstrom",
+        "fe_n_reported_c_angle_degrees",
+        "nitrene_n_reported_c_transferred_h_angle_degrees",
+        "reported_c_to_porphyrin_plane_distance_angstrom",
+        "substrate_centroid_to_fe_distance_angstrom",
+        "minimum_core_substrate_distance_angstrom",
+        "core_substrate_contact_count_by_distance_bin"
+      ],
+      "granularity": "pose_and_pose_aggregate",
+      "output_path": "data/jacs_2025/stage2/features/pose-interaction.jsonl",
+      "status": "implemented"
+    },
+    {
+      "block_id": "bde_features",
+      "dependencies": [
+        "candidate_site_features",
+        "GFN2-xTB/ALPB(ether)",
+        "BDE calibration panel"
+      ],
+      "expected_feature_count_range": [
+        5,
+        20
+      ],
+      "feature_families": [
+        "absolute_BDE",
+        "within_substrate_BDE_rank",
+        "BDE_competition_gap",
+        "calibration_status",
+        "calibration_residual_or_uncertainty"
+      ],
+      "granularity": "candidate_site",
+      "output_path": "data/jacs_2025/stage2/features/bde.jsonl",
+      "status": "deferred"
+    }
+  ],
+  "feature_policy": "provenance_tracked_blocks_with_separate_granularity",
+  "reporting_requirements": [
+    "substrate_count",
+    "pose_count",
+    "family_split",
+    "feature_provenance",
+    "uncertainty_method",
+    "BDE_calibration_status"
+  ],
+  "schema_version": "stage2-feature-manifest-v1"
+}

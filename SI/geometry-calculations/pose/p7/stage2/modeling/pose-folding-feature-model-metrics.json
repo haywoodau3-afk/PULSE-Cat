@@ -1,0 +1,84 @@
+{
+  "model_name": "stage2-alt",
+  "model_definition": "Stage 2 pose-summary plus pose-interaction features augmented with high-level substrate-folding and conformational-diversity descriptors",
+  "augmented_pose_summary_path": "data/jacs_2025/stage2/features/pose-summary-with-folding.jsonl",
+  "augmented_pose_summary_rows": 40,
+  "folding_feature_concept": [
+    "3D heavy-atom cloud shape: radius of gyration, max distance, compactness, PCA anisotropy/asphericity/acylindricity.",
+    "Graph-aware foldback: long topological-distance heavy-atom pairs that become close in 3D.",
+    "Low-energy and high-energy retained pose buckets summarized separately, with high-minus-low deltas and centroid separation."
+  ],
+  "folding_feature_path": "data/jacs_2025/stage2/features/pose-folding-features.jsonl",
+  "folding_feature_rows": 40,
+  "folding_view_dir": "data/jacs_2025/stage2/folding-views",
+  "models": {
+    "folding": {
+      "feature_count": 384,
+      "mae": 14.561813070623737,
+      "median_abs_error": 9.503507506995057,
+      "r2": 0.0735821702089241,
+      "record_count": 40,
+      "rmse": 22.384926375920973,
+      "selected_alpha": 10.0,
+      "selected_l1_ratio": 0.2,
+      "within_10_count": 21,
+      "within_15_count": 28,
+      "within_20_count": 34
+    },
+    "summary": {
+      "feature_count": 76,
+      "mae": 13.0271075092945,
+      "median_abs_error": 10.720839248539427,
+      "r2": 0.2547354962924381,
+      "record_count": 40,
+      "rmse": 20.077398369747755,
+      "selected_alpha": 1.0,
+      "selected_l1_ratio": 1.0,
+      "within_10_count": 19,
+      "within_15_count": 31,
+      "within_20_count": 33
+    },
+    "summary_folding": {
+      "feature_count": 460,
+      "mae": 14.739218701476313,
+      "median_abs_error": 9.02006744995552,
+      "r2": 0.05336206796702303,
+      "record_count": 40,
+      "rmse": 22.6278957532279,
+      "selected_alpha": 10.0,
+      "selected_l1_ratio": 0.2,
+      "within_10_count": 23,
+      "within_15_count": 28,
+      "within_20_count": 33
+    },
+    "summary_interaction": {
+      "feature_count": 676,
+      "mae": 14.534771919096135,
+      "median_abs_error": 11.01646765748075,
+      "r2": 0.10712890263678487,
+      "record_count": 40,
+      "rmse": 21.975896465283657,
+      "selected_alpha": 10.0,
+      "selected_l1_ratio": 0.2,
+      "within_10_count": 18,
+      "within_15_count": 29,
+      "within_20_count": 34
+    },
+    "summary_interaction_folding": {
+      "feature_count": 1060,
+      "mae": 13.459732845167474,
+      "median_abs_error": 7.398225175162402,
+      "r2": 0.11153715195669334,
+      "record_count": 40,
+      "rmse": 21.921580058805613,
+      "selected_alpha": 10.0,
+      "selected_l1_ratio": 0.2,
+      "within_10_count": 22,
+      "within_15_count": 29,
+      "within_20_count": 35
+    }
+  },
+  "prediction_table": "data/jacs_2025/stage2/modeling/pose-folding-feature-loo-predictions.csv",
+  "schema_version": "stage2-pose-folding-feature-experiment-v1",
+  "status": "summary_point_complete"
+}

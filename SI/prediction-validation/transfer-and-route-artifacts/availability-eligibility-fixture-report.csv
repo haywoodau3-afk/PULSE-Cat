@@ -1,0 +1,3 @@
+candidate_id,supplier_count,evidence_levels,experimentally_eligible,reasons
+fixture-available,2,E2,true,
+fixture-blocked,1,E4,false,insufficient_availability_evidence;identity_not_confirmed;route_not_accepted

@@ -1,0 +1,200 @@
+{
+  "elastic_net": {
+    "bayesian_bootstrap_metric_intervals": {
+      "draw_count": 20000,
+      "mae": {
+        "ci95_high": 23.896725935374597,
+        "ci95_low": 7.8235171822023295,
+        "mean": 14.72449394653645,
+        "median": 14.355843981230596
+      },
+      "mean_error": {
+        "ci95_high": 15.243554930984175,
+        "ci95_low": -7.737493796951672,
+        "mean": 3.1869834621745228,
+        "median": 2.965824696612871
+      },
+      "method": "bayesian_bootstrap_over_oof_residual_records",
+      "r2": {
+        "ci95_high": 0.6421171880971012,
+        "ci95_low": -0.275404093164169,
+        "mean": 0.3316167151902739,
+        "median": 0.3800527397703335
+      },
+      "random_seed": 20260730,
+      "rmse": {
+        "ci95_high": 30.062600806625447,
+        "ci95_low": 12.3355116767862,
+        "mean": 20.518959696289315,
+        "median": 20.262055273867503
+      }
+    },
+    "calibration_summary": {
+      "actual_on_predicted_intercept": -19.586461276178074,
+      "actual_on_predicted_slope": 1.227482750258924,
+      "observed_vs_predicted_pearson_r": 0.6618269419134463
+    },
+    "implementation": "local_coordinate_descent",
+    "loo_metrics": {
+      "mae": 14.747938581027702,
+      "max_abs_error": 48.600004476308904,
+      "r2": 0.40891709224531037,
+      "rmse": 21.05371271687307
+    },
+    "nonzero_coefficient_count": 69,
+    "residual_summary": {
+      "abs_error_median": 8.948966594952282,
+      "abs_error_q75": 23.961458962638847,
+      "abs_error_q90": 36.57155068029793,
+      "mean_error": 3.246429317842806,
+      "median_error": -1.7651480545105613,
+      "residual_q05": -22.71177782197027,
+      "residual_q25": -5.4640452495278105,
+      "residual_q75": 13.475919073838284,
+      "residual_q95": 36.08303331659348,
+      "residual_std": 21.72688780413146,
+      "within_10_ee_fraction": 0.5,
+      "within_20_ee_fraction": 0.6666666666666666
+    },
+    "selected_hyperparameters": {
+      "alpha": 1.0,
+      "l1_ratio": 0.8,
+      "selection_loo_mae": 14.747938581027702
+    },
+    "top_coefficients": [
+      {
+        "coefficient": -37715.263390449276,
+        "feature": "pose_summary.selected_pairwise_heavy_atom_rmsd_min"
+      },
+      {
+        "coefficient": 799.3623850656597,
+        "feature": "pose_interaction.reported_c_to_transferred_h_distance_angstrom.q95"
+      },
+      {
+        "coefficient": -43.73391265438456,
+        "feature": "pose_interaction.core_substrate_covalent_floor_clash_count.mean"
+      },
+      {
+        "coefficient": -10.064303013425226,
+        "feature": "pose_interaction.core_substrate_distance_mean.std"
+      },
+      {
+        "coefficient": -8.587046664687886,
+        "feature": "pose_interaction.reported_c_to_core_distance_mean.q95"
+      },
+      {
+        "coefficient": -5.931097523116946,
+        "feature": "pose_interaction.reported_c_to_core_distance_mean.q05"
+      },
+      {
+        "coefficient": -5.816589803062162,
+        "feature": "pose_interaction.core_substrate_covalent_floor_clash_count.std"
+      },
+      {
+        "coefficient": -5.656349297466689,
+        "feature": "pose_interaction.fe_to_reported_c_distance_angstrom.mean"
+      },
+      {
+        "coefficient": -5.6395700506157,
+        "feature": "pose_interaction.reported_c_to_core_distance_count_lt_3p0_angstrom.max"
+      },
+      {
+        "coefficient": 5.247292512055011,
+        "feature": "pose_summary.clash_screen_minimum_core_substrate_distance_min"
+      },
+      {
+        "coefficient": -4.645550477158891,
+        "feature": "pose_interaction.reported_c_to_core_distance_max.q95"
+      },
+      {
+        "coefficient": -4.333951240739522,
+        "feature": "pose_interaction.reported_c_to_porphyrin_plane_distance_angstrom.q95"
+      },
+      {
+        "coefficient": 4.190019343283399,
+        "feature": "pose_interaction.reported_c_to_porphyrin_plane_signed_distance_angstrom.q05"
+      },
+      {
+        "coefficient": -2.939243884773815,
+        "feature": "pose_interaction.fe_to_reported_c_distance_angstrom.q95"
+      },
+      {
+        "coefficient": -2.9162944113719806,
+        "feature": "pose_interaction.reported_c_to_core_distance_max.q05"
+      },
+      {
+        "coefficient": 2.7095000038398913,
+        "feature": "tier1_physchem.candidate_site_count_benzylic"
+      },
+      {
+        "coefficient": -2.648757739122156,
+        "feature": "pose_interaction.reported_c_to_porphyrin_plane_distance_angstrom.q05"
+      },
+      {
+        "coefficient": -2.630290157658485,
+        "feature": "pose_interaction.cl_to_reported_c_distance_angstrom.q95"
+      },
+      {
+        "coefficient": 2.544651784033567,
+        "feature": "pose_interaction.reported_c_to_porphyrin_plane_signed_distance_angstrom.q95"
+      },
+      {
+        "coefficient": 1.9532699016626816,
+        "feature": "pose_interaction.nearest_core_substrate_distance.median"
+      },
+      {
+        "coefficient": -1.8337342679901683,
+        "feature": "stage3a_alt_hetero_site.reported_is_noncanonical_site"
+      },
+      {
+        "coefficient": 1.6275924201228733,
+        "feature": "pose_interaction.transferred_h_to_core_distance_count_2p5_3p0_angstrom.max"
+      },
+      {
+        "coefficient": -1.5620425822585198,
+        "feature": "pose_interaction.transferred_h_to_core_distance_max.q05"
+      },
+      {
+        "coefficient": 1.3989879980445232,
+        "feature": "reported_site.carbon_neighbor_count"
+      },
+      {
+        "coefficient": -1.3290596739226073,
+        "feature": "reported_site.hetero_neighbor_count"
+      }
+    ]
+  },
+  "feature_count": 790,
+  "feature_policy": "stage2_seed_baseline_plus_graph_only_heteroatom_reported_vs_competitor_site_rules",
+  "matrix_path": "data/jacs_2025/stage3/model-comparison/stage3a_alt_hetero_site_competition-matrix.csv",
+  "mean_baseline": {
+    "loo_metrics": {
+      "mae": 24.63636363636363,
+      "max_abs_error": 74.81818181818181,
+      "r2": -0.19008264462809876,
+      "rmse": 29.87397773070311
+    },
+    "residual_summary": {
+      "abs_error_median": 23.36363636363636,
+      "abs_error_q75": 25.590909090909093,
+      "abs_error_q90": 28.509090909090908,
+      "mean_error": 0.0,
+      "median_error": -9.727272727272727,
+      "residual_q05": -27.018181818181816,
+      "residual_q25": -24.727272727272727,
+      "residual_q75": 17.818181818181817,
+      "residual_q95": 47.818181818181785,
+      "residual_std": 31.20235210460109,
+      "within_10_ee_fraction": 0.16666666666666666,
+      "within_20_ee_fraction": 0.25
+    }
+  },
+  "nonconstant_feature_count": 556,
+  "predictions_path": "data/jacs_2025/stage3/model-comparison/stage3a_alt_hetero_site_competition-predictions.csv",
+  "record_count": 12,
+  "report_path": "data/jacs_2025/stage3/model-comparison/stage3a_alt_hetero_site_competition-report.json",
+  "schema_version": "stage3a-seed-ee-elastic-net-report-v1",
+  "status": "seed_pilot_model_comparison_not_predictive_claim",
+  "target": "ee_percent",
+  "validation": "leave_one_out_cv_with_seed_level_hyperparameter_selection"
+}

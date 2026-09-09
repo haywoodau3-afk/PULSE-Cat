@@ -1,0 +1,783 @@
+{
+  "actionability": {
+    "conservative_advance_count": 3,
+    "joined_predictions": [
+      {
+        "conservative_advance": false,
+        "ee_prediction": 65.76092244511105,
+        "observed_actionable": false,
+        "point_predicted_actionable": false,
+        "split_id": "family:alkyl-aryl-chain",
+        "target_substrate_id": "1ah",
+        "yield_prediction": 80.98625178139186
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 82.20319950679914,
+        "observed_actionable": false,
+        "point_predicted_actionable": true,
+        "split_id": "family:alkyl-aryl-chain",
+        "target_substrate_id": "1ai",
+        "yield_prediction": 87.88154308413286
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 68.58762196375575,
+        "observed_actionable": false,
+        "point_predicted_actionable": false,
+        "split_id": "family:branched-diaryl-alkyl",
+        "target_substrate_id": "1ao",
+        "yield_prediction": 69.88644065315316
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 66.33520025597247,
+        "observed_actionable": false,
+        "point_predicted_actionable": false,
+        "split_id": "family:carbonyl-alkyl-aryl",
+        "target_substrate_id": "1ae",
+        "yield_prediction": 94.23514306950923
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 70.29846473652563,
+        "observed_actionable": false,
+        "point_predicted_actionable": false,
+        "split_id": "family:carbonyl-alkyl-aryl",
+        "target_substrate_id": "1af",
+        "yield_prediction": 87.25298602676968
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 73.19914249763245,
+        "observed_actionable": true,
+        "point_predicted_actionable": false,
+        "split_id": "family:carbonyl-alkyl-aryl",
+        "target_substrate_id": "1ag",
+        "yield_prediction": 89.70328095629425
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 87.59762453867968,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:carbonyl-heterocycle-fused",
+        "target_substrate_id": "1u",
+        "yield_prediction": 88.3604844844277
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 61.31015921107273,
+        "observed_actionable": false,
+        "point_predicted_actionable": false,
+        "split_id": "family:cycloalkyl-alkyl-aryl",
+        "target_substrate_id": "1aj",
+        "yield_prediction": 83.88099152984627
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 71.57675839027189,
+        "observed_actionable": false,
+        "point_predicted_actionable": false,
+        "split_id": "family:cycloalkyl-alkyl-aryl",
+        "target_substrate_id": "1ak",
+        "yield_prediction": 85.78135164627513
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 71.75173620609118,
+        "observed_actionable": false,
+        "point_predicted_actionable": false,
+        "split_id": "family:cycloalkyl-alkyl-aryl",
+        "target_substrate_id": "1al",
+        "yield_prediction": 85.71140797034806
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 72.93543161740256,
+        "observed_actionable": false,
+        "point_predicted_actionable": false,
+        "split_id": "family:cycloalkyl-aryl",
+        "target_substrate_id": "1am",
+        "yield_prediction": 94.52362113686468
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 79.99083075385529,
+        "observed_actionable": true,
+        "point_predicted_actionable": false,
+        "split_id": "family:diaryl-ethyl-aryl-substituted",
+        "target_substrate_id": "1b",
+        "yield_prediction": 81.35984267893218
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 83.04914244674025,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:diaryl-ethyl-aryl-substituted",
+        "target_substrate_id": "1c",
+        "yield_prediction": 82.69196055219831
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 88.24276546587693,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:diaryl-ethyl-aryl-substituted",
+        "target_substrate_id": "1d",
+        "yield_prediction": 79.17383465990582
+      },
+      {
+        "conservative_advance": true,
+        "ee_prediction": 97.4905334715578,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:diaryl-ethyl-aryl-substituted",
+        "target_substrate_id": "1e",
+        "yield_prediction": 84.69169435076137
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 88.40793630860087,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:diaryl-ethyl-aryl-substituted",
+        "target_substrate_id": "1f",
+        "yield_prediction": 86.67917305985259
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 92.11692255574313,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:diaryl-ethyl-aryl-substituted",
+        "target_substrate_id": "1g",
+        "yield_prediction": 86.77994070732123
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 90.68453171978024,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:diaryl-ethyl-aryl-substituted",
+        "target_substrate_id": "1h",
+        "yield_prediction": 87.59723989739285
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 84.76091959385818,
+        "observed_actionable": false,
+        "point_predicted_actionable": true,
+        "split_id": "family:diaryl-ethyl-aryl-substituted",
+        "target_substrate_id": "1i",
+        "yield_prediction": 80.07942609385276
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 72.93611128411946,
+        "observed_actionable": true,
+        "point_predicted_actionable": false,
+        "split_id": "family:diaryl-ethyl-aryl-substituted",
+        "target_substrate_id": "1j",
+        "yield_prediction": 81.14384718652674
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 70.40493650954527,
+        "observed_actionable": true,
+        "point_predicted_actionable": false,
+        "split_id": "family:diaryl-ethyl-aryl-substituted",
+        "target_substrate_id": "1k",
+        "yield_prediction": 75.66814148256043
+      },
+      {
+        "conservative_advance": true,
+        "ee_prediction": 98.81616597754913,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:diaryl-ethyl-aryl-substituted",
+        "target_substrate_id": "1l",
+        "yield_prediction": 85.05870763478237
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 86.37725253962779,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:diaryl-ethyl-aryl-substituted",
+        "target_substrate_id": "1m",
+        "yield_prediction": 85.88754675630665
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 89.15190438908867,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:diaryl-ethyl-parent",
+        "target_substrate_id": "1a",
+        "yield_prediction": 90.18295053002765
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 85.6379532998543,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:nitrogen-heteroaryl",
+        "target_substrate_id": "1aa",
+        "yield_prediction": 80.49250772543132
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 68.84414762045401,
+        "observed_actionable": true,
+        "point_predicted_actionable": false,
+        "split_id": "family:nitrogen-heteroaryl",
+        "target_substrate_id": "1ab",
+        "yield_prediction": 89.550380877802
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 82.6496925761836,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:oxygen-heteroaryl",
+        "target_substrate_id": "1o",
+        "yield_prediction": 89.27976104823125
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 85.80254041103679,
+        "observed_actionable": false,
+        "point_predicted_actionable": true,
+        "split_id": "family:oxygen-heteroaryl-fused",
+        "target_substrate_id": "1p",
+        "yield_prediction": 92.27580279588513
+      },
+      {
+        "conservative_advance": true,
+        "ee_prediction": 96.77272997558889,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:oxygen-heteroaryl-fused",
+        "target_substrate_id": "1q",
+        "yield_prediction": 96.52569872249384
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 90.85090276253875,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:oxygen-heterocycle-fused",
+        "target_substrate_id": "1r",
+        "yield_prediction": 85.78332899028709
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 85.85212740591668,
+        "observed_actionable": false,
+        "point_predicted_actionable": true,
+        "split_id": "family:oxygen-heterocycle-fused",
+        "target_substrate_id": "1s",
+        "yield_prediction": 83.69355349724361
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 92.98489898454478,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:oxygen-heterocycle-fused",
+        "target_substrate_id": "1t",
+        "yield_prediction": 84.95613531842426
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 86.53897807403838,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:polycyclic-aryl",
+        "target_substrate_id": "1n",
+        "yield_prediction": 91.80768124037249
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 58.89181574191074,
+        "observed_actionable": false,
+        "point_predicted_actionable": false,
+        "split_id": "family:silyl-alkyl-aryl",
+        "target_substrate_id": "1ac",
+        "yield_prediction": 62.74517010685079
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 83.01019848966003,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:sulfur-heteroaryl",
+        "target_substrate_id": "1v",
+        "yield_prediction": 81.92517267960278
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 81.55092407220866,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:sulfur-heteroaryl-fused",
+        "target_substrate_id": "1w",
+        "yield_prediction": 89.13224585705188
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 86.7606512262644,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:sulfur-heteroaryl-fused",
+        "target_substrate_id": "1x",
+        "yield_prediction": 79.37799328045081
+      },
+      {
+        "conservative_advance": false,
+        "ee_prediction": 89.62869293726702,
+        "observed_actionable": true,
+        "point_predicted_actionable": true,
+        "split_id": "family:sulfur-heterocycle-fused",
+        "target_substrate_id": "1y",
+        "yield_prediction": 93.04588397089427
+      }
+    ],
+    "model_name": "elastic_net",
+    "observed_actionable_count": 25,
+    "point_actionable_count": 24,
+    "point_threshold_metrics": {
+      "accuracy": 0.7631578947368421,
+      "false_negative": 5,
+      "false_positive": 4,
+      "false_positive_rate": 0.3076923076923077,
+      "precision": 0.8333333333333334,
+      "recall": 0.8,
+      "specificity": 0.6923076923076923,
+      "threshold": 0.5,
+      "true_negative": 9,
+      "true_positive": 20
+    },
+    "record_count": 38
+  },
+  "domain": {
+    "catalyst_id": "fe-p7-cl",
+    "condition_policy": "published JACS conditions encoded as temperature and condition-set features",
+    "cross_catalyst_transfer": false
+  },
+  "excluded_records": [
+    {
+      "reason": "unresolved_ee_label",
+      "substrate_id": "1ad"
+    },
+    {
+      "reason": "not_applicable_ee",
+      "substrate_id": "1an"
+    },
+    {
+      "reason": "out_of_domain_catalyst",
+      "substrate_id": "1z"
+    }
+  ],
+  "feature_count": 1083,
+  "feature_set": "stage2p_pose_aware_plus_condition_features",
+  "inner_selection": "leave-one-family-out within each outer training partition",
+  "locked_incumbent": "elastic_net",
+  "modelable_record_count": 38,
+  "models": {
+    "elastic_net": {
+      "abs_error_summary": {
+        "mean": 9.627257727160446,
+        "median": 7.006039374662244,
+        "q05": 0.6042165474323902,
+        "q95": 26.422789265224473,
+        "std": 8.839675211660822
+      },
+      "abstention_count": 9,
+      "ee_threshold_metrics": {
+        "accuracy": 0.7894736842105263,
+        "false_negative": 5,
+        "false_positive": 3,
+        "false_positive_rate": 0.25,
+        "precision": 0.875,
+        "recall": 0.8076923076923077,
+        "specificity": 0.75,
+        "threshold": 80.0,
+        "true_negative": 9,
+        "true_positive": 21
+      },
+      "in_domain_count": 29,
+      "interval_80_coverage": 0.8157894736842105,
+      "interval_95_coverage": 0.9736842105263158,
+      "mae": 9.627257727160446,
+      "mean_error": 0.9148017884927513,
+      "r2": 0.31447182353457503,
+      "residual_summary": {
+        "mean": 0.9148017884927513,
+        "median": -0.6986805156850338,
+        "q05": -22.443564932066668,
+        "q95": 25.272474091991647,
+        "std": 13.13276225407369
+      },
+      "rmse": 12.991059893026394,
+      "target_count": 38,
+      "within_10_count": 25,
+      "within_10_fraction": 0.6578947368421053,
+      "within_15_count": 28,
+      "within_15_fraction": 0.7368421052631579,
+      "within_20_count": 32,
+      "within_20_fraction": 0.8421052631578947
+    },
+    "median_baseline": {
+      "abs_error_summary": {
+        "mean": 12.0,
+        "median": 5.0,
+        "q05": 0.8500000000000001,
+        "q95": 40.74999999999999,
+        "std": 14.14356887566008
+      },
+      "abstention_count": 9,
+      "ee_threshold_metrics": {
+        "accuracy": 0.6842105263157895,
+        "false_negative": 0,
+        "false_positive": 12,
+        "false_positive_rate": 1.0,
+        "precision": 0.6842105263157895,
+        "recall": 1.0,
+        "specificity": 0.0,
+        "threshold": 80.0,
+        "true_negative": 0,
+        "true_positive": 26
+      },
+      "in_domain_count": 29,
+      "interval_80_coverage": 0.7894736842105263,
+      "interval_95_coverage": 0.9736842105263158,
+      "mae": 12.0,
+      "mean_error": 8.631578947368421,
+      "r2": -0.37609741963976795,
+      "residual_summary": {
+        "mean": 8.631578947368421,
+        "median": 0.0,
+        "q05": -7.15,
+        "q95": 40.74999999999999,
+        "std": 16.474666961538215
+      },
+      "rmse": 18.405877207823423,
+      "target_count": 38,
+      "within_10_count": 26,
+      "within_10_fraction": 0.6842105263157895,
+      "within_15_count": 27,
+      "within_15_fraction": 0.7105263157894737,
+      "within_20_count": 29,
+      "within_20_fraction": 0.7631578947368421
+    },
+    "nearest_neighbour": {
+      "abs_error_summary": {
+        "mean": 11.394736842105264,
+        "median": 3.0,
+        "q05": 0.0,
+        "q95": 42.0,
+        "std": 13.575692653045639
+      },
+      "abstention_count": 9,
+      "ee_threshold_metrics": {
+        "accuracy": 0.7631578947368421,
+        "false_negative": 2,
+        "false_positive": 7,
+        "false_positive_rate": 0.5833333333333334,
+        "precision": 0.7741935483870968,
+        "recall": 0.9230769230769231,
+        "specificity": 0.4166666666666667,
+        "threshold": 80.0,
+        "true_negative": 5,
+        "true_positive": 24
+      },
+      "in_domain_count": 29,
+      "interval_80_coverage": 0.8421052631578947,
+      "interval_95_coverage": 0.9736842105263158,
+      "mae": 11.394736842105264,
+      "mean_error": 3.1842105263157894,
+      "r2": -0.2563229093118573,
+      "residual_summary": {
+        "mean": 3.1842105263157894,
+        "median": 0.5,
+        "q05": -23.2,
+        "q95": 31.799999999999983,
+        "std": 17.528132234501097
+      },
+      "rmse": 17.586627695047465,
+      "target_count": 38,
+      "within_10_count": 24,
+      "within_10_fraction": 0.631578947368421,
+      "within_15_count": 26,
+      "within_15_fraction": 0.6842105263157895,
+      "within_20_count": 30,
+      "within_20_fraction": 0.7894736842105263
+    },
+    "ridge_regression": {
+      "abs_error_summary": {
+        "mean": 11.243705957967174,
+        "median": 7.521304761717069,
+        "q05": 0.9540168784257909,
+        "q95": 34.17389631345809,
+        "std": 10.689219400103813
+      },
+      "abstention_count": 9,
+      "ee_threshold_metrics": {
+        "accuracy": 0.7368421052631579,
+        "false_negative": 8,
+        "false_positive": 2,
+        "false_positive_rate": 0.16666666666666666,
+        "precision": 0.9,
+        "recall": 0.6923076923076923,
+        "specificity": 0.8333333333333334,
+        "threshold": 80.0,
+        "true_negative": 10,
+        "true_positive": 18
+      },
+      "in_domain_count": 29,
+      "interval_80_coverage": 0.8157894736842105,
+      "interval_95_coverage": 0.9210526315789473,
+      "mae": 11.243705957967174,
+      "mean_error": -2.1773475474860997,
+      "r2": 0.03457861003270846,
+      "residual_summary": {
+        "mean": -2.1773475474860997,
+        "median": -3.483100619554598,
+        "q05": -27.211433855749995,
+        "q95": 29.014557551907323,
+        "std": 15.467001763654958
+      },
+      "rmse": 15.416663336708934,
+      "target_count": 38,
+      "within_10_count": 23,
+      "within_10_fraction": 0.6052631578947368,
+      "within_15_count": 29,
+      "within_15_fraction": 0.7631578947368421,
+      "within_20_count": 31,
+      "within_20_fraction": 0.8157894736842105
+    }
+  },
+  "outer_split_count": 17,
+  "provenance": {
+    "pose_interaction_path": "data/jacs_2025/stage2/features/pose-interaction.jsonl",
+    "pose_summary_path": "data/jacs_2025/stage2/features/pose-summary.jsonl",
+    "python_version": "3.14.6",
+    "records_path": "data/jacs_2025/stage2/curated-reaction-records.jsonl"
+  },
+  "readiness": {
+    "blockers": [
+      "absolute product configurations are not curated; target remains ee magnitude",
+      "the literature cohort lacks genuine tested-substrate feasibility negatives",
+      "no locked prospective panel is present",
+      "no connected cross-catalyst bridge matrix is present"
+    ],
+    "gates": {
+      "catalyst_bridge_matrix": false,
+      "fixed_catalyst_domain_clean": true,
+      "genuine_feasibility_negatives": false,
+      "nested_family_holdout": true,
+      "out_of_domain_records_excluded": true,
+      "prospective_panel_locked": false,
+      "signed_ee_curated": false,
+      "yield_model_available": true
+    },
+    "interpretation": "Publication-grade benchmark infrastructure is present, but the chemistry claim remains bounded until the listed data and prospective validation gates pass.",
+    "performance": {
+      "actionable_point_prediction": 24,
+      "ee_threshold_precision": 0.875,
+      "ee_within_10_fraction": 0.6578947368421053,
+      "ee_within_15_fraction": 0.7368421052631579,
+      "yield_within_10_fraction": 0.3684210526315789
+    },
+    "status": "not_ready"
+  },
+  "required_baselines": [
+    "median_baseline",
+    "nearest_neighbour",
+    "ridge_regression"
+  ],
+  "schema_version": "stage2p-publication-benchmark-v1",
+  "split_mode": "nested_family_holdout",
+  "status": "publication_readiness_assessment",
+  "target": {
+    "primary": "ee_percent_magnitude",
+    "signed_ee_status": "pending_manual_configuration_curation"
+  },
+  "yield_models": {
+    "elastic_net": {
+      "abs_error_summary": {
+        "mean": 15.367995593357032,
+        "median": 12.54883126977959,
+        "q05": 3.8824554542101724,
+        "q95": 35.15334464609947,
+        "std": 13.168581725135677
+      },
+      "abstention_count": 9,
+      "in_domain_count": 29,
+      "interval_80_coverage": 0.8421052631578947,
+      "interval_95_coverage": 0.9736842105263158,
+      "mae": 15.367995593357032,
+      "mean_error": 1.8102401063277724,
+      "r2": -0.19824244243835243,
+      "residual_summary": {
+        "mean": 1.8102401063277724,
+        "median": -4.45627885569813,
+        "q05": -20.190465023052433,
+        "q95": 35.15334464609947,
+        "std": 20.312666322694653
+      },
+      "rmse": 20.125192458897413,
+      "target_count": 38,
+      "within_10_count": 14,
+      "within_10_fraction": 0.3684210526315789,
+      "within_15_count": 24,
+      "within_15_fraction": 0.631578947368421,
+      "within_20_count": 30,
+      "within_20_fraction": 0.7894736842105263,
+      "yield_threshold_metrics": {
+        "accuracy": 0.9473684210526315,
+        "false_negative": 0,
+        "false_positive": 2,
+        "false_positive_rate": 1.0,
+        "precision": 0.9473684210526315,
+        "recall": 1.0,
+        "specificity": 0.0,
+        "threshold": 50.0,
+        "true_negative": 0,
+        "true_positive": 36
+      }
+    },
+    "median_baseline": {
+      "abs_error_summary": {
+        "mean": 14.18421052631579,
+        "median": 5.5,
+        "q05": 0.925,
+        "q95": 44.3,
+        "std": 16.513475681685424
+      },
+      "abstention_count": 9,
+      "in_domain_count": 29,
+      "interval_80_coverage": 0.7894736842105263,
+      "interval_95_coverage": 0.9736842105263158,
+      "mae": 14.18421052631579,
+      "mean_error": 10.552631578947368,
+      "r2": -0.3807409653488165,
+      "residual_summary": {
+        "mean": 10.552631578947368,
+        "median": 0.5,
+        "q05": -6.075,
+        "q95": 44.3,
+        "std": 19.10383769061196
+      },
+      "rmse": 21.603484124459868,
+      "target_count": 38,
+      "within_10_count": 24,
+      "within_10_fraction": 0.631578947368421,
+      "within_15_count": 25,
+      "within_15_fraction": 0.6578947368421053,
+      "within_20_count": 26,
+      "within_20_fraction": 0.6842105263157895,
+      "yield_threshold_metrics": {
+        "accuracy": 0.9473684210526315,
+        "false_negative": 0,
+        "false_positive": 2,
+        "false_positive_rate": 1.0,
+        "precision": 0.9473684210526315,
+        "recall": 1.0,
+        "specificity": 0.0,
+        "threshold": 50.0,
+        "true_negative": 0,
+        "true_positive": 36
+      }
+    },
+    "nearest_neighbour": {
+      "abs_error_summary": {
+        "mean": 17.236842105263158,
+        "median": 11.0,
+        "q05": 1.0,
+        "q95": 46.599999999999994,
+        "std": 16.583016728334844
+      },
+      "abstention_count": 9,
+      "in_domain_count": 29,
+      "interval_80_coverage": 0.8157894736842105,
+      "interval_95_coverage": 0.9736842105263158,
+      "mae": 17.236842105263158,
+      "mean_error": 8.131578947368421,
+      "r2": -0.6711364432597884,
+      "residual_summary": {
+        "mean": 8.131578947368421,
+        "median": 3.0,
+        "q05": -25.5,
+        "q95": 46.599999999999994,
+        "std": 22.63239850975609
+      },
+      "rmse": 23.76696070288819,
+      "target_count": 38,
+      "within_10_count": 19,
+      "within_10_fraction": 0.5,
+      "within_15_count": 21,
+      "within_15_fraction": 0.5526315789473685,
+      "within_20_count": 21,
+      "within_20_fraction": 0.5526315789473685,
+      "yield_threshold_metrics": {
+        "accuracy": 0.9473684210526315,
+        "false_negative": 0,
+        "false_positive": 2,
+        "false_positive_rate": 1.0,
+        "precision": 0.9473684210526315,
+        "recall": 1.0,
+        "specificity": 0.0,
+        "threshold": 50.0,
+        "true_negative": 0,
+        "true_positive": 36
+      }
+    },
+    "ridge_regression": {
+      "abs_error_summary": {
+        "mean": 16.58596246079904,
+        "median": 13.493076833563702,
+        "q05": 1.2280991676117359,
+        "q95": 35.81706752685403,
+        "std": 15.24482665153113
+      },
+      "abstention_count": 9,
+      "in_domain_count": 29,
+      "interval_80_coverage": 0.8421052631578947,
+      "interval_95_coverage": 0.9736842105263158,
+      "mae": 16.58596246079904,
+      "mean_error": -0.4549610161362151,
+      "r2": -0.4833177644662656,
+      "residual_summary": {
+        "mean": -0.4549610161362151,
+        "median": -3.36361699216161,
+        "q05": -25.785069139753546,
+        "q95": 31.457157257085818,
+        "std": 22.687469748649168
+      },
+      "rmse": 22.391582708360332,
+      "target_count": 38,
+      "within_10_count": 15,
+      "within_10_fraction": 0.39473684210526316,
+      "within_15_count": 22,
+      "within_15_fraction": 0.5789473684210527,
+      "within_20_count": 27,
+      "within_20_fraction": 0.7105263157894737,
+      "yield_threshold_metrics": {
+        "accuracy": 0.9210526315789473,
+        "false_negative": 1,
+        "false_positive": 2,
+        "false_positive_rate": 1.0,
+        "precision": 0.9459459459459459,
+        "recall": 0.9722222222222222,
+        "specificity": 0.0,
+        "threshold": 50.0,
+        "true_negative": 0,
+        "true_positive": 35
+      }
+    }
+  }
+}

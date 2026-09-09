@@ -1,0 +1,86 @@
+{
+  "n_labelled": 90,
+  "trajectory": [
+    {
+      "prefix_size": 4,
+      "test_mae": 18.354533200400876,
+      "selected_ids": [
+        "1c",
+        "2w",
+        "2u",
+        "6a"
+      ]
+    },
+    {
+      "prefix_size": 8,
+      "test_mae": 18.498046526912887,
+      "selected_ids": [
+        "4a",
+        "6m",
+        "2c",
+        "1z"
+      ]
+    },
+    {
+      "prefix_size": 12,
+      "test_mae": 17.251737583406864,
+      "selected_ids": [
+        "2l",
+        "1q",
+        "6e",
+        "1ah"
+      ]
+    },
+    {
+      "prefix_size": 16,
+      "test_mae": 14.867083893597814,
+      "selected_ids": [
+        "2o",
+        "2ab",
+        "2s",
+        "1o"
+      ]
+    },
+    {
+      "prefix_size": 20,
+      "test_mae": 14.839760105270294,
+      "selected_ids": [
+        "2m",
+        "2q",
+        "2n",
+        "6i"
+      ]
+    },
+    {
+      "prefix_size": 24,
+      "test_mae": 14.457725016324268,
+      "selected_ids": [
+        "2r",
+        "1af",
+        "2x",
+        "1r"
+      ]
+    },
+    {
+      "prefix_size": 28,
+      "test_mae": 14.73194220122549,
+      "selected_ids": [
+        "2b",
+        "6q",
+        "1x",
+        "1ae"
+      ]
+    },
+    {
+      "prefix_size": 32,
+      "test_mae": 14.847294690164809,
+      "selected_ids": [
+        "6p",
+        "1d",
+        "1i",
+        "1l"
+      ]
+    }
+  ],
+  "interpretation": "retrospective dry run; labels are historical and no generated-candidate outcomes were used"
+}

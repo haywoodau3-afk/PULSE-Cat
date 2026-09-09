@@ -1,0 +1,65 @@
+{
+  "azide_smiles": "N#N=Nc1ccccc1CCc3ccc2ccccc2c3",
+  "catalyst_id": "fe-p7-cl",
+  "command": [
+    "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/crest",
+    "input.xyz",
+    "--gfn2",
+    "--alpb",
+    "ether",
+    "--chrg",
+    "0",
+    "--uhf",
+    "0",
+    "--quick",
+    "--legacy",
+    "--nocross",
+    "--ewin",
+    "30",
+    "-T",
+    "1",
+    "--xnam",
+    "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb"
+  ],
+  "conformers_xyz_path": "docs/research/2026-09-07/crest-10-conformers/p7/1n/conformers.xyz",
+  "conformers_xyz_sha256": "e992e96c3ac6526f6ef211d7f03eff9df575b9c5de60ab7ef059ee8c3b00af74",
+  "domain": "p7",
+  "generated_unique_conformer_count": 1,
+  "method": "CREST iMTD quick/GFN2 legacy external-xTB sampling; no genetic crossing; 30 kcal/mol search window; GFN2-xTB/ALPB ether reranking",
+  "molecular_charge": 0,
+  "nitrene_smiles": "[N]c1ccccc1CCc3ccc2ccccc2c3",
+  "population_model": {
+    "conformers": [
+      {
+        "boltzmann_probability": 1.0,
+        "conformer_index": 1,
+        "energy_hartree": -54.938076761726,
+        "relative_energy_kcal_mol": 0.0
+      }
+    ],
+    "effective_conformer_count": 1.0,
+    "temperature_k": 353.15,
+    "temperature_source": "experimental_condition"
+  },
+  "reaction_id": "jacs-2025-1n",
+  "requested_conformer_count": 10,
+  "retained_comment_energies": [
+    -54.938076761726
+  ],
+  "retained_conformer_count": 1,
+  "returncode": 0,
+  "schema_version": "crest-ten-conformer-result-v1",
+  "seed_generation": "deterministic RDKit ETKDGv3 plus MMFF94",
+  "seed_pose_id": "stage1-smoke-1n-substrate-uff-0001",
+  "seed_random_seed": 135958039,
+  "stage1_report_path": "data/jacs_2025/stage1/panel/stage-1-smoke-1n.json",
+  "status": "underfilled",
+  "stderr_log_path": "docs/research/2026-09-07/crest-10-conformers/p7/1n/crest.stderr.log",
+  "stdout_log_path": "docs/research/2026-09-07/crest-10-conformers/p7/1n/crest.stdout.log",
+  "substrate_id": "1n",
+  "temperature_c": 80,
+  "threads": 1,
+  "timed_out": false,
+  "unpaired_electrons": 0,
+  "wall_seconds": 388.6209403750254
+}

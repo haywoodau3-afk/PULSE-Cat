@@ -1,0 +1,231 @@
+{
+  "implementation_slices": [
+    "stage3a_contract_and_pilot",
+    "stage3a_full_scope_generation",
+    "stage3a_model_delta",
+    "stage3b_bde_pipeline",
+    "stage3a_plus_stage3b_model_delta"
+  ],
+  "model_delta_contract": {
+    "claim_requirements": [
+      "survives_family_held_out_validation",
+      "has_chemically_meaningful_residual_interpretation",
+      "preserves_or_improves_uncertainty_calibration",
+      "avoids_product_known_only_feature_leakage",
+      "has_interpretable_feature_provenance"
+    ],
+    "diagnostic_validation": "target_holdout",
+    "feature_sets": [
+      "pose_geometry_rich",
+      "pose_score_only",
+      "structure_only",
+      "structure_plus_bde",
+      "structure_plus_v1_pose",
+      "structure_plus_v2_nci_pose",
+      "structure_plus_v2_nci_pose_plus_bde",
+      "structure_plus_v2_shell_features"
+    ],
+    "metrics": [
+      "MAE",
+      "RMSE",
+      "R2_where_meaningful",
+      "prediction_interval_calibration",
+      "residual_distribution"
+    ],
+    "primary_validation": "family_held_out",
+    "required_deltas": [
+      "stage2_baseline_to_stage3a",
+      "stage3a_to_stage3a_plus_stage3b",
+      "stage2_baseline_to_stage3a_plus_stage3b"
+    ]
+  },
+  "non_goals": [
+    "DFT-quality complex energetics",
+    "calibrated BDE accuracy before calibration milestone",
+    "UFF, xTB, or composite pose scores as reaction barriers",
+    "poses as independently labelled experimental training examples",
+    "universal catalyst-scope model"
+  ],
+  "purpose": "Test whether mechanism-enriched synthetic 3D scaffold analysis improves ee and yield prediction beyond the Stage 2 baseline.",
+  "schema_version": "stage3-contract-v1",
+  "stage_id": "stage3",
+  "stage_name": "Data-Efficiency Study",
+  "substages": [
+    {
+      "composite_pose_score": {
+        "components": [
+          "clash_penalty",
+          "core_deviation_penalty",
+          "nci_rule_satisfaction_score",
+          "reactive_geometry_score",
+          "xtb_relative_energy"
+        ],
+        "motif_diversity_handled_by_retention_policy": true,
+        "ranking_policy": [
+          "filter_validity_and_core_constraints",
+          "apply_motif_retention_quotas",
+          "rank_remaining_candidates_by_composite_pose_score"
+        ],
+        "raw_component_storage_required": true,
+        "score_id": "stage3a_pose_centered_composite_score_v1"
+      },
+      "label": "Stage 3a: NCI-Guided Pose v2",
+      "local_3d_shell_contract": {
+        "candidate_site_term": "candidate_c_h_haa_center",
+        "centers": [
+          "nitrene_center",
+          "candidate_c_h_haa_center",
+          "reactive_approach_midpoint"
+        ],
+        "feature_families": [
+          "atom_counts_by_element",
+          "atom_counts_by_ownership",
+          "heteroatom_counts",
+          "aromatic_atom_counts",
+          "nearest_atom_identity_and_distance",
+          "donor_acceptor_contact_counts",
+          "aryl_centroid_proximity",
+          "shell_distance_quantiles",
+          "partial_charge_summaries_if_available",
+          "c_h_bond_orientation_relative_to_fe_n_and_porphyrin_plane"
+        ],
+        "shells": [
+          {
+            "lower_angstrom": 0.0,
+            "shell_id": "0_3_angstrom",
+            "upper_angstrom": 3.0
+          },
+          {
+            "lower_angstrom": 3.0,
+            "shell_id": "3_4_angstrom",
+            "upper_angstrom": 4.0
+          },
+          {
+            "lower_angstrom": 4.0,
+            "shell_id": "4_5_angstrom",
+            "upper_angstrom": 5.0
+          },
+          {
+            "lower_angstrom": 5.0,
+            "shell_id": "5_6_angstrom",
+            "upper_angstrom": 6.0
+          },
+          {
+            "lower_angstrom": 6.0,
+            "shell_id": "6_8_angstrom",
+            "upper_angstrom": 8.0
+          }
+        ],
+        "site_scope": "every_candidate_haa_site"
+      },
+      "nci_rule_contract": {
+        "interaction_classes": [
+          "agostic_like_c_h_contact",
+          "aryl_pi_contact",
+          "c_h_pi_contact",
+          "close_ligand_substrate_atom_pair",
+          "donor_acceptor_proximity",
+          "hydrogen_bond",
+          "reactive_c_h_approach_geometry"
+        ],
+        "rule_packet_policy": "generate_poses_per_motif_then_merge_with_motif_provenance",
+        "rule_packet_unit": "motif",
+        "rule_tiers": [
+          "consensus",
+          "motif_specific"
+        ]
+      },
+      "pose_generation": {
+        "candidate_pose_count_per_substrate": 5000,
+        "max_retained_per_viable_motif": 10,
+        "retained_pose_count_per_substrate": 50,
+        "retention_policy": "hybrid_motif_retention",
+        "underfilled_flag": "v2_pose_underfilled",
+        "validity_requirements": [
+          "connectivity_preserved",
+          "clash_screen_passed",
+          "frozen_core_preserved",
+          "nci_rule_satisfaction_recorded"
+        ]
+      },
+      "reference_optimization": {
+        "default_reference_motif_count": 3,
+        "dft_required_for_gate": false,
+        "method": "GFN2-xTB",
+        "optimized_reference_count_range": [
+          3,
+          5
+        ],
+        "solvent_model": "ALPB ether where practical",
+        "starting_pose_count_range": [
+          20,
+          50
+        ],
+        "unit": "per_substrate_optimized_reference_complex_ensemble"
+      },
+      "scaffold_constraint_policy": {
+        "frozen_atom_groups": [
+          "Fe",
+          "porphyrin_macrocycle",
+          "axial_chloride_when_present",
+          "nitrene_N_Fe_N_anchor_geometry",
+          "core_atoms_required_to_preserve_selectivity_intermediate"
+        ],
+        "mobile_atom_groups": [
+          "substrate_atoms"
+        ],
+        "required_provenance": [
+          "frozen_atom_set",
+          "restrained_atom_set",
+          "restraint_force_constants",
+          "xtb_method",
+          "solvent_model",
+          "starting_pose_id",
+          "optimization_status",
+          "final_relative_energy"
+        ],
+        "restrained_atom_groups": [
+          "chiral_ligand_or_scaffold_substituents_forming_substrate_pocket"
+        ]
+      },
+      "status": "contract_declared",
+      "substage_id": "stage3a_nci_guided_pose_v2"
+    },
+    {
+      "feature_contract": {
+        "features": [
+          "absolute_intrinsic_c_h_bde",
+          "within_substrate_bde_rank",
+          "bde_competition_gap",
+          "candidate_site_identity",
+          "atom_map_provenance",
+          "equivalence_class_provenance",
+          "method_and_solvent_provenance",
+          "substrate_optimization_status",
+          "radical_optimization_status",
+          "calibration_status"
+        ],
+        "granularity": "candidate_site",
+        "higher_level_calibration_required_for_first_model_delta": false,
+        "initial_calibration_status": "uncalibrated_xtb"
+      },
+      "label": "Stage 3b: Intrinsic BDE Feature Set",
+      "method": {
+        "definition": "substrate radical + H atom - substrate",
+        "hydrogen_reference_policy": "one_consistent_hydrogen_atom_reference",
+        "level": "GFN2-xTB",
+        "radical_state": "corresponding_doublet_carbon_radical",
+        "solvent_model": "ALPB ether where practical",
+        "substrate_state": "isolated_closed_shell_substrate"
+      },
+      "site_scope": "all_candidate_haa_sites_on_all_41_substrates",
+      "status": "contract_declared",
+      "substage_id": "stage3b_intrinsic_bde"
+    }
+  ],
+  "substrate_scope": {
+    "candidate_site_policy": "all_candidate_haa_sites_for_all_substrates",
+    "expected_record_count": 41,
+    "source_records_path": "data/jacs_2025/stage2/curated-reaction-records.jsonl"
+  }
+}

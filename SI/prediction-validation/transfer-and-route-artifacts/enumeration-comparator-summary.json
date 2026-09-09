@@ -1,0 +1,12 @@
+{
+  "budget": 50560,
+  "vocabulary_size": 38,
+  "raw_count": 50560,
+  "unique_canonical_count": 25955,
+  "duplicate_count": 24605,
+  "contract_valid_count": 18545,
+  "contract_valid_in_domain_count": 18350,
+  "raw_jsonl": "data/expansion/pptl/raw-enumeration.jsonl",
+  "funnel_report": "data/expansion/pptl/funnel-enumeration-ad.csv",
+  "interpretation": "deterministic comparator under equal raw budget; high yield reflects fixed contract-valid templates and is not evidence of experimental feasibility"
+}

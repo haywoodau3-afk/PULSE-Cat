@@ -1,0 +1,51 @@
+{
+  "chemistry_environment": {
+    "env_id": "stage3_chem_env",
+    "mamba_root_prefix": "/Users/haywoodau3/Documents/genaisubstrate/.mamba-root",
+    "micromamba": "/opt/homebrew/bin/micromamba",
+    "path": "/Users/haywoodau3/Documents/genaisubstrate/.chem-env",
+    "tools": {
+      "crest": {
+        "path": "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/crest",
+        "stage3_roles": [
+          "optional conformer and motif checks"
+        ],
+        "verified_version": "3.0.2"
+      },
+      "obabel": {
+        "path": "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/obabel",
+        "stage3_roles": [
+          "geometry and format conversion"
+        ],
+        "verified_version": "3.1.0"
+      },
+      "xtb": {
+        "path": "/Users/haywoodau3/Documents/genaisubstrate/.chem-env/bin/xtb",
+        "stage3_roles": [
+          "constrained GFN2-xTB reference-complex optimization",
+          "intrinsic C-H BDE calculation"
+        ],
+        "verified_version": "6.7.1"
+      }
+    }
+  },
+  "environment_policy": "separate_python_ml_env_and_command_line_chemistry_env",
+  "python_ml_environment": {
+    "env_id": "repo_venv",
+    "path": "/Users/haywoodau3/Documents/genaisubstrate/.venv",
+    "python_executable": "/Users/haywoodau3/Documents/genaisubstrate/.venv/bin/python",
+    "required_imports": [
+      "rdkit",
+      "sklearn",
+      "scipy",
+      "lightgbm"
+    ],
+    "usage": [
+      "feature extraction",
+      "artifact validation",
+      "model matrix generation",
+      "Stage 2 to Stage 3 model-delta reports"
+    ]
+  },
+  "schema_version": "stage3-environment-v1"
+}

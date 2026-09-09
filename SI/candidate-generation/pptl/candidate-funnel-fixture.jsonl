@@ -1,0 +1,3 @@
+{"candidate_id":"fixture-valid-001","smiles":"[N-]=[N+]=Nc1ccccc1CCc2ccccc2","provenance":"enumeration"}
+{"candidate_id":"fixture-invalid-001","smiles":"c1ccccc1CCc2ccccc2","provenance":"smiles-rnn"}
+{"candidate_id":"fixture-invalid-002","smiles":"not-a-smiles","provenance":"smiles-rnn"}

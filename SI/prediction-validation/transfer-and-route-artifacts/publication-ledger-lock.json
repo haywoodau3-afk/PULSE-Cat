@@ -1,0 +1,162 @@
+{
+  "canonical_overlap": {
+    "atom_maps_removed_before_matching": true,
+    "count": 13,
+    "excluded_from_cold_start_source": true,
+    "paired_diagnostic_only": true,
+    "pairs": {
+      "CCCCc1ccccc1N=[N+]=[N-]": {
+        "left_id": "1ah",
+        "right_id": "4b"
+      },
+      "COc1ccc(CCc2ccccc2N=[N+]=[N-])cc1": {
+        "left_id": "1d",
+        "right_id": "2d"
+      },
+      "COc1ccc(N=[N+]=[N-])c(CCc2ccccc2)c1": {
+        "left_id": "1k",
+        "right_id": "2w"
+      },
+      "Cc1ccc(N=[N+]=[N-])c(CCc2ccccc2)c1": {
+        "left_id": "1j",
+        "right_id": "2u"
+      },
+      "Cc1cccc(CCc2ccccc2)c1N=[N+]=[N-]": {
+        "left_id": "1i",
+        "right_id": "2r"
+      },
+      "Cc1cccc(CCc2ccccc2N=[N+]=[N-])c1": {
+        "left_id": "1c",
+        "right_id": "2g"
+      },
+      "Cc1ccccc1CCc1ccccc1N=[N+]=[N-]": {
+        "left_id": "1b",
+        "right_id": "2k"
+      },
+      "[N-]=[N+]=Nc1ccccc1CCC1CC1": {
+        "left_id": "1aj",
+        "right_id": "4c"
+      },
+      "[N-]=[N+]=Nc1ccccc1CCc1cc2ccccc2o1": {
+        "left_id": "1p",
+        "right_id": "2o"
+      },
+      "[N-]=[N+]=Nc1ccccc1CCc1cc2ccccc2s1": {
+        "left_id": "1w",
+        "right_id": "2q"
+      },
+      "[N-]=[N+]=Nc1ccccc1CCc1ccc(F)cc1": {
+        "left_id": "1g",
+        "right_id": "2c"
+      },
+      "[N-]=[N+]=Nc1ccccc1CCc1ccc2ccccc2c1": {
+        "left_id": "1n",
+        "right_id": "2m"
+      },
+      "[N-]=[N+]=Nc1ccccc1CCc1cccc(F)c1": {
+        "left_id": "1f",
+        "right_id": "2i"
+      }
+    }
+  },
+  "domains": {
+    "cmcpor": {
+      "catalyst_id": "cmcpor-fecl",
+      "ee_label_count": 50,
+      "family_counts": {
+        "angew-aryl-c-h-amination": 33,
+        "angew-sulfonyl-c-h-amination": 17
+      },
+      "pathway_counts": {
+        "unknown-pathway": 50
+      },
+      "row_count": 50,
+      "split_group_count": 50,
+      "yield_label_count": 50
+    },
+    "cmcpor_aryl": {
+      "catalyst_id": "cmcpor-fecl",
+      "ee_label_count": 33,
+      "family_counts": {
+        "angew-aryl-c-h-amination": 33
+      },
+      "pathway_counts": {
+        "unknown-pathway": 33
+      },
+      "row_count": 33,
+      "split_group_count": 33,
+      "yield_label_count": 33
+    },
+    "p7": {
+      "catalyst_id": "fe-p7-cl",
+      "ee_label_count": 39,
+      "family_counts": {
+        "alkenyl-cycloalkyl-aryl": 1,
+        "alkyl-aryl-chain": 2,
+        "branched-diaryl-alkyl": 1,
+        "carbonyl-alkyl-aryl": 3,
+        "carbonyl-heterocycle-fused": 1,
+        "cycloalkyl-alkyl-aryl": 3,
+        "cycloalkyl-aryl": 1,
+        "diaryl-ethyl-aryl-substituted": 12,
+        "diaryl-ethyl-parent": 1,
+        "nitrogen-heteroaryl": 2,
+        "oxygen-heteroaryl": 1,
+        "oxygen-heteroaryl-fused": 2,
+        "oxygen-heterocycle-fused": 3,
+        "polycyclic-aryl": 1,
+        "silyl-alkyl-aryl": 1,
+        "sulfur-heteroaryl": 1,
+        "sulfur-heteroaryl-fused": 2,
+        "sulfur-heterocycle-fused": 1,
+        "thioether-linker": 1
+      },
+      "pathway_counts": {
+        "unknown-pathway": 40
+      },
+      "row_count": 40,
+      "split_group_count": 40,
+      "yield_label_count": 40
+    }
+  },
+  "files": {
+    "cmcpor_records": {
+      "bytes": 290241,
+      "path": "data/expansion/catalyst_rerun/cmcpor/stage2-records.jsonl",
+      "sha256": "0411a6b8264697f8b0e4a9b96111ac81ef055e397825a78dd74537aa1b97718a"
+    },
+    "cmcpor_stage2p": {
+      "bytes": 1040896,
+      "path": "data/expansion/catalyst_rerun/cmcpor_uff_full/stage2p/features/stage2p-features.jsonl",
+      "sha256": "bb844e3f9fb7b1717d8ea2e0690ff227d5ff3998fefe3fd8178401464b618c7b"
+    },
+    "p7_records": {
+      "bytes": 120329,
+      "path": "data/jacs_2025/stage2/curated-reaction-records.jsonl",
+      "sha256": "b05b91b28057172bd7b527d3135a81674a6beaa891b730b90b7182dac3027699"
+    },
+    "p7_stage2p": {
+      "bytes": 849617,
+      "path": "data/jacs_2025/stage2/features/stage2p-features.jsonl",
+      "sha256": "358014a65a9e7497591952135896dd2cc3b2f7cbe696ec3e1d909e41535303b8"
+    },
+    "pptl_contract": {
+      "bytes": 5654,
+      "path": "scripts/pptl/pptl-contract.json",
+      "sha256": "856519eeaedd233b34b3b68c5e8c732c1dac1a3de74b1a4f758fe0c724819839"
+    }
+  },
+  "lock_digest": "c2613a95c111f1eba4ed0830c808e211e78c3e867edd65005dd86368dccdef03",
+  "locked_at_utc": "2026-09-01T05:48:32.192767+00:00",
+  "policies": {
+    "cmcpor_sulfonyl_separate_control": true,
+    "d4_required_for_primary_study": false,
+    "ee_primary": true,
+    "whole_substrate_unit": true,
+    "yield_secondary": true
+  },
+  "primary_pathway": "angew-aryl-c-h-amination",
+  "schema_version": "pptl-publication-ledger-lock-v1",
+  "status": "locked",
+  "study_id": "parallel-progressive-transfer-bidirectional-v1"
+}

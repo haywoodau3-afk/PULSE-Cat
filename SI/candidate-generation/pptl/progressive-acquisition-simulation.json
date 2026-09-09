@@ -1,0 +1,38 @@
+{
+  "generator": {
+    "eligible_pool": 483,
+    "round_a_ids": [
+      "rnn-1101-00057",
+      "rnn-4404-07513",
+      "rnn-5505-08915",
+      "rnn-4404-05903"
+    ],
+    "round_b_ids": [
+      "rnn-4404-01129",
+      "rnn-3303-06281",
+      "rnn-2202-07404",
+      "rnn-4404-01340"
+    ],
+    "round_a_mean_predicted_ee": 81.40039999999999,
+    "round_b_mean_predicted_ee": 61.922725,
+    "total_selected": 8
+  },
+  "enumeration": {
+    "eligible_pool": 18223,
+    "round_a_ids": [
+      "enum-035788",
+      "enum-034990",
+      "enum-034989",
+      "enum-034664"
+    ],
+    "round_b_ids": [
+      "enum-049703",
+      "enum-006327",
+      "enum-037978",
+      "enum-008049"
+    ],
+    "round_a_mean_predicted_ee": 95.368225,
+    "round_b_mean_predicted_ee": 81.03285,
+    "total_selected": 8
+  }
+}

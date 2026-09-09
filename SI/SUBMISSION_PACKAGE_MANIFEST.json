@@ -1,0 +1,35 @@
+{
+  "package_name": "PULSE-Cat companion computational SI",
+  "inventory_date": "2026-09-09",
+  "narrative_si": {
+    "path": "PULSE-Cat-Supporting-Information.pdf",
+    "sha256": "74e10961980e81c16d6f0ff665aec89f0b745af96d3fa0c60196ae19024bea9d",
+    "pages": 26
+  },
+  "archive_root": "SI/",
+  "companion_archive": {
+    "path": "../SI.zip",
+    "checksum_sidecar": "../SI.zip.sha256"
+  },
+  "archive_requirement": "Resolve all symlinks into file contents before delivery as SI.zip.",
+  "narrative_directory_map": {
+    "S9.1": "curated-datasets/",
+    "S9.2": "prediction-validation/",
+    "S9.3": "algorithms/",
+    "S9.4": "geometry-calculations/",
+    "S9.5": "candidate-generation/",
+    "S9.6": ["code/", "procedure/", "figures/"],
+    "S9.8": ["DATA_AVAILABILITY_STATEMENT.md", "README.md"]
+  },
+  "reported_frozen_exclusions": {
+    "enumeration_candidates_without_ee_rows": 127,
+    "enumeration_scored_population": 18223,
+    "exclusion_record": "candidate-generation/omitted-127-eligible-enumeration-candidates.csv"
+  },
+  "study_boundaries": [
+    "Generated candidates have predictions only.",
+    "No supplier, route-feasibility, safety, or experimental-success claim is included.",
+    "CREST coverage is incomplete for CMC-Por and is not a complete 50-substrate ensemble study.",
+    "The transfer contract's relative-family safeguard is disclosed as unestablished for the reported runs."
+  ]
+}

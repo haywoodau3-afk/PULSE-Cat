@@ -1,0 +1,606 @@
+{
+  "caveats": [
+    "Only 12 seed records are available; this is a pipeline smoke test, not a robust predictive model.",
+    "Hyperparameters are selected once by seed-level leave-one-out CV; this is faster and less strict than nested CV.",
+    "Bayesian intervals are Bayesian-bootstrap summaries over the 12 OOF residual records, not a full Bayesian Elastic Net posterior.",
+    "Per-substrate prediction intervals are empirical residual intervals and should be treated as calibration diagnostics.",
+    "Family-held-out scoring is not yet meaningful for mostly singleton families."
+  ],
+  "elastic_net": {
+    "alpha_grid": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "bayesian_bootstrap_metric_intervals": {
+      "draw_count": 20000,
+      "mae": {
+        "ci95_high": 24.04579422393142,
+        "ci95_low": 7.517897170765497,
+        "mean": 14.533085662621044,
+        "median": 14.120161727512166
+      },
+      "mean_error": {
+        "ci95_high": 15.135198959622942,
+        "ci95_low": -8.22210647565862,
+        "mean": 2.8366413338618064,
+        "median": 2.589080983447819
+      },
+      "method": "bayesian_bootstrap_over_oof_residual_records",
+      "r2": {
+        "ci95_high": 0.6451252500342838,
+        "ci95_low": -0.3071138112001219,
+        "mean": 0.321414748305289,
+        "median": 0.3694035293500379
+      },
+      "random_seed": 20260730,
+      "rmse": {
+        "ci95_high": 30.663933544375187,
+        "ci95_low": 12.21658319920284,
+        "mean": 20.6916054049443,
+        "median": 20.42592479185329
+      }
+    },
+    "calibration_summary": {
+      "actual_on_predicted_intercept": -17.425480481573892,
+      "actual_on_predicted_slope": 1.2032065139917214,
+      "observed_vs_predicted_pearson_r": 0.648174650672269
+    },
+    "final_full_seed_hyperparameters": {
+      "alpha": 1.0,
+      "l1_ratio": 0.8,
+      "loo_mae_used_for_selection": 14.554154197329334
+    },
+    "full_seed_fit_metrics": {
+      "mae": 1.5066081936576932,
+      "max_abs_error": 3.0991373941886167,
+      "r2": 0.9955518097377739,
+      "rmse": 1.8264011399299895
+    },
+    "implementation": "local_coordinate_descent",
+    "l1_ratio_grid": [
+      0.2,
+      0.5,
+      0.8
+    ],
+    "loo_metrics": {
+      "mae": 14.554154197329334,
+      "max_abs_error": 49.84627556076033,
+      "r2": 0.39693488541706956,
+      "rmse": 21.266038478259134
+    },
+    "nonzero_coefficient_count": 72,
+    "residual_summary": {
+      "abs_error_median": 7.262713239381036,
+      "abs_error_q75": 23.055755525623212,
+      "abs_error_q90": 37.554022096247685,
+      "mean_error": 2.899668806978399,
+      "median_error": -0.9715589022876472,
+      "residual_q05": -22.883065282352653,
+      "residual_q25": -7.003904008399999,
+      "residual_q75": 10.71464298264235,
+      "residual_q95": 36.63830207619975,
+      "residual_std": 22.004205714576916,
+      "within_10_ee_fraction": 0.6666666666666666,
+      "within_20_ee_fraction": 0.6666666666666666
+    },
+    "selected_hyperparameters": {
+      "alpha": 1.0,
+      "l1_ratio": 0.8,
+      "selection_loo_mae": 14.554154197329334
+    },
+    "top_coefficients": [
+      {
+        "coefficient": 1409.9471433839933,
+        "feature": "pose_interaction.reported_c_to_transferred_h_distance_angstrom.q95"
+      },
+      {
+        "coefficient": 429.5618281411631,
+        "feature": "pose_interaction.reported_c_to_transferred_h_distance_angstrom.mean"
+      },
+      {
+        "coefficient": 373.5187881240558,
+        "feature": "pose_interaction.reported_c_to_transferred_h_distance_angstrom.min"
+      },
+      {
+        "coefficient": 161.4049129127668,
+        "feature": "pose_interaction.reported_c_to_transferred_h_distance_angstrom.max"
+      },
+      {
+        "coefficient": -49.39303946232313,
+        "feature": "pose_interaction.core_substrate_covalent_floor_clash_count.mean"
+      },
+      {
+        "coefficient": -14.741494635811149,
+        "feature": "pose_interaction.core_substrate_distance_mean.std"
+      },
+      {
+        "coefficient": -8.555938483580478,
+        "feature": "pose_interaction.reported_c_to_core_distance_mean.q95"
+      },
+      {
+        "coefficient": -7.01978446629171,
+        "feature": "pose_interaction.fe_to_reported_c_distance_angstrom.mean"
+      },
+      {
+        "coefficient": -6.621811070829504,
+        "feature": "pose_interaction.core_substrate_covalent_floor_clash_count.std"
+      },
+      {
+        "coefficient": -6.4950053886103865,
+        "feature": "pose_interaction.reported_c_to_core_distance_mean.q05"
+      },
+      {
+        "coefficient": -5.79839728494818,
+        "feature": "pose_interaction.reported_c_to_core_distance_count_lt_3p0_angstrom.max"
+      },
+      {
+        "coefficient": -4.5453196617002245,
+        "feature": "pose_interaction.reported_c_to_core_distance_max.q95"
+      },
+      {
+        "coefficient": -4.3875341948476185,
+        "feature": "pose_interaction.reported_c_to_porphyrin_plane_distance_angstrom.q95"
+      },
+      {
+        "coefficient": 4.276566961143048,
+        "feature": "pose_interaction.reported_c_to_porphyrin_plane_signed_distance_angstrom.q05"
+      },
+      {
+        "coefficient": -3.306869767564626,
+        "feature": "pose_interaction.reported_c_to_core_distance_max.q05"
+      },
+      {
+        "coefficient": -3.1508443831431467,
+        "feature": "pose_interaction.reported_c_to_porphyrin_plane_distance_angstrom.q05"
+      },
+      {
+        "coefficient": 3.0401789294531416,
+        "feature": "pose_interaction.reported_c_to_porphyrin_plane_signed_distance_angstrom.q95"
+      },
+      {
+        "coefficient": 2.945125944713705,
+        "feature": "tier1_physchem.candidate_site_count_benzylic"
+      },
+      {
+        "coefficient": -2.899117169393763,
+        "feature": "pose_interaction.fe_to_reported_c_distance_angstrom.q95"
+      },
+      {
+        "coefficient": -2.898487471966546,
+        "feature": "pose_interaction.cl_to_reported_c_distance_angstrom.q95"
+      },
+      {
+        "coefficient": 2.233128397274719,
+        "feature": "pose_interaction.nearest_core_substrate_distance.median"
+      },
+      {
+        "coefficient": 2.1493856897741304,
+        "feature": "pose_interaction.transferred_h_to_core_distance_count_2p5_3p0_angstrom.max"
+      },
+      {
+        "coefficient": 1.8441695191463832,
+        "feature": "reported_site.carbon_neighbor_count"
+      },
+      {
+        "coefficient": -1.7569524838469388,
+        "feature": "reported_site.hetero_neighbor_count"
+      },
+      {
+        "coefficient": 1.7512718011845978,
+        "feature": "pose_interaction.nearest_core_substrate_distance.q05"
+      }
+    ]
+  },
+  "feature_count": 769,
+  "feature_policy": "numeric_tier1_reported_site_pose_summary_and_aggregated_pose_interaction_no_full_fingerprint_bits",
+  "matrix_path": "data/jacs_2025/stage2/features/seed-ee-matrix.csv",
+  "mean_baseline": {
+    "bayesian_bootstrap_metric_intervals": {
+      "draw_count": 20000,
+      "mae": {
+        "ci95_high": 36.01211158340736,
+        "ci95_low": 17.207238930918038,
+        "mean": 24.602694394880544,
+        "median": 23.850792917066162
+      },
+      "mean_error": {
+        "ci95_high": 17.900009556038633,
+        "ci95_low": -14.052713291938343,
+        "mean": -0.043360616306404504,
+        "median": -0.6473469347743213
+      },
+      "method": "bayesian_bootstrap_over_oof_residual_records",
+      "r2": {
+        "ci95_high": -0.19019350024127615,
+        "ci95_low": -0.8226061960764071,
+        "mean": -0.30473282443234817,
+        "median": -0.237324710253474
+      },
+      "random_seed": 20260731,
+      "rmse": {
+        "ci95_high": 43.87679883758948,
+        "ci95_low": 20.57483560053925,
+        "mean": 29.214723879271233,
+        "median": 27.97277864092259
+      }
+    },
+    "calibration_summary": {
+      "actual_on_predicted_intercept": 823.0000000000015,
+      "actual_on_predicted_slope": -11.000000000000021,
+      "observed_vs_predicted_pearson_r": -1.0
+    },
+    "loo_metrics": {
+      "mae": 24.63636363636363,
+      "max_abs_error": 74.81818181818181,
+      "r2": -0.19008264462809876,
+      "rmse": 29.87397773070311
+    },
+    "residual_summary": {
+      "abs_error_median": 23.36363636363636,
+      "abs_error_q75": 25.590909090909093,
+      "abs_error_q90": 28.509090909090908,
+      "mean_error": 0.0,
+      "median_error": -9.727272727272727,
+      "residual_q05": -27.018181818181816,
+      "residual_q25": -24.727272727272727,
+      "residual_q75": 17.818181818181817,
+      "residual_q95": 47.818181818181785,
+      "residual_std": 31.20235210460109,
+      "within_10_ee_fraction": 0.16666666666666666,
+      "within_20_ee_fraction": 0.25
+    }
+  },
+  "nonconstant_feature_count": 535,
+  "oof_design": {
+    "fold_count": 12,
+    "folds": [
+      {
+        "fold_index": 1,
+        "holdout_substrate_id": "1a",
+        "train_substrate_ids": [
+          "1aa",
+          "1ac",
+          "1ad",
+          "1ae",
+          "1ah",
+          "1am",
+          "1e",
+          "1j",
+          "1o",
+          "1p",
+          "1v"
+        ]
+      },
+      {
+        "fold_index": 2,
+        "holdout_substrate_id": "1aa",
+        "train_substrate_ids": [
+          "1a",
+          "1ac",
+          "1ad",
+          "1ae",
+          "1ah",
+          "1am",
+          "1e",
+          "1j",
+          "1o",
+          "1p",
+          "1v"
+        ]
+      },
+      {
+        "fold_index": 3,
+        "holdout_substrate_id": "1ac",
+        "train_substrate_ids": [
+          "1a",
+          "1aa",
+          "1ad",
+          "1ae",
+          "1ah",
+          "1am",
+          "1e",
+          "1j",
+          "1o",
+          "1p",
+          "1v"
+        ]
+      },
+      {
+        "fold_index": 4,
+        "holdout_substrate_id": "1ad",
+        "train_substrate_ids": [
+          "1a",
+          "1aa",
+          "1ac",
+          "1ae",
+          "1ah",
+          "1am",
+          "1e",
+          "1j",
+          "1o",
+          "1p",
+          "1v"
+        ]
+      },
+      {
+        "fold_index": 5,
+        "holdout_substrate_id": "1ae",
+        "train_substrate_ids": [
+          "1a",
+          "1aa",
+          "1ac",
+          "1ad",
+          "1ah",
+          "1am",
+          "1e",
+          "1j",
+          "1o",
+          "1p",
+          "1v"
+        ]
+      },
+      {
+        "fold_index": 6,
+        "holdout_substrate_id": "1ah",
+        "train_substrate_ids": [
+          "1a",
+          "1aa",
+          "1ac",
+          "1ad",
+          "1ae",
+          "1am",
+          "1e",
+          "1j",
+          "1o",
+          "1p",
+          "1v"
+        ]
+      },
+      {
+        "fold_index": 7,
+        "holdout_substrate_id": "1am",
+        "train_substrate_ids": [
+          "1a",
+          "1aa",
+          "1ac",
+          "1ad",
+          "1ae",
+          "1ah",
+          "1e",
+          "1j",
+          "1o",
+          "1p",
+          "1v"
+        ]
+      },
+      {
+        "fold_index": 8,
+        "holdout_substrate_id": "1e",
+        "train_substrate_ids": [
+          "1a",
+          "1aa",
+          "1ac",
+          "1ad",
+          "1ae",
+          "1ah",
+          "1am",
+          "1j",
+          "1o",
+          "1p",
+          "1v"
+        ]
+      },
+      {
+        "fold_index": 9,
+        "holdout_substrate_id": "1j",
+        "train_substrate_ids": [
+          "1a",
+          "1aa",
+          "1ac",
+          "1ad",
+          "1ae",
+          "1ah",
+          "1am",
+          "1e",
+          "1o",
+          "1p",
+          "1v"
+        ]
+      },
+      {
+        "fold_index": 10,
+        "holdout_substrate_id": "1o",
+        "train_substrate_ids": [
+          "1a",
+          "1aa",
+          "1ac",
+          "1ad",
+          "1ae",
+          "1ah",
+          "1am",
+          "1e",
+          "1j",
+          "1p",
+          "1v"
+        ]
+      },
+      {
+        "fold_index": 11,
+        "holdout_substrate_id": "1p",
+        "train_substrate_ids": [
+          "1a",
+          "1aa",
+          "1ac",
+          "1ad",
+          "1ae",
+          "1ah",
+          "1am",
+          "1e",
+          "1j",
+          "1o",
+          "1v"
+        ]
+      },
+      {
+        "fold_index": 12,
+        "holdout_substrate_id": "1v",
+        "train_substrate_ids": [
+          "1a",
+          "1aa",
+          "1ac",
+          "1ad",
+          "1ae",
+          "1ah",
+          "1am",
+          "1e",
+          "1j",
+          "1o",
+          "1p"
+        ]
+      }
+    ],
+    "holdout_count_per_fold": 1,
+    "train_count_per_fold": 11
+  },
+  "plot_ready_series": [
+    {
+      "elastic_net_abs_error": 9.813896636425554,
+      "elastic_net_oof_prediction": 82.18610336357445,
+      "elastic_net_oof_residual": -9.813896636425554,
+      "family_id": "diaryl-ethyl-parent",
+      "fold_index": 1,
+      "mean_oof_prediction": 66.45454545454545,
+      "mean_oof_residual": -25.545454545454547,
+      "observed_ee_percent": 92.0,
+      "substrate_id": "1a"
+    },
+    {
+      "elastic_net_abs_error": 6.799858444402275,
+      "elastic_net_oof_prediction": 81.20014155559772,
+      "elastic_net_oof_residual": -6.799858444402275,
+      "family_id": "nitrogen-heteroaryl",
+      "fold_index": 2,
+      "mean_oof_prediction": 66.81818181818181,
+      "mean_oof_residual": -21.181818181818187,
+      "observed_ee_percent": 88.0,
+      "substrate_id": "1aa"
+    },
+    {
+      "elastic_net_abs_error": 1.7623305823577766,
+      "elastic_net_oof_prediction": 65.23766941764222,
+      "elastic_net_oof_residual": -1.7623305823577766,
+      "family_id": "silyl-alkyl-aryl",
+      "fold_index": 3,
+      "mean_oof_prediction": 68.72727272727273,
+      "mean_oof_residual": 1.7272727272727337,
+      "observed_ee_percent": 67.0,
+      "substrate_id": "1ac"
+    },
+    {
+      "elastic_net_abs_error": 49.84627556076033,
+      "elastic_net_oof_prediction": 49.84627556076033,
+      "elastic_net_oof_residual": 49.84627556076033,
+      "family_id": "thioether-linker",
+      "fold_index": 4,
+      "mean_oof_prediction": 74.81818181818181,
+      "mean_oof_residual": 74.81818181818181,
+      "observed_ee_percent": 0.0,
+      "substrate_id": "1ad"
+    },
+    {
+      "elastic_net_abs_error": 0.18078722221751775,
+      "elastic_net_oof_prediction": 52.81921277778248,
+      "elastic_net_oof_residual": -0.18078722221751775,
+      "family_id": "carbonyl-alkyl-aryl",
+      "fold_index": 5,
+      "mean_oof_prediction": 70.0,
+      "mean_oof_residual": 17.0,
+      "observed_ee_percent": 53.0,
+      "substrate_id": "1ae"
+    },
+    {
+      "elastic_net_abs_error": 22.130414595462696,
+      "elastic_net_oof_prediction": 72.1304145954627,
+      "elastic_net_oof_residual": 22.130414595462696,
+      "family_id": "alkyl-aryl-chain",
+      "fold_index": 6,
+      "mean_oof_prediction": 70.27272727272727,
+      "mean_oof_residual": 20.272727272727266,
+      "observed_ee_percent": 50.0,
+      "substrate_id": "1ah"
+    },
+    {
+      "elastic_net_abs_error": 6.9093857783689,
+      "elastic_net_oof_prediction": 51.9093857783689,
+      "elastic_net_oof_residual": 6.9093857783689,
+      "family_id": "cycloalkyl-aryl",
+      "fold_index": 7,
+      "mean_oof_prediction": 70.72727272727273,
+      "mean_oof_residual": 25.727272727272734,
+      "observed_ee_percent": 45.0,
+      "substrate_id": "1am"
+    },
+    {
+      "elastic_net_abs_error": 4.897505128934654,
+      "elastic_net_oof_prediction": 87.10249487106535,
+      "elastic_net_oof_residual": -4.897505128934654,
+      "family_id": "diaryl-ethyl-aryl-substituted",
+      "fold_index": 8,
+      "mean_oof_prediction": 66.45454545454545,
+      "mean_oof_residual": -25.545454545454547,
+      "observed_ee_percent": 92.0,
+      "substrate_id": "1e"
+    },
+    {
+      "elastic_net_abs_error": 38.85649362737467,
+      "elastic_net_oof_prediction": 56.14350637262533,
+      "elastic_net_oof_residual": -38.85649362737467,
+      "family_id": "diaryl-ethyl-aryl-substituted",
+      "fold_index": 9,
+      "mean_oof_prediction": 66.18181818181819,
+      "mean_oof_residual": -28.818181818181813,
+      "observed_ee_percent": 95.0,
+      "substrate_id": "1j"
+    },
+    {
+      "elastic_net_abs_error": 0.005083775149714143,
+      "elastic_net_oof_prediction": 89.00508377514971,
+      "elastic_net_oof_residual": 0.005083775149714143,
+      "family_id": "oxygen-heteroaryl",
+      "fold_index": 10,
+      "mean_oof_prediction": 66.72727272727273,
+      "mean_oof_residual": -22.272727272727266,
+      "observed_ee_percent": 89.0,
+      "substrate_id": "1o"
+    },
+    {
+      "elastic_net_abs_error": 25.83177831610476,
+      "elastic_net_oof_prediction": 86.83177831610476,
+      "elastic_net_oof_residual": 25.83177831610476,
+      "family_id": "oxygen-heteroaryl-fused",
+      "fold_index": 11,
+      "mean_oof_prediction": 69.27272727272727,
+      "mean_oof_residual": 8.272727272727266,
+      "observed_ee_percent": 61.0,
+      "substrate_id": "1p"
+    },
+    {
+      "elastic_net_abs_error": 7.616040700393171,
+      "elastic_net_oof_prediction": 83.38395929960683,
+      "elastic_net_oof_residual": -7.616040700393171,
+      "family_id": "sulfur-heteroaryl",
+      "fold_index": 12,
+      "mean_oof_prediction": 66.54545454545455,
+      "mean_oof_residual": -24.454545454545453,
+      "observed_ee_percent": 91.0,
+      "substrate_id": "1v"
+    }
+  ],
+  "predictions_path": "data/jacs_2025/stage2/reports/seed-ee-elastic-net-predictions.csv",
+  "record_count": 12,
+  "schema_version": "stage2-ee-elastic-net-report-v1",
+  "status": "training_smoke_test_not_predictive_claim",
+  "target": "ee_percent",
+  "validation": "leave_one_out_cv_with_seed_level_hyperparameter_selection"
+}

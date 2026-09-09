@@ -1,0 +1,50 @@
+{
+  "delta_intervals": {
+    "active_source_minus_target": {
+      "lower_2.5": -1.3361268171974885,
+      "mean": 3.6805417825957147,
+      "upper_97.5": 8.996870574647282
+    },
+    "combined_minus_target": {
+      "lower_2.5": -2.8189286006687895,
+      "mean": 0.7304252552524378,
+      "upper_97.5": 4.399773340290456
+    },
+    "guarded_minus_target": {
+      "lower_2.5": -3.2424287955072018,
+      "mean": -1.8631721703290978,
+      "upper_97.5": -0.7048170504047868
+    }
+  },
+  "feature_arm": "P3",
+  "mae_intervals": {
+    "active_source": {
+      "lower_2.5": 13.452289985192651,
+      "mean": 21.549036340044825,
+      "upper_97.5": 29.695005927380052
+    },
+    "combined": {
+      "lower_2.5": 12.52079828923565,
+      "mean": 18.59891981270155,
+      "upper_97.5": 25.24630416370099
+    },
+    "guarded": {
+      "lower_2.5": 9.592959938554877,
+      "mean": 16.005322387120014,
+      "upper_97.5": 23.496273106492637
+    },
+    "target_only": {
+      "lower_2.5": 11.731913266304653,
+      "mean": 17.86849455744911,
+      "upper_97.5": 24.89450341353242
+    }
+  },
+  "policy": "paired resampling of held-out scaffolds; all prefixes within a sampled scaffold move together",
+  "replicates": 2000,
+  "scaffold_count": 12,
+  "schema_version": "pptl-scaffold-bootstrap-v1",
+  "seed": 20260901,
+  "source_domain": "fe-p7-cl",
+  "target": "ee_percent",
+  "target_domain": "cmcpor-fecl"
+}

@@ -1,0 +1,14 @@
+{
+  "candidate_count": 483,
+  "morphology_counts": {
+    "heteroatom_rich": 192,
+    "simple_aryl_tether": 27,
+    "fused_or_polycyclic": 113,
+    "flexible_sp3_rich": 117,
+    "diaryl_or_bicyclic": 34
+  },
+  "panel_size": 16,
+  "panel_selection": "round_robin_morphology_balance",
+  "panel": "data/expansion/pptl/morphology-balanced-panel-16.csv",
+  "status": "pending_ee_scoring"
+}

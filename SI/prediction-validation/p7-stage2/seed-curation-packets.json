@@ -1,0 +1,127 @@
+{
+  "curation_policy": "compact_human_checked_reaction_centres_with_generated_candidate_sites",
+  "feature_ready_entries": [
+    {
+      "atom_mapped_product_smiles": "[NH:3]1[c:4]2[cH:5][cH:6][cH:7][cH:8][c:9]2[CH2:10][C@H:11]1[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1",
+      "atom_mapped_substrate_smiles": "[N:1]#[N:2]=[N:3][c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[CH2:10][CH2:11][c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1",
+      "curation_status": "feature_ready",
+      "reaction_center_source_note": "Table 1 entry 1 reports 2-phenylindoline 2a; atom map 11 is the benzylic C-H site that forms the new C-N bond in the indoline product.",
+      "reported_reactive_atom_map_id": 11,
+      "reported_site_type": "benzylic",
+      "review_status": "checked",
+      "substrate_id": "1a"
+    },
+    {
+      "atom_mapped_product_smiles": "[NH:3]1[c:4]2[cH:5][cH:6][cH:7][cH:8][c:9]2[CH2:10][C@H:11]1[c:12]1[cH:13][cH:14][c:15]([C:18]([F:19])([F:20])[F:21])[cH:16][cH:17]1",
+      "atom_mapped_substrate_smiles": "[N:1]#[N:2]=[N:3][c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[CH2:10][CH2:11][c:12]1[cH:13][cH:14][c:15]([C:18]([F:19])([F:20])[F:21])[cH:16][cH:17]1",
+      "curation_status": "feature_ready",
+      "reaction_center_source_note": "Table 1 entry 5 reports 2e; atom map 11 follows the 1a indoline-forming benzylic C-H pattern with the distal para-CF3 aryl substituent retained.",
+      "reported_reactive_atom_map_id": 11,
+      "reported_site_type": "benzylic",
+      "review_status": "checked",
+      "substrate_id": "1e"
+    },
+    {
+      "atom_mapped_product_smiles": "[NH:3]1[c:4]2[cH:5][cH:6][cH:7][cH:8][c:9]2[CH2:10][C@H:11]1[c:12]1[cH:13][cH:14][o:15][cH:16]1",
+      "atom_mapped_substrate_smiles": "[N:1]#[N:2]=[N:3][c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[CH2:10][CH2:11][c:12]1[cH:13][cH:14][o:15][cH:16]1",
+      "curation_status": "feature_ready",
+      "reaction_center_source_note": "Table 1 entry 15 reports 2o; atom map 11 follows the 1a indoline-forming benzylic C-H pattern with the distal furan retained.",
+      "reported_reactive_atom_map_id": 11,
+      "reported_site_type": "benzylic",
+      "review_status": "checked",
+      "substrate_id": "1o"
+    },
+    {
+      "atom_mapped_product_smiles": "[NH:3]1[c:4]2[cH:5][cH:6][cH:7][cH:8][c:9]2[CH2:10][C@H:11]1[c:12]1[cH:13][cH:14][s:15][cH:16]1",
+      "atom_mapped_substrate_smiles": "[N:1]#[N:2]=[N:3][c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[CH2:10][CH2:11][c:12]1[cH:13][cH:14][s:15][cH:16]1",
+      "curation_status": "feature_ready",
+      "reaction_center_source_note": "Table 1 entry 22 reports 2v; atom map 11 follows the 1a indoline-forming benzylic C-H pattern with the distal thiophene retained.",
+      "reported_reactive_atom_map_id": 11,
+      "reported_site_type": "benzylic",
+      "review_status": "checked",
+      "substrate_id": "1v"
+    },
+    {
+      "atom_mapped_product_smiles": "[NH:3]1[c:4]2[cH:5][cH:6][c:7]([CH3:18])[cH:8][c:9]2[CH2:10][C@H:11]1[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1",
+      "atom_mapped_substrate_smiles": "[N:1]#[N:2]=[N:3][c:4]1[cH:5][cH:6][c:7]([CH3:18])[cH:8][c:9]1[CH2:10][CH2:11][c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1",
+      "curation_status": "feature_ready",
+      "reaction_center_source_note": "Table 1 entry 10 reports 2j; atom map 11 follows the indoline-forming benzylic C-H pattern while retaining the methyl substituent on the azide-bearing aryl ring.",
+      "reported_reactive_atom_map_id": 11,
+      "reported_site_type": "benzylic",
+      "review_status": "checked",
+      "substrate_id": "1j"
+    },
+    {
+      "atom_mapped_product_smiles": "[NH:3]1[c:4]2[cH:5][cH:6][cH:7][cH:8][c:9]2[CH2:10][C@H:11]1[c:12]1[cH:13][c:14]2[cH:15][cH:16][cH:17][cH:18][c:19]2[o:20]1",
+      "atom_mapped_substrate_smiles": "[N:1]#[N:2]=[N:3][c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[CH2:10][CH2:11][c:12]1[cH:13][c:14]2[cH:15][cH:16][cH:17][cH:18][c:19]2[o:20]1",
+      "curation_status": "feature_ready",
+      "reaction_center_source_note": "Table 1 entry 16 reports 2p; atom map 11 follows the 1a indoline-forming benzylic C-H pattern with the distal benzofuran retained.",
+      "reported_reactive_atom_map_id": 11,
+      "reported_site_type": "benzylic",
+      "review_status": "checked",
+      "substrate_id": "1p"
+    },
+    {
+      "atom_mapped_product_smiles": "[NH:3]1[c:4]2[cH:5][cH:6][cH:7][cH:8][c:9]2[CH2:10][C@H:11]1[c:12]1[cH:13][cH:14][n:15][c:16]([Cl:18])[cH:17]1",
+      "atom_mapped_substrate_smiles": "[N:1]#[N:2]=[N:3][c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[CH2:10][CH2:11][c:12]1[cH:13][cH:14][n:15][c:16]([Cl:18])[cH:17]1",
+      "curation_status": "feature_ready",
+      "reaction_center_source_note": "Table 1 entry 27 reports 2aa; atom map 11 follows the 1a indoline-forming benzylic C-H pattern with the distal chloropyridyl ring retained.",
+      "reported_reactive_atom_map_id": 11,
+      "reported_site_type": "benzylic",
+      "review_status": "checked",
+      "substrate_id": "1aa"
+    },
+    {
+      "atom_mapped_product_smiles": "[NH:3]1[c:4]2[cH:5][cH:6][cH:7][cH:8][c:9]2[CH2:10][C@H:11]1[C:12](=[O:15])[O:13][CH3:14]",
+      "atom_mapped_substrate_smiles": "[CH3:14][O:13][C:12](=[O:15])[CH2:11][CH2:10][c:9]1[cH:8][cH:7][cH:6][cH:5][c:4]1[N:3]=[N:2]#[N:1]",
+      "curation_status": "feature_ready",
+      "reaction_center_source_note": "Table 1 entry 31 reports 2ae; atom map 11 is the ester alpha C-H that forms the new C-N bond in the indoline product.",
+      "reported_reactive_atom_map_id": 11,
+      "reported_site_type": "carbonyl_alpha",
+      "review_status": "checked",
+      "substrate_id": "1ae"
+    },
+    {
+      "atom_mapped_product_smiles": "[NH:3]1[c:4]2[cH:5][cH:6][cH:7][cH:8][c:9]2[CH2:10][C@H:11]1[CH2:12][CH3:13]",
+      "atom_mapped_substrate_smiles": "[CH3:13][CH2:12][CH2:11][CH2:10][c:9]1[cH:8][cH:7][cH:6][cH:5][c:4]1[N:3]=[N:2]#[N:1]",
+      "curation_status": "feature_ready",
+      "reaction_center_source_note": "Table 1 entry 34 reports 2ah; atom map 11 is the secondary aliphatic C-H that forms the new C-N bond, leaving an ethyl substituent at the indoline stereocentre.",
+      "reported_reactive_atom_map_id": 11,
+      "reported_site_type": "aliphatic",
+      "review_status": "checked",
+      "substrate_id": "1ah"
+    },
+    {
+      "atom_mapped_product_smiles": "[NH:3]1[c:4]2[cH:5][cH:6][cH:7][cH:8][c:9]2[CH2:10][C@H:11]1[CH2:12][Si:13]([CH3:14])([CH3:15])[CH3:16]",
+      "atom_mapped_substrate_smiles": "[N:1]#[N:2]=[N:3][c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[CH2:10][CH2:11][CH2:12][Si:13]([CH3:14])([CH3:15])[CH3:16]",
+      "curation_status": "feature_ready",
+      "reaction_center_source_note": "Table 1 entry 29 reports 2ac after Boc-protected derivatization; atom map 11 is curated as the indoline-forming C-H, leaving the CH2-SiMe3 substituent at the product stereocentre.",
+      "reported_reactive_atom_map_id": 11,
+      "reported_site_type": "silylalkyl_substituted",
+      "review_status": "checked",
+      "substrate_id": "1ac"
+    },
+    {
+      "atom_mapped_product_smiles": "[NH:3]1[c:4]2[cH:5][cH:6][cH:7][cH:8][c:9]2[S:10][C@H:11]1[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1",
+      "atom_mapped_substrate_smiles": "[N:1]#[N:2]=[N:3][c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[S:10][CH2:11][c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1",
+      "curation_status": "feature_ready",
+      "reaction_center_source_note": "Table 1 entry 30 reports 2ad; atom map 11 is the thioether benzylic C-H that closes to the aryl nitrene N in the sulfur-containing indoline analogue.",
+      "reported_reactive_atom_map_id": 11,
+      "reported_site_type": "thioether_benzylic",
+      "review_status": "checked",
+      "substrate_id": "1ad"
+    },
+    {
+      "atom_mapped_product_smiles": "[NH:3]1[c:4]2[cH:5][cH:6][cH:7][cH:8][c:9]2[CH:10]2[C@H:11]1[CH2:12][CH2:13][CH2:14]2",
+      "atom_mapped_substrate_smiles": "[N:1]#[N:2]=[N:3][c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[CH:10]1[CH2:11][CH2:12][CH2:13][CH2:14]1",
+      "curation_status": "feature_ready",
+      "reaction_center_source_note": "Table 1 entry 39 reports cyclopentane-fused indoline 2am; atom map 11 is one desymmetrized cyclopentyl C-H forming the new C-N bond.",
+      "reported_reactive_atom_map_id": 11,
+      "reported_site_type": "cycloalkyl",
+      "review_status": "checked",
+      "substrate_id": "1am"
+    }
+  ],
+  "pending_seed_substrate_ids": [],
+  "schema_version": "stage2-seed-curation-packets-v1"
+}

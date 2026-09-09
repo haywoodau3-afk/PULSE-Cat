@@ -1,0 +1,1822 @@
+{
+  "canonical_overlap_count": 13,
+  "directions": {
+    "cmcpor_to_p7_aryl": {
+      "metrics": {
+        "direct_p3_pooled": {
+          "auc_mae": 528.5889317940221,
+          "count": 38,
+          "mae": 14.744971775991853
+        },
+        "guarded_residual_pose": {
+          "auc_mae": 499.11352525311594,
+          "count": 38,
+          "mae": 13.85878921234828
+        },
+        "pooled_b5": {
+          "auc_mae": 522.7722555026438,
+          "count": 38,
+          "mae": 14.532343635884965
+        },
+        "source_b5": {
+          "auc_mae": 642.0969223507848,
+          "count": 38,
+          "mae": 17.747877007221962
+        },
+        "source_residual_pose": {
+          "auc_mae": 502.8261737723298,
+          "count": 38,
+          "mae": 14.302152509914654
+        },
+        "target_b5": {
+          "auc_mae": 502.54435347453494,
+          "count": 38,
+          "mae": 13.76160667859282
+        },
+        "target_residual_pose": {
+          "auc_mae": 564.5679823182523,
+          "count": 38,
+          "mae": 15.397988293814569
+        }
+      },
+      "rows": [
+        {
+          "direct_p3_pooled": 86.61484698684689,
+          "guarded_residual_pose": 95.36656923655553,
+          "guarded_weights_before_update": {
+            "combined": 0.16666666666666666,
+            "source": 0.16666666666666666,
+            "target_only": 0.6666666666666666
+          },
+          "observed": 72.0,
+          "pooled_b5": 83.15776979269476,
+          "predictions": {
+            "direct_p3_pooled": 86.61484698684689,
+            "pooled_b5": 83.15776979269476,
+            "source_b5": 78.90422998741163,
+            "source_residual_pose": 95.57066534896643,
+            "target_b5": 98.05,
+            "target_residual_pose": 98.36774506941802
+          },
+          "prefix_size": 2,
+          "source_b5": 78.90422998741163,
+          "source_residual_pose": 95.57066534896643,
+          "target_b5": 98.05,
+          "target_residual_pose": 98.36774506941802,
+          "test_substrate_id": "1c"
+        },
+        {
+          "direct_p3_pooled": 83.50382266586863,
+          "guarded_residual_pose": 88.04322448425026,
+          "guarded_weights_before_update": {
+            "combined": 0.16666666666666666,
+            "source": 0.16666666666666666,
+            "target_only": 0.6666666666666666
+          },
+          "observed": 99.0,
+          "pooled_b5": 84.43377908922461,
+          "predictions": {
+            "direct_p3_pooled": 83.50382266586863,
+            "pooled_b5": 84.43377908922461,
+            "source_b5": 80.64240536321726,
+            "source_residual_pose": 80.64240536321726,
+            "target_b5": 90.79579061326491,
+            "target_residual_pose": 90.79579061326491
+          },
+          "prefix_size": 3,
+          "source_b5": 80.64240536321726,
+          "source_residual_pose": 80.64240536321726,
+          "target_b5": 90.79579061326491,
+          "target_residual_pose": 90.79579061326491,
+          "test_substrate_id": "1d"
+        },
+        {
+          "direct_p3_pooled": 83.25467118367305,
+          "guarded_residual_pose": 95.14544160338741,
+          "guarded_weights_before_update": {
+            "combined": 0.16666666666666669,
+            "source": 0.16666666666666669,
+            "target_only": 0.6666666666666667
+          },
+          "observed": 95.0,
+          "pooled_b5": 79.17040414239047,
+          "predictions": {
+            "direct_p3_pooled": 83.25467118367305,
+            "pooled_b5": 79.17040414239047,
+            "source_b5": 77.12348139624382,
+            "source_residual_pose": 91.70224547793393,
+            "target_b5": 92.63096513182532,
+            "target_residual_pose": 100.0
+          },
+          "prefix_size": 4,
+          "source_b5": 77.12348139624382,
+          "source_residual_pose": 91.70224547793393,
+          "target_b5": 92.63096513182532,
+          "target_residual_pose": 100.0,
+          "test_substrate_id": "1e"
+        },
+        {
+          "direct_p3_pooled": 80.98210436205304,
+          "guarded_residual_pose": 88.57304989285065,
+          "guarded_weights_before_update": {
+            "combined": 0.16666666666666669,
+            "source": 0.16666666666666669,
+            "target_only": 0.6666666666666667
+          },
+          "observed": 82.0,
+          "pooled_b5": 78.54937218165135,
+          "predictions": {
+            "direct_p3_pooled": 80.98210436205304,
+            "pooled_b5": 78.54937218165135,
+            "source_b5": 74.37344718410961,
+            "source_residual_pose": 80.57667857572505,
+            "target_b5": 87.08957717063439,
+            "target_residual_pose": 93.07806214993185
+          },
+          "prefix_size": 5,
+          "source_b5": 74.37344718410961,
+          "source_residual_pose": 80.57667857572505,
+          "target_b5": 87.08957717063439,
+          "target_residual_pose": 93.07806214993185,
+          "test_substrate_id": "1f"
+        },
+        {
+          "direct_p3_pooled": 91.1573990722418,
+          "guarded_residual_pose": 94.94898697947947,
+          "guarded_weights_before_update": {
+            "combined": 0.16666666666666669,
+            "source": 0.16666666666666669,
+            "target_only": 0.6666666666666667
+          },
+          "observed": 92.0,
+          "pooled_b5": 88.18903440001316,
+          "predictions": {
+            "direct_p3_pooled": 91.1573990722418,
+            "pooled_b5": 88.18903440001316,
+            "source_b5": 77.50046335625868,
+            "source_residual_pose": 91.62612812483287,
+            "target_b5": 93.12520672792239,
+            "target_residual_pose": 97.4696898380077
+          },
+          "prefix_size": 6,
+          "source_b5": 77.50046335625868,
+          "source_residual_pose": 91.62612812483287,
+          "target_b5": 93.12520672792239,
+          "target_residual_pose": 97.4696898380077,
+          "test_substrate_id": "1g"
+        },
+        {
+          "direct_p3_pooled": 86.3360296947888,
+          "guarded_residual_pose": 92.41628307591137,
+          "guarded_weights_before_update": {
+            "combined": 0.20486842442587552,
+            "source": 0.2071021240868624,
+            "target_only": 0.588029451487262
+          },
+          "observed": 95.0,
+          "pooled_b5": 84.63689630104814,
+          "predictions": {
+            "direct_p3_pooled": 86.3360296947888,
+            "pooled_b5": 84.63689630104814,
+            "source_b5": 77.97085174122977,
+            "source_residual_pose": 92.21743437466634,
+            "target_b5": 94.03240554437286,
+            "target_residual_pose": 95.19664160358435
+          },
+          "prefix_size": 7,
+          "source_b5": 77.97085174122977,
+          "source_residual_pose": 92.21743437466634,
+          "target_b5": 94.03240554437286,
+          "target_residual_pose": 95.19664160358435,
+          "test_substrate_id": "1h"
+        },
+        {
+          "direct_p3_pooled": 81.41498380630736,
+          "guarded_residual_pose": 89.57313787959123,
+          "guarded_weights_before_update": {
+            "combined": 0.1959860577874436,
+            "source": 0.20655232663338213,
+            "target_only": 0.5974616155791744
+          },
+          "observed": 93.0,
+          "pooled_b5": 82.7365435637961,
+          "predictions": {
+            "direct_p3_pooled": 81.41498380630736,
+            "pooled_b5": 82.7365435637961,
+            "source_b5": 75.03536466744283,
+            "source_residual_pose": 79.51422665767944,
+            "target_b5": 93.77659848046714,
+            "target_residual_pose": 95.29328557747517
+          },
+          "prefix_size": 8,
+          "source_b5": 75.03536466744283,
+          "source_residual_pose": 79.51422665767944,
+          "target_b5": 93.77659848046714,
+          "target_residual_pose": 95.29328557747517,
+          "test_substrate_id": "1i"
+        },
+        {
+          "direct_p3_pooled": 77.36050173069076,
+          "guarded_residual_pose": 86.1416894767651,
+          "guarded_weights_before_update": {
+            "combined": 0.0,
+            "source": 0.24542765172275777,
+            "target_only": 0.7545723482772423
+          },
+          "observed": 90.0,
+          "pooled_b5": 76.35729431257536,
+          "predictions": {
+            "direct_p3_pooled": 77.36050173069076,
+            "pooled_b5": 76.35729431257536,
+            "source_b5": 80.5301045105315,
+            "source_residual_pose": 87.01017278350358,
+            "target_b5": 85.85921183360752,
+            "target_residual_pose": 85.85921183360752
+          },
+          "prefix_size": 9,
+          "source_b5": 80.5301045105315,
+          "source_residual_pose": 87.01017278350358,
+          "target_b5": 85.85921183360752,
+          "target_residual_pose": 85.85921183360752,
+          "test_substrate_id": "1j"
+        },
+        {
+          "direct_p3_pooled": 86.28304123370172,
+          "guarded_residual_pose": 93.6537769989897,
+          "guarded_weights_before_update": {
+            "combined": 0.0,
+            "source": 0.2467430731574595,
+            "target_only": 0.7532569268425405
+          },
+          "observed": 60.0,
+          "pooled_b5": 84.99077129396647,
+          "predictions": {
+            "direct_p3_pooled": 86.28304123370172,
+            "pooled_b5": 84.99077129396647,
+            "source_b5": 74.28003582917019,
+            "source_residual_pose": 74.28003582917019,
+            "target_b5": 97.74788292023666,
+            "target_residual_pose": 100.0
+          },
+          "prefix_size": 10,
+          "source_b5": 74.28003582917019,
+          "source_residual_pose": 74.28003582917019,
+          "target_b5": 97.74788292023666,
+          "target_residual_pose": 100.0,
+          "test_substrate_id": "1k"
+        },
+        {
+          "direct_p3_pooled": 62.07151385373323,
+          "guarded_residual_pose": 85.44875178838423,
+          "guarded_weights_before_update": {
+            "combined": 0.19181056100692231,
+            "source": 0.21821438357745018,
+            "target_only": 0.5899750554156274
+          },
+          "observed": 72.0,
+          "pooled_b5": 66.14463638292868,
+          "predictions": {
+            "direct_p3_pooled": 62.07151385373323,
+            "pooled_b5": 66.14463638292868,
+            "source_b5": 63.30269583081714,
+            "source_residual_pose": 63.30269583081714,
+            "target_b5": 86.44776611143575,
+            "target_residual_pose": 99.91600947456222
+          },
+          "prefix_size": 11,
+          "source_b5": 63.30269583081714,
+          "source_residual_pose": 63.30269583081714,
+          "target_b5": 86.44776611143575,
+          "target_residual_pose": 99.91600947456222,
+          "test_substrate_id": "1l"
+        },
+        {
+          "direct_p3_pooled": 79.88078740000421,
+          "guarded_residual_pose": 78.91351972237115,
+          "guarded_weights_before_update": {
+            "combined": 0.20406627524377344,
+            "source": 0.22785538298180158,
+            "target_only": 0.5680783417744248
+          },
+          "observed": 98.0,
+          "pooled_b5": 79.17230183275933,
+          "predictions": {
+            "direct_p3_pooled": 79.88078740000421,
+            "pooled_b5": 79.17230183275933,
+            "source_b5": 72.9476151532914,
+            "source_residual_pose": 72.9476151532914,
+            "target_b5": 79.49646804599745,
+            "target_residual_pose": 81.21347498025482
+          },
+          "prefix_size": 12,
+          "source_b5": 72.9476151532914,
+          "source_residual_pose": 72.9476151532914,
+          "target_b5": 79.49646804599745,
+          "target_residual_pose": 81.21347498025482,
+          "test_substrate_id": "1m"
+        },
+        {
+          "direct_p3_pooled": 93.66404660775385,
+          "guarded_residual_pose": 95.28760974451076,
+          "guarded_weights_before_update": {
+            "combined": 0.20411053260668607,
+            "source": 0.220875223213883,
+            "target_only": 0.575014244179431
+          },
+          "observed": 96.0,
+          "pooled_b5": 95.66021123903238,
+          "predictions": {
+            "direct_p3_pooled": 93.66404660775385,
+            "pooled_b5": 95.66021123903238,
+            "source_b5": 82.67531502896465,
+            "source_residual_pose": 82.67531502896465,
+            "target_b5": 93.972026819712,
+            "target_residual_pose": 100.0
+          },
+          "prefix_size": 13,
+          "source_b5": 82.67531502896465,
+          "source_residual_pose": 82.67531502896465,
+          "target_b5": 93.972026819712,
+          "target_residual_pose": 100.0,
+          "test_substrate_id": "1n"
+        },
+        {
+          "direct_p3_pooled": 91.05198129427662,
+          "guarded_residual_pose": 92.9734188313454,
+          "guarded_weights_before_update": {
+            "combined": 0.20813124435489805,
+            "source": 0.21285799355258905,
+            "target_only": 0.5790107620925129
+          },
+          "observed": 94.0,
+          "pooled_b5": 90.41830901817626,
+          "predictions": {
+            "direct_p3_pooled": 91.05198129427662,
+            "pooled_b5": 90.41830901817626,
+            "source_b5": 81.26926274383713,
+            "source_residual_pose": 92.23104368801545,
+            "target_b5": 93.69015859156434,
+            "target_residual_pose": 94.16479335063389
+          },
+          "prefix_size": 14,
+          "source_b5": 81.26926274383713,
+          "source_residual_pose": 92.23104368801545,
+          "target_b5": 93.69015859156434,
+          "target_residual_pose": 94.16479335063389,
+          "test_substrate_id": "1o"
+        },
+        {
+          "direct_p3_pooled": 92.60716297069438,
+          "guarded_residual_pose": 95.31592707291597,
+          "guarded_weights_before_update": {
+            "combined": 0.20589454671076357,
+            "source": 0.21191494965062133,
+            "target_only": 0.5821905036386151
+          },
+          "observed": 84.0,
+          "pooled_b5": 90.8570506997356,
+          "predictions": {
+            "direct_p3_pooled": 92.60716297069438,
+            "pooled_b5": 90.8570506997356,
+            "source_b5": 81.58530327790145,
+            "source_residual_pose": 86.77965131801456,
+            "target_b5": 94.71434817523748,
+            "target_residual_pose": 100.0
+          },
+          "prefix_size": 15,
+          "source_b5": 81.58530327790145,
+          "source_residual_pose": 86.77965131801456,
+          "target_b5": 94.71434817523748,
+          "target_residual_pose": 100.0,
+          "test_substrate_id": "1p"
+        },
+        {
+          "direct_p3_pooled": 97.38262204974029,
+          "guarded_residual_pose": 96.84731898829845,
+          "guarded_weights_before_update": {
+            "combined": 0.2091931469604729,
+            "source": 0.21848273408098115,
+            "target_only": 0.572324118958546
+          },
+          "observed": 95.0,
+          "pooled_b5": 99.19751611710399,
+          "predictions": {
+            "direct_p3_pooled": 97.38262204974029,
+            "pooled_b5": 99.19751611710399,
+            "source_b5": 94.5082477598672,
+            "source_residual_pose": 100.0,
+            "target_b5": 91.51642803875895,
+            "target_residual_pose": 94.78476131971355
+          },
+          "prefix_size": 16,
+          "source_b5": 94.5082477598672,
+          "source_residual_pose": 100.0,
+          "target_b5": 91.51642803875895,
+          "target_residual_pose": 94.78476131971355,
+          "test_substrate_id": "1q"
+        },
+        {
+          "direct_p3_pooled": 83.60234932868349,
+          "guarded_residual_pose": 87.97734781432288,
+          "guarded_weights_before_update": {
+            "combined": 0.20727340357734306,
+            "source": 0.21553735387419778,
+            "target_only": 0.5771892425484592
+          },
+          "observed": 98.0,
+          "pooled_b5": 84.64154211234812,
+          "predictions": {
+            "direct_p3_pooled": 83.60234932868349,
+            "pooled_b5": 84.64154211234812,
+            "source_b5": 78.9897363683254,
+            "source_residual_pose": 85.5282594699097,
+            "target_b5": 87.69730792607812,
+            "target_residual_pose": 90.08981584525226
+          },
+          "prefix_size": 17,
+          "source_b5": 78.9897363683254,
+          "source_residual_pose": 85.5282594699097,
+          "target_b5": 87.69730792607812,
+          "target_residual_pose": 90.08981584525226,
+          "test_substrate_id": "1r"
+        },
+        {
+          "direct_p3_pooled": 82.83137455267203,
+          "guarded_residual_pose": 92.56735213278054,
+          "guarded_weights_before_update": {
+            "combined": 0.2045804492626931,
+            "source": 0.21316731369544012,
+            "target_only": 0.5822522370418668
+          },
+          "observed": 47.0,
+          "pooled_b5": 85.22918309816168,
+          "predictions": {
+            "direct_p3_pooled": 82.83137455267203,
+            "pooled_b5": 85.22918309816168,
+            "source_b5": 73.74997071344333,
+            "source_residual_pose": 79.3081432936463,
+            "target_b5": 92.82256126342483,
+            "target_residual_pose": 100.0
+          },
+          "prefix_size": 18,
+          "source_b5": 73.74997071344333,
+          "source_residual_pose": 79.3081432936463,
+          "target_b5": 92.82256126342483,
+          "target_residual_pose": 100.0,
+          "test_substrate_id": "1s"
+        },
+        {
+          "direct_p3_pooled": 82.8674339881866,
+          "guarded_residual_pose": 83.83018620926686,
+          "guarded_weights_before_update": {
+            "combined": 0.20966717087330647,
+            "source": 0.2227758443221405,
+            "target_only": 0.567556984804553
+          },
+          "observed": 99.0,
+          "pooled_b5": 84.28515474145998,
+          "predictions": {
+            "direct_p3_pooled": 82.8674339881866,
+            "pooled_b5": 84.28515474145998,
+            "source_b5": 77.29229928000565,
+            "source_residual_pose": 83.47506463892434,
+            "target_b5": 83.80150282108362,
+            "target_residual_pose": 83.80150282108362
+          },
+          "prefix_size": 19,
+          "source_b5": 77.29229928000565,
+          "source_residual_pose": 83.47506463892434,
+          "target_b5": 83.80150282108362,
+          "target_residual_pose": 83.80150282108362,
+          "test_substrate_id": "1t"
+        },
+        {
+          "direct_p3_pooled": 85.60239759450688,
+          "guarded_residual_pose": 88.55612404436279,
+          "guarded_weights_before_update": {
+            "combined": 0.20974037486804537,
+            "source": 0.2218813676966641,
+            "target_only": 0.5683782574352905
+          },
+          "observed": 64.0,
+          "pooled_b5": 85.54415234194947,
+          "predictions": {
+            "direct_p3_pooled": 85.60239759450688,
+            "pooled_b5": 85.54415234194947,
+            "source_b5": 77.0758006830762,
+            "source_residual_pose": 84.55312518220073,
+            "target_b5": 89.8910872770922,
+            "target_residual_pose": 91.23026387377715
+          },
+          "prefix_size": 20,
+          "source_b5": 77.0758006830762,
+          "source_residual_pose": 84.55312518220073,
+          "target_b5": 89.8910872770922,
+          "target_residual_pose": 91.23026387377715,
+          "test_substrate_id": "1u"
+        },
+        {
+          "direct_p3_pooled": 86.67381990954681,
+          "guarded_residual_pose": 91.90560139316361,
+          "guarded_weights_before_update": {
+            "combined": 0.21159407290043072,
+            "source": 0.22425908984523457,
+            "target_only": 0.5641468372543347
+          },
+          "observed": 95.0,
+          "pooled_b5": 86.55040864491767,
+          "predictions": {
+            "direct_p3_pooled": 86.67381990954681,
+            "pooled_b5": 86.55040864491767,
+            "source_b5": 80.11697813894122,
+            "source_residual_pose": 91.2314852060513,
+            "target_b5": 94.18214296448674,
+            "target_residual_pose": 94.18214296448674
+          },
+          "prefix_size": 21,
+          "source_b5": 80.11697813894122,
+          "source_residual_pose": 91.2314852060513,
+          "target_b5": 94.18214296448674,
+          "target_residual_pose": 94.18214296448674,
+          "test_substrate_id": "1v"
+        },
+        {
+          "direct_p3_pooled": 87.18308323220349,
+          "guarded_residual_pose": 89.69153461532052,
+          "guarded_weights_before_update": {
+            "combined": 0.20767954480562684,
+            "source": 0.22315559338394375,
+            "target_only": 0.5691648618104294
+          },
+          "observed": 99.0,
+          "pooled_b5": 86.52032459542147,
+          "predictions": {
+            "direct_p3_pooled": 87.18308323220349,
+            "pooled_b5": 86.52032459542147,
+            "source_b5": 78.42879670350258,
+            "source_residual_pose": 82.89847912627155,
+            "target_b5": 89.5845487030772,
+            "target_residual_pose": 93.51205117891807
+          },
+          "prefix_size": 22,
+          "source_b5": 78.42879670350258,
+          "source_residual_pose": 82.89847912627155,
+          "target_b5": 89.5845487030772,
+          "target_residual_pose": 93.51205117891807,
+          "test_substrate_id": "1w"
+        },
+        {
+          "direct_p3_pooled": 89.55708731852044,
+          "guarded_residual_pose": 92.77144762262127,
+          "guarded_weights_before_update": {
+            "combined": 0.20541517803361042,
+            "source": 0.21785020117976509,
+            "target_only": 0.5767346207866245
+          },
+          "observed": 99.0,
+          "pooled_b5": 88.68783226050957,
+          "predictions": {
+            "direct_p3_pooled": 89.55708731852044,
+            "pooled_b5": 88.68783226050957,
+            "source_b5": 77.46799411976725,
+            "source_residual_pose": 95.38611636684135,
+            "target_b5": 93.23826625111793,
+            "target_residual_pose": 93.23826625111793
+          },
+          "prefix_size": 23,
+          "source_b5": 77.46799411976725,
+          "source_residual_pose": 95.38611636684135,
+          "target_b5": 93.23826625111793,
+          "target_residual_pose": 93.23826625111793,
+          "test_substrate_id": "1x"
+        },
+        {
+          "direct_p3_pooled": 87.41966450349786,
+          "guarded_residual_pose": 89.94752434975189,
+          "guarded_weights_before_update": {
+            "combined": 0.20272073024092374,
+            "source": 0.21920668927833364,
+            "target_only": 0.5780725804807426
+          },
+          "observed": 97.0,
+          "pooled_b5": 90.43752695281054,
+          "predictions": {
+            "direct_p3_pooled": 87.41966450349786,
+            "pooled_b5": 90.43752695281054,
+            "source_b5": 81.53854978164463,
+            "source_residual_pose": 86.81316858510485,
+            "target_b5": 90.96424454116443,
+            "target_residual_pose": 90.96424454116443
+          },
+          "prefix_size": 24,
+          "source_b5": 81.53854978164463,
+          "source_residual_pose": 86.81316858510485,
+          "target_b5": 90.96424454116443,
+          "target_residual_pose": 90.96424454116443,
+          "test_substrate_id": "1y"
+        },
+        {
+          "direct_p3_pooled": 79.23848990327114,
+          "guarded_residual_pose": 82.53454902613387,
+          "guarded_weights_before_update": {
+            "combined": 0.20296560160152016,
+            "source": 0.21672075918521114,
+            "target_only": 0.5803136392132687
+          },
+          "observed": 96.0,
+          "pooled_b5": 78.64244004536394,
+          "predictions": {
+            "direct_p3_pooled": 79.23848990327114,
+            "pooled_b5": 78.64244004536394,
+            "source_b5": 75.1166999385242,
+            "source_residual_pose": 80.60811339136521,
+            "target_b5": 84.61525634107157,
+            "target_residual_pose": 84.61525634107157
+          },
+          "prefix_size": 25,
+          "source_b5": 75.1166999385242,
+          "source_residual_pose": 80.60811339136521,
+          "target_b5": 84.61525634107157,
+          "target_residual_pose": 84.61525634107157,
+          "test_substrate_id": "1aa"
+        },
+        {
+          "direct_p3_pooled": 81.23946234269097,
+          "guarded_residual_pose": 88.3104898681253,
+          "guarded_weights_before_update": {
+            "combined": 0.2005749003800353,
+            "source": 0.21513452585911547,
+            "target_only": 0.5842905737608493
+          },
+          "observed": 95.0,
+          "pooled_b5": 87.09225182020856,
+          "predictions": {
+            "direct_p3_pooled": 81.23946234269097,
+            "pooled_b5": 87.09225182020856,
+            "source_b5": 73.23888160414829,
+            "source_residual_pose": 78.21482465496837,
+            "target_b5": 92.44588796022926,
+            "target_residual_pose": 92.44588796022926
+          },
+          "prefix_size": 26,
+          "source_b5": 73.23888160414829,
+          "source_residual_pose": 78.21482465496837,
+          "target_b5": 92.44588796022926,
+          "target_residual_pose": 92.44588796022926,
+          "test_substrate_id": "1ab"
+        },
+        {
+          "direct_p3_pooled": 79.10685047568545,
+          "guarded_residual_pose": 84.86801165941992,
+          "guarded_weights_before_update": {
+            "combined": 0.19982805327391556,
+            "source": 0.2085888770288112,
+            "target_only": 0.5915830696972733
+          },
+          "observed": 85.0,
+          "pooled_b5": 78.11941454698763,
+          "predictions": {
+            "direct_p3_pooled": 79.10685047568545,
+            "pooled_b5": 78.11941454698763,
+            "source_b5": 67.15576274310675,
+            "source_residual_pose": 67.15576274310675,
+            "target_b5": 93.3928281944782,
+            "target_residual_pose": 93.3928281944782
+          },
+          "prefix_size": 27,
+          "source_b5": 67.15576274310675,
+          "source_residual_pose": 67.15576274310675,
+          "target_b5": 93.3928281944782,
+          "target_residual_pose": 93.3928281944782,
+          "test_substrate_id": "1ac"
+        },
+        {
+          "direct_p3_pooled": 68.20914608338677,
+          "guarded_residual_pose": 84.11594830486948,
+          "guarded_weights_before_update": {
+            "combined": 0.20163987010775872,
+            "source": 0.2038354799582705,
+            "target_only": 0.5945246499339707
+          },
+          "observed": 87.0,
+          "pooled_b5": 69.4623687793592,
+          "predictions": {
+            "direct_p3_pooled": 68.20914608338677,
+            "pooled_b5": 69.4623687793592,
+            "source_b5": 56.579677002926545,
+            "source_residual_pose": 67.23192466837432,
+            "target_b5": 94.87464255652041,
+            "target_residual_pose": 94.87464255652041
+          },
+          "prefix_size": 28,
+          "source_b5": 56.579677002926545,
+          "source_residual_pose": 67.23192466837432,
+          "target_b5": 94.87464255652041,
+          "target_residual_pose": 94.87464255652041,
+          "test_substrate_id": "1ad"
+        },
+        {
+          "direct_p3_pooled": 51.686177800782986,
+          "guarded_residual_pose": 73.26436026863935,
+          "guarded_weights_before_update": {
+            "combined": 0.19862189853891685,
+            "source": 0.1994950951703126,
+            "target_only": 0.6018830062907705
+          },
+          "observed": 21.0,
+          "pooled_b5": 54.81445263759751,
+          "predictions": {
+            "direct_p3_pooled": 51.686177800782986,
+            "pooled_b5": 54.81445263759751,
+            "source_b5": 53.79622308430389,
+            "source_residual_pose": 53.79622308430389,
+            "target_b5": 85.80559084506181,
+            "target_residual_pose": 85.80559084506181
+          },
+          "prefix_size": 29,
+          "source_b5": 53.79622308430389,
+          "source_residual_pose": 53.79622308430389,
+          "target_b5": 85.80559084506181,
+          "target_residual_pose": 85.80559084506181,
+          "test_substrate_id": "1ae"
+        },
+        {
+          "direct_p3_pooled": 40.353244526862504,
+          "guarded_residual_pose": 42.643482769492714,
+          "guarded_weights_before_update": {
+            "combined": 0.20880461396839287,
+            "source": 0.21029515535305932,
+            "target_only": 0.5809002306785477
+          },
+          "observed": 72.0,
+          "pooled_b5": 36.895167579248515,
+          "predictions": {
+            "direct_p3_pooled": 40.353244526862504,
+            "pooled_b5": 36.895167579248515,
+            "source_b5": 54.42662043630183,
+            "source_residual_pose": 54.42662043630183,
+            "target_b5": 40.44403101436416,
+            "target_residual_pose": 40.44403101436416
+          },
+          "prefix_size": 30,
+          "source_b5": 54.42662043630183,
+          "source_residual_pose": 54.42662043630183,
+          "target_b5": 40.44403101436416,
+          "target_residual_pose": 40.44403101436416,
+          "test_substrate_id": "1af"
+        },
+        {
+          "direct_p3_pooled": 75.69973580084964,
+          "guarded_residual_pose": 82.7418689666677,
+          "guarded_weights_before_update": {
+            "combined": 0.2054068223550937,
+            "source": 0.2168989313304844,
+            "target_only": 0.5776942463144218
+          },
+          "observed": 67.0,
+          "pooled_b5": 65.6227370724229,
+          "predictions": {
+            "direct_p3_pooled": 75.69973580084964,
+            "pooled_b5": 65.6227370724229,
+            "source_b5": 51.46215044528911,
+            "source_residual_pose": 68.82910276953402,
+            "target_b5": 69.13977159350577,
+            "target_residual_pose": 94.05243791480892
+          },
+          "prefix_size": 31,
+          "source_b5": 51.46215044528911,
+          "source_residual_pose": 68.82910276953402,
+          "target_b5": 69.13977159350577,
+          "target_residual_pose": 94.05243791480892,
+          "test_substrate_id": "1ag"
+        },
+        {
+          "direct_p3_pooled": 81.97183186507758,
+          "guarded_residual_pose": 85.31875811017167,
+          "guarded_weights_before_update": {
+            "combined": 0.21353272799292425,
+            "source": 0.22500911564599488,
+            "target_only": 0.5614581563610808
+          },
+          "observed": 75.0,
+          "pooled_b5": 77.9124700405167,
+          "predictions": {
+            "direct_p3_pooled": 81.97183186507758,
+            "pooled_b5": 77.9124700405167,
+            "source_b5": 65.58862760385111,
+            "source_residual_pose": 76.30023073971118,
+            "target_b5": 89.47557166346843,
+            "target_residual_pose": 91.74975518976399
+          },
+          "prefix_size": 32,
+          "source_b5": 65.58862760385111,
+          "source_residual_pose": 76.30023073971118,
+          "target_b5": 89.47557166346843,
+          "target_residual_pose": 91.74975518976399,
+          "test_substrate_id": "1ah"
+        },
+        {
+          "direct_p3_pooled": 76.25461764921243,
+          "guarded_residual_pose": 84.81350489337767,
+          "guarded_weights_before_update": {
+            "combined": 0.2174691594913431,
+            "source": 0.2299376149847308,
+            "target_only": 0.5525932255239262
+          },
+          "observed": 53.0,
+          "pooled_b5": 80.17179339769376,
+          "predictions": {
+            "direct_p3_pooled": 76.25461764921243,
+            "pooled_b5": 80.17179339769376,
+            "source_b5": 70.86708770660243,
+            "source_residual_pose": 70.86708770660243,
+            "target_b5": 92.44341204448205,
+            "target_residual_pose": 92.44341204448205
+          },
+          "prefix_size": 33,
+          "source_b5": 70.86708770660243,
+          "source_residual_pose": 70.86708770660243,
+          "target_b5": 92.44341204448205,
+          "target_residual_pose": 92.44341204448205,
+          "test_substrate_id": "1ai"
+        },
+        {
+          "direct_p3_pooled": 70.39052990401974,
+          "guarded_residual_pose": 77.4155193955046,
+          "guarded_weights_before_update": {
+            "combined": 0.21977187091134104,
+            "source": 0.23781648945083628,
+            "target_only": 0.5424116396378227
+          },
+          "observed": 71.0,
+          "pooled_b5": 76.79641080580068,
+          "predictions": {
+            "direct_p3_pooled": 70.39052990401974,
+            "pooled_b5": 76.79641080580068,
+            "source_b5": 66.24135664949635,
+            "source_residual_pose": 66.24135664949635,
+            "target_b5": 82.5655984235464,
+            "target_residual_pose": 82.5655984235464
+          },
+          "prefix_size": 34,
+          "source_b5": 66.24135664949635,
+          "source_residual_pose": 66.24135664949635,
+          "target_b5": 82.5655984235464,
+          "target_residual_pose": 82.5655984235464,
+          "test_substrate_id": "1aj"
+        },
+        {
+          "direct_p3_pooled": 65.7140693873406,
+          "guarded_residual_pose": 62.95696786745361,
+          "guarded_weights_before_update": {
+            "combined": 0.22109834450010135,
+            "source": 0.2396036056888255,
+            "target_only": 0.5392980498110732
+          },
+          "observed": 74.0,
+          "pooled_b5": 62.237695232072454,
+          "predictions": {
+            "direct_p3_pooled": 65.7140693873406,
+            "pooled_b5": 62.237695232072454,
+            "source_b5": 65.02670942782757,
+            "source_residual_pose": 65.02670942782757,
+            "target_b5": 62.33229000722281,
+            "target_residual_pose": 62.33229000722281
+          },
+          "prefix_size": 35,
+          "source_b5": 65.02670942782757,
+          "source_residual_pose": 65.02670942782757,
+          "target_b5": 62.33229000722281,
+          "target_residual_pose": 62.33229000722281,
+          "test_substrate_id": "1ak"
+        },
+        {
+          "direct_p3_pooled": 74.04563819372136,
+          "guarded_residual_pose": 71.57736847856921,
+          "guarded_weights_before_update": {
+            "combined": 0.22040673318561446,
+            "source": 0.2402510396152926,
+            "target_only": 0.539342227199093
+          },
+          "observed": 51.0,
+          "pooled_b5": 72.43537255616921,
+          "predictions": {
+            "direct_p3_pooled": 74.04563819372136,
+            "pooled_b5": 72.43537255616921,
+            "source_b5": 63.887813289379416,
+            "source_residual_pose": 63.887813289379416,
+            "target_b5": 73.72808191078418,
+            "target_residual_pose": 74.6520651534248
+          },
+          "prefix_size": 36,
+          "source_b5": 63.887813289379416,
+          "source_residual_pose": 63.887813289379416,
+          "target_b5": 73.72808191078418,
+          "target_residual_pose": 74.6520651534248,
+          "test_substrate_id": "1al"
+        },
+        {
+          "direct_p3_pooled": 65.12726121016922,
+          "guarded_residual_pose": 72.21152589163846,
+          "guarded_weights_before_update": {
+            "combined": 0.2196562284886633,
+            "source": 0.24424809319812377,
+            "target_only": 0.5360956783132129
+          },
+          "observed": 98.0,
+          "pooled_b5": 71.4705117203417,
+          "predictions": {
+            "direct_p3_pooled": 65.12726121016922,
+            "pooled_b5": 71.4705117203417,
+            "source_b5": 60.760271282272754,
+            "source_residual_pose": 60.760271282272754,
+            "target_b5": 77.73239763322763,
+            "target_residual_pose": 77.73239763322763
+          },
+          "prefix_size": 37,
+          "source_b5": 60.760271282272754,
+          "source_residual_pose": 60.760271282272754,
+          "target_b5": 77.73239763322763,
+          "target_residual_pose": 77.73239763322763,
+          "test_substrate_id": "1am"
+        },
+        {
+          "direct_p3_pooled": 72.13532982514923,
+          "guarded_residual_pose": 75.48154857105673,
+          "guarded_weights_before_update": {
+            "combined": 0.218969063130975,
+            "source": 0.23686908916393845,
+            "target_only": 0.5441618477050866
+          },
+          "observed": 88.0,
+          "pooled_b5": 72.49956157996783,
+          "predictions": {
+            "direct_p3_pooled": 72.13532982514923,
+            "pooled_b5": 72.49956157996783,
+            "source_b5": 58.986743339196515,
+            "source_residual_pose": 58.986743339196515,
+            "target_b5": 83.86154141352841,
+            "target_residual_pose": 83.86154141352841
+          },
+          "prefix_size": 38,
+          "source_b5": 58.986743339196515,
+          "source_residual_pose": 58.986743339196515,
+          "target_b5": 83.86154141352841,
+          "target_residual_pose": 83.86154141352841,
+          "test_substrate_id": "1an"
+        },
+        {
+          "direct_p3_pooled": 49.17485559951003,
+          "guarded_residual_pose": 66.32563960431787,
+          "guarded_weights_before_update": {
+            "combined": 0.21708967838113877,
+            "source": 0.22709167259884003,
+            "target_only": 0.5558186490200211
+          },
+          "observed": 98.0,
+          "pooled_b5": 50.244164470725345,
+          "predictions": {
+            "direct_p3_pooled": 49.17485559951003,
+            "pooled_b5": 50.244164470725345,
+            "source_b5": 40.259422140112434,
+            "source_residual_pose": 40.259422140112434,
+            "target_b5": 83.25659937601567,
+            "target_residual_pose": 83.25659937601567
+          },
+          "prefix_size": 39,
+          "source_b5": 40.259422140112434,
+          "source_residual_pose": 40.259422140112434,
+          "target_b5": 83.25659937601567,
+          "target_residual_pose": 83.25659937601567,
+          "test_substrate_id": "1ao"
+        }
+      ],
+      "source_count": 20,
+      "source_domain": "cmcpor-fecl",
+      "target_count": 40
+    },
+    "p7_to_cmcpor_aryl": {
+      "metrics": {
+        "direct_p3_pooled": {
+          "auc_mae": 515.738652594217,
+          "count": 31,
+          "mae": 17.12775083503002
+        },
+        "guarded_residual_pose": {
+          "auc_mae": 521.1762824474741,
+          "count": 31,
+          "mae": 16.916394017972255
+        },
+        "pooled_b5": {
+          "auc_mae": 508.085934523021,
+          "count": 31,
+          "mae": 16.78071786626169
+        },
+        "source_b5": {
+          "auc_mae": 549.3261607250599,
+          "count": 31,
+          "mae": 18.342721871196925
+        },
+        "source_residual_pose": {
+          "auc_mae": 589.4007393653299,
+          "count": 31,
+          "mae": 19.635450214431437
+        },
+        "target_b5": {
+          "auc_mae": 489.6536218769727,
+          "count": 31,
+          "mae": 16.19384316888603
+        },
+        "target_residual_pose": {
+          "auc_mae": 539.7858505550097,
+          "count": 31,
+          "mae": 17.462184248103615
+        }
+      },
+      "rows": [
+        {
+          "direct_p3_pooled": 85.7311499612603,
+          "guarded_residual_pose": 70.16586153814166,
+          "guarded_weights_before_update": {
+            "combined": 0.16666666666666666,
+            "source": 0.16666666666666666,
+            "target_only": 0.6666666666666666
+          },
+          "observed": 65.0,
+          "pooled_b5": 85.35133421150286,
+          "predictions": {
+            "direct_p3_pooled": 85.7311499612603,
+            "pooled_b5": 85.35133421150286,
+            "source_b5": 86.46452536838416,
+            "source_residual_pose": 86.46452536838416,
+            "target_b5": 40.667516967656624,
+            "target_residual_pose": 62.29482741224073
+          },
+          "prefix_size": 2,
+          "source_b5": 86.46452536838416,
+          "source_residual_pose": 86.46452536838416,
+          "target_b5": 40.667516967656624,
+          "target_residual_pose": 62.29482741224073,
+          "test_substrate_id": "2ac"
+        },
+        {
+          "direct_p3_pooled": 77.45319880370695,
+          "guarded_residual_pose": 71.81182124741179,
+          "guarded_weights_before_update": {
+            "combined": 0.16666666666666666,
+            "source": 0.16666666666666666,
+            "target_only": 0.6666666666666666
+          },
+          "observed": 99.0,
+          "pooled_b5": 93.77624061089286,
+          "predictions": {
+            "direct_p3_pooled": 77.45319880370695,
+            "pooled_b5": 93.77624061089286,
+            "source_b5": 95.53475635679187,
+            "source_residual_pose": 95.53475635679187,
+            "target_b5": 60.389982629196496,
+            "target_residual_pose": 60.389982629196496
+          },
+          "prefix_size": 3,
+          "source_b5": 95.53475635679187,
+          "source_residual_pose": 95.53475635679187,
+          "target_b5": 60.389982629196496,
+          "target_residual_pose": 60.389982629196496,
+          "test_substrate_id": "2b"
+        },
+        {
+          "direct_p3_pooled": 99.92700928908543,
+          "guarded_residual_pose": 91.30573542516328,
+          "guarded_weights_before_update": {
+            "combined": 0.16666666666666669,
+            "source": 0.16666666666666669,
+            "target_only": 0.6666666666666667
+          },
+          "observed": 80.0,
+          "pooled_b5": 98.20240804464353,
+          "predictions": {
+            "direct_p3_pooled": 99.92700928908543,
+            "pooled_b5": 98.20240804464353,
+            "source_b5": 97.82362923436162,
+            "source_residual_pose": 100.0,
+            "target_b5": 87.40800112658401,
+            "target_residual_pose": 87.40800112658401
+          },
+          "prefix_size": 4,
+          "source_b5": 97.82362923436162,
+          "source_residual_pose": 100.0,
+          "target_b5": 87.40800112658401,
+          "target_residual_pose": 87.40800112658401,
+          "test_substrate_id": "2c"
+        },
+        {
+          "direct_p3_pooled": 75.89923177380808,
+          "guarded_residual_pose": 91.82301106722049,
+          "guarded_weights_before_update": {
+            "combined": 0.16666666666666666,
+            "source": 0.16666666666666666,
+            "target_only": 0.6666666666666666
+          },
+          "observed": 82.0,
+          "pooled_b5": 74.95015654231034,
+          "predictions": {
+            "direct_p3_pooled": 75.89923177380808,
+            "pooled_b5": 74.95015654231034,
+            "source_b5": 75.98790986101267,
+            "source_residual_pose": 75.98790986101267,
+            "target_b5": 83.1152474197502,
+            "target_residual_pose": 100.0
+          },
+          "prefix_size": 5,
+          "source_b5": 75.98790986101267,
+          "source_residual_pose": 75.98790986101267,
+          "target_b5": 83.1152474197502,
+          "target_residual_pose": 100.0,
+          "test_substrate_id": "2d"
+        },
+        {
+          "direct_p3_pooled": 82.67174448279086,
+          "guarded_residual_pose": 85.0397148376264,
+          "guarded_weights_before_update": {
+            "combined": 0.16666666666666666,
+            "source": 0.16666666666666666,
+            "target_only": 0.6666666666666666
+          },
+          "observed": 75.0,
+          "pooled_b5": 88.03255263583931,
+          "predictions": {
+            "direct_p3_pooled": 82.67174448279086,
+            "pooled_b5": 88.03255263583931,
+            "source_b5": 88.43047525038958,
+            "source_residual_pose": 88.43047525038958,
+            "target_b5": 81.98753282987424,
+            "target_residual_pose": 83.44381528488239
+          },
+          "prefix_size": 6,
+          "source_b5": 88.43047525038958,
+          "source_residual_pose": 88.43047525038958,
+          "target_b5": 81.98753282987424,
+          "target_residual_pose": 83.44381528488239,
+          "test_substrate_id": "2e"
+        },
+        {
+          "direct_p3_pooled": 91.03528588643894,
+          "guarded_residual_pose": 92.61406003210584,
+          "guarded_weights_before_update": {
+            "combined": 0.2083986741460411,
+            "source": 0.20775343078520223,
+            "target_only": 0.5838478950687567
+          },
+          "observed": 99.0,
+          "pooled_b5": 95.89660361260562,
+          "predictions": {
+            "direct_p3_pooled": 91.03528588643894,
+            "pooled_b5": 95.89660361260562,
+            "source_b5": 93.3421218699211,
+            "source_residual_pose": 93.3421218699211,
+            "target_b5": 91.18331911193127,
+            "target_residual_pose": 91.18331911193127
+          },
+          "prefix_size": 7,
+          "source_b5": 93.3421218699211,
+          "source_residual_pose": 93.3421218699211,
+          "target_b5": 91.18331911193127,
+          "target_residual_pose": 91.18331911193127,
+          "test_substrate_id": "2f"
+        },
+        {
+          "direct_p3_pooled": 93.63626096112519,
+          "guarded_residual_pose": 91.55566216524313,
+          "guarded_weights_before_update": {
+            "combined": 0.2116210446600569,
+            "source": 0.20801589369906978,
+            "target_only": 0.5803630616408734
+          },
+          "observed": 62.0,
+          "pooled_b5": 91.45922407752191,
+          "predictions": {
+            "direct_p3_pooled": 93.63626096112519,
+            "pooled_b5": 91.45922407752191,
+            "source_b5": 90.31013388358807,
+            "source_residual_pose": 90.31013388358807,
+            "target_b5": 86.8608984014149,
+            "target_residual_pose": 92.0372538204982
+          },
+          "prefix_size": 8,
+          "source_b5": 90.31013388358807,
+          "source_residual_pose": 90.31013388358807,
+          "target_b5": 86.8608984014149,
+          "target_residual_pose": 92.0372538204982,
+          "test_substrate_id": "2g"
+        },
+        {
+          "direct_p3_pooled": 72.55958632113716,
+          "guarded_residual_pose": 69.5313389865045,
+          "guarded_weights_before_update": {
+            "combined": 0.2109676174936067,
+            "source": 0.20885783808338265,
+            "target_only": 0.5801745444230106
+          },
+          "observed": 76.0,
+          "pooled_b5": 72.39752325153617,
+          "predictions": {
+            "direct_p3_pooled": 72.55958632113716,
+            "pooled_b5": 72.39752325153617,
+            "source_b5": 70.56658486801905,
+            "source_residual_pose": 70.56658486801905,
+            "target_b5": 68.11643498859533,
+            "target_residual_pose": 68.11643498859533
+          },
+          "prefix_size": 9,
+          "source_b5": 70.56658486801905,
+          "source_residual_pose": 70.56658486801905,
+          "target_b5": 68.11643498859533,
+          "target_residual_pose": 68.11643498859533,
+          "test_substrate_id": "2h"
+        },
+        {
+          "direct_p3_pooled": 81.97526560922105,
+          "guarded_residual_pose": 76.86675949828776,
+          "guarded_weights_before_update": {
+            "combined": 0.21332970721111705,
+            "source": 0.20941463512921282,
+            "target_only": 0.57725565765967
+          },
+          "observed": 72.0,
+          "pooled_b5": 80.87700673330163,
+          "predictions": {
+            "direct_p3_pooled": 81.97526560922105,
+            "pooled_b5": 80.87700673330163,
+            "source_b5": 91.63924736345693,
+            "source_residual_pose": 97.5640944542684,
+            "target_b5": 67.87623745215612,
+            "target_residual_pose": 67.87623745215612
+          },
+          "prefix_size": 10,
+          "source_b5": 91.63924736345693,
+          "source_residual_pose": 97.5640944542684,
+          "target_b5": 67.87623745215612,
+          "target_residual_pose": 67.87623745215612,
+          "test_substrate_id": "2i"
+        },
+        {
+          "direct_p3_pooled": 82.34977512165497,
+          "guarded_residual_pose": 79.34245996114339,
+          "guarded_weights_before_update": {
+            "combined": 0.21320877747937803,
+            "source": 0.19373276109430618,
+            "target_only": 0.5930584614263159
+          },
+          "observed": 95.0,
+          "pooled_b5": 82.83320715606044,
+          "predictions": {
+            "direct_p3_pooled": 82.34977512165497,
+            "pooled_b5": 82.83320715606044,
+            "source_b5": 87.29643914046554,
+            "source_residual_pose": 87.78824997394311,
+            "target_b5": 75.32854849110865,
+            "target_residual_pose": 75.32854849110865
+          },
+          "prefix_size": 11,
+          "source_b5": 87.29643914046554,
+          "source_residual_pose": 87.78824997394311,
+          "target_b5": 75.32854849110865,
+          "target_residual_pose": 75.32854849110865,
+          "test_substrate_id": "2j"
+        },
+        {
+          "direct_p3_pooled": 85.50437077706688,
+          "guarded_residual_pose": 82.81786993884027,
+          "guarded_weights_before_update": {
+            "combined": 0.21586773520483665,
+            "source": 0.20143712005083722,
+            "target_only": 0.5826951447443262
+          },
+          "observed": 82.0,
+          "pooled_b5": 83.0003158503645,
+          "predictions": {
+            "direct_p3_pooled": 85.50437077706688,
+            "pooled_b5": 83.0003158503645,
+            "source_b5": 89.60998280274916,
+            "source_residual_pose": 100.0,
+            "target_b5": 76.81043532547481,
+            "target_residual_pose": 76.81043532547481
+          },
+          "prefix_size": 12,
+          "source_b5": 89.60998280274916,
+          "source_residual_pose": 100.0,
+          "target_b5": 76.81043532547481,
+          "target_residual_pose": 76.81043532547481,
+          "test_substrate_id": "2k"
+        },
+        {
+          "direct_p3_pooled": 87.69875446999427,
+          "guarded_residual_pose": 84.16575736418777,
+          "guarded_weights_before_update": {
+            "combined": 0.22057780468733293,
+            "source": 0.19195578647230976,
+            "target_only": 0.5874664088403573
+          },
+          "observed": 61.0,
+          "pooled_b5": 87.25732522632588,
+          "predictions": {
+            "direct_p3_pooled": 87.69875446999427,
+            "pooled_b5": 87.25732522632588,
+            "source_b5": 88.49042466889354,
+            "source_residual_pose": 88.49042466889354,
+            "target_b5": 81.59186353294216,
+            "target_residual_pose": 81.59186353294216
+          },
+          "prefix_size": 13,
+          "source_b5": 88.49042466889354,
+          "source_residual_pose": 88.49042466889354,
+          "target_b5": 81.59186353294216,
+          "target_residual_pose": 81.59186353294216,
+          "test_substrate_id": "2l"
+        },
+        {
+          "direct_p3_pooled": 86.95181010266393,
+          "guarded_residual_pose": 83.92802574106443,
+          "guarded_weights_before_update": {
+            "combined": 0.21694782588796052,
+            "source": 0.18886916644854296,
+            "target_only": 0.5941830076634965
+          },
+          "observed": 97.0,
+          "pooled_b5": 84.1182792096396,
+          "predictions": {
+            "direct_p3_pooled": 86.95181010266393,
+            "pooled_b5": 84.1182792096396,
+            "source_b5": 94.695544155008,
+            "source_residual_pose": 94.695544155008,
+            "target_b5": 80.43595801584436,
+            "target_residual_pose": 80.43595801584436
+          },
+          "prefix_size": 14,
+          "source_b5": 94.695544155008,
+          "source_residual_pose": 94.695544155008,
+          "target_b5": 80.43595801584436,
+          "target_residual_pose": 80.43595801584436,
+          "test_substrate_id": "2m"
+        },
+        {
+          "direct_p3_pooled": 79.31965686992513,
+          "guarded_residual_pose": 77.293381530694,
+          "guarded_weights_before_update": {
+            "combined": 0.21642490027653744,
+            "source": 0.1974699015732295,
+            "target_only": 0.5861051981502331
+          },
+          "observed": 95.0,
+          "pooled_b5": 77.37252358628756,
+          "predictions": {
+            "direct_p3_pooled": 79.31965686992513,
+            "pooled_b5": 77.37252358628756,
+            "source_b5": 86.54873702204918,
+            "source_residual_pose": 93.46948616366376,
+            "target_b5": 71.81412266840158,
+            "target_residual_pose": 71.81412266840158
+          },
+          "prefix_size": 15,
+          "source_b5": 86.54873702204918,
+          "source_residual_pose": 93.46948616366376,
+          "target_b5": 71.81412266840158,
+          "target_residual_pose": 71.81412266840158,
+          "test_substrate_id": "2n"
+        },
+        {
+          "direct_p3_pooled": 87.87655341154182,
+          "guarded_residual_pose": 88.41562286467777,
+          "guarded_weights_before_update": {
+            "combined": 0.2158077009084398,
+            "source": 0.21007109532660775,
+            "target_only": 0.5741212037649525
+          },
+          "observed": 30.0,
+          "pooled_b5": 86.85005834697392,
+          "predictions": {
+            "direct_p3_pooled": 87.87655341154182,
+            "pooled_b5": 86.85005834697392,
+            "source_b5": 87.40475528044058,
+            "source_residual_pose": 87.40475528044058,
+            "target_b5": 89.37398311375443,
+            "target_residual_pose": 89.37398311375443
+          },
+          "prefix_size": 16,
+          "source_b5": 87.40475528044058,
+          "source_residual_pose": 87.40475528044058,
+          "target_b5": 89.37398311375443,
+          "target_residual_pose": 89.37398311375443,
+          "test_substrate_id": "2o"
+        },
+        {
+          "direct_p3_pooled": 85.99537902024248,
+          "guarded_residual_pose": 83.36738481057245,
+          "guarded_weights_before_update": {
+            "combined": 0.21654880750729424,
+            "source": 0.21053968950395094,
+            "target_only": 0.5729115029887548
+          },
+          "observed": 74.0,
+          "pooled_b5": 84.8778609747463,
+          "predictions": {
+            "direct_p3_pooled": 85.99537902024248,
+            "pooled_b5": 84.8778609747463,
+            "source_b5": 88.22854940097446,
+            "source_residual_pose": 96.19511576884044,
+            "target_b5": 74.31908442273284,
+            "target_residual_pose": 78.08238304447345
+          },
+          "prefix_size": 17,
+          "source_b5": 88.22854940097446,
+          "source_residual_pose": 96.19511576884044,
+          "target_b5": 74.31908442273284,
+          "target_residual_pose": 78.08238304447345,
+          "test_substrate_id": "2p"
+        },
+        {
+          "direct_p3_pooled": 77.30801652065641,
+          "guarded_residual_pose": 76.8200845985446,
+          "guarded_weights_before_update": {
+            "combined": 0.21479777450399828,
+            "source": 0.20067940563111913,
+            "target_only": 0.5845228198648825
+          },
+          "observed": 56.0,
+          "pooled_b5": 78.6475201991362,
+          "predictions": {
+            "direct_p3_pooled": 77.30801652065641,
+            "pooled_b5": 78.6475201991362,
+            "source_b5": 92.19338002747247,
+            "source_residual_pose": 92.19338002747247,
+            "target_b5": 70.87056001004491,
+            "target_residual_pose": 70.87056001004491
+          },
+          "prefix_size": 18,
+          "source_b5": 92.19338002747247,
+          "source_residual_pose": 92.19338002747247,
+          "target_b5": 70.87056001004491,
+          "target_residual_pose": 70.87056001004491,
+          "test_substrate_id": "2q"
+        },
+        {
+          "direct_p3_pooled": 84.87767541019834,
+          "guarded_residual_pose": 86.30687690286024,
+          "guarded_weights_before_update": {
+            "combined": 0.212914938585021,
+            "source": 0.1900891321665509,
+            "target_only": 0.596995929248428
+          },
+          "observed": 63.0,
+          "pooled_b5": 89.5421802814727,
+          "predictions": {
+            "direct_p3_pooled": 84.87767541019834,
+            "pooled_b5": 89.5421802814727,
+            "source_b5": 88.455937481087,
+            "source_residual_pose": 88.455937481087,
+            "target_b5": 84.24290593873775,
+            "target_residual_pose": 84.46874463647922
+          },
+          "prefix_size": 19,
+          "source_b5": 88.455937481087,
+          "source_residual_pose": 88.455937481087,
+          "target_b5": 84.24290593873775,
+          "target_residual_pose": 84.46874463647922,
+          "test_substrate_id": "2r"
+        },
+        {
+          "direct_p3_pooled": 82.4223920969997,
+          "guarded_residual_pose": 81.52794045537091,
+          "guarded_weights_before_update": {
+            "combined": 0.21023098164968299,
+            "source": 0.188958163944886,
+            "target_only": 0.600810854405431
+          },
+          "observed": 70.0,
+          "pooled_b5": 83.23503683883723,
+          "predictions": {
+            "direct_p3_pooled": 82.4223920969997,
+            "pooled_b5": 83.23503683883723,
+            "source_b5": 87.813995719128,
+            "source_residual_pose": 87.813995719128,
+            "target_b5": 78.9536094521586,
+            "target_residual_pose": 78.9536094521586
+          },
+          "prefix_size": 20,
+          "source_b5": 87.813995719128,
+          "source_residual_pose": 87.813995719128,
+          "target_b5": 78.9536094521586,
+          "target_residual_pose": 78.9536094521586,
+          "test_substrate_id": "2s"
+        },
+        {
+          "direct_p3_pooled": 82.48640055107352,
+          "guarded_residual_pose": 77.8561802198297,
+          "guarded_weights_before_update": {
+            "combined": 0.25626108007390536,
+            "source": 0.0,
+            "target_only": 0.7437389199260945
+          },
+          "observed": 81.0,
+          "pooled_b5": 85.17582846384533,
+          "predictions": {
+            "direct_p3_pooled": 82.48640055107352,
+            "pooled_b5": 85.17582846384533,
+            "source_b5": 88.9631793359235,
+            "source_residual_pose": 88.9631793359235,
+            "target_b5": 75.33413798899028,
+            "target_residual_pose": 75.33413798899028
+          },
+          "prefix_size": 21,
+          "source_b5": 88.9631793359235,
+          "source_residual_pose": 88.9631793359235,
+          "target_b5": 75.33413798899028,
+          "target_residual_pose": 75.33413798899028,
+          "test_substrate_id": "2t"
+        },
+        {
+          "direct_p3_pooled": 89.10935870917814,
+          "guarded_residual_pose": 81.5821863983136,
+          "guarded_weights_before_update": {
+            "combined": 0.2570283083930509,
+            "source": 0.0,
+            "target_only": 0.7429716916069491
+          },
+          "observed": 97.0,
+          "pooled_b5": 92.04875359648014,
+          "predictions": {
+            "direct_p3_pooled": 89.10935870917814,
+            "pooled_b5": 92.04875359648014,
+            "source_b5": 93.07994809395811,
+            "source_residual_pose": 93.07994809395811,
+            "target_b5": 76.68745257402757,
+            "target_residual_pose": 77.96131619287092
+          },
+          "prefix_size": 22,
+          "source_b5": 93.07994809395811,
+          "source_residual_pose": 93.07994809395811,
+          "target_b5": 76.68745257402757,
+          "target_residual_pose": 77.96131619287092,
+          "test_substrate_id": "2u"
+        },
+        {
+          "direct_p3_pooled": 88.91952352987651,
+          "guarded_residual_pose": 87.88094030859338,
+          "guarded_weights_before_update": {
+            "combined": 0.21496229513185072,
+            "source": 0.19021225689541876,
+            "target_only": 0.5948254479727304
+          },
+          "observed": 84.0,
+          "pooled_b5": 94.35773004892218,
+          "predictions": {
+            "direct_p3_pooled": 88.91952352987651,
+            "pooled_b5": 94.35773004892218,
+            "source_b5": 87.75957234483516,
+            "source_residual_pose": 87.75957234483516,
+            "target_b5": 85.57912232479218,
+            "target_residual_pose": 85.57912232479218
+          },
+          "prefix_size": 23,
+          "source_b5": 87.75957234483516,
+          "source_residual_pose": 87.75957234483516,
+          "target_b5": 85.57912232479218,
+          "target_residual_pose": 85.57912232479218,
+          "test_substrate_id": "2v"
+        },
+        {
+          "direct_p3_pooled": 86.83862611258584,
+          "guarded_residual_pose": 83.547234797814,
+          "guarded_weights_before_update": {
+            "combined": 0.2103578634632304,
+            "source": 0.19048445014819396,
+            "target_only": 0.5991576863885756
+          },
+          "observed": 35.0,
+          "pooled_b5": 86.32100330377855,
+          "predictions": {
+            "direct_p3_pooled": 86.83862611258584,
+            "pooled_b5": 86.32100330377855,
+            "source_b5": 73.02934910551184,
+            "source_residual_pose": 73.02934910551184,
+            "target_b5": 84.75205993636256,
+            "target_residual_pose": 85.91724471076787
+          },
+          "prefix_size": 24,
+          "source_b5": 73.02934910551184,
+          "source_residual_pose": 73.02934910551184,
+          "target_b5": 84.75205993636256,
+          "target_residual_pose": 85.91724471076787,
+          "test_substrate_id": "2w"
+        },
+        {
+          "direct_p3_pooled": 81.29300703717526,
+          "guarded_residual_pose": 77.71667263278158,
+          "guarded_weights_before_update": {
+            "combined": 0.2083535183520867,
+            "source": 0.19682267488097566,
+            "target_only": 0.5948238067669376
+          },
+          "observed": 71.0,
+          "pooled_b5": 80.61577262040325,
+          "predictions": {
+            "direct_p3_pooled": 81.29300703717526,
+            "pooled_b5": 80.61577262040325,
+            "source_b5": 83.22555973256146,
+            "source_residual_pose": 83.22555973256146,
+            "target_b5": 74.8783336862489,
+            "target_residual_pose": 74.8783336862489
+          },
+          "prefix_size": 25,
+          "source_b5": 83.22555973256146,
+          "source_residual_pose": 83.22555973256146,
+          "target_b5": 74.8783336862489,
+          "target_residual_pose": 74.8783336862489,
+          "test_substrate_id": "2x"
+        },
+        {
+          "direct_p3_pooled": 59.59281295789412,
+          "guarded_residual_pose": 65.87042745316826,
+          "guarded_weights_before_update": {
+            "combined": 0.20638904484092088,
+            "source": 0.19368694937875425,
+            "target_only": 0.5999240057803248
+          },
+          "observed": 73.0,
+          "pooled_b5": 62.655723682893154,
+          "predictions": {
+            "direct_p3_pooled": 59.59281295789412,
+            "pooled_b5": 62.655723682893154,
+            "source_b5": 79.08283835055184,
+            "source_residual_pose": 79.08283835055184,
+            "target_b5": 62.71070738563465,
+            "target_residual_pose": 62.71070738563465
+          },
+          "prefix_size": 26,
+          "source_b5": 79.08283835055184,
+          "source_residual_pose": 79.08283835055184,
+          "target_b5": 62.71070738563465,
+          "target_residual_pose": 62.71070738563465,
+          "test_substrate_id": "2y"
+        },
+        {
+          "direct_p3_pooled": 82.19831937331772,
+          "guarded_residual_pose": 82.9332472714034,
+          "guarded_weights_before_update": {
+            "combined": 0.20574705601037488,
+            "source": 0.19573259904475004,
+            "target_only": 0.598520344944875
+          },
+          "observed": 70.0,
+          "pooled_b5": 78.74739270221502,
+          "predictions": {
+            "direct_p3_pooled": 82.19831937331772,
+            "pooled_b5": 78.74739270221502,
+            "source_b5": 92.20519043414804,
+            "source_residual_pose": 92.20519043414804,
+            "target_b5": 81.33999436530722,
+            "target_residual_pose": 81.33999436530722
+          },
+          "prefix_size": 27,
+          "source_b5": 92.20519043414804,
+          "source_residual_pose": 92.20519043414804,
+          "target_b5": 81.33999436530722,
+          "target_residual_pose": 81.33999436530722,
+          "test_substrate_id": "2z"
+        },
+        {
+          "direct_p3_pooled": 84.76122857874817,
+          "guarded_residual_pose": 94.99621149033118,
+          "guarded_weights_before_update": {
+            "combined": 0.20809105532396382,
+            "source": 0.19068434570813436,
+            "target_only": 0.6012245989679019
+          },
+          "observed": 62.0,
+          "pooled_b5": 86.52242776741261,
+          "predictions": {
+            "direct_p3_pooled": 84.76122857874817,
+            "pooled_b5": 86.52242776741261,
+            "source_b5": 88.77562863292871,
+            "source_residual_pose": 90.8969689004411,
+            "target_b5": 72.6182208717401,
+            "target_residual_pose": 99.22920527170692
+          },
+          "prefix_size": 28,
+          "source_b5": 88.77562863292871,
+          "source_residual_pose": 90.8969689004411,
+          "target_b5": 72.6182208717401,
+          "target_residual_pose": 99.22920527170692,
+          "test_substrate_id": "4a"
+        },
+        {
+          "direct_p3_pooled": 65.92881954319667,
+          "guarded_residual_pose": 76.0223592896516,
+          "guarded_weights_before_update": {
+            "combined": 0.21291500445472641,
+            "source": 0.19303209518140668,
+            "target_only": 0.5940529003638669
+          },
+          "observed": 48.0,
+          "pooled_b5": 64.91726514400654,
+          "predictions": {
+            "direct_p3_pooled": 65.92881954319667,
+            "pooled_b5": 64.91726514400654,
+            "source_b5": 79.25692794270344,
+            "source_residual_pose": 98.16492486898635,
+            "target_b5": 67.42725969585469,
+            "target_residual_pose": 72.80751991118761
+          },
+          "prefix_size": 29,
+          "source_b5": 79.25692794270344,
+          "source_residual_pose": 98.16492486898635,
+          "target_b5": 67.42725969585469,
+          "target_residual_pose": 72.80751991118761,
+          "test_substrate_id": "4b"
+        },
+        {
+          "direct_p3_pooled": 74.19375540590543,
+          "guarded_residual_pose": 74.2934169838198,
+          "guarded_weights_before_update": {
+            "combined": 0.26783819926295327,
+            "source": 0.0,
+            "target_only": 0.7321618007370467
+          },
+          "observed": 69.0,
+          "pooled_b5": 78.76185616879924,
+          "predictions": {
+            "direct_p3_pooled": 74.19375540590543,
+            "pooled_b5": 78.76185616879924,
+            "source_b5": 74.17950573263691,
+            "source_residual_pose": 74.17950573263691,
+            "target_b5": 71.10198971647644,
+            "target_residual_pose": 72.65878007212062
+          },
+          "prefix_size": 30,
+          "source_b5": 74.17950573263691,
+          "source_residual_pose": 74.17950573263691,
+          "target_b5": 71.10198971647644,
+          "target_residual_pose": 72.65878007212062,
+          "test_substrate_id": "4c"
+        },
+        {
+          "direct_p3_pooled": 70.27464366810918,
+          "guarded_residual_pose": 74.37172920505374,
+          "guarded_weights_before_update": {
+            "combined": 0.2643076472217153,
+            "source": 0.0,
+            "target_only": 0.7356923527782847
+          },
+          "observed": 20.0,
+          "pooled_b5": 76.61786101208989,
+          "predictions": {
+            "direct_p3_pooled": 70.27464366810918,
+            "pooled_b5": 76.61786101208989,
+            "source_b5": 88.20172208589847,
+            "source_residual_pose": 88.20172208589847,
+            "target_b5": 73.56477530506329,
+            "target_residual_pose": 73.56477530506329
+          },
+          "prefix_size": 31,
+          "source_b5": 88.20172208589847,
+          "source_residual_pose": 88.20172208589847,
+          "target_b5": 73.56477530506329,
+          "target_residual_pose": 73.56477530506329,
+          "test_substrate_id": "4d"
+        },
+        {
+          "direct_p3_pooled": 46.712096622167024,
+          "guarded_residual_pose": 38.29800268118997,
+          "guarded_weights_before_update": {
+            "combined": 0.26249425322621317,
+            "source": 0.0,
+            "target_only": 0.7375057467737869
+          },
+          "observed": 37.0,
+          "pooled_b5": 40.881304450679536,
+          "predictions": {
+            "direct_p3_pooled": 46.712096622167024,
+            "pooled_b5": 40.881304450679536,
+            "source_b5": 54.13190919570528,
+            "source_residual_pose": 54.13190919570528,
+            "target_b5": 37.378549684645236,
+            "target_residual_pose": 37.378549684645236
+          },
+          "prefix_size": 32,
+          "source_b5": 54.13190919570528,
+          "source_residual_pose": 54.13190919570528,
+          "target_b5": 37.378549684645236,
+          "target_residual_pose": 37.378549684645236,
+          "test_substrate_id": "4e"
+        }
+      ],
+      "source_count": 27,
+      "source_domain": "fe-p7-cl",
+      "target_count": 33
+    }
+  },
+  "pose_arm": "P3_compact_stage2p",
+  "pose_feature_count": 44,
+  "schema_version": "pptl-pose-upgrade-report-v1",
+  "target": "isolated_yield_percent"
+}

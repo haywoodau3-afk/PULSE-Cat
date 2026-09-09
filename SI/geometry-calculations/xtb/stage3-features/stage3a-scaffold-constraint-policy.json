@@ -1,0 +1,28 @@
+{
+  "frozen_atom_groups": [
+    "Fe",
+    "porphyrin_macrocycle",
+    "axial_chloride_when_present",
+    "nitrene_N_Fe_N_anchor_geometry",
+    "core_atoms_required_to_preserve_selectivity_intermediate"
+  ],
+  "mobile_atom_groups": [
+    "substrate_atoms"
+  ],
+  "required_provenance": [
+    "frozen_atom_set",
+    "restrained_atom_set",
+    "restraint_force_constants",
+    "xtb_method",
+    "solvent_model",
+    "starting_pose_id",
+    "optimization_status",
+    "final_relative_energy"
+  ],
+  "restrained_atom_groups": [
+    "chiral_ligand_or_scaffold_substituents_forming_substrate_pocket"
+  ],
+  "scaffold_constraint_policy_id": "stage3a-core-frozen-ligand-restrained-v1",
+  "schema_version": "stage3a-scaffold-constraint-policy-v1",
+  "source_contract": "data/jacs_2025/stage3/stage3-contract.json"
+}

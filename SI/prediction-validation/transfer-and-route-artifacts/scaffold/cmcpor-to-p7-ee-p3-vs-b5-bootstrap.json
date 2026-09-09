@@ -1,0 +1,25 @@
+{
+  "baseline_arm": "B5",
+  "delta_intervals": {
+    "guarded_delta": {
+      "lower_2.5": -0.5891281097067301,
+      "mean": 0.6656576762301213,
+      "upper_97.5": 1.8562191907015502
+    },
+    "target_delta": {
+      "lower_2.5": -1.837496312450556,
+      "mean": -0.13262693878870624,
+      "upper_97.5": 1.4558310746459693
+    }
+  },
+  "paired_rows": 1202,
+  "policy": "paired resampling of held-out scaffolds with matched prefix and substrate keys; negative delta favors pose",
+  "pose_arm": "P3",
+  "replicates": 2000,
+  "scaffold_count": 22,
+  "schema_version": "pptl-pose-incremental-bootstrap-v1",
+  "seed": 20260901,
+  "source_domain": "cmcpor-fecl",
+  "target": "ee_percent",
+  "target_domain": "fe-p7-cl"
+}

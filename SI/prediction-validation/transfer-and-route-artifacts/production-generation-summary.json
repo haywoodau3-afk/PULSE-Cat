@@ -1,0 +1,18 @@
+{
+  "prompt": "[N-]=[N+]=Nc1ccccc1*",
+  "seeds": [1101, 2202, 3303, 4404, 5505],
+  "requested_per_seed": 10000,
+  "actual_per_seed": 10112,
+  "requested_raw_budget": 50000,
+  "raw_count": 50560,
+  "raw_budget_policy": "The persisted production artifact contains the complete deterministic batch output (10112 rows per seed). The 112-row per-seed batch overrun is retained and included in the locked comparator budget; no rows are post hoc discarded.",
+  "unique_canonical_count": 9184,
+  "duplicate_count": 41269,
+  "contract_valid_count": 563,
+  "contract_valid_in_domain_count": 483,
+  "applicability_threshold": 0.35,
+  "reference_count": 91,
+  "raw_jsonl": "data/expansion/pptl/raw-production.jsonl",
+  "funnel_report": "data/expansion/pptl/funnel-production-ad.csv",
+  "status": "computational_candidate_universe_locked_prediction_only"
+}

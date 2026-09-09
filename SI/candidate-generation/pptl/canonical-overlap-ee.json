@@ -1,0 +1,830 @@
+{
+  "all_overlap": {
+    "CCCCc1ccccc1N=[N+]=[N-]": {
+      "left_id": "1ah",
+      "right_id": "4b"
+    },
+    "COc1ccc(CCc2ccccc2N=[N+]=[N-])cc1": {
+      "left_id": "1d",
+      "right_id": "2d"
+    },
+    "COc1ccc(N=[N+]=[N-])c(CCc2ccccc2)c1": {
+      "left_id": "1k",
+      "right_id": "2w"
+    },
+    "Cc1ccc(N=[N+]=[N-])c(CCc2ccccc2)c1": {
+      "left_id": "1j",
+      "right_id": "2u"
+    },
+    "Cc1cccc(CCc2ccccc2)c1N=[N+]=[N-]": {
+      "left_id": "1i",
+      "right_id": "2r"
+    },
+    "Cc1cccc(CCc2ccccc2N=[N+]=[N-])c1": {
+      "left_id": "1c",
+      "right_id": "2g"
+    },
+    "Cc1ccccc1CCc1ccccc1N=[N+]=[N-]": {
+      "left_id": "1b",
+      "right_id": "2k"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCC1CC1": {
+      "left_id": "1aj",
+      "right_id": "4c"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1cc2ccccc2o1": {
+      "left_id": "1p",
+      "right_id": "2o"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1cc2ccccc2s1": {
+      "left_id": "1w",
+      "right_id": "2q"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1ccc(F)cc1": {
+      "left_id": "1g",
+      "right_id": "2c"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1ccc2ccccc2c1": {
+      "left_id": "1n",
+      "right_id": "2m"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1cccc(F)c1": {
+      "left_id": "1f",
+      "right_id": "2i"
+    }
+  },
+  "all_overlap_count": 13,
+  "directions": {
+    "cmcpor_to_p7_aryl": {
+      "excluded_source_ids": [
+        "2c",
+        "2d",
+        "2g",
+        "2i",
+        "2k",
+        "2m",
+        "2o",
+        "2q",
+        "2r",
+        "2u",
+        "2w",
+        "4b",
+        "4c"
+      ],
+      "source_cold_count": 20,
+      "source_domain": "cmcpor-fecl",
+      "target_domain": "fe-p7-cl"
+    },
+    "p7_to_cmcpor_aryl": {
+      "excluded_source_ids": [
+        "1ah",
+        "1aj",
+        "1b",
+        "1c",
+        "1d",
+        "1f",
+        "1g",
+        "1i",
+        "1j",
+        "1k",
+        "1n",
+        "1p",
+        "1w"
+      ],
+      "source_cold_count": 27,
+      "source_domain": "fe-p7-cl",
+      "target_domain": "cmcpor-fecl"
+    }
+  },
+  "domain_counts": {
+    "cmcpor": 50,
+    "cmcpor_aryl": 33,
+    "p7": 40
+  },
+  "planned_pair_count": 13,
+  "policy": {
+    "atom_maps_removed_before_canonicalization": true,
+    "cold_start_excludes_canonical_overlap": true,
+    "paired_rows_are_diagnostic_only": true
+  },
+  "primary_aryl_overlap": {
+    "CCCCc1ccccc1N=[N+]=[N-]": {
+      "left_id": "1ah",
+      "right_id": "4b"
+    },
+    "COc1ccc(CCc2ccccc2N=[N+]=[N-])cc1": {
+      "left_id": "1d",
+      "right_id": "2d"
+    },
+    "COc1ccc(N=[N+]=[N-])c(CCc2ccccc2)c1": {
+      "left_id": "1k",
+      "right_id": "2w"
+    },
+    "Cc1ccc(N=[N+]=[N-])c(CCc2ccccc2)c1": {
+      "left_id": "1j",
+      "right_id": "2u"
+    },
+    "Cc1cccc(CCc2ccccc2)c1N=[N+]=[N-]": {
+      "left_id": "1i",
+      "right_id": "2r"
+    },
+    "Cc1cccc(CCc2ccccc2N=[N+]=[N-])c1": {
+      "left_id": "1c",
+      "right_id": "2g"
+    },
+    "Cc1ccccc1CCc1ccccc1N=[N+]=[N-]": {
+      "left_id": "1b",
+      "right_id": "2k"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCC1CC1": {
+      "left_id": "1aj",
+      "right_id": "4c"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1cc2ccccc2o1": {
+      "left_id": "1p",
+      "right_id": "2o"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1cc2ccccc2s1": {
+      "left_id": "1w",
+      "right_id": "2q"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1ccc(F)cc1": {
+      "left_id": "1g",
+      "right_id": "2c"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1ccc2ccccc2c1": {
+      "left_id": "1n",
+      "right_id": "2m"
+    },
+    "[N-]=[N+]=Nc1ccccc1CCc1cccc(F)c1": {
+      "left_id": "1f",
+      "right_id": "2i"
+    }
+  },
+  "primary_aryl_overlap_count": 13,
+  "rows": {
+    "cmcpor_aryl": [
+      {
+        "canonical_compound_group": "C=CCCc1ccccc1N=[N+]=[N-]",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 0,
+        "split_group": "2aa",
+        "substrate_id": "2aa"
+      },
+      {
+        "canonical_compound_group": "C=C(C)CCc1ccccc1N=[N+]=[N-]",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 1,
+        "split_group": "2ab",
+        "substrate_id": "2ab"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCC#Cc1ccccc1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 2,
+        "split_group": "2ac",
+        "substrate_id": "2ac"
+      },
+      {
+        "canonical_compound_group": "Cc1ccc(CCc2ccccc2N=[N+]=[N-])cc1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 3,
+        "split_group": "2b",
+        "substrate_id": "2b"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccc(F)cc1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 4,
+        "split_group": "2c",
+        "substrate_id": "2c"
+      },
+      {
+        "canonical_compound_group": "COc1ccc(CCc2ccccc2N=[N+]=[N-])cc1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 5,
+        "split_group": "2d",
+        "substrate_id": "2d"
+      },
+      {
+        "canonical_compound_group": "CN(C)c1ccc(CCc2ccccc2N=[N+]=[N-])cc1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 6,
+        "split_group": "2e",
+        "substrate_id": "2e"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccc(-c2ccccc2)cc1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 7,
+        "split_group": "2f",
+        "substrate_id": "2f"
+      },
+      {
+        "canonical_compound_group": "Cc1cccc(CCc2ccccc2N=[N+]=[N-])c1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 8,
+        "split_group": "2g",
+        "substrate_id": "2g"
+      },
+      {
+        "canonical_compound_group": "COc1cccc(CCc2ccccc2N=[N+]=[N-])c1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 9,
+        "split_group": "2h",
+        "substrate_id": "2h"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1cccc(F)c1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 10,
+        "split_group": "2i",
+        "substrate_id": "2i"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1cccc(Br)c1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 11,
+        "split_group": "2j",
+        "substrate_id": "2j"
+      },
+      {
+        "canonical_compound_group": "Cc1ccccc1CCc1ccccc1N=[N+]=[N-]",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 12,
+        "split_group": "2k",
+        "substrate_id": "2k"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccccc1Cl",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 13,
+        "split_group": "2l",
+        "substrate_id": "2l"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccc2ccccc2c1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 14,
+        "split_group": "2m",
+        "substrate_id": "2m"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccco1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 15,
+        "split_group": "2n",
+        "substrate_id": "2n"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1cc2ccccc2o1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 16,
+        "split_group": "2o",
+        "substrate_id": "2o"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1cccs1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 17,
+        "split_group": "2p",
+        "substrate_id": "2p"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1cc2ccccc2s1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 18,
+        "split_group": "2q",
+        "substrate_id": "2q"
+      },
+      {
+        "canonical_compound_group": "Cc1cccc(CCc2ccccc2)c1N=[N+]=[N-]",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 19,
+        "split_group": "2r",
+        "substrate_id": "2r"
+      },
+      {
+        "canonical_compound_group": "Cc1ccc(CCc2ccccc2)c(N=[N+]=[N-])c1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 20,
+        "split_group": "2s",
+        "substrate_id": "2s"
+      },
+      {
+        "canonical_compound_group": "Cc1cccc(N=[N+]=[N-])c1CCc1ccccc1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 21,
+        "split_group": "2t",
+        "substrate_id": "2t"
+      },
+      {
+        "canonical_compound_group": "Cc1ccc(N=[N+]=[N-])c(CCc2ccccc2)c1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 22,
+        "split_group": "2u",
+        "substrate_id": "2u"
+      },
+      {
+        "canonical_compound_group": "CC(C)(C)c1ccc(N=[N+]=[N-])c(CCc2ccccc2)c1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 23,
+        "split_group": "2v",
+        "substrate_id": "2v"
+      },
+      {
+        "canonical_compound_group": "COc1ccc(N=[N+]=[N-])c(CCc2ccccc2)c1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 24,
+        "split_group": "2w",
+        "substrate_id": "2w"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccc(C(F)(F)F)cc1CCc1ccccc1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 25,
+        "split_group": "2x",
+        "substrate_id": "2x"
+      },
+      {
+        "canonical_compound_group": "CC(=O)c1ccc(N=[N+]=[N-])c(CCc2ccccc2)c1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 26,
+        "split_group": "2y",
+        "substrate_id": "2y"
+      },
+      {
+        "canonical_compound_group": "Cc1cc(C)c(N=[N+]=[N-])c(CCc2ccccc2)c1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 27,
+        "split_group": "2z",
+        "substrate_id": "2z"
+      },
+      {
+        "canonical_compound_group": "CCCc1ccccc1N=[N+]=[N-]",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 28,
+        "split_group": "4a",
+        "substrate_id": "4a"
+      },
+      {
+        "canonical_compound_group": "CCCCc1ccccc1N=[N+]=[N-]",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 29,
+        "split_group": "4b",
+        "substrate_id": "4b"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCC1CC1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 30,
+        "split_group": "4c",
+        "substrate_id": "4c"
+      },
+      {
+        "canonical_compound_group": "CC(CCc1ccccc1N=[N+]=[N-])c1ccccc1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 31,
+        "split_group": "4d",
+        "substrate_id": "4d"
+      },
+      {
+        "canonical_compound_group": "CC(C)(C)OC(=O)C1(c2ccccc2N=[N+]=[N-])CCCCC1",
+        "catalyst_id": "cmcpor-fecl",
+        "family_id": "angew-aryl-c-h-amination",
+        "pathway_id": "unknown-pathway",
+        "source_order": 32,
+        "split_group": "4e",
+        "substrate_id": "4e"
+      }
+    ],
+    "p7": [
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccccc1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "diaryl-ethyl-parent",
+        "pathway_id": "unknown-pathway",
+        "source_order": 0,
+        "split_group": "1a",
+        "substrate_id": "1a"
+      },
+      {
+        "canonical_compound_group": "Cc1ccccc1CCc1ccccc1N=[N+]=[N-]",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "diaryl-ethyl-aryl-substituted",
+        "pathway_id": "unknown-pathway",
+        "source_order": 1,
+        "split_group": "1b",
+        "substrate_id": "1b"
+      },
+      {
+        "canonical_compound_group": "Cc1cccc(CCc2ccccc2N=[N+]=[N-])c1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "diaryl-ethyl-aryl-substituted",
+        "pathway_id": "unknown-pathway",
+        "source_order": 2,
+        "split_group": "1c",
+        "substrate_id": "1c"
+      },
+      {
+        "canonical_compound_group": "COc1ccc(CCc2ccccc2N=[N+]=[N-])cc1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "diaryl-ethyl-aryl-substituted",
+        "pathway_id": "unknown-pathway",
+        "source_order": 3,
+        "split_group": "1d",
+        "substrate_id": "1d"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccc(C(F)(F)F)cc1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "diaryl-ethyl-aryl-substituted",
+        "pathway_id": "unknown-pathway",
+        "source_order": 4,
+        "split_group": "1e",
+        "substrate_id": "1e"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1cccc(F)c1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "diaryl-ethyl-aryl-substituted",
+        "pathway_id": "unknown-pathway",
+        "source_order": 5,
+        "split_group": "1f",
+        "substrate_id": "1f"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccc(F)cc1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "diaryl-ethyl-aryl-substituted",
+        "pathway_id": "unknown-pathway",
+        "source_order": 6,
+        "split_group": "1g",
+        "substrate_id": "1g"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccc(Cl)cc1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "diaryl-ethyl-aryl-substituted",
+        "pathway_id": "unknown-pathway",
+        "source_order": 7,
+        "split_group": "1h",
+        "substrate_id": "1h"
+      },
+      {
+        "canonical_compound_group": "Cc1cccc(CCc2ccccc2)c1N=[N+]=[N-]",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "diaryl-ethyl-aryl-substituted",
+        "pathway_id": "unknown-pathway",
+        "source_order": 8,
+        "split_group": "1i",
+        "substrate_id": "1i"
+      },
+      {
+        "canonical_compound_group": "Cc1ccc(N=[N+]=[N-])c(CCc2ccccc2)c1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "diaryl-ethyl-aryl-substituted",
+        "pathway_id": "unknown-pathway",
+        "source_order": 9,
+        "split_group": "1j",
+        "substrate_id": "1j"
+      },
+      {
+        "canonical_compound_group": "COc1ccc(N=[N+]=[N-])c(CCc2ccccc2)c1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "diaryl-ethyl-aryl-substituted",
+        "pathway_id": "unknown-pathway",
+        "source_order": 10,
+        "split_group": "1k",
+        "substrate_id": "1k"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1cc(C(F)(F)F)ccc1CCc1ccccc1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "diaryl-ethyl-aryl-substituted",
+        "pathway_id": "unknown-pathway",
+        "source_order": 11,
+        "split_group": "1l",
+        "substrate_id": "1l"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccc(F)cc1CCc1ccccc1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "diaryl-ethyl-aryl-substituted",
+        "pathway_id": "unknown-pathway",
+        "source_order": 12,
+        "split_group": "1m",
+        "substrate_id": "1m"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccc2ccccc2c1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "polycyclic-aryl",
+        "pathway_id": "unknown-pathway",
+        "source_order": 13,
+        "split_group": "1n",
+        "substrate_id": "1n"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccoc1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "oxygen-heteroaryl",
+        "pathway_id": "unknown-pathway",
+        "source_order": 14,
+        "split_group": "1o",
+        "substrate_id": "1o"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1cc2ccccc2o1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "oxygen-heteroaryl-fused",
+        "pathway_id": "unknown-pathway",
+        "source_order": 15,
+        "split_group": "1p",
+        "substrate_id": "1p"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccc2occc2c1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "oxygen-heteroaryl-fused",
+        "pathway_id": "unknown-pathway",
+        "source_order": 16,
+        "split_group": "1q",
+        "substrate_id": "1q"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccc2c(c1)CCO2",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "oxygen-heterocycle-fused",
+        "pathway_id": "unknown-pathway",
+        "source_order": 17,
+        "split_group": "1r",
+        "substrate_id": "1r"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1cccc2c1OCO2",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "oxygen-heterocycle-fused",
+        "pathway_id": "unknown-pathway",
+        "source_order": 18,
+        "split_group": "1s",
+        "substrate_id": "1s"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccc2c(c1)OCCO2",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "oxygen-heterocycle-fused",
+        "pathway_id": "unknown-pathway",
+        "source_order": 19,
+        "split_group": "1t",
+        "substrate_id": "1t"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccc2c(c1)COC2=O",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "carbonyl-heterocycle-fused",
+        "pathway_id": "unknown-pathway",
+        "source_order": 20,
+        "split_group": "1u",
+        "substrate_id": "1u"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccsc1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "sulfur-heteroaryl",
+        "pathway_id": "unknown-pathway",
+        "source_order": 21,
+        "split_group": "1v",
+        "substrate_id": "1v"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1cc2ccccc2s1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "sulfur-heteroaryl-fused",
+        "pathway_id": "unknown-pathway",
+        "source_order": 22,
+        "split_group": "1w",
+        "substrate_id": "1w"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1csc2ccccc12",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "sulfur-heteroaryl-fused",
+        "pathway_id": "unknown-pathway",
+        "source_order": 23,
+        "split_group": "1x",
+        "substrate_id": "1x"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccc2c(c1)CCS2",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "sulfur-heterocycle-fused",
+        "pathway_id": "unknown-pathway",
+        "source_order": 24,
+        "split_group": "1y",
+        "substrate_id": "1y"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCc1ccnc(Cl)c1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "nitrogen-heteroaryl",
+        "pathway_id": "unknown-pathway",
+        "source_order": 26,
+        "split_group": "1aa",
+        "substrate_id": "1aa"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1cccnc1CCc1ccccc1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "nitrogen-heteroaryl",
+        "pathway_id": "unknown-pathway",
+        "source_order": 27,
+        "split_group": "1ab",
+        "substrate_id": "1ab"
+      },
+      {
+        "canonical_compound_group": "C[Si](C)(C)CCCc1ccccc1N=[N+]=[N-]",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "silyl-alkyl-aryl",
+        "pathway_id": "unknown-pathway",
+        "source_order": 28,
+        "split_group": "1ac",
+        "substrate_id": "1ac"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1SCc1ccccc1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "thioether-linker",
+        "pathway_id": "unknown-pathway",
+        "source_order": 29,
+        "split_group": "1ad",
+        "substrate_id": "1ad"
+      },
+      {
+        "canonical_compound_group": "COC(=O)CCc1ccccc1N=[N+]=[N-]",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "carbonyl-alkyl-aryl",
+        "pathway_id": "unknown-pathway",
+        "source_order": 30,
+        "split_group": "1ae",
+        "substrate_id": "1ae"
+      },
+      {
+        "canonical_compound_group": "CCOC(=O)CCc1ccccc1N=[N+]=[N-]",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "carbonyl-alkyl-aryl",
+        "pathway_id": "unknown-pathway",
+        "source_order": 31,
+        "split_group": "1af",
+        "substrate_id": "1af"
+      },
+      {
+        "canonical_compound_group": "CN(C)C(=O)CCc1ccccc1N=[N+]=[N-]",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "carbonyl-alkyl-aryl",
+        "pathway_id": "unknown-pathway",
+        "source_order": 32,
+        "split_group": "1ag",
+        "substrate_id": "1ag"
+      },
+      {
+        "canonical_compound_group": "CCCCc1ccccc1N=[N+]=[N-]",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "alkyl-aryl-chain",
+        "pathway_id": "unknown-pathway",
+        "source_order": 33,
+        "split_group": "1ah",
+        "substrate_id": "1ah"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCCCc1ccccc1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "alkyl-aryl-chain",
+        "pathway_id": "unknown-pathway",
+        "source_order": 34,
+        "split_group": "1ai",
+        "substrate_id": "1ai"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCC1CC1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "cycloalkyl-alkyl-aryl",
+        "pathway_id": "unknown-pathway",
+        "source_order": 35,
+        "split_group": "1aj",
+        "substrate_id": "1aj"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCC1CCCC1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "cycloalkyl-alkyl-aryl",
+        "pathway_id": "unknown-pathway",
+        "source_order": 36,
+        "split_group": "1ak",
+        "substrate_id": "1ak"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1CCC1CCCCC1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "cycloalkyl-alkyl-aryl",
+        "pathway_id": "unknown-pathway",
+        "source_order": 37,
+        "split_group": "1al",
+        "substrate_id": "1al"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1C1CCCC1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "cycloalkyl-aryl",
+        "pathway_id": "unknown-pathway",
+        "source_order": 38,
+        "split_group": "1am",
+        "substrate_id": "1am"
+      },
+      {
+        "canonical_compound_group": "[N-]=[N+]=Nc1ccccc1C1=CCCC1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "alkenyl-cycloalkyl-aryl",
+        "pathway_id": "unknown-pathway",
+        "source_order": 39,
+        "split_group": "1an",
+        "substrate_id": "1an"
+      },
+      {
+        "canonical_compound_group": "CC(Cc1ccccc1N=[N+]=[N-])c1ccccc1",
+        "catalyst_id": "fe-p7-cl",
+        "family_id": "branched-diaryl-alkyl",
+        "pathway_id": "unknown-pathway",
+        "source_order": 40,
+        "split_group": "1ao",
+        "substrate_id": "1ao"
+      }
+    ]
+  },
+  "schema_version": "pptl-canonical-overlap-ledger-v1",
+  "target": "ee_percent"
+}

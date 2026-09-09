@@ -1,0 +1,89 @@
+{
+  "global_affine_correction": {
+    "equation": "xtb_bde = intercept + slope * rule_bde",
+    "in_sample_regression": {
+      "bias": -1.982354523297086e-14,
+      "mae": 2.67726782361823,
+      "n": 119,
+      "pearson_r": 0.8026333952815686,
+      "rmse": 4.658155013422844
+    },
+    "intercept_kcal_mol": 22.930893874107863,
+    "slope": 1.0217965655949346
+  },
+  "higher_level_gate": {
+    "higher_level_reference_available": false,
+    "required_next_step": "run the selected panel with one consistent higher-level reference method and compare rankings before claiming final BDE calibration",
+    "status": "blocked_missing_higher_level_executable_and_reference_results"
+  },
+  "interim_reference": {
+    "definition": "substrate radical + H atom - substrate",
+    "method": "GFN2-xTB",
+    "role": "interim computed reference for hard-rule prior",
+    "solvent": "ALPB(ether)"
+  },
+  "leave_one_substrate_out_affine": {
+    "grouping": "substrate_id",
+    "regression": {
+      "bias": 0.004090834295419129,
+      "mae": 2.7134852209982707,
+      "n": 119,
+      "pearson_r": 0.7906305934629523,
+      "rmse": 4.782792975027415
+    }
+  },
+  "preservation": {
+    "existing_rule_versions_overwritten": false,
+    "existing_xtb_feature_file_overwritten": false
+  },
+  "raw_rule_vs_xtb": {
+    "regression": {
+      "bias": -24.881349472327685,
+      "mae": 24.926778856339592,
+      "n": 119,
+      "pearson_r": 0.8026333952815687,
+      "rmse": 25.313985029764098
+    },
+    "within_substrate_rank": {
+      "exact_rank_agreement": 0.453781512605042,
+      "mean_rank_delta": 0.0,
+      "sites": 119,
+      "substrates": 38,
+      "within_one_rank_agreement": 0.8403361344537815
+    }
+  },
+  "rule_method": {
+    "bde_interpretation": "coarse ordinal prior, not a calculated energy",
+    "source": "rule_based_diversity.py",
+    "versions_unchanged": [
+      "v0",
+      "v1",
+      "v2",
+      "v3",
+      "v4",
+      "v5",
+      "v6"
+    ]
+  },
+  "schema_version": "rule-bde-calibration-v1",
+  "scope": {
+    "selected_panel_keys": [
+      "1af:c2",
+      "1ag:c6",
+      "1al:c12",
+      "1am:c11",
+      "1ao:c1",
+      "1o:c11",
+      "1q:c11",
+      "1s:c18",
+      "1u:c11",
+      "1v:c11",
+      "1x:c11",
+      "1y:c18"
+    ],
+    "selected_panel_sites": 12,
+    "site_pairs": 119,
+    "substrates": 38
+  },
+  "status": "interim_calibration_complete_against_gfn2_xtb"
+}

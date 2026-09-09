@@ -1,0 +1,159 @@
+{
+  "feature_blocks": [
+    {
+      "block_id": "stage3a_xtb_reference_optimization",
+      "dependencies": [
+        "Stage 1 v1 retained poses",
+        "xTB 6.7.1",
+        "Stage 3 scaffold constraint policy"
+      ],
+      "expected_feature_count_range": [
+        10,
+        50
+      ],
+      "feature_families": [
+        "xtb_relative_energy",
+        "optimization_status",
+        "motif_identity",
+        "scaffold_deviation"
+      ],
+      "granularity": "substrate_reference_motif",
+      "output_path": "data/jacs_2025/stage3/reference-optimizations/xtb-reference-complexes.jsonl",
+      "status": "declared_not_yet_computed"
+    },
+    {
+      "block_id": "stage3a_nci_rule_packets",
+      "dependencies": [
+        "stage3a_xtb_reference_optimization"
+      ],
+      "expected_feature_count_range": [
+        20,
+        200
+      ],
+      "feature_families": [
+        "agostic_like_c_h_contact",
+        "aryl_pi_contact",
+        "c_h_pi_contact",
+        "close_ligand_substrate_atom_pair",
+        "donor_acceptor_proximity",
+        "hydrogen_bond",
+        "reactive_c_h_approach_geometry"
+      ],
+      "granularity": "substrate_motif",
+      "output_path": "data/jacs_2025/stage3/nci-rules/nci-rule-packets.jsonl",
+      "status": "declared_not_yet_computed"
+    },
+    {
+      "block_id": "stage3a_v2_pose_interaction",
+      "dependencies": [
+        "stage3a_nci_rule_packets",
+        "Stage 1/2 candidate-site atom maps"
+      ],
+      "expected_feature_count_range": [
+        50,
+        300
+      ],
+      "feature_families": [
+        "composite_pose_score_components",
+        "nci_rule_satisfaction",
+        "reactive_approach_geometry",
+        "motif_provenance",
+        "core_deviation"
+      ],
+      "granularity": "pose_and_candidate_site",
+      "output_path": "data/jacs_2025/stage3/features/v2-pose-interaction.jsonl",
+      "status": "declared_not_yet_computed"
+    },
+    {
+      "block_id": "stage3a_local_3d_shell_features",
+      "dependencies": [
+        "stage3a_v2_pose_interaction",
+        "retained v2 XYZ geometry"
+      ],
+      "expected_feature_count_range": [
+        100,
+        500
+      ],
+      "feature_families": [
+        "radial_shell_atom_counts",
+        "ownership_counts",
+        "nearest_atom_distances",
+        "donor_acceptor_counts",
+        "aryl_centroid_proximity",
+        "c_h_orientation_features"
+      ],
+      "granularity": "pose_candidate_site_shell",
+      "output_path": "data/jacs_2025/stage3/features/local-3d-shell-features.jsonl",
+      "parameters": {
+        "centers": [
+          "nitrene_center",
+          "candidate_c_h_haa_center",
+          "reactive_approach_midpoint"
+        ],
+        "shell_ids": [
+          "0_3_angstrom",
+          "3_4_angstrom",
+          "4_5_angstrom",
+          "5_6_angstrom",
+          "6_8_angstrom"
+        ]
+      },
+      "status": "declared_not_yet_computed"
+    },
+    {
+      "block_id": "stage3b_bde_features",
+      "dependencies": [
+        "Stage 2 candidate_site_features",
+        "xTB 6.7.1",
+        "consistent hydrogen atom reference"
+      ],
+      "expected_feature_count_range": [
+        5,
+        30
+      ],
+      "feature_families": [
+        "absolute_intrinsic_c_h_bde",
+        "within_substrate_bde_rank",
+        "bde_competition_gap",
+        "calibration_status",
+        "optimization_status"
+      ],
+      "granularity": "candidate_site",
+      "output_path": "data/jacs_2025/stage3/features/bde.jsonl",
+      "parameters": {
+        "initial_calibration_status": "uncalibrated_xtb"
+      },
+      "status": "implemented_partial"
+    },
+    {
+      "block_id": "stage3_model_delta_reports",
+      "dependencies": [
+        "Stage 2 benchmark artifacts",
+        "Stage 3a features",
+        "Stage 3b BDE features"
+      ],
+      "expected_feature_count_range": [
+        1,
+        100
+      ],
+      "feature_families": [
+        "stage2_to_stage3a_delta",
+        "stage3a_to_stage3a_plus_stage3b_delta",
+        "family_held_out_residuals"
+      ],
+      "granularity": "model_report",
+      "output_path": "data/jacs_2025/stage3/reports/stage3-model-delta-report.json",
+      "status": "declared_not_yet_computed"
+    }
+  ],
+  "feature_policy": "mechanism_enriched_candidate_site_and_pose_features_with_model_delta_reporting",
+  "reporting_requirements": [
+    "stage2_baseline_to_stage3a_delta",
+    "stage3a_to_stage3a_plus_stage3b_delta",
+    "family_held_out_primary_validation",
+    "target_holdout_diagnostic_validation",
+    "feature_provenance",
+    "BDE_calibration_status"
+  ],
+  "schema_version": "stage3-feature-manifest-v1"
+}

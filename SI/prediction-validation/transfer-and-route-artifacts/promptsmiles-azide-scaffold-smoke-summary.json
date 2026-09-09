@@ -1,0 +1,18 @@
+{
+  "prompt": "[N-]=[N+]=Nc1ccccc1*",
+  "requested_count": 10,
+  "generated_count": 128,
+  "aryl_azide_detected_count": 128,
+  "contract_valid_count_at_basic_funnel": 128,
+  "contract_valid_count_at_conservative_tether_gate": 9,
+  "unique_canonical_count": 71,
+  "duplicate_count": 57,
+  "unique_contract_valid_count_after_deduplication": 8,
+  "applicability_reference_count": 91,
+  "applicability_threshold": 0.35,
+  "applicability_in_domain_count": 122,
+  "applicability_ood_or_unscored_count": 6,
+  "interpretation": "scaffold conditioning preserves aryl-azide identity; the conservative ortho two-carbon tether gate retains 9 of 128 outputs before closure/safety/applicability gates",
+  "raw_smiles": "data/expansion/pptl/smiles-rnn-azide-scaffold-smoke.smi",
+  "funnel_report": "data/expansion/pptl/funnel-azide-scaffold-smoke-ad.csv"
+}

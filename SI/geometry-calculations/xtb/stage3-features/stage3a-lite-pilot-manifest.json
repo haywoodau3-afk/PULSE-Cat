@@ -1,0 +1,61 @@
+{
+  "per_substrate_work_item_counts": {
+    "1a": 1,
+    "1aa": 1,
+    "1ac": 1,
+    "1ad": 1,
+    "1ae": 1,
+    "1ah": 1,
+    "1am": 1,
+    "1e": 1,
+    "1j": 1,
+    "1o": 1,
+    "1p": 1,
+    "1v": 1
+  },
+  "pilot_id": "stage3a-lite-seed-12-single-reference-optimization-pilot",
+  "pilot_mode": "stage3a_lite_single_reference_per_substrate",
+  "pose_generation_contract": {
+    "candidate_pose_count_per_substrate": 5000,
+    "max_retained_per_viable_motif": 10,
+    "retained_pose_count_per_substrate": 50,
+    "retention_policy": "hybrid_motif_retention"
+  },
+  "reference_optimization": {
+    "default_reference_motif_count": 3,
+    "dft_required_for_gate": false,
+    "method": "GFN2-xTB",
+    "optimized_reference_count_range": [
+      3,
+      5
+    ],
+    "solvent_model": "ALPB ether where practical",
+    "starting_pose_count_range": [
+      20,
+      50
+    ],
+    "unit": "per_substrate_optimized_reference_complex_ensemble"
+  },
+  "scale_up_policy": "increase_starting_pose_count_to_20_50_and_cluster_to_3_5_reference_motifs_after_lite_delta",
+  "schema_version": "stage3a-pilot-manifest-v1",
+  "selected_seed_substrate_ids": [
+    "1a",
+    "1e",
+    "1o",
+    "1v",
+    "1ae",
+    "1ac",
+    "1j",
+    "1p",
+    "1aa",
+    "1ad",
+    "1ah",
+    "1am"
+  ],
+  "starting_pose_count_per_substrate": 1,
+  "status": "worklist_declared_not_yet_computed",
+  "substrate_count": 12,
+  "substrate_scope": "feature_ready_seed_12",
+  "total_work_item_count": 12,
+  "worklist_path": "data/jacs_2025/stage3/pilot/stage3a-lite-reference-optimization-worklist.jsonl"
+}

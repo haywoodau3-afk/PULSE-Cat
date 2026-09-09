@@ -1,0 +1,10 @@
+source_id,document_id,location,content,status,notes
+jacs-main-table-1,jacs-2025-main,PDF p. 24004 / Table 1,41 substrate-scope outcomes for the fixed Fe(P7)Cl system,extracted,Labels are stored in scope-outcomes.csv; machine-readable structures still require manual curation from scheme graphics.
+jacs-main-table-2,jacs-2025-main,PDF p. 6 / Table 2,late-stage complex-molecule examples,indexed,Reserved for the prospective-set design and later structure curation.
+jacs-si-general,jacs-2025-si,SI p. S3,general experimental practice,indexed,Reactions were performed in dry solvent under nitrogen using Schlenk techniques.
+jacs-si-optimization,jacs-2025-si,SI p. S5 / Table S1,16 condition-variation outcomes for substrate 1a,extracted,Stored in optimization-conditions.csv; these are condition negatives not untested-substrate negatives.
+jacs-si-catalysis,jacs-2025-si,SI p. S32,standard Fe(Por)Cl-catalyzed C-H amination procedure,indexed,Use to define the standard condition set during reaction-record curation.
+jacs-si-mechanism,jacs-2025-si,SI pp. S49-S60,mechanistic controls including radical traps and KIE,indexed,Mechanistic evidence only; not outcome labels.
+jacs-si-dft-method,jacs-2025-si,SI p. S63,geometry and single-point computational methods,extracted,BP86/def2-SVP geometry optimization; TPSSh/def2-TZVP-D3BJ/SMD ether single points.
+jacs-si-2b-model,jacs-2025-si,SI p. S68,optimized Intermediate B structural model,indexed,Corresponds to the doublet alpha-Fe(IV)-aminyl selectivity intermediate.
+jacs-si-2b-coordinates,jacs-2025-si,SI pp. S115-S122,2B Cartesian coordinates,extracted,Parsed into jacs-p7-2B.xyz; Fe atom 47 to nitrene N atom 215 is 1.703457 A.

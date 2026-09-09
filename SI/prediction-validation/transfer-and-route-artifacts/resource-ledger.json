@@ -1,0 +1,125 @@
+{
+  "artifacts": {
+    "bidirectional-ee-2d-matrix.json": 448131,
+    "bidirectional-ee-b5-report.md": 610,
+    "bidirectional-ee-b5.json": 80700,
+    "bidirectional-ee-pose-matrix.json": 273187,
+    "bidirectional-yield-b5.json": 83222,
+    "canonical-overlap-ee.json": 25727,
+    "canonical-overlap.json": 29344,
+    "matrix-ee-b5-p2-p3.json": 269835,
+    "matrix-ee-b5-p3-p4.json": 268202,
+    "matrix-yield-b5-p3-p4.json": 277338,
+    "paired-pose-ee.json": 30858,
+    "pose-controls-ee.json": 310605,
+    "pose-upgrade-ee.json": 66844,
+    "pptl-ee-pose-report.md": 801,
+    "pptl-ee-report.md": 2652,
+    "pptl-final-report.md": 5483,
+    "publication-ledger-lock.json": 4739,
+    "resource-ledger.json": 3018,
+    "routes/random-ee-b1-500-bootstrap.json": 2832,
+    "routes/random-ee-b1-500.json": 1031068,
+    "routes/random-ee-b5-500-bootstrap.json": 2838,
+    "routes/random-ee-b5-500.json": 1031472,
+    "routes/random-yield-b1-500-bootstrap.json": 2863,
+    "routes/random-yield-b1-500.json": 1040246,
+    "routes/random-yield-b5-500-bootstrap.json": 2857,
+    "routes/random-yield-b5-500.json": 1040137,
+    "scaffold/cmcpor-to-p7-ee-b5-bootstrap.json": 1398,
+    "scaffold/cmcpor-to-p7-ee-b5.json": 1059337,
+    "scaffold/p7-to-cmcpor-ee-b5-bootstrap.json": 1403,
+    "scaffold/p7-to-cmcpor-ee-b5.json": 578066
+  },
+  "domains": {
+    "cmcpor_aryl": {
+      "B1": {
+        "arm": "B1",
+        "features": 6,
+        "peak_rss_bytes": 459112448,
+        "rows": 33,
+        "seconds": 0.01662916608620435
+      },
+      "B5": {
+        "arm": "B5",
+        "features": 1039,
+        "peak_rss_bytes": 459112448,
+        "rows": 33,
+        "seconds": 0.01657366589643061
+      },
+      "P0": {
+        "arm": "P0",
+        "features": 248,
+        "peak_rss_bytes": 459112448,
+        "rows": 33,
+        "seconds": 0.016422624932602048
+      },
+      "P2": {
+        "arm": "P2",
+        "features": 1287,
+        "peak_rss_bytes": 459112448,
+        "rows": 33,
+        "seconds": 0.016534124966710806
+      },
+      "P3": {
+        "arm": "P3",
+        "features": 1083,
+        "peak_rss_bytes": 459112448,
+        "rows": 33,
+        "seconds": 0.01651333295740187
+      },
+      "P4": {
+        "arm": "P4",
+        "features": 1099,
+        "peak_rss_bytes": 459112448,
+        "rows": 33,
+        "seconds": 0.016505916020832956
+      }
+    },
+    "p7": {
+      "B1": {
+        "arm": "B1",
+        "features": 6,
+        "peak_rss_bytes": 459112448,
+        "rows": 40,
+        "seconds": 0.020809917012229562
+      },
+      "B5": {
+        "arm": "B5",
+        "features": 1039,
+        "peak_rss_bytes": 459112448,
+        "rows": 40,
+        "seconds": 0.020304000005126
+      },
+      "P0": {
+        "arm": "P0",
+        "features": 248,
+        "peak_rss_bytes": 459112448,
+        "rows": 40,
+        "seconds": 0.020312707987613976
+      },
+      "P2": {
+        "arm": "P2",
+        "features": 1287,
+        "peak_rss_bytes": 459112448,
+        "rows": 40,
+        "seconds": 0.020070667029358447
+      },
+      "P3": {
+        "arm": "P3",
+        "features": 1083,
+        "peak_rss_bytes": 459112448,
+        "rows": 40,
+        "seconds": 0.02017633302602917
+      },
+      "P4": {
+        "arm": "P4",
+        "features": 1099,
+        "peak_rss_bytes": 459112448,
+        "rows": 40,
+        "seconds": 0.020177874946966767
+      }
+    }
+  },
+  "schema_version": "pptl-resource-ledger-v1"
+}

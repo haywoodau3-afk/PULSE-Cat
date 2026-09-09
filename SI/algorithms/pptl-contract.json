@@ -1,0 +1,118 @@
+{
+  "schema_version": "pptl-contract-v2",
+  "status": "valid",
+  "study_id": "parallel-progressive-transfer-bidirectional-v1",
+  "primary_directions": [
+    {"id": "p7_to_cmcpor_aryl", "source_domain": "fe-p7-cl", "target_domain": "cmcpor-fecl", "pathway": "aryl"},
+    {"id": "cmcpor_to_p7_aryl", "source_domain": "cmcpor-fecl", "target_domain": "fe-p7-cl", "pathway": "aryl"}
+  ],
+  "source_domains": ["fe-p7-cl", "cmcpor-fecl"],
+  "primary_pathway": "aryl",
+  "secondary_pathway": "sulfonyl_control",
+  "targets": ["ee_percent", "isolated_yield_percent"],
+  "records": {
+    "p7": "data/jacs_2025/stage2/curated-reaction-records.jsonl",
+    "cmcpor": "data/expansion/catalyst_rerun/cmcpor/stage2-records.jsonl"
+  },
+  "catalyst_feature_records": {
+    "p7": "data/jacs_2025/stage2/features/pose-interaction.jsonl",
+    "cmcpor": "data/expansion/catalyst_rerun/cmcpor_uff_full/stage2/features/pose-interaction.jsonl",
+    "aggregation": "mean_numeric_leaves_by_substrate_over_retained_pose_ensemble"
+  },
+  "deferred_d4_extension": {
+    "status": "deferred",
+    "records": "data/expansion/catalyst_rerun/d4_por/stage2-records.jsonl",
+    "substrates": "data/expansion/catalyst_rerun/d4_por/substrates.jsonl",
+    "outcomes": "data/expansion/catalyst_rerun/d4_por/outcomes.jsonl",
+    "reference_geometry": null,
+    "constraint_profile": null
+  },
+  "canonical_overlap": {
+    "procedure": "RDKit canonical substrate SMILES",
+    "expected_diagnostic_count": 13,
+    "exclude_overlap_from_cold_start": true,
+    "warm_start_is_diagnostic_only": true,
+    "paired_pose_panel": true
+  },
+  "pathway_policy": {
+    "primary": "angew-aryl-c-h-amination",
+    "cmcpor_sulfonyl": "separate_mismatched_pathway_control",
+    "cross_pathway_pooling": false
+  },
+  "progression": {
+    "unit": "whole_substrate",
+    "seed_size": 2,
+    "directions": ["p7_to_cmcpor_aryl", "cmcpor_to_p7_aryl"],
+    "fixed_prefix_route": "target_only_uncertainty_diversity",
+    "random_replicates": 500,
+    "family_and_split_grouped": true,
+    "scaffold_holdout_required": true,
+    "both_growing_budget_control": "optional"
+  },
+  "representations": {
+    "canonical_2d": "B5",
+    "arms": ["B0", "B1", "B2", "B3", "B4", "B5", "P0", "P1", "P2", "P3", "P4", "PX"],
+    "morgan_radius": 2,
+    "morgan_bits": [128, 256, 1024],
+    "stage2p_columns": 248,
+    "compact_stage2p_columns": 44,
+    "compact_catalyst_interaction_columns": 16,
+    "stage2pp_columns": 655,
+    "paired_pose_compounds": 13,
+    "random_control_seeds": [11, 23, 37, 41, 53, 67, 71, 83, 97, 101]
+  },
+  "models": {
+    "primary": "ridge",
+    "ridge_alpha": 10.0,
+    "prediction_bounds": [0.0, 100.0],
+    "experts": ["target_only", "p7", "cmcpor", "combined", "guarded_ensemble"],
+    "guard": {
+      "initial_target_weight": 0.5,
+      "source_warmup_labels": 5,
+      "family_negative_transfer_absolute": 1.0,
+      "family_negative_transfer_relative": 0.1
+    }
+  },
+  "gates": {
+    "ee_transfer_early_auc_relative_gain": 0.1,
+    "pose_group_mae_absolute_gain": 1.0,
+    "pose_early_auc_relative_gain": 0.1,
+    "material_group_negative_transfer": "both_absolute_and_relative_thresholds",
+    "both_directions_required_for_symmetric_claim": true
+  },
+  "outputs": {
+    "root": "data/expansion/pptl",
+    "contract_validation": "contract-validation.json",
+    "publication_ledger_lock": "publication-ledger-lock.json",
+    "canonical_overlap": "canonical-overlap.json",
+    "paired_pose_ledger": "paired-pose-ee.json",
+    "bidirectional_2d_matrix": "bidirectional-ee-2d-matrix.json",
+    "bidirectional_pose_matrix": "bidirectional-ee-pose-matrix.json",
+    "pose_matrix_ee_compact_catalyst": "matrix-ee-b5-p3-p4.json",
+    "pose_matrix_yield_compact_catalyst": "matrix-yield-b5-p3-p4.json",
+    "scaffold_holdout_p7_to_cmcpor": "scaffold/p7-to-cmcpor-ee-b5.json",
+    "scaffold_holdout_cmcpor_to_p7": "scaffold/cmcpor-to-p7-ee-b5.json",
+    "scaffold_holdout_pose_arms": ["scaffold/p7-to-cmcpor-ee-p3.json", "scaffold/cmcpor-to-p7-ee-p3.json", "scaffold/p7-to-cmcpor-ee-p4.json", "scaffold/cmcpor-to-p7-ee-p4.json"],
+    "scaffold_bootstrap_p7_to_cmcpor": "scaffold/p7-to-cmcpor-ee-b5-bootstrap.json",
+    "scaffold_bootstrap_cmcpor_to_p7": "scaffold/cmcpor-to-p7-ee-b5-bootstrap.json",
+    "random_route_ee": "routes/random-ee-b5-500.json",
+    "random_route_yield": "routes/random-yield-b5-500.json",
+    "random_route_ee_bootstrap": "routes/random-ee-b5-500-bootstrap.json",
+    "random_route_pose_arms": ["routes/random-ee-p3-500.json", "routes/random-ee-p4-500.json"],
+    "random_route_pose_incremental_bootstrap": ["routes/random-ee-p3-vs-b5-bootstrap.json", "routes/random-ee-p4-vs-b5-bootstrap.json"],
+    "random_route_yield_bootstrap": "routes/random-yield-b5-500-bootstrap.json",
+    "random_route_low_resource_controls": ["routes/random-ee-b1-500.json", "routes/random-yield-b1-500.json"],
+    "fixed_prefix_predictions": "fixed-prefix-predictions.jsonl",
+    "expert_weights": "expert-weights.jsonl",
+    "acquisition_events": "acquisition-events.jsonl",
+    "recommendations": "coworker-recommendations.jsonl",
+    "pose_ablation": "pose-ablation-results.json",
+    "domain_maps": "domain-maps",
+    "resource_ledger": "resource-ledger.json",
+    "pose_controls": "pose-controls-ee.json",
+    "pose_upgrade_ee": "pose-upgrade-ee.json",
+    "pose_upgrade_yield": "pose-upgrade-yield.json",
+    "pose_incremental_bootstrap": ["scaffold/p7-to-cmcpor-ee-p3-vs-b5-bootstrap.json", "scaffold/cmcpor-to-p7-ee-p3-vs-b5-bootstrap.json", "scaffold/p7-to-cmcpor-ee-p4-vs-b5-bootstrap.json", "scaffold/cmcpor-to-p7-ee-p4-vs-b5-bootstrap.json"],
+    "final_report": "pptl-report.md"
+  }
+}

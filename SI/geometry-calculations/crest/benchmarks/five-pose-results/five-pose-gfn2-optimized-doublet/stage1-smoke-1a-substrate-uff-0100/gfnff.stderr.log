@@ -1,0 +1,12 @@
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG
+ERROR STOP 
+
+Error termination. Backtrace:
+#0  0x102c59063
+#1  0x102c59c37
+#2  0x102c5ae53
+#3  0x103131523
+#4  0x1031317bf
+#5  0x18217f743
+recieved SIGINT, terminating...
+external termination of xtb

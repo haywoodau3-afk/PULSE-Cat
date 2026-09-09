@@ -1,0 +1,25 @@
+family,r_group,method,partner_name,partner_smiles,pubchem_cid,pubchem_status,pubchem_url,notes
+phenyl,*c1ccccc1,A,styrene,C=Cc1ccccc1,7501,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/Styrene,Identity record; not supplier-stock evidence
+phenyl,*c1ccccc1,B,bromobenzene,Brc1ccccc1,7961,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/7961,Identity record; not supplier-stock evidence
+phenyl,*c1ccccc1,C,bromobenzene,Brc1ccccc1,7961,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/7961,Identity record; not supplier-stock evidence
+phenyl,*c1ccccc1,D,phenylacetylene,C#Cc1ccccc1,10821,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/Phenylacetylene,Identity record; not supplier-stock evidence
+4-hydroxyphenyl,*c1ccc(O)cc1,A,4-vinylphenol,C=Cc1ccc(O)cc1,62453,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/4-Vinylphenol,Check stabilization/mixture form before procurement
+4-hydroxyphenyl,*c1ccc(O)cc1,B,4-bromophenol,Oc1ccc(Br)cc1,7808,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/4-Bromophenol,Identity record; not supplier-stock evidence
+4-hydroxyphenyl,*c1ccc(O)cc1,C,4-bromophenol,Oc1ccc(Br)cc1,7808,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/4-Bromophenol,Identity record; not supplier-stock evidence
+4-hydroxyphenyl,*c1ccc(O)cc1,D,4-ethynylphenol,C#Cc1ccc(O)cc1,32758,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/4-Ethynylphenol,Identity record; not supplier-stock evidence
+4-methoxyphenyl,*c1ccc(OC)cc1,A,4-methoxystyrene,C=Cc1ccc(OC)cc1,12507,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/12507,Identity record; not supplier-stock evidence
+4-methoxyphenyl,*c1ccc(OC)cc1,B,4-bromoanisole,COc1ccc(Br)cc1,7730,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/4-Bromoanisole,Identity record; not supplier-stock evidence
+4-methoxyphenyl,*c1ccc(OC)cc1,C,4-bromoanisole,COc1ccc(Br)cc1,7730,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/4-Bromoanisole,Identity record; not supplier-stock evidence
+4-methoxyphenyl,*c1ccc(OC)cc1,D,1-ethynyl-4-methoxybenzene,C#Cc1ccc(OC)cc1,251020,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/1-Ethynyl-4-methoxybenzene,Identity record; not supplier-stock evidence
+3-pyridyl,*c1cccnc1,A,3-vinylpyridine,C=Cc1cccnc1,14272,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/3-Vinylpyridine,Identity record; not supplier-stock evidence
+3-pyridyl,*c1cccnc1,B,3-bromopyridine,Brc1cccnc1,12286,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/3-Bromopyridine,Identity record; not supplier-stock evidence
+3-pyridyl,*c1cccnc1,C,3-bromopyridine,Brc1cccnc1,12286,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/3-Bromopyridine,Identity record; not supplier-stock evidence
+3-pyridyl,*c1cccnc1,D,3-ethynylpyridine,C#Cc1cccnc1,186003,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/3-Ethynylpyridine,Identity record; not supplier-stock evidence
+4-pyridyl,*c1ccncc1,A,4-vinylpyridine,C=Cc1ccncc1,7502,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/4-Vinylpyridine,Identity record; not supplier-stock evidence
+4-pyridyl,*c1ccncc1,B,4-bromopyridine,Brc1ccncc1,14268,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/14268,Identity record; not supplier-stock evidence
+4-pyridyl,*c1ccncc1,C,4-bromopyridine,Brc1ccncc1,14268,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/14268,Identity record; not supplier-stock evidence
+4-pyridyl,*c1ccncc1,D,4-ethynylpyridine,C#Cc1ccncc1,,unconfirmed,https://pubchem.ncbi.nlm.nih.gov/compound/4-Ethynylpyridine,Exact record not confirmed in current screen
+methyl-4-carboxyphenyl,*c1ccc(C(=O)OC)cc1,A,methyl 4-vinylbenzoate,C=Cc1ccc(C(=O)OC)cc1,,unconfirmed,https://pubchem.ncbi.nlm.nih.gov/#query=C%3DCc1ccc%28C%28%3DO%29OC%29cc1,Exact methyl ester identity must be queried by canonical SMILES
+methyl-4-carboxyphenyl,*c1ccc(C(=O)OC)cc1,B,methyl 4-bromobenzoate,COC(=O)c1ccc(Br)cc1,12081,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/Methyl-4-bromobenzoate,Identity record; not supplier-stock evidence
+methyl-4-carboxyphenyl,*c1ccc(C(=O)OC)cc1,C,methyl 4-bromobenzoate,COC(=O)c1ccc(Br)cc1,12081,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/Methyl-4-bromobenzoate,Identity record; not supplier-stock evidence
+methyl-4-carboxyphenyl,*c1ccc(C(=O)OC)cc1,D,methyl 4-ethynylbenzoate,COC(=O)c1ccc(C#C)cc1,640163,confirmed_pubchem_identity,https://pubchem.ncbi.nlm.nih.gov/compound/640163,Identity record; not supplier-stock evidence

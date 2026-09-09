@@ -1,0 +1,1644 @@
+{
+  "cohort": {
+    "excluded_substrates": [
+      "1ad",
+      "1an",
+      "1z"
+    ],
+    "substrate_count": 38
+  },
+  "models": {
+    "stage2p_geometry": {
+      "family_metrics": {
+        "alkyl-aryl-chain": {
+          "family_label": "Alkyl aryl-chain analogue",
+          "mae": 20.247900744630236,
+          "max_abs_error": 24.46576977053259,
+          "mean_signed_error": 20.247900744630236,
+          "median_abs_error": 20.247900744630236,
+          "r2": 0.0,
+          "record_count": 2,
+          "rmse": 20.682550705463388,
+          "within_10_count": 0,
+          "within_15_count": 0,
+          "within_20_count": 1
+        },
+        "branched-diaryl-alkyl": {
+          "family_label": "Branched diaryl alkyl analogue",
+          "mae": 21.628911915176403,
+          "max_abs_error": 21.628911915176403,
+          "mean_signed_error": -21.628911915176403,
+          "median_abs_error": 21.628911915176403,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 21.628911915176403,
+          "within_10_count": 0,
+          "within_15_count": 0,
+          "within_20_count": 0
+        },
+        "carbonyl-alkyl-aryl": {
+          "family_label": "Carbonyl alkyl aryl analogue",
+          "mae": 11.837897038624268,
+          "max_abs_error": 19.220557521801823,
+          "mean_signed_error": -0.9758079759102808,
+          "median_abs_error": 8.89834812541774,
+          "r2": 0.3360246926946924,
+          "record_count": 3,
+          "rmse": 12.952390808102098,
+          "within_10_count": 2,
+          "within_15_count": 2,
+          "within_20_count": 3
+        },
+        "carbonyl-heterocycle-fused": {
+          "family_label": "Fused carbonyl heterocycle analogue",
+          "mae": 5.169368855700327,
+          "max_abs_error": 5.169368855700327,
+          "mean_signed_error": 5.169368855700327,
+          "median_abs_error": 5.169368855700327,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 5.169368855700327,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "cycloalkyl-alkyl-aryl": {
+          "family_label": "Cycloalkyl alkyl aryl analogue",
+          "mae": 9.674847070821409,
+          "max_abs_error": 20.718368761137413,
+          "mean_signed_error": 9.674847070821409,
+          "median_abs_error": 7.706245491180155,
+          "r2": -0.08988915910175299,
+          "record_count": 3,
+          "rmse": 12.76710533689763,
+          "within_10_count": 2,
+          "within_15_count": 2,
+          "within_20_count": 2
+        },
+        "cycloalkyl-aryl": {
+          "family_label": "Cycloalkyl aryl analogue",
+          "mae": 0.49925695649204727,
+          "max_abs_error": 0.49925695649204727,
+          "mean_signed_error": 0.49925695649204727,
+          "median_abs_error": 0.49925695649204727,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 0.49925695649204727,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "diaryl-ethyl-aryl-substituted": {
+          "family_label": "Substituted diaryl ethyl aryl azide",
+          "mae": 6.09909939334235,
+          "max_abs_error": 16.85086546962296,
+          "mean_signed_error": -0.3431758126890661,
+          "median_abs_error": 3.9733805563751687,
+          "r2": -0.45721354942664494,
+          "record_count": 12,
+          "rmse": 7.814820220256458,
+          "within_10_count": 10,
+          "within_15_count": 11,
+          "within_20_count": 12
+        },
+        "diaryl-ethyl-parent": {
+          "family_label": "Parent diaryl ethyl aryl azide",
+          "mae": 6.599524118869667,
+          "max_abs_error": 6.599524118869667,
+          "mean_signed_error": -6.599524118869667,
+          "median_abs_error": 6.599524118869667,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 6.599524118869667,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "nitrogen-heteroaryl": {
+          "family_label": "Nitrogen heteroaryl analogue",
+          "mae": 9.52660508302261,
+          "max_abs_error": 17.983255701495054,
+          "mean_signed_error": -8.456650618472445,
+          "median_abs_error": 9.52660508302261,
+          "r2": -12.246624007410825,
+          "record_count": 2,
+          "rmse": 12.738569153982036,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 2
+        },
+        "oxygen-heteroaryl": {
+          "family_label": "Oxygen heteroaryl analogue",
+          "mae": 2.8162835431751887,
+          "max_abs_error": 2.8162835431751887,
+          "mean_signed_error": -2.8162835431751887,
+          "median_abs_error": 2.8162835431751887,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 2.8162835431751887,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "oxygen-heteroaryl-fused": {
+          "family_label": "Fused oxygen heteroaryl analogue",
+          "mae": 14.24135522373274,
+          "max_abs_error": 27.310656927827083,
+          "mean_signed_error": 13.069301704094343,
+          "median_abs_error": 14.24135522373274,
+          "r2": -0.7770408829544972,
+          "record_count": 2,
+          "rmse": 19.32932605243088,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "oxygen-heterocycle-fused": {
+          "family_label": "Fused oxygen heterocycle analogue",
+          "mae": 3.0684783114983767,
+          "max_abs_error": 7.442019578070514,
+          "mean_signed_error": 1.892868073881966,
+          "median_abs_error": 1.178146680255253,
+          "r2": 0.29197242449727656,
+          "record_count": 3,
+          "rmse": 4.363264237696603,
+          "within_10_count": 3,
+          "within_15_count": 3,
+          "within_20_count": 3
+        },
+        "polycyclic-aryl": {
+          "family_label": "Polycyclic aryl analogue",
+          "mae": 11.070920304016653,
+          "max_abs_error": 11.070920304016653,
+          "mean_signed_error": -11.070920304016653,
+          "median_abs_error": 11.070920304016653,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 11.070920304016653,
+          "within_10_count": 0,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "silyl-alkyl-aryl": {
+          "family_label": "Silyl alkyl aryl analogue",
+          "mae": 13.565785577945277,
+          "max_abs_error": 13.565785577945277,
+          "mean_signed_error": -13.565785577945277,
+          "median_abs_error": 13.565785577945277,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 13.565785577945277,
+          "within_10_count": 0,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "sulfur-heteroaryl": {
+          "family_label": "Sulfur heteroaryl analogue",
+          "mae": 4.733315815186501,
+          "max_abs_error": 4.733315815186501,
+          "mean_signed_error": -4.733315815186501,
+          "median_abs_error": 4.733315815186501,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 4.733315815186501,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "sulfur-heteroaryl-fused": {
+          "family_label": "Fused sulfur heteroaryl analogue",
+          "mae": 10.44995538808832,
+          "max_abs_error": 17.404246741451544,
+          "mean_signed_error": -10.44995538808832,
+          "median_abs_error": 10.44995538808832,
+          "r2": -156.56373584049862,
+          "record_count": 2,
+          "rmse": 12.55243943783433,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 2
+        },
+        "sulfur-heterocycle-fused": {
+          "family_label": "Fused sulfur heterocycle analogue",
+          "mae": 0.9866126320280557,
+          "max_abs_error": 0.9866126320280557,
+          "mean_signed_error": -0.9866126320280557,
+          "median_abs_error": 0.9866126320280557,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 0.9866126320280557,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        }
+      },
+      "feature_count": 248,
+      "folds": [
+        {
+          "family_id": "alkyl-aryl-chain",
+          "family_label": "Alkyl aryl-chain analogue",
+          "inner_family_heldout_mae": 7.405468021901255,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.2,
+          "test_record_count": 2,
+          "train_record_count": 36
+        },
+        {
+          "family_id": "branched-diaryl-alkyl",
+          "family_label": "Branched diaryl alkyl analogue",
+          "inner_family_heldout_mae": 6.905023184931247,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "carbonyl-alkyl-aryl",
+          "family_label": "Carbonyl alkyl aryl analogue",
+          "inner_family_heldout_mae": 7.510577668759996,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 3,
+          "train_record_count": 35
+        },
+        {
+          "family_id": "carbonyl-heterocycle-fused",
+          "family_label": "Fused carbonyl heterocycle analogue",
+          "inner_family_heldout_mae": 8.290785838655248,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "cycloalkyl-alkyl-aryl",
+          "family_label": "Cycloalkyl alkyl aryl analogue",
+          "inner_family_heldout_mae": 8.795569177037523,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 3,
+          "train_record_count": 35
+        },
+        {
+          "family_id": "cycloalkyl-aryl",
+          "family_label": "Cycloalkyl aryl analogue",
+          "inner_family_heldout_mae": 8.84277791992017,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "diaryl-ethyl-aryl-substituted",
+          "family_label": "Substituted diaryl ethyl aryl azide",
+          "inner_family_heldout_mae": 10.448267471189329,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 12,
+          "train_record_count": 26
+        },
+        {
+          "family_id": "diaryl-ethyl-parent",
+          "family_label": "Parent diaryl ethyl aryl azide",
+          "inner_family_heldout_mae": 8.41318480392884,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "nitrogen-heteroaryl",
+          "family_label": "Nitrogen heteroaryl analogue",
+          "inner_family_heldout_mae": 8.675870032401878,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 2,
+          "train_record_count": 36
+        },
+        {
+          "family_id": "oxygen-heteroaryl",
+          "family_label": "Oxygen heteroaryl analogue",
+          "inner_family_heldout_mae": 8.361997178850483,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "oxygen-heteroaryl-fused",
+          "family_label": "Fused oxygen heteroaryl analogue",
+          "inner_family_heldout_mae": 6.911682075344838,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 2,
+          "train_record_count": 36
+        },
+        {
+          "family_id": "oxygen-heterocycle-fused",
+          "family_label": "Fused oxygen heterocycle analogue",
+          "inner_family_heldout_mae": 8.734605335077081,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 3,
+          "train_record_count": 35
+        },
+        {
+          "family_id": "polycyclic-aryl",
+          "family_label": "Polycyclic aryl analogue",
+          "inner_family_heldout_mae": 8.161157751187835,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "silyl-alkyl-aryl",
+          "family_label": "Silyl alkyl aryl analogue",
+          "inner_family_heldout_mae": 9.02283136600265,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "sulfur-heteroaryl",
+          "family_label": "Sulfur heteroaryl analogue",
+          "inner_family_heldout_mae": 8.379279132064484,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "sulfur-heteroaryl-fused",
+          "family_label": "Fused sulfur heteroaryl analogue",
+          "inner_family_heldout_mae": 7.941664826447193,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 2,
+          "train_record_count": 36
+        },
+        {
+          "family_id": "sulfur-heterocycle-fused",
+          "family_label": "Fused sulfur heterocycle analogue",
+          "inner_family_heldout_mae": 8.38332677187056,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        }
+      ],
+      "pooled_metrics": {
+        "macro_family_mae": 8.953889292491201,
+        "mae": 8.498275594223113,
+        "median_abs_error": 5.884446487284997,
+        "r2": 0.4761184975227203,
+        "record_count": 38,
+        "rmse": 11.356603475211353,
+        "within_10_count": 26,
+        "within_15_count": 29,
+        "within_20_count": 34
+      },
+      "protocol": "outer_leave_one_family_out_with_inner_leave_one_family_out_hyperparameter_selection",
+      "selected_alpha_counts": {
+        "1.0": 17
+      },
+      "selected_l1_ratio_counts": {
+        "0.2": 1,
+        "0.5": 5,
+        "0.8": 11
+      }
+    },
+    "stage2p_plus_crest_geometry": {
+      "family_metrics": {
+        "alkyl-aryl-chain": {
+          "family_label": "Alkyl aryl-chain analogue",
+          "mae": 20.30846492418084,
+          "max_abs_error": 24.31859843268026,
+          "mean_signed_error": 20.30846492418084,
+          "median_abs_error": 20.30846492418084,
+          "r2": 0.0,
+          "record_count": 2,
+          "rmse": 20.700601883343232,
+          "within_10_count": 0,
+          "within_15_count": 0,
+          "within_20_count": 1
+        },
+        "branched-diaryl-alkyl": {
+          "family_label": "Branched diaryl alkyl analogue",
+          "mae": 22.103999233604178,
+          "max_abs_error": 22.103999233604178,
+          "mean_signed_error": -22.103999233604178,
+          "median_abs_error": 22.103999233604178,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 22.103999233604178,
+          "within_10_count": 0,
+          "within_15_count": 0,
+          "within_20_count": 0
+        },
+        "carbonyl-alkyl-aryl": {
+          "family_label": "Carbonyl alkyl aryl analogue",
+          "mae": 13.494703903590429,
+          "max_abs_error": 18.516037910019833,
+          "mean_signed_error": 1.150678630243874,
+          "median_abs_error": 12.279426213272018,
+          "r2": 0.22493686004372737,
+          "record_count": 3,
+          "rmse": 13.994020867104334,
+          "within_10_count": 1,
+          "within_15_count": 2,
+          "within_20_count": 3
+        },
+        "carbonyl-heterocycle-fused": {
+          "family_label": "Fused carbonyl heterocycle analogue",
+          "mae": 5.6322283937654305,
+          "max_abs_error": 5.6322283937654305,
+          "mean_signed_error": 5.6322283937654305,
+          "median_abs_error": 5.6322283937654305,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 5.6322283937654305,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "cycloalkyl-alkyl-aryl": {
+          "family_label": "Cycloalkyl alkyl aryl analogue",
+          "mae": 9.46900866376061,
+          "max_abs_error": 19.968384715615713,
+          "mean_signed_error": 7.755771952647805,
+          "median_abs_error": 5.868786208996909,
+          "r2": 0.019799714454458717,
+          "record_count": 3,
+          "rmse": 12.10761736513331,
+          "within_10_count": 2,
+          "within_15_count": 2,
+          "within_20_count": 3
+        },
+        "cycloalkyl-aryl": {
+          "family_label": "Cycloalkyl aryl analogue",
+          "mae": 2.1428098184914006,
+          "max_abs_error": 2.1428098184914006,
+          "mean_signed_error": 2.1428098184914006,
+          "median_abs_error": 2.1428098184914006,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 2.1428098184914006,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "diaryl-ethyl-aryl-substituted": {
+          "family_label": "Substituted diaryl ethyl aryl azide",
+          "mae": 6.628162273471113,
+          "max_abs_error": 16.626464499513105,
+          "mean_signed_error": -0.3058214628029899,
+          "median_abs_error": 5.363262396772285,
+          "r2": -0.671108847122956,
+          "record_count": 12,
+          "rmse": 8.368733929694569,
+          "within_10_count": 9,
+          "within_15_count": 11,
+          "within_20_count": 12
+        },
+        "diaryl-ethyl-parent": {
+          "family_label": "Parent diaryl ethyl aryl azide",
+          "mae": 5.918924249445155,
+          "max_abs_error": 5.918924249445155,
+          "mean_signed_error": -5.918924249445155,
+          "median_abs_error": 5.918924249445155,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 5.918924249445155,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "nitrogen-heteroaryl": {
+          "family_label": "Nitrogen heteroaryl analogue",
+          "mae": 9.143437906467213,
+          "max_abs_error": 17.381862201239784,
+          "mean_signed_error": -8.238424294772571,
+          "median_abs_error": 9.143437906467213,
+          "r2": -11.365231968173099,
+          "record_count": 2,
+          "rmse": 12.307481123695476,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 2
+        },
+        "oxygen-heteroaryl": {
+          "family_label": "Oxygen heteroaryl analogue",
+          "mae": 3.3008072216018434,
+          "max_abs_error": 3.3008072216018434,
+          "mean_signed_error": -3.3008072216018434,
+          "median_abs_error": 3.3008072216018434,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 3.3008072216018434,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "oxygen-heteroaryl-fused": {
+          "family_label": "Fused oxygen heteroaryl analogue",
+          "mae": 14.687913372737661,
+          "max_abs_error": 28.073613763301665,
+          "mean_signed_error": 13.385700390564004,
+          "median_abs_error": 14.687913372737661,
+          "r2": -0.8782961911581029,
+          "record_count": 2,
+          "rmse": 19.872387229293594,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "oxygen-heterocycle-fused": {
+          "family_label": "Fused oxygen heterocycle analogue",
+          "mae": 2.5142060820124166,
+          "max_abs_error": 6.808872550816858,
+          "mean_signed_error": 2.1531212928453747,
+          "median_abs_error": 0.5416271837505633,
+          "r2": 0.42118576518312945,
+          "record_count": 3,
+          "rmse": 3.9450819569811313,
+          "within_10_count": 3,
+          "within_15_count": 3,
+          "within_20_count": 3
+        },
+        "polycyclic-aryl": {
+          "family_label": "Polycyclic aryl analogue",
+          "mae": 11.620101049607939,
+          "max_abs_error": 11.620101049607939,
+          "mean_signed_error": -11.620101049607939,
+          "median_abs_error": 11.620101049607939,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 11.620101049607939,
+          "within_10_count": 0,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "silyl-alkyl-aryl": {
+          "family_label": "Silyl alkyl aryl analogue",
+          "mae": 13.708646875763897,
+          "max_abs_error": 13.708646875763897,
+          "mean_signed_error": -13.708646875763897,
+          "median_abs_error": 13.708646875763897,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 13.708646875763897,
+          "within_10_count": 0,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "sulfur-heteroaryl": {
+          "family_label": "Sulfur heteroaryl analogue",
+          "mae": 6.2811205324010615,
+          "max_abs_error": 6.2811205324010615,
+          "mean_signed_error": -6.2811205324010615,
+          "median_abs_error": 6.2811205324010615,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 6.2811205324010615,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "sulfur-heteroaryl-fused": {
+          "family_label": "Fused sulfur heteroaryl analogue",
+          "mae": 9.934673077321193,
+          "max_abs_error": 16.85940441705985,
+          "mean_signed_error": -9.934673077321193,
+          "median_abs_error": 9.934673077321193,
+          "r2": -145.64963328080927,
+          "record_count": 2,
+          "rmse": 12.109898153197213,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 2
+        },
+        "sulfur-heterocycle-fused": {
+          "family_label": "Fused sulfur heterocycle analogue",
+          "mae": 1.7679237526701002,
+          "max_abs_error": 1.7679237526701002,
+          "mean_signed_error": -1.7679237526701002,
+          "median_abs_error": 1.7679237526701002,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 1.7679237526701002,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        }
+      },
+      "feature_count": 258,
+      "folds": [
+        {
+          "family_id": "alkyl-aryl-chain",
+          "family_label": "Alkyl aryl-chain analogue",
+          "inner_family_heldout_mae": 7.541676206420397,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.2,
+          "test_record_count": 2,
+          "train_record_count": 36
+        },
+        {
+          "family_id": "branched-diaryl-alkyl",
+          "family_label": "Branched diaryl alkyl analogue",
+          "inner_family_heldout_mae": 6.966264456510546,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "carbonyl-alkyl-aryl",
+          "family_label": "Carbonyl alkyl aryl analogue",
+          "inner_family_heldout_mae": 7.566811744577912,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 3,
+          "train_record_count": 35
+        },
+        {
+          "family_id": "carbonyl-heterocycle-fused",
+          "family_label": "Fused carbonyl heterocycle analogue",
+          "inner_family_heldout_mae": 8.467264822703473,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "cycloalkyl-alkyl-aryl",
+          "family_label": "Cycloalkyl alkyl aryl analogue",
+          "inner_family_heldout_mae": 8.995178354550525,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 3,
+          "train_record_count": 35
+        },
+        {
+          "family_id": "cycloalkyl-aryl",
+          "family_label": "Cycloalkyl aryl analogue",
+          "inner_family_heldout_mae": 8.98582309229348,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "diaryl-ethyl-aryl-substituted",
+          "family_label": "Substituted diaryl ethyl aryl azide",
+          "inner_family_heldout_mae": 10.445095855464887,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.2,
+          "test_record_count": 12,
+          "train_record_count": 26
+        },
+        {
+          "family_id": "diaryl-ethyl-parent",
+          "family_label": "Parent diaryl ethyl aryl azide",
+          "inner_family_heldout_mae": 8.672114812269331,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "nitrogen-heteroaryl",
+          "family_label": "Nitrogen heteroaryl analogue",
+          "inner_family_heldout_mae": 8.72527160670187,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 2,
+          "train_record_count": 36
+        },
+        {
+          "family_id": "oxygen-heteroaryl",
+          "family_label": "Oxygen heteroaryl analogue",
+          "inner_family_heldout_mae": 8.53871348722558,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "oxygen-heteroaryl-fused",
+          "family_label": "Fused oxygen heteroaryl analogue",
+          "inner_family_heldout_mae": 6.950808167404242,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 2,
+          "train_record_count": 36
+        },
+        {
+          "family_id": "oxygen-heterocycle-fused",
+          "family_label": "Fused oxygen heterocycle analogue",
+          "inner_family_heldout_mae": 8.876380076158148,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 3,
+          "train_record_count": 35
+        },
+        {
+          "family_id": "polycyclic-aryl",
+          "family_label": "Polycyclic aryl analogue",
+          "inner_family_heldout_mae": 8.3088630740252,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "silyl-alkyl-aryl",
+          "family_label": "Silyl alkyl aryl analogue",
+          "inner_family_heldout_mae": 9.033688400205097,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "sulfur-heteroaryl",
+          "family_label": "Sulfur heteroaryl analogue",
+          "inner_family_heldout_mae": 8.576024741909702,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "sulfur-heteroaryl-fused",
+          "family_label": "Fused sulfur heteroaryl analogue",
+          "inner_family_heldout_mae": 8.075741552104795,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 2,
+          "train_record_count": 36
+        },
+        {
+          "family_id": "sulfur-heterocycle-fused",
+          "family_label": "Fused sulfur heterocycle analogue",
+          "inner_family_heldout_mae": 8.51504890215893,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        }
+      ],
+      "pooled_metrics": {
+        "macro_family_mae": 9.332772431228971,
+        "mae": 8.857822182066016,
+        "median_abs_error": 6.1245942097960295,
+        "r2": 0.4554976385836269,
+        "record_count": 38,
+        "rmse": 11.57795384394831,
+        "within_10_count": 24,
+        "within_15_count": 29,
+        "within_20_count": 35
+      },
+      "protocol": "outer_leave_one_family_out_with_inner_leave_one_family_out_hyperparameter_selection",
+      "selected_alpha_counts": {
+        "1.0": 17
+      },
+      "selected_l1_ratio_counts": {
+        "0.2": 2,
+        "0.5": 7,
+        "0.8": 8
+      }
+    },
+    "stage2p_plus_crest_xtb_all": {
+      "family_metrics": {
+        "alkyl-aryl-chain": {
+          "family_label": "Alkyl aryl-chain analogue",
+          "mae": 19.781519238391205,
+          "max_abs_error": 24.02081801350431,
+          "mean_signed_error": 19.781519238391205,
+          "median_abs_error": 19.781519238391205,
+          "r2": 0.0,
+          "record_count": 2,
+          "rmse": 20.230673678439796,
+          "within_10_count": 0,
+          "within_15_count": 0,
+          "within_20_count": 1
+        },
+        "branched-diaryl-alkyl": {
+          "family_label": "Branched diaryl alkyl analogue",
+          "mae": 21.91183661842969,
+          "max_abs_error": 21.91183661842969,
+          "mean_signed_error": -21.91183661842969,
+          "median_abs_error": 21.91183661842969,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 21.91183661842969,
+          "within_10_count": 0,
+          "within_15_count": 0,
+          "within_20_count": 0
+        },
+        "carbonyl-alkyl-aryl": {
+          "family_label": "Carbonyl alkyl aryl analogue",
+          "mae": 13.969761864019157,
+          "max_abs_error": 19.451181034716754,
+          "mean_signed_error": 1.0023078408746546,
+          "median_abs_error": 12.637275653661803,
+          "r2": 0.1629315831829904,
+          "record_count": 3,
+          "rmse": 14.543015046719086,
+          "within_10_count": 1,
+          "within_15_count": 2,
+          "within_20_count": 3
+        },
+        "carbonyl-heterocycle-fused": {
+          "family_label": "Fused carbonyl heterocycle analogue",
+          "mae": 8.01563379401793,
+          "max_abs_error": 8.01563379401793,
+          "mean_signed_error": 8.01563379401793,
+          "median_abs_error": 8.01563379401793,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 8.01563379401793,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "cycloalkyl-alkyl-aryl": {
+          "family_label": "Cycloalkyl alkyl aryl analogue",
+          "mae": 9.5284253032116,
+          "max_abs_error": 20.34765914446028,
+          "mean_signed_error": 8.131013167931641,
+          "median_abs_error": 6.141498562254583,
+          "r2": -0.016654417763578122,
+          "record_count": 3,
+          "rmse": 12.330706235112482,
+          "within_10_count": 2,
+          "within_15_count": 2,
+          "within_20_count": 2
+        },
+        "cycloalkyl-aryl": {
+          "family_label": "Cycloalkyl aryl analogue",
+          "mae": 2.6180819346167965,
+          "max_abs_error": 2.6180819346167965,
+          "mean_signed_error": 2.6180819346167965,
+          "median_abs_error": 2.6180819346167965,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 2.6180819346167965,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "diaryl-ethyl-aryl-substituted": {
+          "family_label": "Substituted diaryl ethyl aryl azide",
+          "mae": 6.208450304988804,
+          "max_abs_error": 22.109870167888857,
+          "mean_signed_error": 0.609507110141216,
+          "median_abs_error": 3.276751599890609,
+          "r2": -1.0238267743175773,
+          "record_count": 12,
+          "rmse": 9.209669806108453,
+          "within_10_count": 10,
+          "within_15_count": 10,
+          "within_20_count": 11
+        },
+        "diaryl-ethyl-parent": {
+          "family_label": "Parent diaryl ethyl aryl azide",
+          "mae": 5.82703517953432,
+          "max_abs_error": 5.82703517953432,
+          "mean_signed_error": -5.82703517953432,
+          "median_abs_error": 5.82703517953432,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 5.82703517953432,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "nitrogen-heteroaryl": {
+          "family_label": "Nitrogen heteroaryl analogue",
+          "mae": 9.107897248275414,
+          "max_abs_error": 17.582628337930743,
+          "mean_signed_error": -8.474731089655329,
+          "median_abs_error": 9.107897248275414,
+          "r2": -11.634682394050078,
+          "record_count": 2,
+          "rmse": 12.440854445218521,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 2
+        },
+        "oxygen-heteroaryl": {
+          "family_label": "Oxygen heteroaryl analogue",
+          "mae": 4.148914591552995,
+          "max_abs_error": 4.148914591552995,
+          "mean_signed_error": -4.148914591552995,
+          "median_abs_error": 4.148914591552995,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 4.148914591552995,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "oxygen-heteroaryl-fused": {
+          "family_label": "Fused oxygen heteroaryl analogue",
+          "mae": 14.795080055085513,
+          "max_abs_error": 28.036256875925872,
+          "mean_signed_error": 13.241176820840359,
+          "median_abs_error": 14.795080055085513,
+          "r2": -0.8750209628401862,
+          "record_count": 2,
+          "rmse": 19.855053700182964,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "oxygen-heterocycle-fused": {
+          "family_label": "Fused oxygen heterocycle analogue",
+          "mae": 2.619801845496705,
+          "max_abs_error": 6.192443048269652,
+          "mean_signed_error": 1.6775318159787247,
+          "median_abs_error": 1.4134050442769706,
+          "r2": 0.4990699656698774,
+          "record_count": 3,
+          "rmse": 3.6700752082498207,
+          "within_10_count": 3,
+          "within_15_count": 3,
+          "within_20_count": 3
+        },
+        "polycyclic-aryl": {
+          "family_label": "Polycyclic aryl analogue",
+          "mae": 13.088037175633943,
+          "max_abs_error": 13.088037175633943,
+          "mean_signed_error": -13.088037175633943,
+          "median_abs_error": 13.088037175633943,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 13.088037175633943,
+          "within_10_count": 0,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "silyl-alkyl-aryl": {
+          "family_label": "Silyl alkyl aryl analogue",
+          "mae": 13.217277257907227,
+          "max_abs_error": 13.217277257907227,
+          "mean_signed_error": -13.217277257907227,
+          "median_abs_error": 13.217277257907227,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 13.217277257907227,
+          "within_10_count": 0,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "sulfur-heteroaryl": {
+          "family_label": "Sulfur heteroaryl analogue",
+          "mae": 5.588683675120379,
+          "max_abs_error": 5.588683675120379,
+          "mean_signed_error": -5.588683675120379,
+          "median_abs_error": 5.588683675120379,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 5.588683675120379,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "sulfur-heteroaryl-fused": {
+          "family_label": "Fused sulfur heteroaryl analogue",
+          "mae": 9.886438297389262,
+          "max_abs_error": 16.811653851040518,
+          "mean_signed_error": -9.886438297389262,
+          "median_abs_error": 9.886438297389262,
+          "r2": -144.70027267261835,
+          "record_count": 2,
+          "rmse": 12.070636796483372,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 2
+        },
+        "sulfur-heterocycle-fused": {
+          "family_label": "Fused sulfur heterocycle analogue",
+          "mae": 2.866000631531108,
+          "max_abs_error": 2.866000631531108,
+          "mean_signed_error": 2.866000631531108,
+          "median_abs_error": 2.866000631531108,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 2.866000631531108,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        }
+      },
+      "feature_count": 271,
+      "folds": [
+        {
+          "family_id": "alkyl-aryl-chain",
+          "family_label": "Alkyl aryl-chain analogue",
+          "inner_family_heldout_mae": 7.522877861223183,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.2,
+          "test_record_count": 2,
+          "train_record_count": 36
+        },
+        {
+          "family_id": "branched-diaryl-alkyl",
+          "family_label": "Branched diaryl alkyl analogue",
+          "inner_family_heldout_mae": 7.177377017311651,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "carbonyl-alkyl-aryl",
+          "family_label": "Carbonyl alkyl aryl analogue",
+          "inner_family_heldout_mae": 7.924446557605816,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 3,
+          "train_record_count": 35
+        },
+        {
+          "family_id": "carbonyl-heterocycle-fused",
+          "family_label": "Fused carbonyl heterocycle analogue",
+          "inner_family_heldout_mae": 8.602060400632539,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "cycloalkyl-alkyl-aryl",
+          "family_label": "Cycloalkyl alkyl aryl analogue",
+          "inner_family_heldout_mae": 9.247063102520073,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 3,
+          "train_record_count": 35
+        },
+        {
+          "family_id": "cycloalkyl-aryl",
+          "family_label": "Cycloalkyl aryl analogue",
+          "inner_family_heldout_mae": 9.17897873073542,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "diaryl-ethyl-aryl-substituted",
+          "family_label": "Substituted diaryl ethyl aryl azide",
+          "inner_family_heldout_mae": 9.49734536704324,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.2,
+          "test_record_count": 12,
+          "train_record_count": 26
+        },
+        {
+          "family_id": "diaryl-ethyl-parent",
+          "family_label": "Parent diaryl ethyl aryl azide",
+          "inner_family_heldout_mae": 8.822196067056346,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "nitrogen-heteroaryl",
+          "family_label": "Nitrogen heteroaryl analogue",
+          "inner_family_heldout_mae": 8.67093519833033,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 2,
+          "train_record_count": 36
+        },
+        {
+          "family_id": "oxygen-heteroaryl",
+          "family_label": "Oxygen heteroaryl analogue",
+          "inner_family_heldout_mae": 8.731770624266426,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "oxygen-heteroaryl-fused",
+          "family_label": "Fused oxygen heteroaryl analogue",
+          "inner_family_heldout_mae": 6.9598744783117095,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 2,
+          "train_record_count": 36
+        },
+        {
+          "family_id": "oxygen-heterocycle-fused",
+          "family_label": "Fused oxygen heterocycle analogue",
+          "inner_family_heldout_mae": 9.269669414187314,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 3,
+          "train_record_count": 35
+        },
+        {
+          "family_id": "polycyclic-aryl",
+          "family_label": "Polycyclic aryl analogue",
+          "inner_family_heldout_mae": 8.379606446854684,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "silyl-alkyl-aryl",
+          "family_label": "Silyl alkyl aryl analogue",
+          "inner_family_heldout_mae": 9.040474183657762,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "sulfur-heteroaryl",
+          "family_label": "Sulfur heteroaryl analogue",
+          "inner_family_heldout_mae": 8.638387175594895,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "sulfur-heteroaryl-fused",
+          "family_label": "Fused sulfur heteroaryl analogue",
+          "inner_family_heldout_mae": 8.143056803945292,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 2,
+          "train_record_count": 36
+        },
+        {
+          "family_id": "sulfur-heterocycle-fused",
+          "family_label": "Fused sulfur heterocycle analogue",
+          "inner_family_heldout_mae": 8.770754902261075,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 1,
+          "train_record_count": 37
+        }
+      ],
+      "pooled_metrics": {
+        "macro_family_mae": 9.598757353835413,
+        "mae": 8.875756348280929,
+        "median_abs_error": 6.1669708052621175,
+        "r2": 0.4286889573626995,
+        "record_count": 38,
+        "rmse": 11.859550789592719,
+        "within_10_count": 25,
+        "within_15_count": 28,
+        "within_20_count": 33
+      },
+      "protocol": "outer_leave_one_family_out_with_inner_leave_one_family_out_hyperparameter_selection",
+      "selected_alpha_counts": {
+        "1.0": 17
+      },
+      "selected_l1_ratio_counts": {
+        "0.2": 2,
+        "0.5": 8,
+        "0.8": 7
+      }
+    },
+    "stage2p_plus_crest_xtb_electronic": {
+      "family_metrics": {
+        "alkyl-aryl-chain": {
+          "family_label": "Alkyl aryl-chain analogue",
+          "mae": 19.707994775961403,
+          "max_abs_error": 24.07141624884285,
+          "mean_signed_error": 19.707994775961403,
+          "median_abs_error": 19.707994775961403,
+          "r2": 0.0,
+          "record_count": 2,
+          "rmse": 20.185254643905903,
+          "within_10_count": 0,
+          "within_15_count": 0,
+          "within_20_count": 1
+        },
+        "branched-diaryl-alkyl": {
+          "family_label": "Branched diaryl alkyl analogue",
+          "mae": 22.164436734272414,
+          "max_abs_error": 22.164436734272414,
+          "mean_signed_error": -22.164436734272414,
+          "median_abs_error": 22.164436734272414,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 22.164436734272414,
+          "within_10_count": 0,
+          "within_15_count": 0,
+          "within_20_count": 0
+        },
+        "carbonyl-alkyl-aryl": {
+          "family_label": "Carbonyl alkyl aryl analogue",
+          "mae": 12.634774503133487,
+          "max_abs_error": 20.292151322503557,
+          "mean_signed_error": -0.8933263785355502,
+          "median_abs_error": 9.771615653171416,
+          "r2": 0.24969630009599864,
+          "record_count": 3,
+          "rmse": 13.768686750827438,
+          "within_10_count": 2,
+          "within_15_count": 2,
+          "within_20_count": 2
+        },
+        "carbonyl-heterocycle-fused": {
+          "family_label": "Fused carbonyl heterocycle analogue",
+          "mae": 6.489197939591904,
+          "max_abs_error": 6.489197939591904,
+          "mean_signed_error": 6.489197939591904,
+          "median_abs_error": 6.489197939591904,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 6.489197939591904,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "cycloalkyl-alkyl-aryl": {
+          "family_label": "Cycloalkyl alkyl aryl analogue",
+          "mae": 9.712829028768596,
+          "max_abs_error": 20.734402345800248,
+          "mean_signed_error": 8.209488857404912,
+          "median_abs_error": 6.149074483460012,
+          "r2": -0.05381492325418935,
+          "record_count": 3,
+          "rmse": 12.554038246716292,
+          "within_10_count": 2,
+          "within_15_count": 2,
+          "within_20_count": 2
+        },
+        "cycloalkyl-aryl": {
+          "family_label": "Cycloalkyl aryl analogue",
+          "mae": 0.8429875109275784,
+          "max_abs_error": 0.8429875109275784,
+          "mean_signed_error": 0.8429875109275784,
+          "median_abs_error": 0.8429875109275784,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 0.8429875109275784,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "diaryl-ethyl-aryl-substituted": {
+          "family_label": "Substituted diaryl ethyl aryl azide",
+          "mae": 6.138209577856579,
+          "max_abs_error": 23.279343944088993,
+          "mean_signed_error": 0.7372005483479628,
+          "median_abs_error": 3.3774741183984176,
+          "r2": -1.0744125650126373,
+          "record_count": 12,
+          "rmse": 9.324057827682491,
+          "within_10_count": 10,
+          "within_15_count": 10,
+          "within_20_count": 11
+        },
+        "diaryl-ethyl-parent": {
+          "family_label": "Parent diaryl ethyl aryl azide",
+          "mae": 6.490060786923465,
+          "max_abs_error": 6.490060786923465,
+          "mean_signed_error": -6.490060786923465,
+          "median_abs_error": 6.490060786923465,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 6.490060786923465,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "nitrogen-heteroaryl": {
+          "family_label": "Nitrogen heteroaryl analogue",
+          "mae": 9.493625819793138,
+          "max_abs_error": 18.194833257028407,
+          "mean_signed_error": -8.701207437235269,
+          "median_abs_error": 9.493625819793138,
+          "r2": -12.537954454860513,
+          "record_count": 2,
+          "rmse": 12.877885776479044,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 2
+        },
+        "oxygen-heteroaryl": {
+          "family_label": "Oxygen heteroaryl analogue",
+          "mae": 3.259408126394817,
+          "max_abs_error": 3.259408126394817,
+          "mean_signed_error": -3.259408126394817,
+          "median_abs_error": 3.259408126394817,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 3.259408126394817,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "oxygen-heteroaryl-fused": {
+          "family_label": "Fused oxygen heteroaryl analogue",
+          "mae": 14.37359044089662,
+          "max_abs_error": 27.224426293748735,
+          "mean_signed_error": 12.850835852852114,
+          "median_abs_error": 14.37359044089662,
+          "r2": -0.7681050381906496,
+          "record_count": 2,
+          "rmse": 19.280666074583213,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "oxygen-heterocycle-fused": {
+          "family_label": "Fused oxygen heterocycle analogue",
+          "mae": 2.733675630658851,
+          "max_abs_error": 6.897999796184649,
+          "mean_signed_error": 1.864990900130915,
+          "median_abs_error": 0.7434576665164201,
+          "r2": 0.3994018788895223,
+          "record_count": 3,
+          "rmse": 4.018633616717885,
+          "within_10_count": 3,
+          "within_15_count": 3,
+          "within_20_count": 3
+        },
+        "polycyclic-aryl": {
+          "family_label": "Polycyclic aryl analogue",
+          "mae": 10.962559484243897,
+          "max_abs_error": 10.962559484243897,
+          "mean_signed_error": -10.962559484243897,
+          "median_abs_error": 10.962559484243897,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 10.962559484243897,
+          "within_10_count": 0,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "silyl-alkyl-aryl": {
+          "family_label": "Silyl alkyl aryl analogue",
+          "mae": 13.116318507429618,
+          "max_abs_error": 13.116318507429618,
+          "mean_signed_error": -13.116318507429618,
+          "median_abs_error": 13.116318507429618,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 13.116318507429618,
+          "within_10_count": 0,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "sulfur-heteroaryl": {
+          "family_label": "Sulfur heteroaryl analogue",
+          "mae": 4.805346862090687,
+          "max_abs_error": 4.805346862090687,
+          "mean_signed_error": -4.805346862090687,
+          "median_abs_error": 4.805346862090687,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 4.805346862090687,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        },
+        "sulfur-heteroaryl-fused": {
+          "family_label": "Fused sulfur heteroaryl analogue",
+          "mae": 10.349722694502077,
+          "max_abs_error": 17.307188698981633,
+          "mean_signed_error": -10.349722694502077,
+          "median_abs_error": 10.349722694502077,
+          "r2": -154.52309305658008,
+          "record_count": 2,
+          "rmse": 12.470889826174396,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 2
+        },
+        "sulfur-heterocycle-fused": {
+          "family_label": "Fused sulfur heterocycle analogue",
+          "mae": 2.312675398652729,
+          "max_abs_error": 2.312675398652729,
+          "mean_signed_error": 2.312675398652729,
+          "median_abs_error": 2.312675398652729,
+          "r2": null,
+          "record_count": 1,
+          "rmse": 2.312675398652729,
+          "within_10_count": 1,
+          "within_15_count": 1,
+          "within_20_count": 1
+        }
+      },
+      "feature_count": 261,
+      "folds": [
+        {
+          "family_id": "alkyl-aryl-chain",
+          "family_label": "Alkyl aryl-chain analogue",
+          "inner_family_heldout_mae": 7.574494471886521,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.2,
+          "test_record_count": 2,
+          "train_record_count": 36
+        },
+        {
+          "family_id": "branched-diaryl-alkyl",
+          "family_label": "Branched diaryl alkyl analogue",
+          "inner_family_heldout_mae": 7.245755096127493,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "carbonyl-alkyl-aryl",
+          "family_label": "Carbonyl alkyl aryl analogue",
+          "inner_family_heldout_mae": 7.988321832894855,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 3,
+          "train_record_count": 35
+        },
+        {
+          "family_id": "carbonyl-heterocycle-fused",
+          "family_label": "Fused carbonyl heterocycle analogue",
+          "inner_family_heldout_mae": 8.505307906158876,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "cycloalkyl-alkyl-aryl",
+          "family_label": "Cycloalkyl alkyl aryl analogue",
+          "inner_family_heldout_mae": 9.197250702215385,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 3,
+          "train_record_count": 35
+        },
+        {
+          "family_id": "cycloalkyl-aryl",
+          "family_label": "Cycloalkyl aryl analogue",
+          "inner_family_heldout_mae": 9.116973959370208,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "diaryl-ethyl-aryl-substituted",
+          "family_label": "Substituted diaryl ethyl aryl azide",
+          "inner_family_heldout_mae": 9.499775053456933,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.2,
+          "test_record_count": 12,
+          "train_record_count": 26
+        },
+        {
+          "family_id": "diaryl-ethyl-parent",
+          "family_label": "Parent diaryl ethyl aryl azide",
+          "inner_family_heldout_mae": 8.710593561094715,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "nitrogen-heteroaryl",
+          "family_label": "Nitrogen heteroaryl analogue",
+          "inner_family_heldout_mae": 8.656846401597402,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 2,
+          "train_record_count": 36
+        },
+        {
+          "family_id": "oxygen-heteroaryl",
+          "family_label": "Oxygen heteroaryl analogue",
+          "inner_family_heldout_mae": 8.704864581004596,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "oxygen-heteroaryl-fused",
+          "family_label": "Fused oxygen heteroaryl analogue",
+          "inner_family_heldout_mae": 7.083193728435587,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 2,
+          "train_record_count": 36
+        },
+        {
+          "family_id": "oxygen-heterocycle-fused",
+          "family_label": "Fused oxygen heterocycle analogue",
+          "inner_family_heldout_mae": 9.210537589259257,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 3,
+          "train_record_count": 35
+        },
+        {
+          "family_id": "polycyclic-aryl",
+          "family_label": "Polycyclic aryl analogue",
+          "inner_family_heldout_mae": 8.439224582767103,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "silyl-alkyl-aryl",
+          "family_label": "Silyl alkyl aryl analogue",
+          "inner_family_heldout_mae": 9.157448265587815,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.5,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "sulfur-heteroaryl",
+          "family_label": "Sulfur heteroaryl analogue",
+          "inner_family_heldout_mae": 8.584833293490744,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        },
+        {
+          "family_id": "sulfur-heteroaryl-fused",
+          "family_label": "Fused sulfur heteroaryl analogue",
+          "inner_family_heldout_mae": 8.042897242300484,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 2,
+          "train_record_count": 36
+        },
+        {
+          "family_id": "sulfur-heterocycle-fused",
+          "family_label": "Fused sulfur heterocycle analogue",
+          "inner_family_heldout_mae": 8.645059791826206,
+          "selected_alpha": 1.0,
+          "selected_l1_ratio": 0.8,
+          "test_record_count": 1,
+          "train_record_count": 37
+        }
+      ],
+      "pooled_metrics": {
+        "macro_family_mae": 9.15220081306458,
+        "mae": 8.610400295652509,
+        "median_abs_error": 6.319136211525958,
+        "r2": 0.43968056664429345,
+        "record_count": 38,
+        "rmse": 11.744912151300792,
+        "within_10_count": 26,
+        "within_15_count": 28,
+        "within_20_count": 32
+      },
+      "protocol": "outer_leave_one_family_out_with_inner_leave_one_family_out_hyperparameter_selection",
+      "selected_alpha_counts": {
+        "1.0": 17
+      },
+      "selected_l1_ratio_counts": {
+        "0.2": 2,
+        "0.5": 3,
+        "0.8": 12
+      }
+    }
+  },
+  "paired_bootstrap_comparisons": {
+    "stage2p_plus_crest_geometry": {
+      "bootstrap_ci95_high": -0.009234956583146386,
+      "bootstrap_ci95_low": -0.7330095430787215,
+      "bootstrap_mean_improvement": -0.3610318694168968,
+      "mae_improvement_ee_points": -0.3595465878429015,
+      "probability_improvement_gt_zero": 0.0223
+    },
+    "stage2p_plus_crest_xtb_all": {
+      "bootstrap_ci95_high": 0.21229854078827143,
+      "bootstrap_ci95_low": -0.9998850203768977,
+      "bootstrap_mean_improvement": -0.37750253325160354,
+      "mae_improvement_ee_points": -0.3774807540578138,
+      "probability_improvement_gt_zero": 0.1072
+    },
+    "stage2p_plus_crest_xtb_electronic": {
+      "bootstrap_ci95_high": 0.4233901885022527,
+      "bootstrap_ci95_low": -0.6914840456471864,
+      "bootstrap_mean_improvement": -0.11063244788990528,
+      "mae_improvement_ee_points": -0.11212470142939629,
+      "probability_improvement_gt_zero": 0.3614
+    }
+  },
+  "primary_comparison": "stage2p_geometry versus stage2p_plus_crest_xtb_all",
+  "probability_feature_status": "constant_and_excluded_from_model_arms_because_all_CREST_ensembles_contain_one_unique_minimum",
+  "protocol": "outer leave-one-family-out with inner leave-one-family-out ElasticNet selection",
+  "schema_version": "p7-crest-xtb-family-heldout-benchmark-v1",
+  "target": "ee_percent_magnitude"
+}

@@ -1,0 +1,8 @@
+{
+  "model": "frozen-development-morgan-ridge",
+  "generator": {"n": 483, "mean": 56.0167, "stdev": 7.45897, "p50": 55.6369, "p90": 64.9339, "max": 83.3021, "top10_mean": 69.4111},
+  "enumeration": {"n": 18223, "mean": 75.3048, "stdev": 6.56897, "p50": 75.8238, "p90": 83.2803, "max": 96.4522, "top10_mean": 85.8056},
+  "interpretation": "generator is more diverse but currently has lower predicted ee; morphology-only selection is insufficient and ee-aware acquisition must be tested",
+  "generator_predictions": "data/expansion/pptl/funnel-production-ee.csv",
+  "enumeration_predictions": "data/expansion/pptl/funnel-enumeration-ee.csv"
+}

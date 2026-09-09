@@ -1,0 +1,21 @@
+{
+  "schema_version": "aryl-azide-grammar-fixtures-v1",
+  "primary_rule": "phenyl-bound aryl azide; N-Ar(ipso)-Ar(ortho)-sp3 C-sp3 C(H); unique four-bond target; sanitizable five-member C-N closure",
+  "accepted_primary": ["1a", "1b", "1c", "1f", "1g", "1j", "1n", "1p", "1w", "2c", "2e", "2k", "2l", "4a", "4b", "4c", "4e"],
+  "accepted_expanded": [
+    {"substrate_id": "1ab", "reason": "pyridyl nitrene-bearing ring"},
+    {"substrate_id": "1ao", "reason": "branched CH target"},
+    {"substrate_id": "1am", "reason": "spiro/cycloalkyl realization"},
+    {"substrate_id": "1an", "reason": "spiro/cycloalkyl realization; site requires review"}
+  ],
+  "rejected_or_control": [
+    {"substrate_id": "1ad", "reason": "sulfur tether; outside conservative generator"},
+    {"substrate_id": "4d", "reason": "five-bond 1,6-HAA topology; explicit OOD challenge"},
+    {"substrate_id": "6n", "reason": "sulfonyl-azide pathway control"},
+    {"substrate_id": "6o", "reason": "sulfonyl-azide pathway control"},
+    {"substrate_id": "6p", "reason": "sulfonyl-azide pathway control"},
+    {"substrate_id": "6q", "reason": "sulfonyl-azide pathway control"},
+    {"substrate_id": "1z", "reason": "P2 catalyst, excluded from P7 arm"}
+  ],
+  "review_required": ["2c", "2e", "2k", "2l", "4c", "4e", "1ag", "1an"]
+}

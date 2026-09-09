@@ -1,0 +1,12 @@
+{
+  "schema_version": "sealed-prospective-panel-v1",
+  "panel_path": "data/expansion/pptl/sealed-prospective-panel.csv",
+  "panel_sha256": "bb22a10a893e089143f16272b4b4778f7df19fc13be0ea3650619e7636f97e2b",
+  "copilot_candidates": 8,
+  "comparator_candidates": 8,
+  "round_a_per_branch": 4,
+  "round_b_per_branch": 4,
+  "outcome_revealed": false,
+  "selection_rule": "frozen ee-aware acquisition; no post-outcome regeneration",
+  "status": "sealed_computational_proposal_panel_prediction_only"
+}

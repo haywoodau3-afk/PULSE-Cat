@@ -1,0 +1,23 @@
+{
+  "comparison_budget": 50560,
+  "generator_raw_count": 50560,
+  "enumeration_raw_count": 50560,
+  "reference_count": 91,
+  "availability_status": "not_assessed_without_real_supplier_evidence",
+  "generator": {
+    "contract_valid_count": 563,
+    "sample_count": 500,
+    "mean_pairwise_tanimoto": 0.3124932797779717,
+    "mean_pairwise_distance": 0.6875067202220283,
+    "mean_max_reference_similarity": 0.48725330372023157,
+    "novelty_proxy": 0.5127466962797684
+  },
+  "enumeration": {
+    "contract_valid_count": 18545,
+    "sample_count": 500,
+    "mean_pairwise_tanimoto": 0.41197266902365515,
+    "mean_pairwise_distance": 0.5880273309763449,
+    "mean_max_reference_similarity": 0.45723993159001014,
+    "novelty_proxy": 0.5427600684099898
+  }
+}

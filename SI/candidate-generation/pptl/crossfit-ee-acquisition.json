@@ -1,0 +1,60 @@
+{
+  "n_labelled": 90,
+  "method": "5-fold out-of-fold Ridge predictions",
+  "curves": {
+    "ee_aware": [
+      {
+        "n": 4,
+        "mae": 5.571702948028669,
+        "mean_observed_ee": 83.25
+      },
+      {
+        "n": 8,
+        "mae": 5.563911328468594,
+        "mean_observed_ee": 83.375
+      },
+      {
+        "n": 16,
+        "mae": 5.275056133364822,
+        "mean_observed_ee": 85.4375
+      },
+      {
+        "n": 24,
+        "mae": 5.916026043654912,
+        "mean_observed_ee": 86.41666666666667
+      },
+      {
+        "n": 32,
+        "mae": 7.214423605109205,
+        "mean_observed_ee": 85.28125
+      }
+    ],
+    "random": [
+      {
+        "n": 4,
+        "mae": 23.356310617406738,
+        "mean_observed_ee": 83.75
+      },
+      {
+        "n": 8,
+        "mae": 14.427236163875925,
+        "mean_observed_ee": 84.125
+      },
+      {
+        "n": 16,
+        "mae": 18.11342260980485,
+        "mean_observed_ee": 68.0625
+      },
+      {
+        "n": 24,
+        "mae": 15.901802598636602,
+        "mean_observed_ee": 67.95833333333333
+      },
+      {
+        "n": 32,
+        "mae": 15.90369986712639,
+        "mean_observed_ee": 68.78125
+      }
+    ]
+  }
+}

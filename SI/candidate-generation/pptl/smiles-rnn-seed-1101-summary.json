@@ -1,0 +1,9 @@
+{
+  "seed": 1101,
+  "raw_count": 10000,
+  "contract_valid_count": 0,
+  "generator_mode": "unconditional_chembl28_prior",
+  "interpretation": "negative control; prior is not scaffold-conditioned and cannot alone generate the constrained aryl-azide universe",
+  "next_required_mode": "PromptSMILES scaffold conditioning or narrow-domain fine-tuning before production generation",
+  "funnel_report": "data/expansion/pptl/funnel-seed-1101.csv"
+}

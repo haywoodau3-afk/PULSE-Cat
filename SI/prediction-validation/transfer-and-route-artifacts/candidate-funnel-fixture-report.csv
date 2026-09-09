@@ -1,0 +1,4 @@
+candidate_id,smiles,provenance,contract_valid,rejection_reasons
+fixture-valid-001,[N-]=[N+]=Nc1ccccc1CCc2ccccc2,enumeration,true,
+fixture-invalid-001,c1ccccc1CCc2ccccc2,smiles-rnn,false,aryl_azide_not_detected
+fixture-invalid-002,not-a-smiles,smiles-rnn,false,rdkit_parse_failed

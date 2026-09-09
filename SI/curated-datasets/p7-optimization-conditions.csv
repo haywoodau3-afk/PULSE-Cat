@@ -1,0 +1,17 @@
+condition_set_id,substrate_id,catalyst_id,solvent,temperature_c,time_h,catalyst_loading_mol_percent,yield_percent,yield_qualifier,ee_percent,feasibility_status,source_location
+jacs-2025-standard,1a,fe-p7-cl,ether,60,18,2,97,exact,92,productive,SI p. S5 Table S1 entry 1
+jacs-2025-thf,1a,fe-p7-cl,THF,60,18,2,24,exact,75,productive,SI p. S5 Table S1 entry 2
+jacs-2025-mtbe,1a,fe-p7-cl,MTBE,60,18,2,30,exact,80,productive,SI p. S5 Table S1 entry 3
+jacs-2025-dioxane,1a,fe-p7-cl,dioxane,60,18,2,0,exact,,nonproductive,SI p. S5 Table S1 entry 4
+jacs-2025-benzene,1a,fe-p7-cl,benzene,60,18,2,14,exact,80,productive,SI p. S5 Table S1 entry 5
+jacs-2025-phcl,1a,fe-p7-cl,chlorobenzene,60,18,2,5,less_than,72,productive,SI p. S5 Table S1 entry 6
+jacs-2025-hexanes,1a,fe-p7-cl,hexanes,60,18,2,11,exact,53,productive,SI p. S5 Table S1 entry 7
+jacs-2025-dce,1a,fe-p7-cl,DCE,60,18,2,0,exact,,nonproductive,SI p. S5 Table S1 entry 8
+jacs-2025-ethyl-acetate,1a,fe-p7-cl,ethyl_acetate,60,18,2,95,exact,76,productive,SI p. S5 Table S1 entry 9
+jacs-2025-methanol,1a,fe-p7-cl,methanol,60,18,2,0,exact,,nonproductive,SI p. S5 Table S1 entry 10
+jacs-2025-catalyst-3mol,1a,fe-p7-cl,ether,60,18,3,97,exact,92,productive,SI p. S5 Table S1 entry 11
+jacs-2025-catalyst-1mol,1a,fe-p7-cl,ether,60,18,1,68,exact,92,productive,SI p. S5 Table S1 entry 12
+jacs-2025-time-12h,1a,fe-p7-cl,ether,60,12,2,92,exact,92,productive,SI p. S5 Table S1 entry 13
+jacs-2025-time-24h,1a,fe-p7-cl,ether,60,24,2,97,exact,92,productive,SI p. S5 Table S1 entry 14
+jacs-2025-temp-40c,1a,fe-p7-cl,ether,40,18,2,52,exact,92,productive,SI p. S5 Table S1 entry 15
+jacs-2025-temp-80c,1a,fe-p7-cl,ether,80,18,2,97,exact,92,productive,SI p. S5 Table S1 entry 16

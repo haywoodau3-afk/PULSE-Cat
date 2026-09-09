@@ -1,0 +1,46 @@
+{
+  "descriptors": {
+    "count": 15,
+    "names": [
+      "heavy_atom_count",
+      "molecular_weight",
+      "logp",
+      "tpsa",
+      "formal_charge",
+      "fraction_csp3",
+      "rotatable_bonds",
+      "rings",
+      "aromatic_rings",
+      "h_bond_acceptors",
+      "h_bond_donors",
+      "hetero_atoms",
+      "aliphatic_rings",
+      "spiro_atoms",
+      "chiral_centers"
+    ]
+  },
+  "domains": {
+    "cmcpor": 50,
+    "p7": 41
+  },
+  "feature_count": 1039,
+  "input_paths": [
+    "/Users/haywoodau3/Documents/genaisubstrate/SI2/data/inputs/p7-curated-reaction-records.jsonl",
+    "/Users/haywoodau3/Documents/genaisubstrate/SI2/data/inputs/cmcpor-curated-reaction-records.jsonl"
+  ],
+  "leakage_policy": "unmapped substrate-only SMILES; no product or reported reactive-site fields are used",
+  "morgan": {
+    "bit_order": "morgan_r2_bit_0000 through morgan_r2_bit_1023",
+    "include_chirality": false,
+    "n_bits": 1024,
+    "radius": 2
+  },
+  "output_path": "/Users/haywoodau3/Documents/genaisubstrate/SI2/data/rdkit-morgan/rdkit-morgan-features.csv",
+  "rdkit": {
+    "sanitize": true,
+    "version": "2026.3.4"
+  },
+  "row_count": 91,
+  "schema_version": "si2-rdkit-morgan-table-v1",
+  "smiles_field": "structure.azide_smiles"
+}

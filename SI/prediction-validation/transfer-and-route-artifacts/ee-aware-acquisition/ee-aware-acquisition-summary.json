@@ -1,0 +1,18 @@
+{
+  "generator": {
+    "eligible_pool": 483,
+    "selected": 16,
+    "mean_predicted_ee": 75.2522125,
+    "min_selected": 69.3231,
+    "max_selected": 83.3021,
+    "panel": "data/expansion/pptl/ee-aware-acquisition/generator-ee-aware-panel.csv"
+  },
+  "enumeration": {
+    "eligible_pool": 18223,
+    "selected": 16,
+    "mean_predicted_ee": 94.10663125,
+    "min_selected": 92.9875,
+    "max_selected": 96.4522,
+    "panel": "data/expansion/pptl/ee-aware-acquisition/enumeration-ee-aware-panel.csv"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "locked_backbone_substrate_ids": [
+    "1a",
+    "1e",
+    "1o",
+    "1v",
+    "1ae",
+    "1ac"
+  ],
+  "notes": [
+    "The seed set is an engineering and validation wedge, not the full 41-record chemical universe.",
+    "Selected seed records must still pass atom-map and reaction-centre review before feature_ready extraction."
+  ],
+  "planned_seed_count": 12,
+  "pose_interaction_feature_contract": {
+    "aggregation_statistics": [
+      "count",
+      "min",
+      "q05",
+      "median",
+      "mean",
+      "q95",
+      "max",
+      "std"
+    ],
+    "per_pose_geometry_features": [
+      "fe_n_distance_angstrom",
+      "nitrene_n_to_reported_c_distance_angstrom",
+      "nitrene_n_to_transferred_h_distance_angstrom",
+      "fe_n_reported_c_angle_degrees",
+      "nitrene_n_reported_c_transferred_h_angle_degrees",
+      "reported_c_to_porphyrin_plane_distance_angstrom",
+      "substrate_centroid_to_fe_distance_angstrom",
+      "minimum_core_substrate_distance_angstrom",
+      "core_substrate_contact_count_by_distance_bin"
+    ],
+    "provenance_requirements": [
+      "pose_generation_run_id",
+      "pose_id",
+      "substrate_id",
+      "constraint_profile_id",
+      "geometry_path",
+      "reported_reactive_site",
+      "candidate_site_id"
+    ],
+    "schema_version": "stage2-pose-interaction-feature-contract-v1",
+    "source_pose_scope": "Stage 1 retained frozen-core Fe-bound assemblies",
+    "status": "implemented"
+  },
+  "schema_version": "stage2-seed-set-v1",
+  "seed_slots": [
+    {
+      "candidate_substrate_ids": [
+        "1j",
+        "1k"
+      ],
+      "label": "Aryl-position/substituent",
+      "selected_substrate_id": "1j",
+      "selection_rationale": "Keeps the first seed pass on the Fe(P7)Cl scope while covering aryl-position variation.",
+      "selection_status": "locked",
+      "slot_id": "aryl-position-substituent"
+    },
+    {
+      "candidate_substrate_ids": [
+        "1p",
+        "1q"
+      ],
+      "label": "Fused O heteroaryl",
+      "selected_substrate_id": "1p",
+      "selection_rationale": "Covers fused oxygen heteroaryl chemistry with a lower-ee stress case.",
+      "selection_status": "locked",
+      "slot_id": "fused-o-heteroaryl"
+    },
+    {
+      "candidate_substrate_ids": [
+        "1z",
+        "1aa"
+      ],
+      "label": "N heteroaryl",
+      "selected_substrate_id": "1aa",
+      "selection_rationale": "Uses the Fe(P7)Cl N-heteroaryl record for the first ee baseline; 1z remains in the all-41 ledger as zero_curated.",
+      "selection_status": "locked",
+      "slot_id": "n-heteroaryl"
+    },
+    {
+      "candidate_substrate_ids": [
+        "1ad"
+      ],
+      "label": "Thioether linker",
+      "selected_substrate_id": "1ad",
+      "selection_rationale": "Single-slot thioether linker representative, manually confirmed as 0% ee.",
+      "selection_status": "locked",
+      "slot_id": "thioether-linker"
+    },
+    {
+      "candidate_substrate_ids": [
+        "1ah",
+        "1ai"
+      ],
+      "label": "Lower-selectivity alkyl/aryl chain",
+      "selected_substrate_id": "1ah",
+      "selection_rationale": "Covers nonactivated alkyl C-H amination with a lower-ee Fe(P7)Cl record.",
+      "selection_status": "locked",
+      "slot_id": "lower-selectivity-alkyl-aryl-chain"
+    },
+    {
+      "candidate_substrate_ids": [
+        "1am",
+        "1an"
+      ],
+      "label": "Cycloalkyl/alkenyl",
+      "selected_substrate_id": "1am",
+      "selection_rationale": "Uses the chiral cycloalkyl product for the first ee baseline; 1an remains all-41 achiral-product coverage.",
+      "selection_status": "locked",
+      "slot_id": "cycloalkyl-alkenyl"
+    }
+  ],
+  "selected_seed_substrate_ids": [
+    "1a",
+    "1e",
+    "1o",
+    "1v",
+    "1ae",
+    "1ac",
+    "1j",
+    "1p",
+    "1aa",
+    "1ad",
+    "1ah",
+    "1am"
+  ],
+  "selection_policy": "chemical_family_coverage_first_label_diversity_second"
+}

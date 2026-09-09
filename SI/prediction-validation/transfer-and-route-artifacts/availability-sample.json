@@ -1,0 +1,58 @@
+{
+  "schema_version": "availability-evidence-v1",
+  "status": "synthetic_development_data",
+  "evidence_levels": {
+    "E0": "received",
+    "E1": "order_confirmed",
+    "E2": "direct_in_stock",
+    "E3": "aggregator_in_stock",
+    "E4": "catalogued",
+    "E5": "make_on_demand",
+    "E6": "not_found_or_unverified"
+  },
+  "availability_rule": "exact substrate is available only at E0/E1 or with two independent E2 records",
+  "records": [
+    {
+      "candidate_id": "sample-001",
+      "inchi_key": "SYNTHETIC-INCHIKEY-001",
+      "supplier": "Sample Supplier A",
+      "evidence_level": "E2",
+      "catalogue_number": "SAMPLE-001",
+      "region": "development",
+      "pack": "1 g",
+      "price": null,
+      "lead_time_days": 7,
+      "accessed_at": "2026-09-01",
+      "source_locator": "synthetic://sample-001",
+      "source_hash": "synthetic"
+    },
+    {
+      "candidate_id": "sample-001",
+      "inchi_key": "SYNTHETIC-INCHIKEY-001",
+      "supplier": "Sample Supplier B",
+      "evidence_level": "E2",
+      "catalogue_number": "SAMPLE-001-B",
+      "region": "development",
+      "pack": "250 mg",
+      "price": null,
+      "lead_time_days": 14,
+      "accessed_at": "2026-09-01",
+      "source_locator": "synthetic://sample-001-b",
+      "source_hash": "synthetic"
+    },
+    {
+      "candidate_id": "sample-002",
+      "inchi_key": "SYNTHETIC-INCHIKEY-002",
+      "supplier": "Sample Supplier C",
+      "evidence_level": "E4",
+      "catalogue_number": "SAMPLE-002",
+      "region": "development",
+      "pack": null,
+      "price": null,
+      "lead_time_days": null,
+      "accessed_at": "2026-09-01",
+      "source_locator": "synthetic://sample-002",
+      "source_hash": "synthetic"
+    }
+  ]
+}

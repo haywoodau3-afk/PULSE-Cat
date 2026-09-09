@@ -1,0 +1,8 @@
+{
+  "candidate_count": 16,
+  "automated_contract_valid_count": 16,
+  "automated_safety_flag_count": 0,
+  "interpretation": "all approved candidates pass current deterministic structural/safety flags; this is not an EHS certification",
+  "screen_report": "data/expansion/pptl/development-shortlist-16-safety-screen.csv",
+  "next_step": "real availability evidence and laboratory EHS review"
+}

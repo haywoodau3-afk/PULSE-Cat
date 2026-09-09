@@ -1,0 +1,96 @@
+{
+  "caveats": [
+    "The latestage substrates do not have experimental ee labels in the workbook, so unseen performance cannot be measured yet.",
+    "Reported reactive C-H sites for unseen substrates are inferred by graph distance from the proximal azide nitrogen.",
+    "Stage 3a-alt here means Stage 0/1/2 pose-aware features plus the graph-only heteroatom site-competition block."
+  ],
+  "checkpoint_1_stage2_base_prediction_table": "data/jacs_2025/stage3/model-comparison/stage2-base-full-workflow-unseen-predictions.csv",
+  "checkpoint_2_stage3a_alt_prediction_table": "data/jacs_2025/stage3/model-comparison/stage3a-alt-full-workflow-unseen-predictions.csv",
+  "comparison_table": "data/jacs_2025/stage3/model-comparison/stage3a-alt-full-workflow-unseen-comparison.csv",
+  "environment": {
+    "numpy_version": "2.5.1",
+    "python_version": "3.14.6",
+    "rdkit_version": "2026.03.4"
+  },
+  "manual_substrates_path": "data/jacs_2025/stage3/latestage/manual-substrates-latestage.csv",
+  "models": {
+    "stage2_base": {
+      "feature_count": 1243,
+      "loo_mae": 12.950288575694955,
+      "loo_r2": 0.02207072108447905,
+      "loo_rmse": 22.99884055382841,
+      "record_count": 40,
+      "selected_alpha": 1.0,
+      "selected_l1_ratio": 0.5,
+      "within_15_ee_count": 34
+    },
+    "stage3a_alt": {
+      "feature_count": 1264,
+      "loo_mae": 13.020949893766012,
+      "loo_r2": 0.012062460858673019,
+      "loo_rmse": 23.116227598756133,
+      "record_count": 40,
+      "selected_alpha": 1.0,
+      "selected_l1_ratio": 0.8,
+      "within_15_ee_count": 31
+    }
+  },
+  "prediction_records_path": "data/jacs_2025/stage3/latestage/latestage-prediction-records.jsonl",
+  "schema_version": "stage3a-alt-full-workflow-unseen-report-v1",
+  "skipped_substrate_ids": [
+    "1ar"
+  ],
+  "stage1_actual_settings_by_substrate": {
+    "1ap": {
+      "duplicate_pose_reuse": null,
+      "generated_pool_size": 5000,
+      "retained_high_energy_count": 100,
+      "retained_low_energy_count": 100,
+      "written_pose_count": 200
+    },
+    "1aq": {
+      "duplicate_pose_reuse": null,
+      "generated_pool_size": 5000,
+      "retained_high_energy_count": 100,
+      "retained_low_energy_count": 100,
+      "written_pose_count": 200
+    },
+    "1as": {
+      "duplicate_pose_reuse": {
+        "reason": "identical azide_smiles in latestage unseen workbook",
+        "source_substrate_id": "1ap"
+      },
+      "generated_pool_size": 5000,
+      "retained_high_energy_count": 100,
+      "retained_low_energy_count": 100,
+      "written_pose_count": 200
+    },
+    "1at": {
+      "duplicate_pose_reuse": null,
+      "generated_pool_size": 5000,
+      "retained_high_energy_count": 100,
+      "retained_low_energy_count": 100,
+      "written_pose_count": 200
+    },
+    "1au": {
+      "duplicate_pose_reuse": null,
+      "generated_pool_size": 1000,
+      "retained_high_energy_count": 70,
+      "retained_low_energy_count": 70,
+      "written_pose_count": 140
+    }
+  },
+  "stage1_geometry_dir": "data/jacs_2025/stage3/latestage/stage1-geometries",
+  "stage1_report_dir": "data/jacs_2025/stage3/latestage/stage1-panel",
+  "stage1_requested_settings_for_missing_reports": {
+    "pool_size": 1000,
+    "retain_high_count": 70,
+    "retain_low_count": 70
+  },
+  "stage2_pose_interaction_path": "data/jacs_2025/stage3/latestage/stage2-pose-interaction.jsonl",
+  "stage2_pose_summary_path": "data/jacs_2025/stage3/latestage/stage2-pose-summary.jsonl",
+  "status": "full_workflow_checkpoints_complete",
+  "training_record_count": 40,
+  "unseen_prediction_count": 5,
+  "workbook_path": "substrate_manual_1_Latestage.numbers"
+}

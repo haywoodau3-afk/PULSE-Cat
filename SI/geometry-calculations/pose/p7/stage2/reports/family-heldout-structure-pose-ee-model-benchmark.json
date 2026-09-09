@@ -1,0 +1,200 @@
+{
+  "best_model_by_mae": "elastic_net",
+  "caveats": [
+    "This uses all modelable substrate-scope records for the selected target except explicitly excluded labels.",
+    "The target-holdout protocol uses a 7:2:1-inspired split; family-held-out validation holds out whole family groups.",
+    "Validation sets are the structurally non-selected remainder after MaxMin training selection, not random draws.",
+    "Gaussian Process intervals are model-native normal intervals; other intervals are validation-residual empirical intervals.",
+    "Pose-aware features use inferred reaction centers for 29 atom_mapped records; product atom maps remain manually reviewed only for the 12 feature_ready seed records."
+  ],
+  "environment": {
+    "lightgbm_version": "4.7.0",
+    "python_version": "3.14.6",
+    "scipy_version": "1.18.0",
+    "sklearn_version": "1.9.0"
+  },
+  "excluded_records": [
+    {
+      "reason": "excluded_after_review because 0% ee is likely undetermined by separation problem",
+      "substrate_id": "1ad"
+    },
+    {
+      "reason": "not_applicable_achiral ee",
+      "substrate_id": "1an"
+    },
+    {
+      "reason": "excluded_from_matched_cohort because the zero_curated ee record is not retained by the later 38-substrate protocols",
+      "substrate_id": "1z"
+    }
+  ],
+  "feature_count": 1241,
+  "feature_policy": "RDKit physchem plus 512-bit Morgan fingerprint, checked reaction-center metadata, pose-summary features, and aggregated per-pose substrate-catalyst interaction features",
+  "feature_set": "structure_pose",
+  "matrix_path": "data/jacs_2025/stage2/features/full-scope-structure-pose-ee-matrix.csv",
+  "modelable_record_count": 38,
+  "models": {
+    "elastic_net": {
+      "abs_error_summary": {
+        "mean": 9.334236724367795,
+        "median": 6.679211471360535,
+        "q05": 1.0264102532545507,
+        "q95": 27.47522403035678,
+        "std": 8.512906865990853
+      },
+      "bayesian_bootstrap": {
+        "draw_count": 20000,
+        "mae": {
+          "ci95_high": 12.195780198438879,
+          "ci95_low": 6.872150158400896,
+          "median": 9.245624770621632
+        },
+        "method": "bayesian_bootstrap_over_target_holdout_residuals",
+        "rmse": {
+          "ci95_high": 15.591360689525773,
+          "ci95_low": 9.606866191426597,
+          "median": 12.386422575937559
+        }
+      },
+      "mae": 9.334236724367795,
+      "mean_error": 0.9171943419391289,
+      "r2": 0.35946690832274963,
+      "residual_summary": {
+        "mean": 0.9171943419391289,
+        "median": -1.5548298527047493,
+        "q05": -14.696809812706483,
+        "q95": 25.98022180725051,
+        "std": 12.692059992457311
+      },
+      "rmse": 12.557486382153257,
+      "target_count": 38,
+      "within_10_ee_fraction": 0.631578947368421,
+      "within_20_ee_fraction": 0.8421052631578947
+    },
+    "gaussian_process": {
+      "abs_error_summary": {
+        "mean": 14.104822400829661,
+        "median": 11.57142857142857,
+        "q05": 3.2714285714285696,
+        "q95": 33.515209359605905,
+        "std": 8.975848531532659
+      },
+      "bayesian_bootstrap": {
+        "draw_count": 20000,
+        "mae": {
+          "ci95_high": 17.12896487624394,
+          "ci95_low": 11.582435946785086,
+          "median": 14.020510713224784
+        },
+        "method": "bayesian_bootstrap_over_target_holdout_residuals",
+        "rmse": {
+          "ci95_high": 20.184751314981405,
+          "ci95_low": 13.50893037362486,
+          "median": 16.469465069831784
+        }
+      },
+      "mae": 14.104822400829661,
+      "mean_error": -0.19657332987641385,
+      "r2": -0.12675535199654586,
+      "residual_summary": {
+        "mean": -0.19657332987641385,
+        "median": -9.101190476190482,
+        "q05": -15.72142857142857,
+        "q95": 33.515209359605905,
+        "std": 16.877473321436693
+      },
+      "rmse": 16.655080837151214,
+      "target_count": 38,
+      "within_10_ee_fraction": 0.2894736842105263,
+      "within_20_ee_fraction": 0.8421052631578947
+    },
+    "lightgbm": {
+      "abs_error_summary": {
+        "mean": 9.456505255515648,
+        "median": 4.438658394725927,
+        "q05": 0.3448890207186011,
+        "q95": 30.635581342740828,
+        "std": 10.808897386248484
+      },
+      "bayesian_bootstrap": {
+        "draw_count": 20000,
+        "mae": {
+          "ci95_high": 13.186735843546982,
+          "ci95_low": 6.423811069737658,
+          "median": 9.301167134822208
+        },
+        "method": "bayesian_bootstrap_over_target_holdout_residuals",
+        "rmse": {
+          "ci95_high": 18.598525012326906,
+          "ci95_low": 10.232231983211728,
+          "median": 13.9445911661681
+        }
+      },
+      "mae": 9.456505255515648,
+      "mean_error": -0.15075539105195956,
+      "r2": 0.17467693793015604,
+      "residual_summary": {
+        "mean": -0.15075539105195956,
+        "median": -0.9876225417441589,
+        "q05": -21.91231084276268,
+        "q95": 27.181001681585816,
+        "std": 14.444767845052251
+      },
+      "rmse": 14.254235199579362,
+      "target_count": 38,
+      "within_10_ee_fraction": 0.6578947368421053,
+      "within_20_ee_fraction": 0.8421052631578947
+    },
+    "ridge_regression": {
+      "abs_error_summary": {
+        "mean": 11.914145651438107,
+        "median": 9.544006346500076,
+        "q05": 0.636510281991788,
+        "q95": 31.657257892153464,
+        "std": 9.761461680436
+      },
+      "bayesian_bootstrap": {
+        "draw_count": 20000,
+        "mae": {
+          "ci95_high": 15.134553690980598,
+          "ci95_low": 9.070543887301081,
+          "median": 11.83025592036898
+        },
+        "method": "bayesian_bootstrap_over_target_holdout_residuals",
+        "rmse": {
+          "ci95_high": 18.61799763762116,
+          "ci95_low": 12.059153351266438,
+          "median": 15.16937497155818
+        }
+      },
+      "mae": 11.914145651438107,
+      "mean_error": -1.8189358055765148,
+      "r2": 0.04655343431624115,
+      "residual_summary": {
+        "mean": -1.8189358055765148,
+        "median": -3.6308917856431577,
+        "q05": -25.98125478788171,
+        "q95": 31.657257892153464,
+        "std": 15.416596752084493
+      },
+      "rmse": 15.320752948094581,
+      "target_count": 38,
+      "within_10_ee_fraction": 0.5526315789473685,
+      "within_20_ee_fraction": 0.7894736842105263
+    }
+  },
+  "predictions_path": "data/jacs_2025/stage2/reports/family-heldout-structure-pose-ee-model-predictions.csv",
+  "report_path": "data/jacs_2025/stage2/reports/family-heldout-structure-pose-ee-model-benchmark.json",
+  "schema_version": "stage2-full-scope-benchmark-v1",
+  "split_count": 17,
+  "split_counts": {
+    "target_prediction": null,
+    "train": 29,
+    "validation": 7
+  },
+  "split_mode": "family_holdout",
+  "split_policy": "For each family, hold out all records in that family, choose 29 structurally diverse training molecules from the remaining records by MaxMin Morgan/Tanimoto distance, and use the remaining 7 as validation.",
+  "splits_path": "data/jacs_2025/stage2/reports/family-heldout-ee-splits.json",
+  "status": "structure_pose_full_scope_smoke_test",
+  "target": "ee",
+  "target_label": "ee_percent"
+}
