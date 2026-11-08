@@ -1,0 +1,2 @@
+mixed passed 15000 predictions reconciled; 600 sequences checked; independently refitted 180 prediction rows; original score and first choice checked
+sulfonyl passed 3600 predictions reconciled; 300 sequences checked; independently refitted 54 prediction rows; original score and first choice checked

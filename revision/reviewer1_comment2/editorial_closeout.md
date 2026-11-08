@@ -1,0 +1,5 @@
+# Reviewer 1 comment 2 closeout
+
+**Closed for this revision workflow as addressed with stated limitations.** The response now defines the operational score and its overlapping components, characterises the coefficients as a heuristic, reports the complete 21-point sensitivity grid, and compares every setting with shared source-order and random baselines. The grid does not establish optimality or general superiority. The same overlapping retrospective splits were used throughout. The weight-grid outputs do not reconstruct the original remaining-pool mean-prefix metric; the common-test findings must not be attributed to the original percentage reductions. The editor's decision and any further review remain open.
+
+The cumulative highlighted files are `Manuscript_comment2_closed.docx` and `Supporting_Information_comment2_closed.docx`. Results, input records and comparison code are recorded in `weight_sensitivity_results.md` and the `results/weight_sensitivity/` subfolders. The reviewer response is in `reviewer_response_draft.md`.

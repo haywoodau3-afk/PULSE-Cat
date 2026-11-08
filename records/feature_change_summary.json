@@ -1,0 +1,104 @@
+{
+  "p7": {
+    "records_compared": 38,
+    "records_only_in_original": [
+      "1ad",
+      "1an",
+      "1z"
+    ],
+    "records_with_changed_feature": 12,
+    "target_value_changes": [],
+    "features_changed_in_any_record": 182,
+    "top_changed_features": [
+      [
+        "stage2p:directional_antisymmetry:all_heavy:axial_mean:mean",
+        12
+      ],
+      [
+        "stage2p:directional_antisymmetry:hetero:axial_mean:mean",
+        12
+      ],
+      [
+        "stage2p:directional_symmetry:all_heavy:axial_mean:mean",
+        12
+      ],
+      [
+        "stage2p:directional_symmetry:hetero:axial_mean:mean",
+        12
+      ],
+      [
+        "stage2p:h_to_n:all_heavy:axial_mean:all_200:mean",
+        12
+      ],
+      [
+        "stage2p:h_to_n:all_heavy:axial_mean:bottom_100:mean",
+        12
+      ],
+      [
+        "stage2p:h_to_n:all_heavy:axial_mean:top_100:mean",
+        12
+      ],
+      [
+        "stage2p:h_to_n:all_heavy:axial_q90:all_200:mean",
+        12
+      ],
+      [
+        "stage2p:h_to_n:all_heavy:axial_q90:bottom_100:mean",
+        12
+      ],
+      [
+        "stage2p:h_to_n:all_heavy:axial_q90:top_100:mean",
+        12
+      ]
+    ]
+  },
+  "cmcpor": {
+    "records_compared": 50,
+    "records_only_in_original": [],
+    "records_with_changed_feature": 30,
+    "target_value_changes": [],
+    "features_changed_in_any_record": 182,
+    "top_changed_features": [
+      [
+        "stage2p:directional_antisymmetry:all_heavy:axial_mean:mean",
+        30
+      ],
+      [
+        "stage2p:directional_antisymmetry:hetero:axial_mean:mean",
+        30
+      ],
+      [
+        "stage2p:directional_symmetry:all_heavy:axial_mean:mean",
+        30
+      ],
+      [
+        "stage2p:directional_symmetry:hetero:axial_mean:mean",
+        30
+      ],
+      [
+        "stage2p:h_to_n:all_heavy:axial_mean:all_200:mean",
+        30
+      ],
+      [
+        "stage2p:h_to_n:all_heavy:axial_mean:bottom_100:mean",
+        30
+      ],
+      [
+        "stage2p:h_to_n:all_heavy:axial_mean:top_100:mean",
+        30
+      ],
+      [
+        "stage2p:h_to_n:all_heavy:axial_q90:all_200:mean",
+        30
+      ],
+      [
+        "stage2p:h_to_n:all_heavy:axial_q90:bottom_100:mean",
+        30
+      ],
+      [
+        "stage2p:h_to_n:all_heavy:axial_q90:top_100:mean",
+        30
+      ]
+    ]
+  }
+}

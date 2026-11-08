@@ -1,0 +1,50 @@
+{
+  "domain": "p7",
+  "default_weights_diversity_uncertainty_coverage": [
+    0.4,
+    0.4,
+    0.2
+  ],
+  "grid_step": 0.2,
+  "n_weight_combinations": 21,
+  "n_outer_splits": 20,
+  "n_initial_pairs_per_split": 3,
+  "n_trajectories": 1260,
+  "label_budgets": [
+    2,
+    6,
+    10,
+    15,
+    20
+  ],
+  "test_size": 6,
+  "active_records": 38,
+  "locked_audit_records_excluded": [],
+  "component_equations": {
+    "D": "min-max normalized structural novelty",
+    "Q": "min-max normalized standard deviation of Ridge/Elastic Net/Tanimoto-kNN predictions",
+    "U": "0.5*D + 0.5*Q",
+    "C": "normalized family coverage",
+    "S": "wD*D + wU*U + wC*C",
+    "default_expanded": "0.60*D + 0.20*Q + 0.20*C"
+  },
+  "validation": {
+    "default_component_score_matches_legacy": true,
+    "default_first_trajectory_matches_r1c1_sequence_and_predictions": true,
+    "max_abs_default_prediction_difference": 0.0
+  },
+  "source_common_test_split_seed": 20261108,
+  "input_sha256": {
+    "data/jacs_2025/stage2/curated-reaction-records.jsonl": "b05b91b28057172bd7b527d3135a81674a6beaa891b730b90b7182dac3027699",
+    "revision/reviewer2_comment2/results/corrected_p7_stage2p.jsonl": "f4ab0ef8f9e2c1e01abd08cfb827b5684486ac1e00b8ea4f97d48e8054aa662b",
+    "data/jacs_2025/scope_progression/learning-curve.csv": "66f26b8ec42d822a381a1bb7257dd84de6914fe4919d7a95b59e0db376f28102"
+  },
+  "original_code_sha256": "9fdc685bb802c94fb9284e47c8b22ce27250ee4fad9097d416865960a0c81bb9",
+  "wrapper_sha256": "c1e7bf7ca79917ec8c18e64a48e6f4130e1c4ac1da40b261d2a78a245e12a0d1",
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "numpy": "2.5.1",
+  "scikit_learn": "1.9.0",
+  "rdkit": "2026.03.4",
+  "elapsed_seconds": 756.6608967781067,
+  "limitations": "This is a descriptive retrospective weight-sensitivity analysis on fixed observed data. Outer test sets overlap; the 21-point grid is not used to select a policy; rankings are not independent validation or evidence of an optimum or population-level significance."
+}

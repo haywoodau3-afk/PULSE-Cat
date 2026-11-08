@@ -1,0 +1,4 @@
+data/expansion/catalyst_rerun/cmcpor/stage2-records.jsonl 0411a6b8264697f8b0e4a9b96111ac81ef055e397825a78dd74537aa1b97718a
+data/expansion/catalyst_rerun/cmcpor_uff_full/stage2p/features/stage2p-features.jsonl bb844e3f9fb7b1717d8ea2e0690ff227d5ff3998fefe3fd8178401464b618c7b
+expand/10.1002:anie.202218577/maintext.pdf 424648acb69b6f309c39bd9c1e8a4e5ae02109c74d52c3000130be57806d1de2
+PASS 26 aryl and 17 sulfonyl ee values match source Tables 1 and 4 for CMC-Por; 7 locked aryl excluded. All 43 feature rows available, finite and nonzero. Source-specific condition metadata corrected in revision-local ledger; 6q yield marked <5%.

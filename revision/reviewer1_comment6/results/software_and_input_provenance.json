@@ -1,0 +1,15 @@
+{
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+  "numpy": "2.5.1",
+  "scipy": "1.18.0",
+  "scikit_learn": "1.9.0",
+  "rdkit": "2026.03.4",
+  "additional_input_sha256": {
+    "revision/reviewer1_comment1/results/common_test/p7/initial_pairs.csv": "9abedb4d200d7fcbf9b09d1f50d0b3e1978ac0b782529387e2752f75779ece9f",
+    "revision/reviewer1_comment1/results/common_test/cmcpor/initial_pairs.csv": "b5c9b86e065c2deddf38ff88bf8aff7255fd34656a6af76da515e10348e70239",
+    "revision/reviewer1_comment1/results/common_test/p7/selection_events.csv": "522f5393ff40628d4ab4aa2eb016868c48cf2c4fe569003a8ec767e0661b2570",
+    "revision/reviewer1_comment1/results/common_test/cmcpor/selection_events.csv": "b0f4d05e2e39547235ecd641bdebfbbeb0bba3ca3aa2a62831862758f52c06a9",
+    "scripts/scope_progression.py": "9fdc685bb802c94fb9284e47c8b22ce27250ee4fad9097d416865960a0c81bb9"
+  }
+}

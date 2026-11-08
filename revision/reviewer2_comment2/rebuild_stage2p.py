@@ -1,0 +1,4 @@
+import sys,os,json,time,hashlib
+from pathlib import Path
+os.environ.update(OPENBLAS_NUM_THREADS='1',OMP_NUM_THREADS='1',MKL_NUM_THREADS='1');P=Path(__file__).resolve().parent;R=P.parents[1];sys.path.insert(0,str(R));from scripts import stage2p_representation as s
+d=sys.argv[1];src={'p7':(R/'revision/reviewer2_comment1/results/p7_source_corrected_copy.jsonl',R/'data/jacs_2025/stage1/panel'), 'cmcpor':(R/'revision/reviewer1_comment5/results/cmcpor_source_corrected_copy.jsonl',R/'data/expansion/catalyst_rerun/cmcpor_uff_full/stage1/reports')}[d];t=time.time();r=s.generate_stage2p_features(*src);dest=P/'results'/('corrected_'+d+'_stage2p.jsonl');dest.write_text(''.join(json.dumps(x,sort_keys=True)+'\n' for x in r));print(d,'rows',len(r),'seconds',round(time.time()-t,2),'sha256',hashlib.sha256(dest.read_bytes()).hexdigest(),flush=True)

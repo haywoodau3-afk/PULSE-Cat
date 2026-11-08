@@ -1,0 +1,10 @@
+{
+  "n_families": 17,
+  "families_favour_corrected_pose": 11,
+  "substrates_favour_corrected_pose": 23,
+  "family_balanced_structure_mae": 11.98919839609519,
+  "family_balanced_corrected_pose_mae": 8.723225421889138,
+  "largest_family": "diaryl-ethyl-aryl-substituted",
+  "largest_family_structure_mae": 5.246344283707057,
+  "largest_family_corrected_pose_mae": 6.233732135508947
+}

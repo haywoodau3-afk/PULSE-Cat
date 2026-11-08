@@ -1,0 +1,28 @@
+[
+  {
+    "substrate": "1a",
+    "n_geometries_directly_recomputed": 200,
+    "nitrene_N_to_reactive_C_mean_corrected": 3.460453860525859,
+    "nitrene_N_to_reactive_C_archived": 3.460453865,
+    "archived_N_distance_is_correct": true,
+    "substrate_centroid_to_Fe_mean": 4.515124243759886,
+    "rank1_N_to_C": 3.4195700235418487,
+    "rank1_centroid_to_Fe": 4.437414847780343,
+    "exported_assembly_matches_archive": true,
+    "molfile_matches_source_smiles": true,
+    "heldout_model_refits": "independently checked in analyse_examples.py"
+  },
+  {
+    "substrate": "1ah",
+    "n_geometries_directly_recomputed": 200,
+    "nitrene_N_to_reactive_C_mean_corrected": 3.5815138241561386,
+    "nitrene_N_to_reactive_C_archived": 2.53855338,
+    "archived_N_distance_is_correct": false,
+    "substrate_centroid_to_Fe_mean": 3.8693903157734564,
+    "rank1_N_to_C": 3.4958515676970614,
+    "rank1_centroid_to_Fe": 3.739775883138706,
+    "exported_assembly_matches_archive": true,
+    "molfile_matches_source_smiles": true,
+    "heldout_model_refits": "independently checked in analyse_examples.py"
+  }
+]

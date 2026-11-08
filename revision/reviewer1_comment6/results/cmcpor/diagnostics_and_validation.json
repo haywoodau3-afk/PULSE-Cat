@@ -1,0 +1,27 @@
+{
+  "domain": "cmcpor",
+  "sequence_overlap_ee_vs_yield": {
+    "6": {
+      "mean_common_after_initial_pair": 2.9833333333333334,
+      "available_new_slots": 4
+    },
+    "10": {
+      "mean_common_after_initial_pair": 6.766666666666667,
+      "available_new_slots": 8
+    },
+    "15": {
+      "mean_common_after_initial_pair": 12.266666666666667,
+      "available_new_slots": 13
+    },
+    "20": {
+      "mean_common_after_initial_pair": 17.983333333333334,
+      "available_new_slots": 18
+    }
+  },
+  "n_prediction_rows_checked": 7500,
+  "n_trajectories_checked": 300,
+  "independent_ridge_predictions_refit": 750,
+  "score_rows_checked": 1080,
+  "locked_cmc_audit_excluded": true,
+  "qualification": "Endpoint trajectories were selected with different labels but evaluated on the same splits and start pairs. Post hoc set overlap is not evidence of causality."
+}

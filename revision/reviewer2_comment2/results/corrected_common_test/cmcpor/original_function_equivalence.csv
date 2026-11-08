@@ -1,0 +1,4 @@
+domain,route,budget_predictions,selection_prefix_matches,max_abs_prediction_difference
+cmcpor,historical_order,25,True,0.0
+cmcpor,uncertainty_diversity,25,True,0.0
+cmcpor,random,25,True,0.0

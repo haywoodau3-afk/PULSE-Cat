@@ -1,0 +1,200 @@
+{
+  "elastic_net": {
+    "bayesian_bootstrap_metric_intervals": {
+      "draw_count": 20000,
+      "mae": {
+        "ci95_high": 19.804998587903334,
+        "ci95_low": 8.15596467946724,
+        "mean": 13.207841396416777,
+        "median": 12.957040521941046
+      },
+      "mean_error": {
+        "ci95_high": 12.86295956600202,
+        "ci95_low": -5.727753251481989,
+        "mean": 2.6847268224230523,
+        "median": 2.381625870537798
+      },
+      "method": "bayesian_bootstrap_over_oof_residual_records",
+      "r2": {
+        "ci95_high": 0.6128450432860528,
+        "ci95_low": -1.0885235166075635,
+        "mean": 0.1027872000464655,
+        "median": 0.22444250810537208
+      },
+      "random_seed": 20260730,
+      "rmse": {
+        "ci95_high": 23.88136531044811,
+        "ci95_low": 11.041073465357057,
+        "mean": 16.270933302033097,
+        "median": 15.78333609342383
+      }
+    },
+    "calibration_summary": {
+      "actual_on_predicted_intercept": 17.939729692775167,
+      "actual_on_predicted_slope": 0.7340555865020751,
+      "observed_vs_predicted_pearson_r": 0.5224262734777105
+    },
+    "implementation": "local_coordinate_descent",
+    "loo_metrics": {
+      "mae": 13.201231443984282,
+      "max_abs_error": 38.14421898372392,
+      "r2": 0.2168749137494882,
+      "rmse": 16.593654485041572
+    },
+    "nonzero_coefficient_count": 148,
+    "residual_summary": {
+      "abs_error_median": 12.577128819438627,
+      "abs_error_q75": 16.32981722467253,
+      "abs_error_q90": 20.711091662056674,
+      "mean_error": 2.667029344700413,
+      "median_error": -1.0193676713534359,
+      "residual_q05": -16.64411024074765,
+      "residual_q25": -10.289243493072302,
+      "residual_q75": 15.202731247233991,
+      "residual_q95": 27.735540286410554,
+      "residual_std": 17.177309335509797,
+      "within_10_ee_fraction": 0.36363636363636365,
+      "within_20_ee_fraction": 0.8181818181818182
+    },
+    "selected_hyperparameters": {
+      "alpha": 0.1,
+      "l1_ratio": 0.5,
+      "selection_loo_mae": 13.201231443984282
+    },
+    "top_coefficients": [
+      {
+        "coefficient": 2003.435069475784,
+        "feature": "pose_interaction.reported_c_to_transferred_h_distance_angstrom.q05"
+      },
+      {
+        "coefficient": 175.65329413876435,
+        "feature": "stage3a_shell.reported_shell.candidate_c_h_haa_center.0_3_angstrom_distance_min"
+      },
+      {
+        "coefficient": 140.55974566050946,
+        "feature": "pose_interaction.transferred_hydrogen_stage1_atom_index.std"
+      },
+      {
+        "coefficient": 88.71997806106668,
+        "feature": "stage3a_reference.reference.candidate_c_to_transferable_h_distance_angstrom"
+      },
+      {
+        "coefficient": 25.032733153813243,
+        "feature": "stage3a_shell.reported_shell.nitrene_center.6_8_angstrom_distance_min"
+      },
+      {
+        "coefficient": 18.099152280801697,
+        "feature": "pose_interaction.core_substrate_distance_min.q05"
+      },
+      {
+        "coefficient": -16.577865395546915,
+        "feature": "stage3a_shell.reported_shell.reactive_approach_midpoint.5_6_angstrom_distance_min"
+      },
+      {
+        "coefficient": -11.247192968890749,
+        "feature": "pose_interaction.core_substrate_distance_mean.std"
+      },
+      {
+        "coefficient": 10.990571324607377,
+        "feature": "pose_interaction.core_substrate_distance_min.mean"
+      },
+      {
+        "coefficient": 10.333386851662658,
+        "feature": "stage3a_shell.reported_shell.candidate_c_h_haa_center.5_6_angstrom_distance_mean"
+      },
+      {
+        "coefficient": 10.032799456853287,
+        "feature": "pose_interaction.nearest_core_substrate_distance.mean"
+      },
+      {
+        "coefficient": 9.477458207981309,
+        "feature": "stage3a_shell.reported_shell.candidate_c_h_haa_center.4_5_angstrom_distance_min"
+      },
+      {
+        "coefficient": 9.20218705440581,
+        "feature": "pose_interaction.nearest_core_substrate_distance.q05"
+      },
+      {
+        "coefficient": 8.605793153265736,
+        "feature": "pose_interaction.core_substrate_distance_min.min"
+      },
+      {
+        "coefficient": 7.9780399751215105,
+        "feature": "stage3a_shell.reported_shell.candidate_c_h_haa_center.4_5_angstrom_distance_max"
+      },
+      {
+        "coefficient": 7.817316731880525,
+        "feature": "pose_summary.minimum_core_substrate_distance_angstrom_mean"
+      },
+      {
+        "coefficient": 7.4239691107265475,
+        "feature": "pose_interaction.minimum_core_substrate_distance_angstrom.q05"
+      },
+      {
+        "coefficient": 7.095267167982422,
+        "feature": "stage3a_shell.reported_shell.candidate_c_h_haa_center.5_6_angstrom_distance_q75"
+      },
+      {
+        "coefficient": 5.951047500701547,
+        "feature": "pose_interaction.minimum_core_substrate_distance_angstrom.mean"
+      },
+      {
+        "coefficient": -4.762011645167505,
+        "feature": "pose_interaction.reported_c_to_core_distance_count_0p0_1p5_angstrom.mean"
+      },
+      {
+        "coefficient": -4.72409395928319,
+        "feature": "stage3a_shell.reported_shell.reactive_approach_midpoint.6_8_angstrom_distance_min"
+      },
+      {
+        "coefficient": 4.515515602480983,
+        "feature": "pose_summary.clash_screen_minimum_core_substrate_distance_min"
+      },
+      {
+        "coefficient": 4.190373123034941,
+        "feature": "stage1_v2_selection.pose_minimum_core_substrate_distance_angstrom.mean"
+      },
+      {
+        "coefficient": -3.1974798852257718,
+        "feature": "pose_interaction.transferred_h_to_core_distance_min.q95"
+      },
+      {
+        "coefficient": -2.7372679311473798,
+        "feature": "stage3a_shell.reported_shell.nitrene_center.0_3_angstrom_distance_median"
+      }
+    ]
+  },
+  "feature_count": 1257,
+  "feature_policy": "stage2_v2_selected_pose_plus_stage3a_xtb_reference_and_reported_site_shell_features",
+  "matrix_path": "revision/error found/stage3a_model_comparison_corrected/stage3a_reference_shell-matrix.csv",
+  "mean_baseline": {
+    "loo_metrics": {
+      "mae": 19.61818181818182,
+      "max_abs_error": 32.8,
+      "r2": -0.20999999999999996,
+      "rmse": 20.62619693496598
+    },
+    "residual_summary": {
+      "abs_error_median": 18.900000000000006,
+      "abs_error_q75": 23.1,
+      "abs_error_q90": 27.299999999999997,
+      "mean_error": -1.2918958832001822e-15,
+      "median_error": -14.5,
+      "residual_q05": -20.550000000000004,
+      "residual_q25": -18.35,
+      "residual_q75": 19.6,
+      "residual_q95": 30.049999999999997,
+      "residual_std": 21.632937849492382,
+      "within_10_ee_fraction": 0.09090909090909091,
+      "within_20_ee_fraction": 0.6363636363636364
+    }
+  },
+  "nonconstant_feature_count": 896,
+  "predictions_path": "revision/error found/stage3a_model_comparison_corrected/stage3a_reference_shell-predictions.csv",
+  "record_count": 11,
+  "report_path": "revision/error found/stage3a_model_comparison_corrected/stage3a_reference_shell-report.json",
+  "schema_version": "stage3a-seed-ee-elastic-net-report-v1",
+  "status": "seed_pilot_model_comparison_not_predictive_claim",
+  "target": "ee_percent",
+  "validation": "leave_one_out_cv_with_seed_level_hyperparameter_selection"
+}

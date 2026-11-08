@@ -1,0 +1,167 @@
+{
+  "domain": "cmcpor",
+  "features": {
+    "structure": [
+      33,
+      1039
+    ],
+    "pose": [
+      33,
+      1287
+    ]
+  },
+  "budgets": [
+    2,
+    6,
+    10,
+    15,
+    20
+  ],
+  "splits": 20,
+  "pairs": 3,
+  "random_replicates": 3,
+  "summaries": {
+    "structure_historical_order": {
+      "mean": 9.6234769915515,
+      "median": 9.107762211802083,
+      "iqr": [
+        8.2298240730344,
+        10.98689903515231
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "structure_uncertainty_diversity": {
+      "mean": 10.774622118763705,
+      "median": 10.305397527770108,
+      "iqr": [
+        9.253758635906495,
+        12.90363661852517
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "structure_random": {
+      "mean": 10.211064074948878,
+      "median": 9.992246298922417,
+      "iqr": [
+        7.980708338872484,
+        11.60924064535417
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "pose_historical_order": {
+      "mean": 15.698187775337061,
+      "median": 15.376456925126636,
+      "iqr": [
+        11.303171473420708,
+        18.46802543519442
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "pose_uncertainty_diversity": {
+      "mean": 14.266449216756063,
+      "median": 14.410006442154543,
+      "iqr": [
+        11.986280417188997,
+        17.78896250929359
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "pose_random": {
+      "mean": 15.326418327843149,
+      "median": 16.126643791573667,
+      "iqr": [
+        12.215637713748423,
+        18.94033339076404
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "ordering_benefit_structure": {
+      "mean": -1.151145127212207,
+      "median": -1.0083225965044296,
+      "iqr": [
+        -2.015949878642507,
+        -0.557104796232136
+      ],
+      "positive_splits": 3,
+      "negative_splits": 17
+    },
+    "ordering_benefit_pose": {
+      "mean": 1.431738558580997,
+      "median": 0.5418565394083443,
+      "iqr": [
+        -0.7970779838190394,
+        1.9941694708820714
+      ],
+      "positive_splits": 11,
+      "negative_splits": 9
+    },
+    "interaction_structure_minus_pose": {
+      "mean": -2.5828836857932047,
+      "median": -1.415469087548201,
+      "iqr": [
+        -3.314083773091273,
+        0.02375159239009461
+      ],
+      "positive_splits": 6,
+      "negative_splits": 14
+    },
+    "combined_vs_structure_baseline": {
+      "mean": -4.642972225204566,
+      "median": -5.009504557595561,
+      "iqr": [
+        -7.142201000963892,
+        -2.027116868923553
+      ],
+      "positive_splits": 1,
+      "negative_splits": 19
+    },
+    "combined_vs_structure_acquire": {
+      "mean": -3.491827097992359,
+      "median": -3.66769349789136,
+      "iqr": [
+        -4.938235151558379,
+        -1.3058487494531175
+      ],
+      "positive_splits": 2,
+      "negative_splits": 18
+    },
+    "combined_vs_pose_source": {
+      "mean": 1.431738558580997,
+      "median": 0.5418565394083443,
+      "iqr": [
+        -0.7970779838190394,
+        1.9941694708820714
+      ],
+      "positive_splits": 11,
+      "negative_splits": 9
+    },
+    "random_benefit_structure": {
+      "mean": -0.5635580438148287,
+      "median": -0.3367021643701342,
+      "iqr": [
+        -1.5051362849087555,
+        0.3517128881430174
+      ],
+      "positive_splits": 7,
+      "negative_splits": 13
+    },
+    "random_benefit_pose": {
+      "mean": 1.0599691110870837,
+      "median": 0.2700472931403093,
+      "iqr": [
+        -0.016405846547976388,
+        2.3652485156838776
+      ],
+      "positive_splits": 14,
+      "negative_splits": 6
+    }
+  },
+  "note": "Pose predictions and sequences reuse R1.1 validated common-test records; all results conditional on overlapping splits of fixed datasets.",
+  "script_sha256": "dfcf85d3c05917b54d8cb201ccebd50f70e776385632d84a3df94774f72785ea"
+}

@@ -1,0 +1,1 @@
+Historical input snapshot: the 1z and 1ad zero ee labels are erroneous and are not measured outcomes. Use curated-datasets/p7-records.jsonl for source-corrected outcome values and curated-datasets/dataset-id-lists.csv for cohort exclusions. This snapshot is preserved for provenance.

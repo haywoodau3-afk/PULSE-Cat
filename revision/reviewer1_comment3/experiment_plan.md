@@ -1,0 +1,21 @@
+# Reviewer 1 comment 3: representation and acquisition interaction plan
+
+## Agreed question
+
+The reviewer asks whether the combination of catalyst-contextual representation and information-guided ordering improves prediction over either component alone, and whether the effect of ordering depends on representation. Compare the four combinations on common held-out substrates, and report weak or adverse results without selecting favourable cases.
+
+## Prespecified design
+
+Reuse the 20 recorded common-test splits and three shared initial pairs per split from R1.1 for each catalyst. Evaluate 2 × 2 cells: structure-only `rdkit_morgan` (15 descriptors + 1,024 fingerprint bits) versus structure plus all 248 Stage 2p fields (`rdkit_morgan_stage2p`), crossed with source-order continuation versus uncertainty–diversity acquisition. The main baseline follows source order after the common starting pair; it is not verified laboratory chronology. Also evaluate three matched seeded random continuations as a secondary baseline for each representation. Retain the previous Ridge prediction model and the original acquisition function. In information-guided cells its Ridge and Elastic Net disagreement uses the cell's feature matrix; Tanimoto novelty and kNN remain fingerprint-based and family coverage is unchanged. Thus both the acquisition decisions and final predictor can respond to the representation. The complete Stage 2p block differs from the selected pose features and Elastic Net protocol in the original representation benchmark; do not conflate their results.
+
+Hold the test sets, candidate pools, starting pairs, Ridge settings, training-only scaling, prediction bounds, scores, tie-breaking and budgets 2, 6, 10, 15, 20 fixed. Locked CMC-Por audit records stay excluded. Average test MAE across budgets and pairs within each split. Summarise each of the four cells and both baselines; report paired ordering benefits separately for the two representations and their difference (interaction: structure-only ordering benefit minus pose ordering benefit). Report the combined cell versus each single-component cell and baseline, mean, median, IQR and number of splits favouring each comparison. Positive benefits indicate lower MAE. Random comparator is the average of the same three seeded continuations per pair across representations. The 20 splits overlap and are not independent datasets: report descriptive split variation, not population significance. Do not infer that a lack of detected difference proves no interaction, nor claim general synergy from a descriptive difference.
+
+## Implementation, checks and outputs
+
+Write a revision-local analysis script and retain split/pair IDs, selected sequences, held-out predictions, per-budget and split results, feature definitions, seeds and provenance. Reuse existing validated pose/source, pose/acquisition and pose/random results where possible, and validate independently calculated default pose sequences/predictions against R1.1. Check that held-out and locked IDs cannot enter acquisition or fitting; verify structure-only is an exact column subset of the pose matrix and reconstruct aggregate scores from predictions. Record findings, limitations, a response draft, and highlighted cumulative manuscript and SI copies derived from R1.2 closed files. Update methods, results, conclusions and SI honestly; if the analysis does not support the proposed combined benefit or interaction, say so. Render and inspect revised document layouts.
+
+## Status
+
+Plan recorded before implementing the analysis. Interpretation confirmed by the user. The analysis remains retrospective and concerns two related catalyst systems, ee, Ridge predictions, one fixed acquisition rule, and overlapping split designs.
+
+Completed: the factorial runs, saved predictions, split summaries, validation and cumulative revised documents are available in this folder. Pose-cell predictions were reused from the previously validated common-test records; three acquisition trajectories per domain were independently rerun and reproduced. The original splits, start-pair IDs, random seeds and source-file hashes are recorded in `revision/reviewer1_comment1/results/common_test/<domain>/summary.json` and accompanying CSV files. The interaction analysis stores its script hash and feature dimensions in its own summaries.

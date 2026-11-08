@@ -1,0 +1,37 @@
+{
+  "domain": "cmcpor",
+  "paired_n": 26,
+  "yield_min_max": [
+    30.0,
+    99.0
+  ],
+  "yield_median": 75.5,
+  "yield_iqr": [
+    63.5,
+    87.75
+  ],
+  "ee_yield_spearman": 0.4653874974977805,
+  "ud_common_selections_after_two_starts_to_budget20_mean": 17.983333333333334,
+  "yield_mean_selected_at_budget20": {
+    "historical_order": 74.41083333333333,
+    "uncertainty_diversity": 73.18666666666667,
+    "random": 74.02583333333334
+  },
+  "input_hashes": {
+    "data/expansion/catalyst_rerun/cmcpor/stage2-records.jsonl": "0411a6b8264697f8b0e4a9b96111ac81ef055e397825a78dd74537aa1b97718a",
+    "data/expansion/catalyst_rerun/cmcpor_uff_full/stage2p/features/stage2p-features.jsonl": "bb844e3f9fb7b1717d8ea2e0690ff227d5ff3998fefe3fd8178401464b618c7b"
+  },
+  "prior_splits_hash": "7b4b8333cd7dd0670953e8b653f0f3cfd5b18dc19e9d3cc0aa89cc461bd22045",
+  "prior_ee_predictions_hash": "e4a53d9f61a28ebb0a1186bf700b9353c86f06657a1b9877a6e035f9d3504356",
+  "code_hash": "d0d3b67924493de4cb50b6573806f5e30c48e92f4694d9cc57201152aa8b6b50",
+  "seed": 20261109,
+  "budgets": [
+    2,
+    6,
+    10,
+    15,
+    20
+  ],
+  "seconds": 43.77351212501526,
+  "notes": "Common held-out sets; existing ee trajectories reused. Repeated overlapping splits, descriptive only; selected outcomes revealed only after selection."
+}

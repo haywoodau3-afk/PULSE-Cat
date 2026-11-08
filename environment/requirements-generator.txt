@@ -1,0 +1,8 @@
+# Gate 2 isolated environment (Python 3.10–3.12 recommended; current project
+# Python 3.14 environment is intentionally not modified).
+torch>=2.2,<3
+numpy>=1.26
+rdkit>=2023.9
+
+# Install the pinned SMILES-RNN and PromptSMILES repositories at the commit
+# recorded in generator-freeze-config.json after checkpoint acquisition.

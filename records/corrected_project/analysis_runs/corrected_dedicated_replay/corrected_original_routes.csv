@@ -1,0 +1,11 @@
+domain,route,mean_prefix_mae,replicates
+p7,historical_order,25.507697633385476,1
+p7,uncertainty_diversity,7.475038373435651,1
+p7,diversity_first,9.373662804053833,1
+p7,performance_first,11.106467284690469,1
+p7,random,9.722557052121868,3
+cmcpor,historical_order,16.977302376793197,1
+cmcpor,uncertainty_diversity,9.640893213011726,1
+cmcpor,diversity_first,8.739832441026973,1
+cmcpor,performance_first,10.849895960577996,1
+cmcpor,random,12.514162160215312,3

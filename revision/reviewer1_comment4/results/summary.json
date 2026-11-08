@@ -1,0 +1,38 @@
+{
+  "n_substrates": 38,
+  "n_families": 17,
+  "family_size_distribution": {
+    "1": 9,
+    "2": 4,
+    "3": 3,
+    "12": 1
+  },
+  "pooled_structure_mae": 10.405987336025584,
+  "pooled_pose_mae": 9.334236724367797,
+  "family_balanced_structure_mae": 11.98919839609519,
+  "family_balanced_pose_mae": 9.83872889740846,
+  "families_favouring_pose": 11,
+  "families_favouring_structure": 6,
+  "substrates_favouring_pose": 25,
+  "substrates_favouring_structure": 13,
+  "largest_family": {
+    "family_id": "diaryl-ethyl-aryl-substituted",
+    "n": 12,
+    "substrate_ids": "1b|1c|1d|1e|1f|1g|1h|1i|1j|1k|1l|1m",
+    "structure_mae": 5.246344283707057,
+    "pose_mae": 6.441844081596828,
+    "difference_structure_minus_pose": -1.195499797889771,
+    "sum_error_difference": -14.345997574677256
+  },
+  "excluding_largest_structure_mae": 12.78736105248029,
+  "excluding_largest_pose_mae": 10.669187174877473,
+  "input_sha256": {
+    "family-heldout-structure-ee-model-predictions.csv": "62b20d2739fa43a7fbbe236b501b30deafc75c70a3b17bd1ebbccb2b1b098ec4",
+    "family-heldout-structure-pose-ee-model-predictions.csv": "3cd6c413145c001c7e99a1b70369685068c8fc970dbbdfd528d81d3f7e784353",
+    "full-scope-structure-model-predictions.csv": "bf3aa258beb1b739cc06e0a82907054951bb0666561ed4f35e059fc871eddefd",
+    "full-scope-structure-pose-model-predictions.csv": "74c84464b10a2a036c4c8308763ccc1bbafa9863b9195f0fbd65b6c813102b93",
+    "family-heldout-ee-splits.json": "f0946d1f454780a34f0599820dd85ed96570930178cb75a3061c3a877008a99b"
+  },
+  "analysis_sha256": "5f4c101df7bc47aac3e96ba6225a0d927d34931c51be1956140ebffce618c649",
+  "limitations": "Post hoc descriptive summaries of archived fixed-cohort predictions; families have unequal sizes and models share training data. Excluding the largest family is not independent validation."
+}

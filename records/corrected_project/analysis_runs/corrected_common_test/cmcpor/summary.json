@@ -1,0 +1,82 @@
+{
+  "domain": "cmcpor",
+  "seed": 20261109,
+  "n_outer_splits": 20,
+  "test_size": 5,
+  "initial_pairs_per_split": 3,
+  "random_continuations_per_pair": 3,
+  "label_budgets": [
+    2,
+    6,
+    10,
+    15,
+    20
+  ],
+  "metric": "mean Ridge MAE on a fixed common held-out set across five label budgets",
+  "existing_locked_cmc_audit_excluded": [
+    "2y",
+    "2z",
+    "4a",
+    "4b",
+    "4c",
+    "4d",
+    "4e"
+  ],
+  "inputs_sha256": {
+    "data/expansion/catalyst_rerun/cmcpor/stage2-records.jsonl": "0411a6b8264697f8b0e4a9b96111ac81ef055e397825a78dd74537aa1b97718a",
+    "revision/reviewer2_comment2/results/corrected_cmcpor_stage2p.jsonl": "6221683906f1987087b94bd70068f386341e5053861d2212edaf4712506cfd42",
+    "data/expansion/catalyst_rerun/cmcpor_aryl_scope_progression/learning-curve.csv": "7c2b9320724aec698740961176faca4f8af1b89a547cf7b5643867256b1e698a"
+  },
+  "original_code_sha256": "9fdc685bb802c94fb9284e47c8b22ce27250ee4fad9097d416865960a0c81bb9",
+  "wrapper_sha256": "3ebaa6348496e9b6fea48b72319d9a491e51d2dffb4bd8d96af4710a6bc432d9",
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "numpy": "2.5.1",
+  "scikit_learn": "1.9.0",
+  "rdkit": "2026.03.4",
+  "statistics": {
+    "source_minus_ud": {
+      "mean": 2.495901141806916,
+      "median": 0.12754509389114288,
+      "q25_q75": [
+        -0.918883266141685,
+        4.297984124796053
+      ],
+      "q025_q975_split_spread": [
+        -4.824486230507799,
+        16.84010666436144
+      ],
+      "range": [
+        -5.519064636365645,
+        21.070322636600558
+      ],
+      "split_count_favouring_ud": 11,
+      "conditional_split_bootstrap_mean_interval_95": [
+        0.08576695809761073,
+        5.3707642174133685
+      ]
+    },
+    "random_minus_ud": {
+      "mean": 1.217104374258329,
+      "median": 1.1733128961913393,
+      "q25_q75": [
+        -1.4600544770012638,
+        2.7449330440920217
+      ],
+      "q025_q975_split_spread": [
+        -2.6826588665877855,
+        7.302072220560843
+      ],
+      "range": [
+        -2.8337888005327834,
+        7.630197699715291
+      ],
+      "split_count_favouring_ud": 12,
+      "conditional_split_bootstrap_mean_interval_95": [
+        -0.03182816528246548,
+        2.58897217280747
+      ]
+    }
+  },
+  "elapsed_seconds": 53.308443784713745,
+  "limitations": "Overlapping random outer splits and shared source datasets; intervals conditional on observed data and split scheme, not independent-dataset or substrate-population inference."
+}

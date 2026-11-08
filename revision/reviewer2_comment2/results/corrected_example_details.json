@@ -1,0 +1,46 @@
+{
+  "1a": {
+    "features": {
+      "pose_interaction.substrate_centroid_to_fe_distance_angstrom.mean": 4.5151242400000005,
+      "pose_interaction.nitrene_n_to_reported_c_distance_angstrom.mean": 3.460453865
+    },
+    "models": {
+      "target": {
+        "prediction": 90.22365790998867,
+        "coefficients": {
+          "pose_interaction.substrate_centroid_to_fe_distance_angstrom.mean": 0.0,
+          "pose_interaction.nitrene_n_to_reported_c_distance_angstrom.mean": -0.0
+        }
+      },
+      "family": {
+        "prediction": 89.625098878348,
+        "coefficients": {
+          "pose_interaction.substrate_centroid_to_fe_distance_angstrom.mean": 0.0,
+          "pose_interaction.nitrene_n_to_reported_c_distance_angstrom.mean": -0.0
+        }
+      }
+    }
+  },
+  "1ah": {
+    "features": {
+      "pose_interaction.substrate_centroid_to_fe_distance_angstrom.mean": 3.86939032,
+      "pose_interaction.nitrene_n_to_reported_c_distance_angstrom.mean": 3.581513855
+    },
+    "models": {
+      "target": {
+        "prediction": 58.72528422296988,
+        "coefficients": {
+          "pose_interaction.substrate_centroid_to_fe_distance_angstrom.mean": 0.0,
+          "pose_interaction.nitrene_n_to_reported_c_distance_angstrom.mean": -0.0
+        }
+      },
+      "family": {
+        "prediction": 61.985277391804075,
+        "coefficients": {
+          "pose_interaction.substrate_centroid_to_fe_distance_angstrom.mean": 0.0,
+          "pose_interaction.nitrene_n_to_reported_c_distance_angstrom.mean": -0.0
+        }
+      }
+    }
+  }
+}

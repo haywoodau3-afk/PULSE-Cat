@@ -1,0 +1,3 @@
+domain,route,n_prefixes,archived_mean_mae,replay_mean_mae,max_absolute_mae_difference,replay_initial_pair,selection_sequence_matches_archive,archived_selection_count,replay_selection_count
+p7,historical_order,36,21.67218354403671,21.67218354403671,0.0,"1a,1b",True,38,38
+p7,uncertainty_diversity,36,9.683990367827652,9.683990367827652,0.0,"1a,1am",True,38,38

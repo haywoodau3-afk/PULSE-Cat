@@ -1,0 +1,58 @@
+{
+  "domain": "cmcpor",
+  "default_weights_diversity_uncertainty_coverage": [
+    0.4,
+    0.4,
+    0.2
+  ],
+  "grid_step": 0.2,
+  "n_weight_combinations": 21,
+  "n_outer_splits": 20,
+  "n_initial_pairs_per_split": 3,
+  "n_trajectories": 1260,
+  "label_budgets": [
+    2,
+    6,
+    10,
+    15,
+    20
+  ],
+  "test_size": 5,
+  "active_records": 26,
+  "locked_audit_records_excluded": [
+    "2y",
+    "2z",
+    "4a",
+    "4b",
+    "4c",
+    "4d",
+    "4e"
+  ],
+  "component_equations": {
+    "D": "min-max normalized structural novelty",
+    "Q": "min-max normalized standard deviation of Ridge/Elastic Net/Tanimoto-kNN predictions",
+    "U": "0.5*D + 0.5*Q",
+    "C": "normalized family coverage",
+    "S": "wD*D + wU*U + wC*C",
+    "default_expanded": "0.60*D + 0.20*Q + 0.20*C"
+  },
+  "validation": {
+    "default_component_score_matches_legacy": true,
+    "default_first_trajectory_matches_r1c1_sequence_and_predictions": true,
+    "max_abs_default_prediction_difference": 0.0
+  },
+  "source_common_test_split_seed": 20261109,
+  "input_sha256": {
+    "data/expansion/catalyst_rerun/cmcpor/stage2-records.jsonl": "0411a6b8264697f8b0e4a9b96111ac81ef055e397825a78dd74537aa1b97718a",
+    "data/expansion/catalyst_rerun/cmcpor_uff_full/stage2p/features/stage2p-features.jsonl": "bb844e3f9fb7b1717d8ea2e0690ff227d5ff3998fefe3fd8178401464b618c7b",
+    "data/expansion/catalyst_rerun/cmcpor_aryl_scope_progression/learning-curve.csv": "7c2b9320724aec698740961176faca4f8af1b89a547cf7b5643867256b1e698a"
+  },
+  "original_code_sha256": "9fdc685bb802c94fb9284e47c8b22ce27250ee4fad9097d416865960a0c81bb9",
+  "wrapper_sha256": "c1e7bf7ca79917ec8c18e64a48e6f4130e1c4ac1da40b261d2a78a245e12a0d1",
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "numpy": "2.5.1",
+  "scikit_learn": "1.9.0",
+  "rdkit": "2026.03.4",
+  "elapsed_seconds": 399.7876989841461,
+  "limitations": "This is a descriptive retrospective weight-sensitivity analysis on fixed observed data. Outer test sets overlap; the 21-point grid is not used to select a policy; rankings are not independent validation or evidence of an optimum or population-level significance."
+}

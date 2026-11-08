@@ -1,0 +1,14 @@
+{
+  "pair": [
+    "1i",
+    "2r"
+  ],
+  "feature": "Stage 2pp nitrene-centered all-heavy-atom occupancy, all 200 poses",
+  "normalization": "Each non-negative occupancy grid normalized to unit sum before overlap",
+  "bhattacharyya_coefficient": 0.9780822047251055,
+  "total_variation_distance": 0.17188160422778556,
+  "jensen_shannon_divergence_bits": 0.030961264997302798,
+  "corrected_rank_among_13": 1,
+  "corrected_scan": "corrected_project/cross_catalyst_occupancy_scan.json",
+  "interpretation_limit": "These are similarities between computed descriptor grids, not measured conformer populations or mechanistic evidence."
+}

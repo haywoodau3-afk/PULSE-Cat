@@ -1,0 +1,5 @@
+p7 prediction rows 18000 all aggregate metrics and heldout membership passed, original pose metrics matched, independent structure predictions checked 162
+cmcpor prediction rows 15000 all aggregate metrics and heldout membership passed, original pose metrics matched, independent structure predictions checked 135
+p7 three independently rerun pose acquisition trajectories match saved predictions
+cmcpor three independently rerun pose acquisition trajectories match saved predictions
+Both active cohorts have Stage 2p feature rows for all active records, and no active row is all zero. Structure-only matrix was confirmed as the exact leading subset of the full matrix; the full block adds 248 fields. Existing CMC audit exclusion was inherited from and asserted by the shared R1.1 split loader.

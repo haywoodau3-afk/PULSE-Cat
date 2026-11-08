@@ -1,0 +1,3 @@
+comparison,pool,test_class,contrast,mean_difference,median_difference,q25,q75,positive_splits,negative_splits
+policy,sulfonyl_only,sulfonyl,historical_order minus uncertainty_diversity,-1.1015202632811594,-0.7524866015684601,-2.45968521860938,0.44185779830126215,6,14
+policy,sulfonyl_only,sulfonyl,random minus uncertainty_diversity,0.10007449074395773,0.013194730555511569,-1.01433048282723,0.8440767158101581,10,10

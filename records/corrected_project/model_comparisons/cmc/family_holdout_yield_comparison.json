@@ -1,0 +1,104 @@
+{
+  "analysis": [
+    "Positive MAE/RMSE deltas mean the pose-aware feature set improved over structure-only for that model.",
+    "The comparison is still a small-data diagnostic; use family-held-out validation before making chemical generalization claims."
+  ],
+  "best_overall_by_mae": {
+    "feature_set": "structure_only",
+    "mae": 18.225842461236486,
+    "model_name": "lightgbm"
+  },
+  "comparison_table_path": "revision/error found/full_scope_cmc/family_holdout_yield_comparison.csv",
+  "model_comparisons": [
+    {
+      "mae_delta_structure_minus_pose": -13.732444217267073,
+      "model_name": "elastic_net",
+      "r2_delta_pose_minus_structure": -2.720918062253002,
+      "rmse_delta_structure_minus_pose": -18.838414033984936,
+      "structure_only_mae": 22.677347141881874,
+      "structure_only_mae_ci95_high": 27.373675364633492,
+      "structure_only_mae_ci95_low": 18.53361048837709,
+      "structure_only_r2": -0.49889273255751565,
+      "structure_only_rmse": 27.790140153502403,
+      "structure_only_within_10_ee_fraction": 0.22,
+      "structure_pose_mae": 36.40979135914895,
+      "structure_pose_mae_ci95_high": 44.8819968428877,
+      "structure_pose_mae_ci95_low": 28.802144270682398,
+      "structure_pose_r2": -3.2198107948105177,
+      "structure_pose_rmse": 46.62855418748734,
+      "structure_pose_within_10_ee_fraction": 0.2
+    },
+    {
+      "mae_delta_structure_minus_pose": -0.0021150547504902306,
+      "model_name": "gaussian_process",
+      "r2_delta_pose_minus_structure": -0.00032333434696174557,
+      "rmse_delta_structure_minus_pose": -0.003318059893217651,
+      "structure_only_mae": 20.305687143051713,
+      "structure_only_mae_ci95_high": 24.724207487605742,
+      "structure_only_mae_ci95_low": 16.47384801188109,
+      "structure_only_r2": -0.22300650169592973,
+      "structure_only_rmse": 25.102665729842588,
+      "structure_only_within_10_ee_fraction": 0.28,
+      "structure_pose_mae": 20.307802197802204,
+      "structure_pose_mae_ci95_high": 24.727142924698136,
+      "structure_pose_mae_ci95_low": 16.47871176360232,
+      "structure_pose_r2": -0.22332983604289147,
+      "structure_pose_rmse": 25.105983789735806,
+      "structure_pose_within_10_ee_fraction": 0.28
+    },
+    {
+      "mae_delta_structure_minus_pose": -12.976579052430463,
+      "model_name": "lightgbm",
+      "r2_delta_pose_minus_structure": -1.425150271734723,
+      "rmse_delta_structure_minus_pose": -12.614671685577289,
+      "structure_only_mae": 18.225842461236486,
+      "structure_only_mae_ci95_high": 22.324196614653683,
+      "structure_only_mae_ci95_low": 14.73704037864577,
+      "structure_only_r2": -0.00870633953340505,
+      "structure_only_rmse": 22.79753206624206,
+      "structure_only_within_10_ee_fraction": 0.32,
+      "structure_pose_mae": 31.20242151366695,
+      "structure_pose_mae_ci95_high": 35.859339115365536,
+      "structure_pose_mae_ci95_low": 26.575094495781485,
+      "structure_pose_r2": -1.4338566112681281,
+      "structure_pose_rmse": 35.41220375181935,
+      "structure_pose_within_10_ee_fraction": 0.12
+    },
+    {
+      "mae_delta_structure_minus_pose": -15.587986587079357,
+      "model_name": "ridge_regression",
+      "r2_delta_pose_minus_structure": -3.652649446455989,
+      "rmse_delta_structure_minus_pose": -23.397837140481915,
+      "structure_only_mae": 23.71766611936296,
+      "structure_only_mae_ci95_high": 28.283210101617694,
+      "structure_only_mae_ci95_low": 19.527941798548216,
+      "structure_only_r2": -0.5784820789046632,
+      "structure_only_rmse": 28.518408649610254,
+      "structure_only_within_10_ee_fraction": 0.22,
+      "structure_pose_mae": 39.30565270644232,
+      "structure_pose_mae_ci95_high": 49.07378939174608,
+      "structure_pose_mae_ci95_low": 30.51732761753608,
+      "structure_pose_r2": -4.231131525360652,
+      "structure_pose_rmse": 51.91624579009217,
+      "structure_pose_within_10_ee_fraction": 0.28
+    }
+  ],
+  "modelable_record_count": 50,
+  "schema_version": "stage2-full-scope-model-comparison-v1",
+  "split_mode": "family_holdout",
+  "split_policy": "For each family, hold out all records in that family, choose 14 structurally diverse training molecules from the remaining records by MaxMin Morgan/Tanimoto distance, and use the remaining 3 as validation.",
+  "status": "structure_only_vs_structure_pose_comparison",
+  "structure_only": {
+    "best_mae": 18.225842461236486,
+    "best_model_by_mae": "lightgbm",
+    "feature_count": 547,
+    "report_path": "revision/error found/full_scope_cmc/family_holdout_yield_report.json"
+  },
+  "structure_pose": {
+    "best_mae": 20.307802197802204,
+    "best_model_by_mae": "gaussian_process",
+    "feature_count": 1235,
+    "report_path": "revision/error found/full_scope_cmc/family_holdout_yield_pose_report.json"
+  },
+  "target": "yield"
+}

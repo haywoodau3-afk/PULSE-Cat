@@ -1,0 +1,37 @@
+{
+  "domain": "p7",
+  "paired_n": 38,
+  "yield_min_max": [
+    21.0,
+    99.0
+  ],
+  "yield_median": 93.5,
+  "yield_iqr": [
+    72.0,
+    97.0
+  ],
+  "ee_yield_spearman": 0.40136673919123944,
+  "ud_common_selections_after_two_starts_to_budget20_mean": 15.183333333333334,
+  "yield_mean_selected_at_budget20": {
+    "historical_order": 86.92416666666666,
+    "uncertainty_diversity": 83.91583333333334,
+    "random": 83.2625
+  },
+  "input_hashes": {
+    "data/jacs_2025/stage2/curated-reaction-records.jsonl": "b05b91b28057172bd7b527d3135a81674a6beaa891b730b90b7182dac3027699",
+    "revision/reviewer2_comment2/results/corrected_p7_stage2p.jsonl": "f4ab0ef8f9e2c1e01abd08cfb827b5684486ac1e00b8ea4f97d48e8054aa662b"
+  },
+  "prior_splits_hash": "2294ec53f180ad5d1d2d6626277b4cba759d4927444eb46fc746d45c93af9335",
+  "prior_ee_predictions_hash": "581093dfccbd8f250afbf24fa1d9f30452bddeb4d8170befb938c662b8b01176",
+  "code_hash": "8b0021927e6f9f0eb4b530a50553f52df362820e8660796baabc6c3118a24d1c",
+  "seed": 20261108,
+  "budgets": [
+    2,
+    6,
+    10,
+    15,
+    20
+  ],
+  "seconds": 76.1418890953064,
+  "notes": "Common held-out sets; existing ee trajectories reused. Repeated overlapping splits, descriptive only; selected outcomes revealed only after selection."
+}

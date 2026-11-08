@@ -1,0 +1,5 @@
+{
+  "n_heldout_predictions": 76,
+  "maximum_absolute_difference": 4.263256414560601e-14,
+  "scope": "For selected Elastic Net models, refitting with training-only nonconstant features and the same chosen hyperparameters; does not reselect hyperparameters or check other estimators."
+}

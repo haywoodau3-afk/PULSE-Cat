@@ -1,0 +1,198 @@
+{
+  "examples": {
+    "1a": {
+      "ee_percent": 92,
+      "substrate_smiles": "N#N=Nc1ccccc1CCc2ccccc2",
+      "nitrene_smiles": "[N]c1ccccc1CCc2ccccc2",
+      "product_id": "2a",
+      "temperature_c": 60,
+      "reactive_c_atom_map": 11,
+      "pose_id": "stage1-smoke-1a-substrate-uff-0001",
+      "pose_score_rank": 1,
+      "pose_uff_score": 25.869192,
+      "n_retained_poses": 200,
+      "assembly_xyz": "data/jacs_2025/stage1/geometries/1a/stage1-smoke-1a-substrate-uff-0001-assembly.xyz",
+      "substrate_sdf": "data/jacs_2025/stage1/geometries/1a/stage1-smoke-1a-substrate-uff-0001-uff.sdf",
+      "pose_nitrene_index_zero_based": 0,
+      "pose_reactive_c_index_zero_based": 8,
+      "frozen_core_atom_count": 214,
+      "features": {
+        "pose_interaction.substrate_centroid_to_fe_distance_angstrom.mean": 4.5151242400000005,
+        "pose_interaction.nitrene_n_to_reported_c_distance_angstrom.mean": 3.460453865
+      },
+      "prediction": {
+        "target_structure": {
+          "prediction": 81.00852563255442,
+          "observed": 92.0,
+          "params": {
+            "alpha": 10.0,
+            "l1_ratio": 0.2
+          }
+        },
+        "target_structure-pose": {
+          "prediction": 89.91891838776,
+          "observed": 92.0,
+          "params": {
+            "alpha": 1.0,
+            "l1_ratio": 0.8
+          }
+        },
+        "target_pose_refit": {
+          "prediction": 89.91891838776,
+          "n_training": 29,
+          "coefficients": {
+            "pose_interaction.substrate_centroid_to_fe_distance_angstrom.mean": {
+              "standardised_coefficient": 0.0,
+              "training_std": 0.4409933465755941,
+              "target_standardised_value": -0.17059133438735166
+            },
+            "pose_interaction.nitrene_n_to_reported_c_distance_angstrom.mean": {
+              "standardised_coefficient": 0.0,
+              "training_std": 0.964611081882867,
+              "target_standardised_value": -0.31463693539861975
+            }
+          },
+          "n_nonzero": 54
+        },
+        "family_structure": {
+          "prediction": 81.30662943534927,
+          "observed": 92.0,
+          "params": {
+            "alpha": 10.0,
+            "l1_ratio": 0.2
+          }
+        },
+        "family_structure-pose": {
+          "prediction": 89.83677763757873,
+          "observed": 92.0,
+          "params": {
+            "alpha": 1.0,
+            "l1_ratio": 0.8
+          }
+        },
+        "family_pose_refit": {
+          "prediction": 89.83677763757873,
+          "n_training": 30,
+          "coefficients": {
+            "pose_interaction.substrate_centroid_to_fe_distance_angstrom.mean": {
+              "standardised_coefficient": 0.0,
+              "training_std": 0.44197385906875875,
+              "target_standardised_value": -0.20622899099066191
+            },
+            "pose_interaction.nitrene_n_to_reported_c_distance_angstrom.mean": {
+              "standardised_coefficient": 0.0,
+              "training_std": 1.0816497659848268,
+              "target_standardised_value": -0.36988224353970683
+            }
+          },
+          "n_nonzero": 55
+        }
+      }
+    },
+    "1ah": {
+      "ee_percent": 50,
+      "substrate_smiles": "CCCCc1ccccc1N=N#N",
+      "nitrene_smiles": "CCCCc1ccccc1[N]",
+      "product_id": "2ah",
+      "temperature_c": 60,
+      "reactive_c_atom_map": 11,
+      "pose_id": "stage1-smoke-1ah-substrate-uff-0001",
+      "pose_score_rank": 1,
+      "pose_uff_score": 15.560102,
+      "n_retained_poses": 200,
+      "assembly_xyz": "data/jacs_2025/stage1/geometries/1ah/stage1-smoke-1ah-substrate-uff-0001-assembly.xyz",
+      "substrate_sdf": "data/jacs_2025/stage1/geometries/1ah/stage1-smoke-1ah-substrate-uff-0001-uff.sdf",
+      "pose_nitrene_index_zero_based": 10,
+      "pose_reactive_c_index_zero_based": 2,
+      "frozen_core_atom_count": 214,
+      "features": {
+        "pose_interaction.substrate_centroid_to_fe_distance_angstrom.mean": 3.86939032,
+        "pose_interaction.nitrene_n_to_reported_c_distance_angstrom.mean": 2.53855338
+      },
+      "prediction": {
+        "target_structure": {
+          "prediction": 73.15175344165537,
+          "observed": 50.0,
+          "params": {
+            "alpha": 10.0,
+            "l1_ratio": 0.2
+          }
+        },
+        "target_structure-pose": {
+          "prediction": 64.5662769876678,
+          "observed": 50.0,
+          "params": {
+            "alpha": 1.0,
+            "l1_ratio": 0.5
+          }
+        },
+        "target_pose_refit": {
+          "prediction": 64.5662769876678,
+          "n_training": 29,
+          "coefficients": {
+            "pose_interaction.substrate_centroid_to_fe_distance_angstrom.mean": {
+              "standardised_coefficient": 0.0,
+              "training_std": 0.42744259967761594,
+              "target_standardised_value": -1.7833773677466718
+            },
+            "pose_interaction.nitrene_n_to_reported_c_distance_angstrom.mean": {
+              "standardised_coefficient": 0.0,
+              "training_std": 1.071432855924675,
+              "target_standardised_value": -1.2763927841789335
+            }
+          },
+          "n_nonzero": 122
+        },
+        "family_structure": {
+          "prediction": 76.43293634430268,
+          "observed": 50.0,
+          "params": {
+            "alpha": 10.0,
+            "l1_ratio": 0.2
+          }
+        },
+        "family_structure-pose": {
+          "prediction": 71.12652049645105,
+          "observed": 50.0,
+          "params": {
+            "alpha": 0.1,
+            "l1_ratio": 0.5
+          }
+        },
+        "family_pose_refit": {
+          "prediction": 71.12652049645105,
+          "n_training": 29,
+          "coefficients": {
+            "pose_interaction.substrate_centroid_to_fe_distance_angstrom.mean": {
+              "standardised_coefficient": 0.0,
+              "training_std": 0.4520190695423932,
+              "target_standardised_value": -1.7519890369051603
+            },
+            "pose_interaction.nitrene_n_to_reported_c_distance_angstrom.mean": {
+              "standardised_coefficient": 0.0,
+              "training_std": 1.0732591237335536,
+              "target_standardised_value": -1.269295790877489
+            }
+          },
+          "n_nonzero": 171
+        }
+      }
+    }
+  },
+  "inputs_sha256": {
+    "data/jacs_2025/stage2/reports/full-scope-structure-model-predictions.csv": "bf3aa258beb1b739cc06e0a82907054951bb0666561ed4f35e059fc871eddefd",
+    "data/jacs_2025/stage1/geometries/1ah/stage1-smoke-1ah-substrate-uff-0001-assembly.xyz": "b96f307f69a8619baf1046bd34f476ab29454f2a06db5806f5e3fcc7f307e382",
+    "data/jacs_2025/stage2/features/full-scope-structure-pose-ee-matrix.csv": "dd49c32d4e871f7a6046a2b5b1200679935dc36f2b09738ddf02e8a406ae297c",
+    "data/jacs_2025/stage1/geometries/1ah/stage1-smoke-1ah-substrate-uff-0001-uff.sdf": "92c32dd5e755cfe2091f125f544f8d9774f62baf360cacff6c0a76104d2e8036",
+    "data/jacs_2025/stage1/geometries/1a/stage1-smoke-1a-substrate-uff-0001-assembly.xyz": "28ca9174d55292a72662d540d8ebb67028c2aa318a9e5e3abca0535c8acd1a64",
+    "data/jacs_2025/stage2/reports/family-heldout-structure-ee-model-predictions.csv": "62b20d2739fa43a7fbbe236b501b30deafc75c70a3b17bd1ebbccb2b1b098ec4",
+    "data/jacs_2025/stage2/curated-reaction-records.jsonl": "b05b91b28057172bd7b527d3135a81674a6beaa891b730b90b7182dac3027699",
+    "data/jacs_2025/stage1/geometries/1a/stage1-smoke-1a-substrate-uff-0001-uff.sdf": "dfd80b0f4e2c3f264c56f0c5c98080e13466acbd7c8d55b6269d4822ae9d66df",
+    "data/jacs_2025/stage2/reports/full-scope-structure-pose-model-predictions.csv": "74c84464b10a2a036c4c8308763ccc1bbafa9863b9195f0fbd65b6c813102b93",
+    "data/jacs_2025/stage2/features/pose-interaction.jsonl": "e80ffe316c0a5676591bc7b1ac4c030c3b4deeb43681a7d0b35168682763a7b6",
+    "data/jacs_2025/stage1/panel/stage-1-smoke-1ah.json": "2e074a91d8fe25784a5e20e3f02e2f7634229e93fbf4b6a8b8e0f8c3f4cd4b8b",
+    "data/jacs_2025/stage2/reports/family-heldout-structure-pose-ee-model-predictions.csv": "3cd6c413145c001c7e99a1b70369685068c8fc970dbbdfd528d81d3f7e784353",
+    "data/jacs_2025/stage1/panel/stage-1-smoke-1a.json": "83a6c944521d2aff3c63ad8b2dc239a0d39cae452ebce6a347111cca73fa879c"
+  },
+  "screening_caveat": "Source matrix uses global label-blind zero-variance filtering before split; scaling and fitting use training rows only."
+}

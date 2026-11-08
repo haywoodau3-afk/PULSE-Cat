@@ -1,0 +1,167 @@
+{
+  "domain": "p7",
+  "features": {
+    "structure": [
+      39,
+      1039
+    ],
+    "pose": [
+      39,
+      1287
+    ]
+  },
+  "budgets": [
+    2,
+    6,
+    10,
+    15,
+    20
+  ],
+  "splits": 20,
+  "pairs": 3,
+  "random_replicates": 3,
+  "summaries": {
+    "structure_historical_order": {
+      "mean": 11.340750727845528,
+      "median": 10.043169386494826,
+      "iqr": [
+        8.473463430589138,
+        13.251621830949585
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "structure_uncertainty_diversity": {
+      "mean": 12.07421507103594,
+      "median": 11.468644211579708,
+      "iqr": [
+        9.768925219291354,
+        13.686373917568842
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "structure_random": {
+      "mean": 10.873286162824296,
+      "median": 10.589650169349804,
+      "iqr": [
+        8.663706574806133,
+        12.628246693783836
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "pose_historical_order": {
+      "mean": 16.723559085175445,
+      "median": 16.124942427925266,
+      "iqr": [
+        13.98086713005114,
+        20.805839941849015
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "pose_uncertainty_diversity": {
+      "mean": 13.875469718725014,
+      "median": 13.633026976545136,
+      "iqr": [
+        11.852050723703549,
+        16.199054794732362
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "pose_random": {
+      "mean": 14.24722304522822,
+      "median": 14.022633992763474,
+      "iqr": [
+        11.883465771270654,
+        16.321289733878753
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "ordering_benefit_structure": {
+      "mean": -0.7334643431904133,
+      "median": -0.7534978762147473,
+      "iqr": [
+        -2.487297901767256,
+        1.262157212273599
+      ],
+      "positive_splits": 7,
+      "negative_splits": 13
+    },
+    "ordering_benefit_pose": {
+      "mean": 2.848089366450432,
+      "median": 2.27915594782346,
+      "iqr": [
+        0.20643764557733402,
+        5.3360200248228455
+      ],
+      "positive_splits": 17,
+      "negative_splits": 3
+    },
+    "interaction_structure_minus_pose": {
+      "mean": -3.581553709640846,
+      "median": -3.1354962854476867,
+      "iqr": [
+        -5.04556166428603,
+        -1.725860132415669
+      ],
+      "positive_splits": 2,
+      "negative_splits": 18
+    },
+    "combined_vs_structure_baseline": {
+      "mean": -2.534718990879485,
+      "median": -1.8566408800272716,
+      "iqr": [
+        -5.0145469577104365,
+        -0.9372667806474184
+      ],
+      "positive_splits": 3,
+      "negative_splits": 17
+    },
+    "combined_vs_structure_acquire": {
+      "mean": -1.8012546476890716,
+      "median": -1.9145890916910826,
+      "iqr": [
+        -2.8991397482518115,
+        0.01977371841445752
+      ],
+      "positive_splits": 5,
+      "negative_splits": 15
+    },
+    "combined_vs_pose_source": {
+      "mean": 2.848089366450432,
+      "median": 2.27915594782346,
+      "iqr": [
+        0.20643764557733402,
+        5.3360200248228455
+      ],
+      "positive_splits": 17,
+      "negative_splits": 3
+    },
+    "random_benefit_structure": {
+      "mean": -1.2009289082116439,
+      "median": -0.951301180759855,
+      "iqr": [
+        -1.9212332847325264,
+        -0.3991274897464252
+      ],
+      "positive_splits": 4,
+      "negative_splits": 16
+    },
+    "random_benefit_pose": {
+      "mean": 0.37175332650320614,
+      "median": 0.5014762343599042,
+      "iqr": [
+        -1.1665206588733303,
+        1.1913390395840575
+      ],
+      "positive_splits": 12,
+      "negative_splits": 8
+    }
+  },
+  "note": "Pose predictions and sequences reuse R1.1 validated common-test records; all results conditional on overlapping splits of fixed datasets.",
+  "script_sha256": "dfcf85d3c05917b54d8cb201ccebd50f70e776385632d84a3df94774f72785ea"
+}

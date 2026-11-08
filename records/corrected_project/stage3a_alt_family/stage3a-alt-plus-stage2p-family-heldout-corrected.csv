@@ -1,0 +1,153 @@
+feature_set,substrate_id,family_id,family_label,observed_ee,prediction,abs_error
+stage2p_geometry,1a,diaryl-ethyl-parent,Parent diaryl ethyl aryl azide,92.0,88.72050312191006,3.279496878089944
+stage2p_geometry,1aa,nitrogen-heteroaryl,Nitrogen heteroaryl analogue,88.0,85.75280666124218,2.2471933387578247
+stage2p_geometry,1ab,nitrogen-heteroaryl,Nitrogen heteroaryl analogue,95.0,76.97160641185403,18.028393588145974
+stage2p_geometry,1ac,silyl-alkyl-aryl,Silyl alkyl aryl analogue,67.0,77.30517697992194,10.305176979921939
+stage2p_geometry,1ae,carbonyl-alkyl-aryl,Carbonyl alkyl aryl analogue,53.0,103.98428063649314,50.98428063649314
+stage2p_geometry,1af,carbonyl-alkyl-aryl,Carbonyl alkyl aryl analogue,61.0,89.33752171817598,28.337521718175978
+stage2p_geometry,1ag,carbonyl-alkyl-aryl,Carbonyl alkyl aryl analogue,90.0,75.62020025224442,14.379799747755584
+stage2p_geometry,1ah,alkyl-aryl-chain,Alkyl aryl-chain analogue,50.0,64.25024981106226,14.250249811062261
+stage2p_geometry,1ai,alkyl-aryl-chain,Alkyl aryl-chain analogue,50.0,74.29631614252669,24.296316142526692
+stage2p_geometry,1aj,cycloalkyl-alkyl-aryl,Cycloalkyl alkyl aryl analogue,44.0,64.31121379905584,20.311213799055835
+stage2p_geometry,1ak,cycloalkyl-alkyl-aryl,Cycloalkyl alkyl aryl analogue,65.0,72.81801933350282,7.818019333502818
+stage2p_geometry,1al,cycloalkyl-alkyl-aryl,Cycloalkyl alkyl aryl analogue,73.0,72.20534704393746,0.794652956062535
+stage2p_geometry,1am,cycloalkyl-aryl,Cycloalkyl aryl analogue,45.0,63.90733018638391,18.90733018638391
+stage2p_geometry,1ao,branched-diaryl-alkyl,Branched diaryl alkyl analogue,72.0,59.76902249457803,12.230977505421968
+stage2p_geometry,1b,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,80.0,80.34064844460448,0.34064844460448285
+stage2p_geometry,1c,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,92.0,80.36521365719,11.634786342810003
+stage2p_geometry,1d,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,90.0,86.8263560800315,3.173643919968498
+stage2p_geometry,1e,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,92.0,87.82127388418527,4.178726115814726
+stage2p_geometry,1f,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,90.0,85.0766932697816,4.9233067302184
+stage2p_geometry,1g,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,90.0,85.86934370479626,4.130656295203735
+stage2p_geometry,1h,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,90.0,86.03693997322144,3.963060026778564
+stage2p_geometry,1i,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,73.0,74.69400150355503,1.6940015035550289
+stage2p_geometry,1j,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,95.0,80.88463534499165,14.11536465500835
+stage2p_geometry,1k,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,95.0,84.15414957747458,10.845850422525416
+stage2p_geometry,1l,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,82.0,81.93048324359125,0.06951675640874555
+stage2p_geometry,1m,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,94.0,83.8013740837993,10.198625916200697
+stage2p_geometry,1n,polycyclic-aryl,Polycyclic aryl analogue,91.0,80.50192525241893,10.498074747581072
+stage2p_geometry,1o,oxygen-heteroaryl,Oxygen heteroaryl analogue,89.0,87.54773513346719,1.4522648665328148
+stage2p_geometry,1p,oxygen-heteroaryl-fused,Fused oxygen heteroaryl analogue,61.0,89.07796425817332,28.077964258173324
+stage2p_geometry,1q,oxygen-heteroaryl-fused,Fused oxygen heteroaryl analogue,90.0,89.0977829780293,0.9022170219706993
+stage2p_geometry,1r,oxygen-heterocycle-fused,Fused oxygen heterocycle analogue,91.0,87.54152284151544,3.4584771584845555
+stage2p_geometry,1s,oxygen-heterocycle-fused,Fused oxygen heterocycle analogue,80.0,84.3514687891517,4.351468789151696
+stage2p_geometry,1t,oxygen-heterocycle-fused,Fused oxygen heterocycle analogue,91.0,87.38517049773765,3.614829502262353
+stage2p_geometry,1u,carbonyl-heterocycle-fused,Fused carbonyl heterocycle analogue,86.0,87.49506738869218,1.4950673886921777
+stage2p_geometry,1v,sulfur-heteroaryl,Sulfur heteroaryl analogue,91.0,89.17799621064177,1.8220037893582344
+stage2p_geometry,1w,sulfur-heteroaryl-fused,Fused sulfur heteroaryl analogue,92.0,80.82975209316277,11.170247906837233
+stage2p_geometry,1x,sulfur-heteroaryl-fused,Fused sulfur heteroaryl analogue,94.0,100.82320615320265,6.823206153202648
+stage2p_geometry,1y,sulfur-heterocycle-fused,Fused sulfur heterocycle analogue,91.0,87.66410633107175,3.33589366892825
+stage2p_plus_stage3a_alt,1a,diaryl-ethyl-parent,Parent diaryl ethyl aryl azide,92.0,88.74481219378075,3.2551878062192543
+stage2p_plus_stage3a_alt,1aa,nitrogen-heteroaryl,Nitrogen heteroaryl analogue,88.0,85.83997631115643,2.160023688843566
+stage2p_plus_stage3a_alt,1ab,nitrogen-heteroaryl,Nitrogen heteroaryl analogue,95.0,77.18547301968054,17.814526980319457
+stage2p_plus_stage3a_alt,1ac,silyl-alkyl-aryl,Silyl alkyl aryl analogue,67.0,77.24939641807843,10.249396418078433
+stage2p_plus_stage3a_alt,1ae,carbonyl-alkyl-aryl,Carbonyl alkyl aryl analogue,53.0,102.57722765208459,49.57722765208459
+stage2p_plus_stage3a_alt,1af,carbonyl-alkyl-aryl,Carbonyl alkyl aryl analogue,61.0,87.47993268269879,26.479932682698788
+stage2p_plus_stage3a_alt,1ag,carbonyl-alkyl-aryl,Carbonyl alkyl aryl analogue,90.0,73.77546370244231,16.22453629755769
+stage2p_plus_stage3a_alt,1ah,alkyl-aryl-chain,Alkyl aryl-chain analogue,50.0,64.25861102148019,14.258611021480192
+stage2p_plus_stage3a_alt,1ai,alkyl-aryl-chain,Alkyl aryl-chain analogue,50.0,73.93572178514238,23.935721785142377
+stage2p_plus_stage3a_alt,1aj,cycloalkyl-alkyl-aryl,Cycloalkyl alkyl aryl analogue,44.0,64.27974772423734,20.27974772423734
+stage2p_plus_stage3a_alt,1ak,cycloalkyl-alkyl-aryl,Cycloalkyl alkyl aryl analogue,65.0,72.64029784772738,7.640297847727382
+stage2p_plus_stage3a_alt,1al,cycloalkyl-alkyl-aryl,Cycloalkyl alkyl aryl analogue,73.0,72.03628796173788,0.9637120382621163
+stage2p_plus_stage3a_alt,1am,cycloalkyl-aryl,Cycloalkyl aryl analogue,45.0,63.887053292447334,18.887053292447334
+stage2p_plus_stage3a_alt,1ao,branched-diaryl-alkyl,Branched diaryl alkyl analogue,72.0,59.72896284209756,12.271037157902441
+stage2p_plus_stage3a_alt,1b,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,80.0,80.09436311773857,0.09436311773856687
+stage2p_plus_stage3a_alt,1c,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,92.0,80.09131536938645,11.90868463061355
+stage2p_plus_stage3a_alt,1d,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,90.0,86.64372528472539,3.3562747152746084
+stage2p_plus_stage3a_alt,1e,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,92.0,87.20842522472255,4.791574775277454
+stage2p_plus_stage3a_alt,1f,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,90.0,84.34708893939799,5.652911060602008
+stage2p_plus_stage3a_alt,1g,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,90.0,85.05763949106091,4.942360508939089
+stage2p_plus_stage3a_alt,1h,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,90.0,85.18706595986,4.812934040139993
+stage2p_plus_stage3a_alt,1i,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,73.0,74.56952642637944,1.56952642637944
+stage2p_plus_stage3a_alt,1j,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,95.0,80.62160483760738,14.378395162392621
+stage2p_plus_stage3a_alt,1k,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,95.0,84.41561697745098,10.58438302254902
+stage2p_plus_stage3a_alt,1l,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,82.0,81.95205481218836,0.04794518781163504
+stage2p_plus_stage3a_alt,1m,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,94.0,83.40820324540333,10.591796754596672
+stage2p_plus_stage3a_alt,1n,polycyclic-aryl,Polycyclic aryl analogue,91.0,80.20857759095752,10.791422409042482
+stage2p_plus_stage3a_alt,1o,oxygen-heteroaryl,Oxygen heteroaryl analogue,89.0,86.73374849093254,2.266251509067459
+stage2p_plus_stage3a_alt,1p,oxygen-heteroaryl-fused,Fused oxygen heteroaryl analogue,61.0,88.9850767139721,27.985076713972106
+stage2p_plus_stage3a_alt,1q,oxygen-heteroaryl-fused,Fused oxygen heteroaryl analogue,90.0,89.92111489424128,0.07888510575871521
+stage2p_plus_stage3a_alt,1r,oxygen-heterocycle-fused,Fused oxygen heterocycle analogue,91.0,87.54204919430501,3.457950805694992
+stage2p_plus_stage3a_alt,1s,oxygen-heterocycle-fused,Fused oxygen heterocycle analogue,80.0,84.39810677796548,4.398106777965481
+stage2p_plus_stage3a_alt,1t,oxygen-heterocycle-fused,Fused oxygen heterocycle analogue,91.0,87.48119776649699,3.51880223350301
+stage2p_plus_stage3a_alt,1u,carbonyl-heterocycle-fused,Fused carbonyl heterocycle analogue,86.0,87.51347474176828,1.5134747417682775
+stage2p_plus_stage3a_alt,1v,sulfur-heteroaryl,Sulfur heteroaryl analogue,91.0,88.62189085368891,2.3781091463110897
+stage2p_plus_stage3a_alt,1w,sulfur-heteroaryl-fused,Fused sulfur heteroaryl analogue,92.0,79.73360246617256,12.266397533827444
+stage2p_plus_stage3a_alt,1x,sulfur-heteroaryl-fused,Fused sulfur heteroaryl analogue,94.0,98.98941074642822,4.98941074642822
+stage2p_plus_stage3a_alt,1y,sulfur-heterocycle-fused,Fused sulfur heterocycle analogue,91.0,87.674681146001,3.3253188539989935
+stage2p_plus_stage3b,1a,diaryl-ethyl-parent,Parent diaryl ethyl aryl azide,92.0,88.84517359631758,3.1548264036824207
+stage2p_plus_stage3b,1aa,nitrogen-heteroaryl,Nitrogen heteroaryl analogue,88.0,85.95952259002664,2.040477409973363
+stage2p_plus_stage3b,1ab,nitrogen-heteroaryl,Nitrogen heteroaryl analogue,95.0,77.05769424969115,17.942305750308847
+stage2p_plus_stage3b,1ac,silyl-alkyl-aryl,Silyl alkyl aryl analogue,67.0,77.31812220803671,10.318122208036712
+stage2p_plus_stage3b,1ae,carbonyl-alkyl-aryl,Carbonyl alkyl aryl analogue,53.0,98.93856813450503,45.93856813450503
+stage2p_plus_stage3b,1af,carbonyl-alkyl-aryl,Carbonyl alkyl aryl analogue,61.0,85.69924327982345,24.69924327982345
+stage2p_plus_stage3b,1ag,carbonyl-alkyl-aryl,Carbonyl alkyl aryl analogue,90.0,73.71116729625017,16.288832703749833
+stage2p_plus_stage3b,1ah,alkyl-aryl-chain,Alkyl aryl-chain analogue,50.0,63.5501198694503,13.550119869450299
+stage2p_plus_stage3b,1ai,alkyl-aryl-chain,Alkyl aryl-chain analogue,50.0,74.04122011834775,24.041220118347752
+stage2p_plus_stage3b,1aj,cycloalkyl-alkyl-aryl,Cycloalkyl alkyl aryl analogue,44.0,64.17840978762877,20.178409787628766
+stage2p_plus_stage3b,1ak,cycloalkyl-alkyl-aryl,Cycloalkyl alkyl aryl analogue,65.0,70.62055868107694,5.620558681076943
+stage2p_plus_stage3b,1al,cycloalkyl-alkyl-aryl,Cycloalkyl alkyl aryl analogue,73.0,70.46117135730029,2.5388286426997126
+stage2p_plus_stage3b,1am,cycloalkyl-aryl,Cycloalkyl aryl analogue,45.0,63.407669012719325,18.407669012719325
+stage2p_plus_stage3b,1ao,branched-diaryl-alkyl,Branched diaryl alkyl analogue,72.0,57.96047311338276,14.039526886617239
+stage2p_plus_stage3b,1b,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,80.0,94.7057130559237,14.705713055923695
+stage2p_plus_stage3b,1c,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,92.0,96.69526140300682,4.695261403006825
+stage2p_plus_stage3b,1d,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,90.0,90.01198651903009,0.011986519030088516
+stage2p_plus_stage3b,1e,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,92.0,71.35186069054772,20.648139309452276
+stage2p_plus_stage3b,1f,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,90.0,83.91146161286677,6.088538387133227
+stage2p_plus_stage3b,1g,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,90.0,80.57247383564362,9.42752616435638
+stage2p_plus_stage3b,1h,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,90.0,80.03489567846617,9.965104321533829
+stage2p_plus_stage3b,1i,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,73.0,98.89751890086268,25.89751890086268
+stage2p_plus_stage3b,1j,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,95.0,94.85949983277882,0.14050016722117675
+stage2p_plus_stage3b,1k,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,95.0,102.79184388915147,7.791843889151465
+stage2p_plus_stage3b,1l,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,82.0,-66088562.65718987,66088644.65718987
+stage2p_plus_stage3b,1m,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,94.0,-18075520.766728144,18075614.766728144
+stage2p_plus_stage3b,1n,polycyclic-aryl,Polycyclic aryl analogue,91.0,80.8011385195794,10.198861480420604
+stage2p_plus_stage3b,1o,oxygen-heteroaryl,Oxygen heteroaryl analogue,89.0,87.28071189506764,1.7192881049323603
+stage2p_plus_stage3b,1p,oxygen-heteroaryl-fused,Fused oxygen heteroaryl analogue,61.0,90.50162870780149,29.501628707801487
+stage2p_plus_stage3b,1q,oxygen-heteroaryl-fused,Fused oxygen heteroaryl analogue,90.0,88.68388970834513,1.3161102916548657
+stage2p_plus_stage3b,1r,oxygen-heterocycle-fused,Fused oxygen heterocycle analogue,91.0,87.13082550075661,3.8691744992433854
+stage2p_plus_stage3b,1s,oxygen-heterocycle-fused,Fused oxygen heterocycle analogue,80.0,84.38809098875527,4.388090988755266
+stage2p_plus_stage3b,1t,oxygen-heterocycle-fused,Fused oxygen heterocycle analogue,91.0,87.08396987429447,3.9160301257055323
+stage2p_plus_stage3b,1u,carbonyl-heterocycle-fused,Fused carbonyl heterocycle analogue,86.0,86.6227646112022,0.6227646112022001
+stage2p_plus_stage3b,1v,sulfur-heteroaryl,Sulfur heteroaryl analogue,91.0,88.9235891206695,2.0764108793304956
+stage2p_plus_stage3b,1w,sulfur-heteroaryl-fused,Fused sulfur heteroaryl analogue,92.0,79.58447385175268,12.415526148247324
+stage2p_plus_stage3b,1x,sulfur-heteroaryl-fused,Fused sulfur heteroaryl analogue,94.0,100.39445745226647,6.394457452266465
+stage2p_plus_stage3b,1y,sulfur-heterocycle-fused,Fused sulfur heterocycle analogue,91.0,87.12161176878953,3.878388231210465
+stage2p_plus_stage3a_alt_plus_stage3b,1a,diaryl-ethyl-parent,Parent diaryl ethyl aryl azide,92.0,88.86713013423972,3.1328698657602843
+stage2p_plus_stage3a_alt_plus_stage3b,1aa,nitrogen-heteroaryl,Nitrogen heteroaryl analogue,88.0,86.04297797642137,1.9570220235786309
+stage2p_plus_stage3a_alt_plus_stage3b,1ab,nitrogen-heteroaryl,Nitrogen heteroaryl analogue,95.0,77.29412075958403,17.705879240415968
+stage2p_plus_stage3a_alt_plus_stage3b,1ac,silyl-alkyl-aryl,Silyl alkyl aryl analogue,67.0,77.62731953186457,10.627319531864572
+stage2p_plus_stage3a_alt_plus_stage3b,1ae,carbonyl-alkyl-aryl,Carbonyl alkyl aryl analogue,53.0,97.00165546903483,44.00165546903483
+stage2p_plus_stage3a_alt_plus_stage3b,1af,carbonyl-alkyl-aryl,Carbonyl alkyl aryl analogue,61.0,83.57649934722394,22.576499347223944
+stage2p_plus_stage3a_alt_plus_stage3b,1ag,carbonyl-alkyl-aryl,Carbonyl alkyl aryl analogue,90.0,71.85054090888315,18.149459091116853
+stage2p_plus_stage3a_alt_plus_stage3b,1ah,alkyl-aryl-chain,Alkyl aryl-chain analogue,50.0,63.56955809903026,13.56955809903026
+stage2p_plus_stage3a_alt_plus_stage3b,1ai,alkyl-aryl-chain,Alkyl aryl-chain analogue,50.0,73.71562331458344,23.71562331458344
+stage2p_plus_stage3a_alt_plus_stage3b,1aj,cycloalkyl-alkyl-aryl,Cycloalkyl alkyl aryl analogue,44.0,64.1729528741736,20.172952874173603
+stage2p_plus_stage3a_alt_plus_stage3b,1ak,cycloalkyl-alkyl-aryl,Cycloalkyl alkyl aryl analogue,65.0,70.51050518097342,5.510505180973425
+stage2p_plus_stage3a_alt_plus_stage3b,1al,cycloalkyl-alkyl-aryl,Cycloalkyl alkyl aryl analogue,73.0,70.37272371585995,2.627276284140052
+stage2p_plus_stage3a_alt_plus_stage3b,1am,cycloalkyl-aryl,Cycloalkyl aryl analogue,45.0,63.41675381777897,18.416753817778968
+stage2p_plus_stage3a_alt_plus_stage3b,1ao,branched-diaryl-alkyl,Branched diaryl alkyl analogue,72.0,57.3094584666039,14.6905415333961
+stage2p_plus_stage3a_alt_plus_stage3b,1b,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,80.0,80.46638983060443,0.4663898306044274
+stage2p_plus_stage3a_alt_plus_stage3b,1c,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,92.0,80.35113305113995,11.648866948860046
+stage2p_plus_stage3a_alt_plus_stage3b,1d,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,90.0,86.77784884583589,3.2221511541641092
+stage2p_plus_stage3a_alt_plus_stage3b,1e,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,92.0,87.367993688931,4.632006311069006
+stage2p_plus_stage3a_alt_plus_stage3b,1f,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,90.0,84.60558565043497,5.394414349565025
+stage2p_plus_stage3a_alt_plus_stage3b,1g,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,90.0,85.28744312226189,4.712556877738109
+stage2p_plus_stage3a_alt_plus_stage3b,1h,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,90.0,85.41937613110656,4.58062386889344
+stage2p_plus_stage3a_alt_plus_stage3b,1i,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,73.0,74.91189533380735,1.911895333807351
+stage2p_plus_stage3a_alt_plus_stage3b,1j,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,95.0,80.93365417069509,14.066345829304908
+stage2p_plus_stage3a_alt_plus_stage3b,1k,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,95.0,84.7321994278027,10.267800572197302
+stage2p_plus_stage3a_alt_plus_stage3b,1l,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,82.0,82.16255189829795,0.16255189829794858
+stage2p_plus_stage3a_alt_plus_stage3b,1m,diaryl-ethyl-aryl-substituted,Substituted diaryl ethyl aryl azide,94.0,83.75780683946729,10.242193160532707
+stage2p_plus_stage3a_alt_plus_stage3b,1n,polycyclic-aryl,Polycyclic aryl analogue,91.0,80.33302867240545,10.666971327594553
+stage2p_plus_stage3a_alt_plus_stage3b,1o,oxygen-heteroaryl,Oxygen heteroaryl analogue,89.0,86.70638492397997,2.293615076020032
+stage2p_plus_stage3a_alt_plus_stage3b,1p,oxygen-heteroaryl-fused,Fused oxygen heteroaryl analogue,61.0,89.00443629930396,28.00443629930396
+stage2p_plus_stage3a_alt_plus_stage3b,1q,oxygen-heteroaryl-fused,Fused oxygen heteroaryl analogue,90.0,89.92971431785998,0.07028568214002462
+stage2p_plus_stage3a_alt_plus_stage3b,1r,oxygen-heterocycle-fused,Fused oxygen heterocycle analogue,91.0,87.14231844163633,3.857681558363666
+stage2p_plus_stage3a_alt_plus_stage3b,1s,oxygen-heterocycle-fused,Fused oxygen heterocycle analogue,80.0,84.424967611746,4.424967611745998
+stage2p_plus_stage3a_alt_plus_stage3b,1t,oxygen-heterocycle-fused,Fused oxygen heterocycle analogue,91.0,87.19599403712473,3.804005962875266
+stage2p_plus_stage3a_alt_plus_stage3b,1u,carbonyl-heterocycle-fused,Fused carbonyl heterocycle analogue,86.0,86.6845357173961,0.684535717396102
+stage2p_plus_stage3a_alt_plus_stage3b,1v,sulfur-heteroaryl,Sulfur heteroaryl analogue,91.0,88.62630655116676,2.3736934488332366
+stage2p_plus_stage3a_alt_plus_stage3b,1w,sulfur-heteroaryl-fused,Fused sulfur heteroaryl analogue,92.0,78.52836595599786,13.471634044002144
+stage2p_plus_stage3a_alt_plus_stage3b,1x,sulfur-heteroaryl-fused,Fused sulfur heteroaryl analogue,94.0,99.10804616517022,5.108046165170222
+stage2p_plus_stage3a_alt_plus_stage3b,1y,sulfur-heterocycle-fused,Fused sulfur heterocycle analogue,91.0,87.10902139330265,3.8909786066973453

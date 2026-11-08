@@ -1,0 +1,96 @@
+{
+  "checks": [
+    {
+      "check": "p7 common-test outer_splits.csv unchanged",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "p7 common-test initial_pairs.csv unchanged",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "p7 common-test keys and held-out observations unchanged",
+      "passed": true,
+      "details": "9000 and 9000 prediction rows"
+    },
+    {
+      "check": "p7 factorial structure-only results unchanged",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "p7 50-start initial pairs unchanged",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "p7 source_minus_ud corrected mean reconstructed",
+      "passed": true,
+      "details": "6.9921869728935375"
+    },
+    {
+      "check": "p7 random_minus_ud corrected mean reconstructed",
+      "passed": true,
+      "details": "1.4487818790214047"
+    },
+    {
+      "check": "cmcpor common-test outer_splits.csv unchanged",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "cmcpor common-test initial_pairs.csv unchanged",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "cmcpor common-test keys and held-out observations unchanged",
+      "passed": true,
+      "details": "7500 and 7500 prediction rows"
+    },
+    {
+      "check": "cmcpor factorial structure-only results unchanged",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "class mixed starting pairs and held-out membership unchanged",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "class sulfonyl starting pairs and held-out membership unchanged",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "cmcpor 50-start initial pairs unchanged",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "cmcpor source_minus_ud corrected mean reconstructed",
+      "passed": true,
+      "details": "2.495901141806916"
+    },
+    {
+      "check": "cmcpor random_minus_ud corrected mean reconstructed",
+      "passed": true,
+      "details": "1.217104374258329"
+    },
+    {
+      "check": "target corrected prediction MAE reconstructed",
+      "passed": true,
+      "details": "7.979189824178208"
+    },
+    {
+      "check": "family corrected prediction MAE reconstructed",
+      "passed": true,
+      "details": "8.538095591137102"
+    }
+  ],
+  "all_passed": true,
+  "scope": "Compares design memberships and aggregate arithmetic. Does not independently validate the feature calculations, modelling code, selection implementation or scientific assumptions."
+}

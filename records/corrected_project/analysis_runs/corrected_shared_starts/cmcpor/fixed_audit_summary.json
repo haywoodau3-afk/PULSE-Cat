@@ -1,0 +1,32 @@
+{
+  "audit_ids": [
+    "2y",
+    "2z",
+    "4a",
+    "4b",
+    "4c",
+    "4d",
+    "4e"
+  ],
+  "audit_size": 7,
+  "budgets": [
+    6,
+    13,
+    20
+  ],
+  "n_pairs": 50,
+  "metric": "mean Ridge MAE on the same locked seven-record set over three budgets",
+  "mean_reported_minus_ud": 3.8789429311812813,
+  "median_reported_minus_ud": 3.6500030377171804,
+  "paired_difference_2.5_97.5_percentiles": [
+    -3.967143452594923,
+    10.971686950027886
+  ],
+  "fraction_positive": 0.86,
+  "mean_bootstrap_ci_95": [
+    2.6943572939506146,
+    5.053980090082154
+  ],
+  "interpretation": "conditional on the observed seven-record audit set and sampled initial pairs; not a new-catalyst confidence interval",
+  "wrapper_sha256": "b4b143d66242d16a4bc2e3efa08595e0550df8a92b04f1e2b624de8719be1eb3"
+}

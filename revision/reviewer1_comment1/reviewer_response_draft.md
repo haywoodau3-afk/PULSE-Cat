@@ -1,0 +1,29 @@
+# Draft response to reviewer 1, comment 1
+
+## Reviewer comment
+
+The matched acquisition comparison uses mean-prefix MAE as the primary metric, but no confidence intervals or statistical significance tests are reported. Given the small number of substrates (38 and 26), the observed 55.3% and 33.2% reductions could arise from chance variation, and the stability of these improvements across different initial seeds is not examined.
+
+## Draft response
+
+We thank the reviewer for identifying an important limitation in the original comparison. The reported 55.3% and 33.2% reductions describe single archived trajectory comparisons, and the compared routes did not begin with the same initial substrate pair. We have clarified this in the manuscript and have not interpreted those percentages as statistically established improvements for a wider substrate or catalyst population.
+
+To examine sensitivity to the initial measured scope, we sampled 50 distinct starting pairs in each catalyst domain. For each pair, uncertainty–diversity and source-order continuation began with the same two substrates and were evaluated at the same label budgets. We retained the original representation, acquisition score, Ridge evaluation, and mean-prefix MAE. We also compared each pair with the mean of three random continuations. The current code reproduced every archived Ridge prefix MAE and the complete selection sequences for the two original routes in both systems; this numerical agreement does not establish the original execution environment or every archived output.
+
+Against source-order continuation, uncertainty–diversity had lower remaining-pool mean-prefix ee MAE for 50/50 Fe(P7)Cl pairs and 45/50 Fe(CMC-Por)Cl pairs. Mean paired source-order-minus-uncertainty–diversity differences were 6.14 ee points (approximate 95% pair-bootstrap interval 5.41 to 6.88) and 1.66 ee points (1.27 to 2.04), respectively. Against the mean of three random continuations per pair, uncertainty–diversity had lower error for 31/50 and 47/50 pairs, respectively. The Fe(P7)Cl comparison against random is therefore variable and does not support uniform superiority.
+
+The intervals were obtained by resampling whole starting-pair differences and describe the mean over the sampled initial-pair distribution conditional on the observed datasets and analysis protocol. They do not provide confidence intervals for the original single-trajectory percentages or quantify uncertainty over independently sampled substrates, experimental outcomes, or new catalysts. They should not be interpreted as a general significance test. The evaluation pools also differ between routes after their selections diverge.
+
+To check a common prediction set, we additionally evaluated the 50 Fe(CMC-Por)Cl starting-pair comparisons on seven previously locked ee-labelled records at 6, 13, and 20 active labels. Averaging MAE over these three budgets, the mean source-order-minus-uncertainty–diversity difference was −0.40 ee points (conditional 95% pair-bootstrap interval −1.02 to 0.20), and 27/50 pairs favoured uncertainty–diversity. We therefore do not claim a consistent fixed-audit advantage. The seven-record set is small and has been examined in existing work, so it is not a fresh prospective external validation. The Fe(P7)Cl late-stage records lack measured ee labels and cannot provide an analogous labelled audit.
+
+To assess common-test performance in both systems, we further ran 20 prespecified random outer splits per domain, holding out six Fe(P7)Cl or five Fe(CMC-Por)Cl substrates from acquisition and training in each split. Within each split, three shared starting pairs were compared at 2, 6, 10, 15 and 20 active labels. Each route was scored on the same held-out substrates; for each pair the random comparator is the mean of three random continuations. The seven previously locked Fe(CMC-Por)Cl audit records remained excluded from this additional analysis.
+
+After averaging across the five budgets and the three initial pairs within each split, the mean paired source-order-minus-uncertainty–diversity difference was 2.85 ee points for Fe(P7)Cl and 1.43 for Fe(CMC-Por)Cl. Uncertainty–diversity had lower held-out MAE in 17/20 and 11/20 splits, respectively. Against random continuation, the corresponding differences were 0.37 and 1.06 ee points, with 12/20 and 14/20 splits favouring uncertainty–diversity. The Fe(CMC-Por)Cl source-order mean is affected by one +17.76-point split; its median paired difference was 0.54. These mixed findings do not establish a uniform common-test advantage.
+
+The 20 outer splits overlap and all derive from the same small source datasets. Approximate split-bootstrap intervals describe Monte Carlo uncertainty conditional on the fixed datasets and split-generation scheme; they are not confidence intervals over independent substrate datasets or new catalysts. The original percentages still have no population-level uncertainty estimate. We have not used these overlapping splits as independent studies or claimed formal significance.
+
+We have revised the abstract, acquisition methods, results, limitations, and conclusion, and added the analyses, summary tables, figures, and reproducibility details to SI Sections S7 and S8. The full initial-pair IDs, held-out split identities, per-prefix scores, held-out predictions, scripts, seeds, input hashes, and software versions are recorded with the revision analysis. The observed 55.3% and 33.2% values remain reported as results of their original trajectory comparisons, with the limitations above stated explicitly.
+
+## Submission check
+
+Before submission, verify the final page and section locations, attach the corresponding data and code or deposit them at a stable accessible location, and check the journal's requested response format. This is a draft for author review; it has not been submitted.

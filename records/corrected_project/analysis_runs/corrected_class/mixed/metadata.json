@@ -1,0 +1,28 @@
+{
+  "mode": "mixed",
+  "seed": 20261112,
+  "budget": [
+    2,
+    6,
+    10,
+    15,
+    20
+  ],
+  "n_splits": 20,
+  "n_pairs": 3,
+  "random_replicates": 3,
+  "locked_audit": [
+    "2y",
+    "2z",
+    "4a",
+    "4b",
+    "4c",
+    "4d",
+    "4e"
+  ],
+  "n_predictions": 15000,
+  "n_trajectories": 600,
+  "input_hash": "10259d71c36ffd3f51af838ecdacdbd0d417dcc6c746dd81258e08fff9ae6b1e",
+  "code_hash": "1fb935b81fac1e64737ad0bce4ce21bcceb26a0bac3dc3cfd88cb596dd064eb3",
+  "note": "Conditional descriptive retrospective analysis; original curated source order, class-stratified overlapping holdouts, unknown to model reaction conditions."
+}

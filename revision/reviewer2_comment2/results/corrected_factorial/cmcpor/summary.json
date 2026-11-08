@@ -1,0 +1,167 @@
+{
+  "domain": "cmcpor",
+  "features": {
+    "structure": [
+      33,
+      1039
+    ],
+    "pose": [
+      33,
+      1287
+    ]
+  },
+  "budgets": [
+    2,
+    6,
+    10,
+    15,
+    20
+  ],
+  "splits": 20,
+  "pairs": 3,
+  "random_replicates": 3,
+  "summaries": {
+    "structure_historical_order": {
+      "mean": 9.6234769915515,
+      "median": 9.107762211802083,
+      "iqr": [
+        8.2298240730344,
+        10.98689903515231
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "structure_uncertainty_diversity": {
+      "mean": 10.774622118763705,
+      "median": 10.305397527770108,
+      "iqr": [
+        9.253758635906495,
+        12.90363661852517
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "structure_random": {
+      "mean": 10.211064074948878,
+      "median": 9.992246298922417,
+      "iqr": [
+        7.980708338872484,
+        11.60924064535417
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "pose_historical_order": {
+      "mean": 16.32995549712782,
+      "median": 14.70933743443633,
+      "iqr": [
+        11.872053372994756,
+        17.99695801689216
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "pose_uncertainty_diversity": {
+      "mean": 13.834054355320905,
+      "median": 14.665001878537323,
+      "iqr": [
+        11.123525707257087,
+        16.43319627201212
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "pose_random": {
+      "mean": 15.051158729579228,
+      "median": 14.196952715145356,
+      "iqr": [
+        11.994282536555724,
+        17.53858001036884
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "ordering_benefit_structure": {
+      "mean": -1.151145127212207,
+      "median": -1.0083225965044296,
+      "iqr": [
+        -2.015949878642507,
+        -0.557104796232136
+      ],
+      "positive_splits": 3,
+      "negative_splits": 17
+    },
+    "ordering_benefit_pose": {
+      "mean": 2.495901141806916,
+      "median": 0.12754509389114332,
+      "iqr": [
+        -0.9188832661416857,
+        4.297984124796054
+      ],
+      "positive_splits": 11,
+      "negative_splits": 9
+    },
+    "interaction_structure_minus_pose": {
+      "mean": -3.6470462690191225,
+      "median": -1.4280170825614213,
+      "iqr": [
+        -4.842974243386804,
+        -0.025303710067239304
+      ],
+      "positive_splits": 5,
+      "negative_splits": 15
+    },
+    "combined_vs_structure_baseline": {
+      "mean": -4.210577363769403,
+      "median": -4.611063587671547,
+      "iqr": [
+        -6.164519142236726,
+        -2.184362529074213
+      ],
+      "positive_splits": 0,
+      "negative_splits": 20
+    },
+    "combined_vs_structure_acquire": {
+      "mean": -3.0594322365571966,
+      "median": -2.779316965590702,
+      "iqr": [
+        -4.671518277728122,
+        -1.4196509224988754
+      ],
+      "positive_splits": 2,
+      "negative_splits": 18
+    },
+    "combined_vs_pose_source": {
+      "mean": 2.495901141806916,
+      "median": 0.12754509389114332,
+      "iqr": [
+        -0.9188832661416857,
+        4.297984124796054
+      ],
+      "positive_splits": 11,
+      "negative_splits": 9
+    },
+    "random_benefit_structure": {
+      "mean": -0.5635580438148287,
+      "median": -0.3367021643701342,
+      "iqr": [
+        -1.5051362849087555,
+        0.3517128881430174
+      ],
+      "positive_splits": 7,
+      "negative_splits": 13
+    },
+    "random_benefit_pose": {
+      "mean": 1.217104374258329,
+      "median": 1.173312896191339,
+      "iqr": [
+        -1.4600544770012642,
+        2.744933044092023
+      ],
+      "positive_splits": 12,
+      "negative_splits": 8
+    }
+  },
+  "note": "Pose predictions and sequences reuse R1.1 validated common-test records; all results conditional on overlapping splits of fixed datasets.",
+  "script_sha256": "36f8409a84042a304941c87fea83fcdcc8ae310986049a36ad447791231dbc67"
+}

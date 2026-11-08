@@ -1,0 +1,22 @@
+comparison,pool,test_class,contrast,mean_difference,median_difference,q25,q75,positive_splits,negative_splits
+policy,aryl_only,aryl,historical_order minus uncertainty_diversity,2.6933917600013793,1.8367467620542888,-0.8104652357978805,6.1481076167723625,14,6
+policy,aryl_only,aryl,random minus uncertainty_diversity,1.5651976813766921,1.0590347033400969,-0.03830674646951615,3.005000756960533,15,5
+policy,aryl_only,sulfonyl,historical_order minus uncertainty_diversity,0.3556883076602606,0.9373038034149008,-3.339282938047358,5.310974296379549,11,9
+policy,aryl_only,sulfonyl,random minus uncertainty_diversity,7.9391284237650295,8.59125878024426,2.4149476499536338,13.389919648070823,18,2
+policy,aryl_only,pooled,historical_order minus uncertainty_diversity,1.758310379064932,1.0619279776145323,-0.8707545539638053,5.2866557723697465,13,7
+policy,aryl_only,pooled,random minus uncertainty_diversity,4.114769978332027,3.7873391085281103,2.535217773101744,5.975032071354749,19,1
+policy,mixed,aryl,historical_order minus uncertainty_diversity,1.723507048361814,1.2774275809112563,-2.815360864461825,5.134756301481479,13,7
+policy,mixed,aryl,random minus uncertainty_diversity,1.3197322219028798,0.5219082295183295,-0.5914827517041492,3.2662434209594515,11,9
+policy,mixed,sulfonyl,historical_order minus uncertainty_diversity,15.563305995004338,18.923035660616193,10.970097415805167,21.059912106523992,18,2
+policy,mixed,sulfonyl,random minus uncertainty_diversity,1.3774228506730153,0.6304270063365607,-0.7051753844304915,3.3635215103136886,14,6
+policy,mixed,pooled,historical_order minus uncertainty_diversity,7.259426627018824,7.032449716688912,4.872675410419303,10.525751148303929,19,1
+policy,mixed,pooled,random minus uncertainty_diversity,1.3428084734109333,0.9719125836192282,0.22045518059390457,2.5570539646204784,16,4
+pool,aryl_only vs mixed,aryl,aryl_only minus mixed historical_order,0.0,0.0,0.0,0.0,0,0
+pool,aryl_only vs mixed,aryl,aryl_only minus mixed uncertainty_diversity,-0.9698847116395651,-0.8430482163885333,-1.26568183623898,-0.2137144713238177,4,16
+pool,aryl_only vs mixed,aryl,aryl_only minus mixed random,-0.7244192521657526,-1.087955603986023,-1.8924817532266136,0.5334463226551702,7,13
+pool,aryl_only vs mixed,sulfonyl,aryl_only minus mixed historical_order,0.0,0.0,0.0,0.0,0,0
+pool,aryl_only vs mixed,sulfonyl,aryl_only minus mixed uncertainty_diversity,15.207617687344078,14.945171330085236,10.462233995156886,18.288167810465293,19,1
+pool,aryl_only vs mixed,sulfonyl,aryl_only minus mixed random,21.769323260436092,21.588024220339364,17.78090358802634,26.734372792796663,18,2
+pool,aryl_only vs mixed,pooled,aryl_only minus mixed historical_order,0.0,0.0,0.0,0.0,0,0
+pool,aryl_only vs mixed,pooled,aryl_only minus mixed uncertainty_diversity,5.501116247953892,5.395006928073867,3.2041025177445857,7.123818556177717,17,3
+pool,aryl_only vs mixed,pooled,aryl_only minus mixed random,8.273077752874984,8.333347752800284,7.192050928094538,10.666644157680008,19,1

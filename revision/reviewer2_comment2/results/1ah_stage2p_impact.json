@@ -1,0 +1,17 @@
+{
+  "substrate": "1ah",
+  "total_fields": 248,
+  "changed_fields": 172,
+  "max_abs_change": 5.576458020276021,
+  "elapsed_seconds": 0.1931917667388916,
+  "example_differences": {
+    "stage2p:nitrene:all_heavy:radial_mean:top_100:mean": -1.6765076383881174,
+    "stage2p:nitrene:all_heavy:radial_mean:bottom_100:mean": -0.5221774074491363,
+    "stage2p:nitrene:all_heavy:radial_mean:all_200:mean": -1.099342522918627,
+    "stage2p:nitrene:all_heavy:radial_q90:top_100:mean": -2.314986782988588,
+    "stage2p:nitrene:all_heavy:radial_q90:bottom_100:mean": -0.8016678080857949,
+    "stage2p:nitrene:all_heavy:radial_q90:all_200:mean": -1.5583272955371932,
+    "stage2p:nitrene:all_heavy:near_response:top_100:mean": 0.17259845575086183,
+    "stage2p:nitrene:all_heavy:near_response:bottom_100:mean": 0.09271722667955823
+  }
+}

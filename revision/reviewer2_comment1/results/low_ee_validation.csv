@@ -1,0 +1,8 @@
+system,substrate_id,ee_percent,common_test_holdout_splits,n_common_splits,target_holdout_predictions_verified,family_holdout_predictions_verified,family_target_id,target_holdout_other_splits_validation_count,family_other_splits_validation_count,target_structure_prediction,target_pose_prediction,family_structure_prediction,family_pose_prediction
+p7,1ah,50,3,20,2,2,alkyl-aryl-chain,0,0,73.15175344165537,64.5662769876678,76.43293634430268,71.12652049645105
+p7,1ai,50,2,20,2,2,alkyl-aryl-chain,0,0,80.71759979850968,75.3832815611206,83.25867508383509,77.46612563161248
+p7,1aj,44,3,20,2,2,cycloalkyl-alkyl-aryl,8,7,72.52636697624942,67.19462182055852,67.21709642352732,64.14818034282169
+p7,1am,45,2,20,2,2,cycloalkyl-aryl,0,0,80.6172051319291,70.88498125470883,80.57472062459033,70.71800348530428
+cmcpor,2aa,45,4,20,,,,,,,,,
+cmcpor,2ab,39,4,20,,,,,,,,,
+cmcpor,2ac,50,3,20,,,,,,,,,

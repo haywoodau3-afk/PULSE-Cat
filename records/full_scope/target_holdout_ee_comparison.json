@@ -1,0 +1,104 @@
+{
+  "analysis": [
+    "Positive MAE/RMSE deltas mean the pose-aware feature set improved over structure-only for that model.",
+    "The comparison is still a small-data diagnostic; use family-held-out validation before making chemical generalization claims."
+  ],
+  "best_overall_by_mae": {
+    "feature_set": "structure_pose",
+    "mae": 7.656399267656522,
+    "model_name": "lightgbm"
+  },
+  "comparison_table_path": "revision/error found/full_scope/target_holdout_ee_comparison.csv",
+  "model_comparisons": [
+    {
+      "mae_delta_structure_minus_pose": 4.633087449224687,
+      "model_name": "elastic_net",
+      "r2_delta_pose_minus_structure": 0.4480879266375243,
+      "rmse_delta_structure_minus_pose": 4.219075247074759,
+      "structure_only_mae": 12.612277273402894,
+      "structure_only_mae_ci95_high": 15.49148633185438,
+      "structure_only_mae_ci95_low": 10.192467645510616,
+      "structure_only_r2": 0.06366178246582677,
+      "structure_only_rmse": 15.182675329805157,
+      "structure_only_within_10_ee_fraction": 0.47368421052631576,
+      "structure_pose_mae": 7.979189824178206,
+      "structure_pose_mae_ci95_high": 10.582406207788582,
+      "structure_pose_mae_ci95_low": 5.876221955625616,
+      "structure_pose_r2": 0.511749709103351,
+      "structure_pose_rmse": 10.963600082730398,
+      "structure_pose_within_10_ee_fraction": 0.7631578947368421
+    },
+    {
+      "mae_delta_structure_minus_pose": -0.00011799618776464627,
+      "model_name": "gaussian_process",
+      "r2_delta_pose_minus_structure": -1.3746457191432526e-05,
+      "rmse_delta_structure_minus_pose": -0.00010474921273839755,
+      "structure_only_mae": 13.630553510164322,
+      "structure_only_mae_ci95_high": 16.636265534099632,
+      "structure_only_mae_ci95_low": 11.215148811987122,
+      "structure_only_r2": -0.05993952043217665,
+      "structure_only_rmse": 16.15371709959208,
+      "structure_only_within_10_ee_fraction": 0.23684210526315788,
+      "structure_pose_mae": 13.630671506352087,
+      "structure_pose_mae_ci95_high": 16.63630603643996,
+      "structure_pose_mae_ci95_low": 11.215335702356867,
+      "structure_pose_r2": -0.059953266889368084,
+      "structure_pose_rmse": 16.153821848804817,
+      "structure_pose_within_10_ee_fraction": 0.23684210526315788
+    },
+    {
+      "mae_delta_structure_minus_pose": 2.3491464876740507,
+      "model_name": "lightgbm",
+      "r2_delta_pose_minus_structure": 0.1964478922876859,
+      "rmse_delta_structure_minus_pose": 1.8009151775614711,
+      "structure_only_mae": 10.005545755330573,
+      "structure_only_mae_ci95_high": 13.561296048059784,
+      "structure_only_mae_ci95_low": 7.078733427226381,
+      "structure_only_r2": 0.16614362219772882,
+      "structure_only_rmse": 14.327735566033525,
+      "structure_only_within_10_ee_fraction": 0.6578947368421053,
+      "structure_pose_mae": 7.656399267656522,
+      "structure_pose_mae_ci95_high": 11.204248315555839,
+      "structure_pose_mae_ci95_low": 4.937414435344245,
+      "structure_pose_r2": 0.3625915144854147,
+      "structure_pose_rmse": 12.526820388472053,
+      "structure_pose_within_10_ee_fraction": 0.7368421052631579
+    },
+    {
+      "mae_delta_structure_minus_pose": 1.3810286887448058,
+      "model_name": "ridge_regression",
+      "r2_delta_pose_minus_structure": 0.07851093276447085,
+      "rmse_delta_structure_minus_pose": 0.7489271804987343,
+      "structure_only_mae": 10.388067770848014,
+      "structure_only_mae_ci95_high": 13.265541817305813,
+      "structure_only_mae_ci95_low": 8.062899877007405,
+      "structure_only_r2": 0.28380398477645985,
+      "structure_only_rmse": 13.278465217477523,
+      "structure_only_within_10_ee_fraction": 0.6842105263157895,
+      "structure_pose_mae": 9.007039082103208,
+      "structure_pose_mae_ci95_high": 12.01295680781667,
+      "structure_pose_mae_ci95_low": 6.587669308126101,
+      "structure_pose_r2": 0.3623149175409307,
+      "structure_pose_rmse": 12.529538036978789,
+      "structure_pose_within_10_ee_fraction": 0.6842105263157895
+    }
+  ],
+  "modelable_record_count": 38,
+  "schema_version": "stage2-full-scope-model-comparison-v1",
+  "split_mode": "target_holdout",
+  "split_policy": "For each target molecule, hold out the target, choose 29 structurally diverse training molecules from the remaining 37 by MaxMin Morgan/Tanimoto distance, and use the remaining 8 as validation.",
+  "status": "structure_only_vs_structure_pose_comparison",
+  "structure_only": {
+    "best_mae": 10.005545755330573,
+    "best_model_by_mae": "lightgbm",
+    "feature_count": 547,
+    "report_path": "revision/error found/full_scope/target_holdout_ee_report.json"
+  },
+  "structure_pose": {
+    "best_mae": 7.656399267656522,
+    "best_model_by_mae": "lightgbm",
+    "feature_count": 1241,
+    "report_path": "revision/error found/full_scope/target_holdout_ee_pose_report.json"
+  },
+  "target": "ee"
+}

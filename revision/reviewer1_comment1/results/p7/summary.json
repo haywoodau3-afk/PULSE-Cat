@@ -1,0 +1,44 @@
+{
+  "domain": "p7",
+  "n_pairs": 50,
+  "random_continuations_per_pair": 3,
+  "selection_seed": 20261105,
+  "feature_set": "rdkit_morgan_stage2p",
+  "score": "mean Ridge MAE over remaining active pool at all nonempty prefixes 2..N-1",
+  "inputs_sha256": {
+    "data/jacs_2025/stage2/curated-reaction-records.jsonl": "b05b91b28057172bd7b527d3135a81674a6beaa891b730b90b7182dac3027699",
+    "data/jacs_2025/stage2/features/stage2p-features.jsonl": "358014a65a9e7497591952135896dd2cc3b2f7cbe696ec3e1d909e41535303b8",
+    "data/jacs_2025/scope_progression/learning-curve.csv": "66f26b8ec42d822a381a1bb7257dd84de6914fe4919d7a95b59e0db376f28102"
+  },
+  "code_sha256": "9fdc685bb802c94fb9284e47c8b22ce27250ee4fad9097d416865960a0c81bb9",
+  "wrapper_sha256": "ffa37d6f69a9026e5175133e2d95edfe22303a0d26d9295d197220c97bdf6fec",
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "numpy": "2.5.1",
+  "scikit_learn": "1.9.0",
+  "rdkit": "2026.03.4",
+  "statistics": {
+    "reported_minus_ud": {
+      "mean": 6.137029116343764,
+      "median": 5.629326840900243,
+      "q025": 2.610858961273413,
+      "q975": 11.216975704824094,
+      "fraction_positive": 1.0,
+      "mean_bootstrap_ci_95": [
+        5.4055308180338235,
+        6.883265613450098
+      ]
+    },
+    "random_minus_ud": {
+      "mean": 0.5010972541108112,
+      "median": 0.4774385627021953,
+      "q025": -1.7113293653503026,
+      "q975": 2.729366098430869,
+      "fraction_positive": 0.62,
+      "mean_bootstrap_ci_95": [
+        0.15136180779435227,
+        0.858502496295794
+      ]
+    }
+  },
+  "elapsed_seconds": 192.39790606498718
+}

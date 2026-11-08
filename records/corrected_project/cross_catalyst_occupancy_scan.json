@@ -1,0 +1,150 @@
+{
+  "status": "corrected all-shared-identity scan",
+  "shared_identity_count": 13,
+  "identity_matching": "canonical isomeric SMILES after removing atom-map numbers",
+  "feature": "Stage 2pp nitrene-centred all-heavy-atom occupancy, all 200 poses",
+  "normalization": "Each non-negative occupancy grid normalized to unit sum before overlap and divergence metrics",
+  "metrics": {
+    "bhattacharyya_coefficient": "sum(sqrt(p*q)); 1 is identical",
+    "total_variation_distance": "0.5*sum(abs(p-q)); range 0 to 1",
+    "jensen_shannon_divergence_bits": "symmetric base-2 Jensen-Shannon divergence; range 0 to 1"
+  },
+  "ranking": [
+    {
+      "p7_substrate_id": "1i",
+      "cmc_substrate_id": "2r",
+      "bhattacharyya_coefficient": 0.9780822047251055,
+      "total_variation_distance": 0.17188160422778556,
+      "jensen_shannon_divergence_bits": 0.030961264997302798,
+      "grid_cells": 800,
+      "corrected_js_rank": 1
+    },
+    {
+      "p7_substrate_id": "1d",
+      "cmc_substrate_id": "2d",
+      "bhattacharyya_coefficient": 0.9796954054722707,
+      "total_variation_distance": 0.12686458483343557,
+      "jensen_shannon_divergence_bits": 0.026179916981292017,
+      "grid_cells": 800,
+      "corrected_js_rank": 2
+    },
+    {
+      "p7_substrate_id": "1w",
+      "cmc_substrate_id": "2q",
+      "bhattacharyya_coefficient": 0.9841344189798764,
+      "total_variation_distance": 0.11083610100223168,
+      "jensen_shannon_divergence_bits": 0.020513638766153225,
+      "grid_cells": 800,
+      "corrected_js_rank": 3
+    },
+    {
+      "p7_substrate_id": "1p",
+      "cmc_substrate_id": "2o",
+      "bhattacharyya_coefficient": 0.9870887712104571,
+      "total_variation_distance": 0.09846233260811693,
+      "jensen_shannon_divergence_bits": 0.01667113931869566,
+      "grid_cells": 800,
+      "corrected_js_rank": 4
+    },
+    {
+      "p7_substrate_id": "1f",
+      "cmc_substrate_id": "2i",
+      "bhattacharyya_coefficient": 0.9867970570426954,
+      "total_variation_distance": 0.06702713811464793,
+      "jensen_shannon_divergence_bits": 0.016177255131142692,
+      "grid_cells": 800,
+      "corrected_js_rank": 5
+    },
+    {
+      "p7_substrate_id": "1aj",
+      "cmc_substrate_id": "4c",
+      "bhattacharyya_coefficient": 0.9928016378579687,
+      "total_variation_distance": 0.05166459907985347,
+      "jensen_shannon_divergence_bits": 0.00912054506062236,
+      "grid_cells": 800,
+      "corrected_js_rank": 6
+    },
+    {
+      "p7_substrate_id": "1n",
+      "cmc_substrate_id": "2m",
+      "bhattacharyya_coefficient": 0.9966816331397399,
+      "total_variation_distance": 0.06471146935859658,
+      "jensen_shannon_divergence_bits": 0.0047790146038203096,
+      "grid_cells": 800,
+      "corrected_js_rank": 7
+    },
+    {
+      "p7_substrate_id": "1c",
+      "cmc_substrate_id": "2g",
+      "bhattacharyya_coefficient": 0.9981257902155942,
+      "total_variation_distance": 0.03921804353075145,
+      "jensen_shannon_divergence_bits": 0.0026651304915387194,
+      "grid_cells": 800,
+      "corrected_js_rank": 8
+    },
+    {
+      "p7_substrate_id": "1k",
+      "cmc_substrate_id": "2w",
+      "bhattacharyya_coefficient": 0.99972117328217,
+      "total_variation_distance": 0.005792234104501328,
+      "jensen_shannon_divergence_bits": 0.0004014957566404227,
+      "grid_cells": 800,
+      "corrected_js_rank": 9
+    },
+    {
+      "p7_substrate_id": "1j",
+      "cmc_substrate_id": "2u",
+      "bhattacharyya_coefficient": 0.9999982369332885,
+      "total_variation_distance": 0.0010837583592467207,
+      "jensen_shannon_divergence_bits": 2.5434821135016876e-06,
+      "grid_cells": 800,
+      "corrected_js_rank": 10
+    },
+    {
+      "p7_substrate_id": "1g",
+      "cmc_substrate_id": "2c",
+      "bhattacharyya_coefficient": 0.9999999792310141,
+      "total_variation_distance": 0.00010331488882999838,
+      "jensen_shannon_divergence_bits": 2.9963310902361895e-08,
+      "grid_cells": 800,
+      "corrected_js_rank": 11
+    },
+    {
+      "p7_substrate_id": "1b",
+      "cmc_substrate_id": "2k",
+      "bhattacharyya_coefficient": 0.9999999981949026,
+      "total_variation_distance": 1.492388195327614e-05,
+      "jensen_shannon_divergence_bits": 2.6042047692416666e-09,
+      "grid_cells": 800,
+      "corrected_js_rank": 12
+    },
+    {
+      "p7_substrate_id": "1ah",
+      "cmc_substrate_id": "4b",
+      "bhattacharyya_coefficient": 0.9999999997891484,
+      "total_variation_distance": 7.667720953897891e-06,
+      "jensen_shannon_divergence_bits": 3.041943734554926e-10,
+      "grid_cells": 800,
+      "corrected_js_rank": 13
+    }
+  ],
+  "previously_illustrated_pair": {
+    "p7_substrate_id": "1i",
+    "cmc_substrate_id": "2r",
+    "bhattacharyya_coefficient": 0.9780822047251055,
+    "total_variation_distance": 0.17188160422778556,
+    "jensen_shannon_divergence_bits": 0.030961264997302798,
+    "grid_cells": 800,
+    "corrected_js_rank": 1
+  },
+  "highest_corrected_divergence_pair": {
+    "p7_substrate_id": "1i",
+    "cmc_substrate_id": "2r",
+    "bhattacharyya_coefficient": 0.9780822047251055,
+    "total_variation_distance": 0.17188160422778556,
+    "jensen_shannon_divergence_bits": 0.030961264997302798,
+    "grid_cells": 800,
+    "corrected_js_rank": 1
+  },
+  "interpretation_limit": "These are similarities between computed descriptor grids, not measured conformer populations or mechanistic evidence."
+}

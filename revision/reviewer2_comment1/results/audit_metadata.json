@@ -1,0 +1,20 @@
+{
+  "inputs_sha256": {
+    "data/jacs_2025/stage2/curated-reaction-records.jsonl": "b05b91b28057172bd7b527d3135a81674a6beaa891b730b90b7182dac3027699",
+    "revision/reviewer1_comment5/results/cmcpor_source_corrected_copy.jsonl": "10259d71c36ffd3f51af838ecdacdbd0d417dcc6c746dd81258e08fff9ae6b1e",
+    "data/jacs_2025/stage2/reports/full-scope-structure-splits.json": "9c55c30e08268c07e977b69e769aa7d190a9009bdce12a52b60bc1aacb0a155a",
+    "data/jacs_2025/stage2/reports/family-heldout-ee-splits.json": "f0946d1f454780a34f0599820dd85ed96570930178cb75a3061c3a877008a99b",
+    "data/jacs_2025/stage2/reports/full-scope-structure-model-predictions.csv": "bf3aa258beb1b739cc06e0a82907054951bb0666561ed4f35e059fc871eddefd",
+    "data/jacs_2025/stage2/reports/full-scope-structure-pose-model-predictions.csv": "74c84464b10a2a036c4c8308763ccc1bbafa9863b9195f0fbd65b6c813102b93",
+    "data/jacs_2025/stage2/reports/family-heldout-structure-ee-model-predictions.csv": "62b20d2739fa43a7fbbe236b501b30deafc75c70a3b17bd1ebbccb2b1b098ec4",
+    "data/jacs_2025/stage2/reports/family-heldout-structure-pose-ee-model-predictions.csv": "3cd6c413145c001c7e99a1b70369685068c8fc970dbbdfd528d81d3f7e784353",
+    "revision/reviewer1_comment1/results/common_test/p7/outer_splits.csv": "2294ec53f180ad5d1d2d6626277b4cba759d4927444eb46fc746d45c93af9335",
+    "revision/reviewer1_comment1/results/common_test/cmcpor/outer_splits.csv": "7b4b8333cd7dd0670953e8b653f0f3cfd5b18dc19e9d3cc0aa89cc461bd22045",
+    "asymmetric-c-h-amination-via-fe(iii)-metalloradical-catalysis-featuring-\u03b1-fe(iv)-aminyl-radicals-as-key-intermediates.pdf": "83394881892e926911e5fb0553d9be657561283eb2138e3296514e147415429b",
+    "expand/10.1002:anie.202218577/maintext.pdf": "424648acb69b6f309c39bd9c1e8a4e5ae02109c74d52c3000130be57806d1de2"
+  },
+  "audit_code_sha256": "ec822d4bba3e23af66e257a604c09af0032849cb264973ffa4bcbf8066e1a765",
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "source_low_values": "Low-ee target values manually reconciled with JACS Table 1 and Angew Tables 1, 2, 4; product/substrate ID mapping checked against curated records. Source JACS 1z N/A under achiral Fe(P2), not measured zero; 1ad ND; 1an achiral product.",
+  "note": "Categories defined before counting; 1z and 1ad source-corrected to null only in revision-local copy. All actual P7 model predictions and acquisition splits exclude these records."
+}

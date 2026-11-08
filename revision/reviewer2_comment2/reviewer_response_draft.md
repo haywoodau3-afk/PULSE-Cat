@@ -1,0 +1,9 @@
+# Reviewer 2 comment 2: provisional response
+
+**Draft only — not for submission.** The scientific analysis and all cross-referenced manuscript numbers must be verified after correction of the atom-index issue.
+
+We thank the reviewer for suggesting a chemically interpretable illustration. We have added a comparison of substrates 1a and 1ah, including two-dimensional structures and representative sampled three-dimensional iron-bound nitrene assemblies. Under the reported Fe(P7)Cl conditions, the corresponding products were reported at 92% and 50% ee. The substrates share the aryl azide and initial tether, but differ in the substituent at the carbon forming the stereocentre. This substitution changes several properties simultaneously, so the observed difference cannot be assigned uniquely to steric or conformational effects.
+
+For the two examples, corrected target-held-out structure-only predictions were 81.0% and 73.2% ee, and structure-plus-pose predictions were 90.2% and 58.7% ee. Two illustrative ensemble-average geometric descriptors differ between the structures; however, their fitted coefficients were zero in the corresponding held-out models. We therefore do not attribute these predictions directly to the two displayed descriptors. The selected structures are sampled geometries and should not be interpreted as experimentally established transition states or conformational populations. Details and provenance are given in the revised manuscript and SI. These two retrospectively selected examples illustrate the representation rather than provide independent validation.
+
+An atom-index issue discovered during this work affects some original pose features. The broader correction and verification are in progress; the numbers and references in this draft remain provisional.

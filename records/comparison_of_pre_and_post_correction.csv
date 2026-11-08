@@ -1,0 +1,79 @@
+analysis,dataset,measure,original,corrected_provisional,change_corrected_minus_original,unit
+common_test,p7,source_minus_ud_mean,2.8480893664504316,6.992186972893537,4.144097606443105,ee points
+common_test,p7,source_minus_ud_splits_favour_ud,17,19,2.0,splits / 20
+common_test,p7,random_minus_ud_mean,0.37175332650320586,1.4487818790214049,1.077028552518199,ee points
+common_test,p7,random_minus_ud_splits_favour_ud,12,15,3.0,splits / 20
+factorial,p7,structure_historical_order,11.340750727845528,11.340750727845528,0.0,ee points
+factorial,p7,structure_uncertainty_diversity,12.07421507103594,12.07421507103594,0.0,ee points
+factorial,p7,pose_historical_order,16.723559085175445,20.709950896667568,3.9863918114921226,ee points
+factorial,p7,pose_uncertainty_diversity,13.875469718725014,13.717763923774033,-0.15770579495098147,ee points
+factorial,p7,interaction_structure_minus_pose,-3.581553709640846,-7.72565131608395,-4.144097606443104,ee points
+factorial,p7,combined_vs_structure_baseline,-2.534718990879485,-2.3770131959285017,0.15770579495098325,ee points
+baselines,p7,expected_improvement_mean_mae,13.557658263683853,13.896084899513003,0.33842663582914945,ee points
+baselines,p7,random_mean_mae,14.24722304522822,15.166545802795435,0.9193227575672154,ee points
+baselines,p7,uncertainty_diversity_mean_mae,13.875469718725013,13.71776392377403,-0.15770579495098325,ee points
+baselines,p7,historical_order_mean_mae,16.723559085175445,20.709950896667568,3.9863918114921226,ee points
+baselines,p7,thompson_mean_mae,14.266559722492055,14.41764978687252,0.15109006438046535,ee points
+baselines,p7,qbc_mean_mae,13.223080415321014,13.078023209646354,-0.14505720567466085,ee points
+weight_sensitivity,p7,default_mae,13.875469718725014,13.717763923774033,-0.15770579495098147,ee points
+weight_sensitivity,p7,grid_best_mae,13.344596848833726,13.272125560799584,-0.07247128803414249,ee points
+weight_sensitivity,p7,grid_worst_mae,15.445756379234885,15.39604665527096,-0.049709723963925256,ee points
+shared_starts,p7,reported_minus_ud_mean,6.137029116343764,9.831470584383277,3.6944414680395132,ee points
+shared_starts,p7,reported_minus_ud_fraction_positive,1.0,1.0,0.0,fraction of 50 starts
+shared_starts,p7,random_minus_ud_mean,0.5010972541108112,1.382146600057805,0.8810493459469939,ee points
+shared_starts,p7,random_minus_ud_fraction_positive,0.62,0.78,0.16000000000000003,fraction of 50 starts
+yield,p7,historical_order_minus_ud_yield,2.8361033129622997,6.975563721759684,4.139460408797385,ee points
+yield,p7,random_minus_ud_yield,2.572079804393808,2.5442725363412753,-0.027807268052532752,ee points
+yield,p7,random_minus_ud_ee,0.37175332650320625,1.4487818790214049,1.0770285525181986,ee points
+yield,p7,historical_order_minus_ud_ee,2.8480893664504325,6.992186972893537,4.144097606443104,ee points
+common_test,cmcpor,source_minus_ud_mean,1.4317385585809972,2.495901141806916,1.0641625832259187,ee points
+common_test,cmcpor,source_minus_ud_splits_favour_ud,11,11,0.0,splits / 20
+common_test,cmcpor,random_minus_ud_mean,1.0599691110870837,1.217104374258329,0.15713526317124527,ee points
+common_test,cmcpor,random_minus_ud_splits_favour_ud,14,12,-2.0,splits / 20
+factorial,cmcpor,structure_historical_order,9.6234769915515,9.6234769915515,0.0,ee points
+factorial,cmcpor,structure_uncertainty_diversity,10.774622118763705,10.774622118763705,0.0,ee points
+factorial,cmcpor,pose_historical_order,15.698187775337061,16.32995549712782,0.6317677217907587,ee points
+factorial,cmcpor,pose_uncertainty_diversity,14.266449216756063,13.834054355320905,-0.43239486143515826,ee points
+factorial,cmcpor,interaction_structure_minus_pose,-2.5828836857932047,-3.6470462690191225,-1.0641625832259178,ee points
+factorial,cmcpor,combined_vs_structure_baseline,-4.642972225204566,-4.210577363769403,0.4323948614351636,ee points
+baselines,cmcpor,expected_improvement_mean_mae,15.15323692658024,16.40813094435839,1.2548940177781507,ee points
+baselines,cmcpor,random_mean_mae,15.326418327843149,15.051158729579232,-0.27525959826391677,ee points
+baselines,cmcpor,uncertainty_diversity_mean_mae,14.266449216756065,13.834054355320903,-0.4323948614351618,ee points
+baselines,cmcpor,historical_order_mean_mae,15.698187775337063,16.32995549712782,0.6317677217907569,ee points
+baselines,cmcpor,thompson_mean_mae,15.652086013995692,15.33138688670359,-0.3206991272921016,ee points
+baselines,cmcpor,qbc_mean_mae,13.991572927204432,13.400410519341815,-0.5911624078626172,ee points
+weight_sensitivity,cmcpor,default_mae,14.266449216756063,13.834054355320905,-0.43239486143515826,ee points
+weight_sensitivity,cmcpor,grid_best_mae,13.605495371601927,13.451522242786746,-0.15397312881518133,ee points
+weight_sensitivity,cmcpor,grid_worst_mae,15.698187775337061,16.32995549712782,0.6317677217907587,ee points
+shared_starts,cmcpor,reported_minus_ud_mean,1.6562560602819358,4.84178973439065,3.185533674108714,ee points
+shared_starts,cmcpor,reported_minus_ud_fraction_positive,0.9,0.9,0.0,fraction of 50 starts
+shared_starts,cmcpor,random_minus_ud_mean,2.624726297618391,3.0720986961931827,0.4473723985747915,ee points
+shared_starts,cmcpor,random_minus_ud_fraction_positive,0.94,0.92,-0.019999999999999907,fraction of 50 starts
+yield,cmcpor,historical_order_minus_ud_yield,-0.6142375947397515,1.9807057020796666,2.594943296819418,ee points
+yield,cmcpor,random_minus_ud_yield,-0.23198692065414317,1.035771822262641,1.2677587429167843,ee points
+yield,cmcpor,random_minus_ud_ee,1.0599691110870837,1.2171043742583285,0.15713526317124482,ee points
+yield,cmcpor,historical_order_minus_ud_ee,1.4317385585809972,2.4959011418069155,1.0641625832259183,ee points
+class_mixed,cmcpor,aryl_only / historical_order / aryl,14.799170815348994,15.961030009210237,1.1618591938612433,ee points
+class_mixed,cmcpor,aryl_only / historical_order / pooled,17.13659499312312,23.061055076298317,5.924460083175198,ee points
+class_mixed,cmcpor,aryl_only / historical_order / sulfonyl,20.642731259784302,33.711092676930434,13.068361417146132,ee points
+class_mixed,cmcpor,aryl_only / random / aryl,15.11369717684704,14.83283593058555,-0.280861246261491,ee points
+class_mixed,cmcpor,aryl_only / random / pooled,17.049039854559272,25.41751467556541,8.368474821006139,ee points
+class_mixed,cmcpor,aryl_only / random / sulfonyl,19.95205387112762,41.2945327930352,21.34247892190758,ee points
+class_mixed,cmcpor,aryl_only / uncertainty_diversity / aryl,14.222979254286539,13.267638249208858,-0.9553410050776812,ee points
+class_mixed,cmcpor,aryl_only / uncertainty_diversity / pooled,16.146243989236467,21.302744697233383,5.156500707996916,ee points
+class_mixed,cmcpor,aryl_only / uncertainty_diversity / sulfonyl,19.031141091661357,33.35540436927017,14.32426327760881,ee points
+class_mixed,cmcpor,mixed / historical_order / aryl,14.799170815348994,15.961030009210237,1.1618591938612433,ee points
+class_mixed,cmcpor,mixed / historical_order / pooled,17.13659499312312,23.061055076298317,5.924460083175198,ee points
+class_mixed,cmcpor,mixed / historical_order / sulfonyl,20.642731259784302,33.711092676930434,13.068361417146132,ee points
+class_mixed,cmcpor,mixed / random / aryl,16.18831316415091,15.557255182751303,-0.6310579813996053,ee points
+class_mixed,cmcpor,mixed / random / pooled,16.71002588878925,17.144436922690424,0.4344110339011742,ee points
+class_mixed,cmcpor,mixed / random / sulfonyl,17.492594975746762,19.52520953259911,2.032614556852348,ee points
+class_mixed,cmcpor,mixed / uncertainty_diversity / aryl,14.364582287197566,14.237522960848423,-0.1270593263491424,ee points
+class_mixed,cmcpor,mixed / uncertainty_diversity / pooled,15.408496200161334,15.801628449279491,0.3931322491181568,ee points
+class_mixed,cmcpor,mixed / uncertainty_diversity / sulfonyl,16.974367069606988,18.147786681926092,1.1734196123191047,ee points
+class_sulfonyl,cmcpor,sulfonyl_only / historical_order / pooled,17.50646458807454,17.983457743382193,0.4769931553076532,ee points
+class_sulfonyl,cmcpor,sulfonyl_only / historical_order / sulfonyl,17.50646458807454,17.983457743382193,0.4769931553076532,ee points
+class_sulfonyl,cmcpor,sulfonyl_only / random / pooled,18.70805934209966,19.63245504584621,0.9243957037465513,ee points
+class_sulfonyl,cmcpor,sulfonyl_only / random / sulfonyl,18.70805934209966,19.63245504584621,0.9243957037465513,ee points
+class_sulfonyl,cmcpor,sulfonyl_only / uncertainty_diversity / pooled,18.6079848513557,19.221764261850304,0.6137794104946046,ee points
+class_sulfonyl,cmcpor,sulfonyl_only / uncertainty_diversity / sulfonyl,18.6079848513557,19.221764261850304,0.6137794104946046,ee points

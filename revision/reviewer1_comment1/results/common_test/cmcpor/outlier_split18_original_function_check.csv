@@ -1,0 +1,16 @@
+split_id,pair_id,route,random_continuation,predictions_checked,max_abs_difference,selection_sequence_matches
+18,1,historical_order,0,25,0.0,True
+18,1,uncertainty_diversity,0,25,0.0,True
+18,1,random,0,25,0.0,True
+18,1,random,1,25,0.0,True
+18,1,random,2,25,0.0,True
+18,2,historical_order,0,25,0.0,True
+18,2,uncertainty_diversity,0,25,0.0,True
+18,2,random,0,25,0.0,True
+18,2,random,1,25,0.0,True
+18,2,random,2,25,0.0,True
+18,3,historical_order,0,25,0.0,True
+18,3,uncertainty_diversity,0,25,0.0,True
+18,3,random,0,25,0.0,True
+18,3,random,1,25,0.0,True
+18,3,random,2,25,0.0,True

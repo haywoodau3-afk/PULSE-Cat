@@ -1,0 +1,34 @@
+{
+  "domain": "p7",
+  "seed": 20261108,
+  "n_splits": 20,
+  "starts_per_split": 3,
+  "ts_replicates": 3,
+  "budgets": [
+    2,
+    6,
+    10,
+    15,
+    20
+  ],
+  "gp_kernel": "Morgan fingerprint Tanimoto",
+  "gp_noise_variance_standardised": 0.05,
+  "gp_outcome_scale": "revealed-label mean and population sd; scale=1 if sd=0",
+  "ei_incumbent": "best revealed |ee|, zero exploration offset",
+  "ts": "joint latent GP posterior sample, stable Cholesky with eigenvalue-derived jitter",
+  "input_sha256": {
+    "data/jacs_2025/stage2/curated-reaction-records.jsonl": "b05b91b28057172bd7b527d3135a81674a6beaa891b730b90b7182dac3027699",
+    "revision/reviewer2_comment2/results/corrected_p7_stage2p.jsonl": "f4ab0ef8f9e2c1e01abd08cfb827b5684486ac1e00b8ea4f97d48e8054aa662b",
+    "revision/reviewer2_comment2/results/corrected_common_test/p7/outer_splits.csv": "2294ec53f180ad5d1d2d6626277b4cba759d4927444eb46fc746d45c93af9335",
+    "revision/reviewer2_comment2/results/corrected_common_test/p7/initial_pairs.csv": "9abedb4d200d7fcbf9b09d1f50d0b3e1978ac0b782529387e2752f75779ece9f",
+    "revision/reviewer2_comment2/results/corrected_common_test/p7/predictions.csv": "581093dfccbd8f250afbf24fa1d9f30452bddeb4d8170befb938c662b8b01176",
+    "revision/reviewer2_comment2/results/corrected_common_test/p7/selection_events.csv": "777412aac9a59bca3057b7929db17cd5504bdb6a60c18b873e1a67a1b2d53c9d",
+    "scripts/scope_progression.py": "9fdc685bb802c94fb9284e47c8b22ce27250ee4fad9097d416865960a0c81bb9",
+    "revision/reviewer2_comment2/recompute_baselines.py": "caa3342df0387cb2dc8cde68374d911657dba008545dda7773ed51977ab1b56b"
+  },
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "numpy": "2.5.1",
+  "rdkit": "2026.03.4",
+  "sklearn": "1.9.0",
+  "elapsed_seconds": 73.68729496002197
+}

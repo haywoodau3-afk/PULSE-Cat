@@ -1,0 +1,167 @@
+{
+  "domain": "p7",
+  "features": {
+    "structure": [
+      39,
+      1039
+    ],
+    "pose": [
+      39,
+      1287
+    ]
+  },
+  "budgets": [
+    2,
+    6,
+    10,
+    15,
+    20
+  ],
+  "splits": 20,
+  "pairs": 3,
+  "random_replicates": 3,
+  "summaries": {
+    "structure_historical_order": {
+      "mean": 11.340750727845528,
+      "median": 10.043169386494826,
+      "iqr": [
+        8.473463430589138,
+        13.251621830949585
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "structure_uncertainty_diversity": {
+      "mean": 12.07421507103594,
+      "median": 11.468644211579708,
+      "iqr": [
+        9.768925219291354,
+        13.686373917568842
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "structure_random": {
+      "mean": 10.873286162824296,
+      "median": 10.589650169349804,
+      "iqr": [
+        8.663706574806133,
+        12.628246693783836
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "pose_historical_order": {
+      "mean": 20.709950896667568,
+      "median": 19.920283789550098,
+      "iqr": [
+        17.483602799159897,
+        22.30279355252364
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "pose_uncertainty_diversity": {
+      "mean": 13.717763923774033,
+      "median": 12.971418263225114,
+      "iqr": [
+        11.64019037861063,
+        15.489578662576921
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "pose_random": {
+      "mean": 15.166545802795435,
+      "median": 14.051764903433423,
+      "iqr": [
+        13.106935188857115,
+        16.170214436751735
+      ],
+      "positive_splits": 20,
+      "negative_splits": 0
+    },
+    "ordering_benefit_structure": {
+      "mean": -0.7334643431904133,
+      "median": -0.7534978762147473,
+      "iqr": [
+        -2.487297901767256,
+        1.262157212273599
+      ],
+      "positive_splits": 7,
+      "negative_splits": 13
+    },
+    "ordering_benefit_pose": {
+      "mean": 6.9921869728935375,
+      "median": 5.640161264407518,
+      "iqr": [
+        3.990543631597713,
+        7.753645491484084
+      ],
+      "positive_splits": 19,
+      "negative_splits": 1
+    },
+    "interaction_structure_minus_pose": {
+      "mean": -7.72565131608395,
+      "median": -6.262263579828549,
+      "iqr": [
+        -8.611936038222943,
+        -5.058243680919514
+      ],
+      "positive_splits": 1,
+      "negative_splits": 19
+    },
+    "combined_vs_structure_baseline": {
+      "mean": -2.3770131959285017,
+      "median": -2.875048785193102,
+      "iqr": [
+        -4.839684399689675,
+        -0.48004763073013823
+      ],
+      "positive_splits": 4,
+      "negative_splits": 16
+    },
+    "combined_vs_structure_acquire": {
+      "mean": -1.6435488527380886,
+      "median": -1.8555217275159626,
+      "iqr": [
+        -3.361623925994487,
+        0.08566347248558914
+      ],
+      "positive_splits": 6,
+      "negative_splits": 14
+    },
+    "combined_vs_pose_source": {
+      "mean": 6.9921869728935375,
+      "median": 5.640161264407518,
+      "iqr": [
+        3.990543631597713,
+        7.753645491484084
+      ],
+      "positive_splits": 19,
+      "negative_splits": 1
+    },
+    "random_benefit_structure": {
+      "mean": -1.2009289082116439,
+      "median": -0.951301180759855,
+      "iqr": [
+        -1.9212332847325264,
+        -0.3991274897464252
+      ],
+      "positive_splits": 4,
+      "negative_splits": 16
+    },
+    "random_benefit_pose": {
+      "mean": 1.4487818790214049,
+      "median": 1.2043539531201688,
+      "iqr": [
+        -0.010524073248808108,
+        2.9660633994196415
+      ],
+      "positive_splits": 15,
+      "negative_splits": 5
+    }
+  },
+  "note": "Pose predictions and sequences reuse R1.1 validated common-test records; all results conditional on overlapping splits of fixed datasets.",
+  "script_sha256": "36f8409a84042a304941c87fea83fcdcc8ae310986049a36ad447791231dbc67"
+}
